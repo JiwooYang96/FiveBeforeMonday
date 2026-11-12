@@ -1,0 +1,317 @@
+{
+  "issue": "2026-11-06",
+  "week": "Nov 2–6, 2026",
+  "charts": [
+    {
+      "id": "market-value",
+      "type": "hbar",
+      "title": "Who's biggest now",
+      "subtitle": "Market value at the Nov 6 close, $ trillions",
+      "rows": [
+        {
+          "label": "Apple",
+          "value": 4.98,
+          "display": "$4.98T"
+        },
+        {
+          "label": "Nvidia",
+          "value": 4.5,
+          "display": "$4.50T",
+          "hero": true
+        },
+        {
+          "label": "Microsoft",
+          "value": 3.94,
+          "display": "$3.94T"
+        },
+        {
+          "label": "Amazon",
+          "value": 2.8,
+          "display": "$2.80T"
+        },
+        {
+          "label": "Tesla",
+          "value": 1.42,
+          "display": "$1.42T"
+        },
+        {
+          "label": "Broadcom",
+          "value": 1.4,
+          "display": "$1.40T"
+        }
+      ],
+      "source": "Yahoo Finance, SEC filings · Nov 6",
+      "note": "Approximate: closing price x shares outstanding"
+    },
+    {
+      "id": "week-moves",
+      "type": "signed",
+      "title": "How the week ended",
+      "subtitle": "Change from last Friday's close to Nov 6",
+      "rows": [
+        {
+          "label": "Amazon",
+          "value": 7.88,
+          "display": "+7.9%"
+        },
+        {
+          "label": "Alphabet",
+          "value": 1.77,
+          "display": "+1.8%"
+        },
+        {
+          "label": "Microsoft",
+          "value": 1.67,
+          "display": "+1.7%"
+        },
+        {
+          "label": "Apple",
+          "value": -0.66,
+          "display": "−0.7%"
+        },
+        {
+          "label": "Meta",
+          "value": -0.79,
+          "display": "−0.8%"
+        },
+        {
+          "label": "Nvidia",
+          "value": -8.8,
+          "display": "−8.8%",
+          "hero": true
+        },
+        {
+          "label": "Broadcom",
+          "value": -9.93,
+          "display": "−9.9%"
+        },
+        {
+          "label": "Tesla",
+          "value": -10.4,
+          "display": "−10.4%"
+        }
+      ],
+      "source": "Yahoo Finance · Nov 6, 2026"
+    },
+    {
+      "id": "calendar",
+      "type": "calendar",
+      "title": "The dates that matter",
+      "subtitle": "Week of Nov 9, 2026",
+      "days": [
+        {
+          "day": "MON",
+          "date": "Nov 9"
+        },
+        {
+          "day": "TUE",
+          "date": "Nov 10",
+          "event": "CoreWeave earnings",
+          "detail": "After the close",
+          "hero": true
+        },
+        {
+          "day": "WED",
+          "date": "Nov 11"
+        },
+        {
+          "day": "THU",
+          "date": "Nov 12",
+          "event": "Jobless claims",
+          "detail": "Weekly labor data",
+          "hero": true
+        },
+        {
+          "day": "FRI",
+          "date": "Nov 13"
+        }
+      ],
+      "source": "bls.gov · Nov 10"
+    }
+  ],
+  "site": "https://fivebeforemonday.vercel.app",
+  "email": {
+    "saturday": {
+      "subject": "Five numbers that explain Nvidia's rough week",
+      "preheader": "Plus the CPI and earnings dates that matter next.",
+      "date": "Sat, Nov 7, 2026"
+    },
+    "sunday": {
+      "subject": "The election vote that hit Nvidia, in three causes",
+      "preheader": "Plus both sides of the Nvidia debate and next week's calendar.",
+      "headline": "A midterm vote hit the AI chip trade",
+      "lead": "Nvidia ended the week at −8.8% as chip stocks sold off on fears that a Democratic Congress will tighten rules on AI data centers. The chip index (SOX) ended at −12.2%, well below the Nasdaq-100 at −4.9%.",
+      "what_happened": "Nvidia closed Nov 6 at $186.64, with a weekly change of −8.8%. Friday helped a little, at +2.8%. The damage came on Thursday, Nov 5, when Fox Business reported the stock sank about 9.26%. Over about a month the change is −19.0%, and the stock sits −22.0% from its Oct 6 high. Its market value is about $4.50T, which keeps it at #2 among the stocks tracked here, behind Apple. The whole sector moved with it. The chip index (SOX) ended the week at −12.2%, and Fox Business said it plunged more than 12% on Thursday alone. The Nasdaq-100 ended at −4.9% and the S&P 500 at −2.7%. Reuters said the Nasdaq Composite was set to confirm a correction, a 10% drop from its Oct 6 record close. The week opened with a rally. CNBC reported the Dow soared 1,500 points on Nov 4, its best day since April 2025, after the Democratic win. Chip stocks fell the next day.",
+      "date": "Sun, Nov 8, 2026"
+    },
+    "five": [
+      {
+        "num": "−8.8%",
+        "tone": "down",
+        "text": "Nvidia's weekly change, ending at $186.64 on Friday after a +2.8% bounce on the last day.",
+        "source": "Closing prices · Nov 6"
+      },
+      {
+        "num": "−12.2%",
+        "tone": "down",
+        "text": "The chip index (SOX) fell far harder than the Nasdaq-100, which ended the week at −4.9%.",
+        "source": "Closing prices · Nov 6"
+      },
+      {
+        "num": "+7.9%",
+        "tone": "up",
+        "text": "Amazon was the week's standout, ending well ahead of every other tracked stock.",
+        "source": "Closing prices · Nov 6"
+      },
+      {
+        "num": "−10.4%",
+        "tone": "down",
+        "text": "Tesla had the worst weekly change of the tracked stocks, ahead of Broadcom at −9.9%.",
+        "source": "Closing prices · Nov 6"
+      },
+      {
+        "num": "#2",
+        "tone": "gold",
+        "text": "Nvidia still ranks second by market value at about $4.50T, behind Apple at about $4.98T.",
+        "source": "Closing prices · Nov 6"
+      }
+    ],
+    "next_week": [
+      {
+        "when": "Tue, Nov 10",
+        "what": "The Bureau of Labor Statistics releases the October Consumer Price Index.",
+        "source": "bls.gov · Nov 10"
+      },
+      {
+        "when": "Tue, Nov 10",
+        "what": "CoreWeave is scheduled to report third-quarter earnings.",
+        "source": "forex.com · Nov 10"
+      },
+      {
+        "when": "Thu, Nov 12",
+        "what": "Cisco and Applied Materials both report, with the Applied Materials call at 4:30 p.m.",
+        "source": "stocktitan.net · Nov 12"
+      },
+      {
+        "when": "Thu, Nov 12",
+        "what": "Thursday's jobless claims are listed as rounding out the labor market picture.",
+        "source": "heygotrade.com · Nov 12"
+      }
+    ],
+    "teaser": "Why did the same election lift Amazon and Microsoft while it sank the chipmakers that supply them?",
+    "causes": [
+      {
+        "title": "Data center rules fear",
+        "stat": "40 ballot measures",
+        "text": "Democrats won both chambers of Congress on a campaign that emphasized data center restrictions, SiliconANGLE reported. Voters also approved 40 ballot measures focused on blocking or limiting AI infrastructure projects. That is the political fact behind the week. Reuters tied the Nov 5 chip slump straight to it, saying chipmakers sank on fears of tougher AI regulation after the midterm sweep. Chips feed data centers, so a slower buildout means fewer chips needed later. BCA Research analysts put the risk this way: tighter data center restrictions raise the risk to future supply of compute, especially in key buildout states like Texas, Georgia and Ohio. The first reaction ran the other way. On Nov 4, CNBC reported Amazon up 8%, Microsoft up 4% and Meta up 3%. Needham & Co., B. Riley Wealth and tech analyst Ben Thompson argued that new restrictions would make computing infrastructure scarcer and raise the value of existing data centers. Chipmakers sold off a day later. The two readings of one vote show up in the week's numbers: Nvidia at −8.8%, Microsoft at +1.7%.",
+        "source": "siliconangle.com · Nov 4",
+        "evidence": [
+          "E5",
+          "E1",
+          "E4",
+          "E3",
+          "E8"
+        ]
+      },
+      {
+        "title": "Qualcomm miss adds weight",
+        "stat": "11.5%",
+        "text": "Politics was not the only weight on chips that Thursday. Qualcomm slid 11.5% on Nov 5 after falling short of Wall Street estimates for fourth-quarter smartphone chip sales, Reuters reported. Bernstein analyst Stacy Rasgon said the shares declined because Qualcomm's margin outlook was weak and its forecast of a flat 2027 smartphone market may be viewed as aggressive. Counterpoint Research supplied the backdrop: global smartphone shipments fell 20% in the September quarter to a 14-year low, as surging memory chip costs drove up device prices. The same session was rough across the group. Fox Business reported Nvidia sank about 9.26% while the Philadelphia Semiconductor Index plunged more than 12%. Breitbart put Nvidia and Broadcom each at about 9 percent lower, and the iShares Semiconductor ETF down more than 11 percent. Qualcomm's miss is a phone story, not an AI story. It still landed on a day when chips were already under pressure, and it added to the weight on the sector. By Friday's close the chip index stood at −12.2% for the week.",
+        "source": "centraloregondaily.com · Nov 5",
+        "evidence": [
+          "E6",
+          "E7",
+          "E16",
+          "E2",
+          "E13"
+        ]
+      },
+      {
+        "title": "Builders versus owners",
+        "stat": "39%",
+        "text": "The selloff sorted tech by exposure, not by size. Amazon ended the week at +7.9% while Tesla ended at −10.4%. Amazon closed up 6.12% at $266.03 on Nov 4, and The Motley Fool noted AWS sales grew 39% to $46 billion in the third quarter. Investing.com described that as the fastest expansion in nearly five years. Needham and Ben Thompson argued that owners of existing capacity gain if new capacity gets harder to build. Nvidia sits on the supply side of that buildout and ended the week at −8.8%. Tesla fell for a different reason. Morningstar's Seth Goldstein wrote that the market appears to fear Democrats will target Tesla because Elon Musk heavily campaigned for Republicans. Trefis said Tesla lost 10.8% on Nov 5, more than twice the S&P 500's 4.4% fall that session. Gotrade put its volume at 79.7 million shares against a 37.1 million average.",
+        "source": "finance.yahoo.com · Nov 4",
+        "evidence": [
+          "E9",
+          "E18",
+          "E8",
+          "E10",
+          "E11",
+          "E17"
+        ]
+      }
+    ],
+    "after_causes": {
+      "title": "The whole group",
+      "text": "Losses were concentrated. Tesla ended at −10.4%, Broadcom at −9.9% and Nvidia at −8.8%. Apple (−0.7%) and Meta (−0.8%) were nearly flat. Microsoft ended at +1.7%, Alphabet at +1.8% and Amazon at +7.9%. Against that, the Nasdaq-100 ended at −4.9% and the S&P 500 at −2.7%. Friday brought a bounce, with the chip index at +4.2%, Tesla at +4.2% and Nvidia at +2.8%. The chart below shows every stock.",
+      "chart": "week-moves"
+    },
+    "next_text": "Next week gives the market fresh numbers to weigh against a political fear. Tuesday, Nov 10, is the heaviest day. The Bureau of Labor Statistics releases October's Consumer Price Index at 8:30 a.m. ET. It follows a jobs report that showed nonfarm payrolls up 165,000 against a forecast of 59,000, with unemployment at 4.1%. A cooler inflation reading would remove one worry from the table. A hotter one would stack a second worry on top of the AI regulation story. After the close that day, CoreWeave reports third-quarter earnings. Its results will show whether AI infrastructure demand is holding up in company figures. Wednesday, Nov 11, bond markets close for Veterans Day while stocks stay open. Thursday, Nov 12, brings Cisco and Applied Materials after the close, with the Applied Materials call at 4:30 p.m., plus weekly jobless claims. Each report is another data point on whether companies still describe the buildout the way they did before the election. Nvidia had already scheduled its next quarterly results call for Nov 17, according to a webtech360 summary, so that date sits just beyond the week.",
+    "featured": "Nvidia",
+    "bull": [
+      "A Yahoo Finance article said analysts expect Nvidia's EPS to more than double by fiscal 2029, while its forward P/E is at a five-year low.",
+      "The Motley Fool wrote that Nvidia delivered strong results, and that the plunge shows the stock is trading on fear about the whole AI build-out rather than the business in particular."
+    ],
+    "bear": [
+      "BCA Research analysts said tighter data center restrictions raise the risk to future supply of compute in key buildout states like Texas, Georgia and Ohio.",
+      "A Yahoo Finance article cited Reuters reporting that about 600,000 of Nvidia's H200 chips bound for China are stranded.",
+      "Voters approved 40 ballot measures focused on blocking or limiting AI infrastructure projects, SiliconANGLE reported."
+    ],
+    "table": [
+      [
+        "Nvidia weekly change",
+        "−8.8%",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Nvidia closing price",
+        "$186.64",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Nvidia distance from 52-week high",
+        "−22.0%",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Nvidia market value (approx.)",
+        "$4.50T",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Chip index (SOX) weekly change",
+        "−12.2%",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Nasdaq-100 weekly change",
+        "−4.9%",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Broadcom weekly change",
+        "−9.9%",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Tesla weekly change",
+        "−10.4%",
+        "Nov 6",
+        "Yahoo Finance"
+      ],
+      [
+        "Amazon weekly change",
+        "+7.9%",
+        "Nov 6",
+        "Yahoo Finance"
+      ]
+    ]
+  }
+}
