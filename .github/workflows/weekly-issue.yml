@@ -78,7 +78,7 @@ jobs:
         env:
           ISSUE: ${{ steps.status.outputs.issue }}
         run: |
-          url="https://fivebeforemonday.vercel.app/img/$ISSUE-market-value.png"
+          url="https://fivebeforemonday.com/img/$ISSUE-market-value.png"
           for i in $(seq 1 40); do
             if curl -sfI "$url" >/dev/null; then echo "live: $url"; exit 0; fi
             sleep 15
@@ -95,9 +95,9 @@ jobs:
         run: |
           MODE=draft
           if [ "$STATUS" = "ready" ] && [ "$WANT" = "schedule" ]; then MODE=schedule; fi
-          echo "Saturday brief: $MODE"
+          echo "Saturday brief and Sunday report (paid members only): $MODE"
           python3 engine/send.py "$ISSUE" saturday "$MODE"
-          python3 engine/send.py "$ISSUE" sunday draft
+          python3 engine/send.py "$ISSUE" sunday "$MODE"
           echo "SAT_MODE=$MODE" >> "$GITHUB_ENV"
 
       - name: Report
@@ -114,7 +114,7 @@ jobs:
             echo "**Saturday subject:** $(jq -r '.saturday_subject // "-"' build-status.json)"
             echo "**Sunday subject:** $(jq -r '.sunday_subject // "-"' build-status.json)"
             echo
-            echo "Preview: https://fivebeforemonday.vercel.app/emails/out/$ISSUE-saturday.html · https://fivebeforemonday.vercel.app/emails/out/$ISSUE-sunday.html"
+            echo "Preview: https://fivebeforemonday.com/emails/out/$ISSUE-saturday.html · https://fivebeforemonday.com/emails/out/$ISSUE-sunday.html"
             echo
             echo "**Steps**"; jq -r '.steps[] | "- " + .' build-status.json
             echo; echo "**Problems**"; jq -r 'if (.problems|length)==0 then "- none" else .problems[] | "- " + . end' build-status.json

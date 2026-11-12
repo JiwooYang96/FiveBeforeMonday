@@ -8,7 +8,7 @@ from datetime import date, timedelta
 
 import llm
 
-SITE = "https://fivebeforemonday.vercel.app"
+SITE = "https://fivebeforemonday.com"
 
 SYSTEM = """You write Five Before Monday, a weekly email that explains what moved large US tech stocks and why.
 

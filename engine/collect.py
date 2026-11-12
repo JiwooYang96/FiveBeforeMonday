@@ -18,7 +18,7 @@ import time
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
-UA = "FiveBeforeMonday research hello@fivebeforemonday.com"
+UA = "FiveBeforeMonday research fivebeforemonday@gmail.com"
 
 STOCKS = {
     # ticker: (name, SEC CIK)

@@ -23,7 +23,7 @@ from pathlib import Path
 API = "https://graph.instagram.com/v23.0"
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "reels"
-SITE = os.environ.get("SITE", "https://fivebeforemonday.vercel.app").rstrip("/")
+SITE = os.environ.get("SITE", "https://fivebeforemonday.com").rstrip("/")
 
 
 def _req(method, url, params=None, timeout=60):

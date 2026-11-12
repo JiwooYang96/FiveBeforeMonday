@@ -23,7 +23,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 TAGS = {"STORY", "CAUSE", "NUMBER", "EVENT", "BULL", "BEAR", "CONTEXT"}
-UA = "Mozilla/5.0 (compatible; FiveBeforeMonday-checker/1.0; +https://fivebeforemonday.vercel.app)"
+UA = "Mozilla/5.0 (compatible; FiveBeforeMonday-checker/1.0; +https://fivebeforemonday.com)"
 
 
 def schema_problems(data):

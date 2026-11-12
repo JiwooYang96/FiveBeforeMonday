@@ -14,8 +14,10 @@ Actions secret, starting with "kit_"). The key is never printed. v4 keeps
 our designed HTML as one HTML block; the older v3 API drops anything beyond
 simple tags, which left the first test draft empty.
 
-Safety: no targeting yet, so every broadcast goes to all subscribers. Until
-paid members exist, the Sunday report may only be created as a draft.
+Targeting: the Saturday brief goes to every subscriber. The Sunday report goes only
+to subscribers with the Kit tag "paid" (set by api/polar-webhook.js when someone pays
+on Polar), scheduled for Sunday 12:00 New York. If the tag doesn't exist yet, the
+Sunday report is only created as a draft.
 """
 import json
 import os
@@ -41,6 +43,30 @@ def next_saturday_8am_ny(now=None):
     return target.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def next_sunday_noon_ny(now=None):
+    now = (now or datetime.now(timezone.utc)).astimezone(NY)
+    days = (6 - now.weekday()) % 7
+    target = (now + timedelta(days=days)).replace(hour=12, minute=0, second=0, microsecond=0)
+    if target <= now:
+        target += timedelta(days=7)
+    return target.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def kit_get(path, secret):
+    req = urllib.request.Request("https://api.kit.com/v4" + path,
+                                 headers={"Accept": "application/json", "X-Kit-Api-Key": secret})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read())
+
+
+def paid_tag_id(secret, name=None):
+    name = (name or os.environ.get("KIT_PAID_TAG") or "paid").lower()
+    for tag in kit_get("/tags?per_page=1000", secret).get("tags", []):
+        if tag["name"].lower() == name:
+            return tag["id"]
+    return None
+
+
 def body_of(html):
     """Kit wraps content in its own layout (which adds the unsubscribe
     footer), so send only what sits inside <body>."""
@@ -50,7 +76,7 @@ def body_of(html):
     return m.group(1).strip()
 
 
-def build_payload(issue, kind, mode, send_at=None):
+def build_payload(issue, kind, mode, send_at=None, paid_tag=None):
     data = json.loads((ROOT / "engine/data" / f"{issue}.json").read_text())
     meta = data["email"][kind]
     html = (ROOT / "emails/out" / f"{issue}-{kind}.html").read_text()
@@ -61,11 +87,14 @@ def build_payload(issue, kind, mode, send_at=None):
         "content": body_of(html),
         "public": False,
     }
+    if kind == "sunday":
+        if paid_tag:
+            payload["subscriber_filter"] = [{"all": [{"type": "tag", "ids": [paid_tag]}]}]
+        elif mode == "schedule":
+            print("No 'paid' tag in Kit yet, so the Sunday report is created as a draft.")
+            mode = "draft"
     if mode == "schedule":
-        if kind != "saturday":
-            sys.exit("Refusing to schedule the Sunday report: it would go to every "
-                     "subscriber, including free ones. Create it as a draft instead.")
-        payload["send_at"] = send_at or next_saturday_8am_ny()
+        payload["send_at"] = send_at or (next_saturday_8am_ny() if kind == "saturday" else next_sunday_noon_ny())
     elif mode == "draft":
         payload["send_at"] = None
     else:
@@ -78,11 +107,10 @@ def main(argv):
         sys.exit(__doc__)
     issue, kind, mode = argv[0], argv[1], argv[2]
     send_at = argv[3] if len(argv) > 3 and argv[3] else None
-    payload = build_payload(issue, kind, mode, send_at)
-
     secret = os.environ.get("KIT_API_KEY", "").strip()
     if not secret:
         sys.exit("KIT_API_KEY is not set. Add a Kit v4 key (starts with kit_) as a repository secret.")
+    payload = build_payload(issue, kind, mode, send_at, paid_tag_id(secret) if kind == "sunday" else None)
     req = urllib.request.Request(
         API,
         data=json.dumps(payload).encode(),

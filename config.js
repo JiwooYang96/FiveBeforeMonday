@@ -4,7 +4,11 @@ window.FBM_CONFIG = {
   // Leave empty and the forms show a "coming soon" message instead of submitting.
   kitFreeFormId: "10180929", // "Free brief" (uid 694cc6dbdb)
   kitWaitlistFormId: "10180930", // "Founding waitlist" (uid fba039ae68)
+  // Polar checkout links (Polar > Products > Checkout links). When both are set, the founding section
+  // shows "Join" buttons instead of the waitlist form.
+  polarYearlyUrl: "",
+  polarMonthlyUrl: "",
   // Contact address shown on the legal pages.
-  contactEmail: "hello@fivebeforemonday.com",
+  contactEmail: "fivebeforemonday@gmail.com",
   instagram: "https://www.instagram.com/fivebeforemonday/",
 };
