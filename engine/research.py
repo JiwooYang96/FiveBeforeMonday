@@ -94,7 +94,8 @@ def evidence_from(blocks, week_start):
     oldest = date.fromisoformat(week_start) - timedelta(days=3)
     items = []
     for text, cites in _lines_with_citations(blocks):
-        m = re.match(r"\[(\w+)(?:\s+(\d{4}-\d{2}-\d{2}))?\]\s*(.+)", text)
+        text = re.sub(r"^[\s\-*•>#\d.)]*", "", text).replace("**", "")  # tolerate bullets and bold
+        m = re.match(r"\[(\w+)(?::|\s)*(\d{4}-\d{2}-\d{2})?\]\s*[:\-–]?\s*(.+)", text)
         if not m or m.group(1) not in TAGS:
             continue
         tag, when, body = m.group(1), m.group(2), m.group(3)
@@ -119,11 +120,27 @@ def sourced_numbers(evidence):
     return out
 
 
+LAST_BLOCKS = []  # the raw reply, kept for the audit file
+
+
+def diagnose(blocks):
+    """One line on why research came back thin: search errors, citations, what the text looked like."""
+    kinds = {}
+    for b in blocks:
+        kinds[b.get("type")] = kinds.get(b.get("type"), 0) + 1
+    errors = [b["content"].get("error_code") for b in blocks
+              if b.get("type") == "web_search_tool_result" and isinstance(b.get("content"), dict)]
+    cites = sum(len(b.get("citations") or []) for b in blocks if b.get("type") == "text")
+    text = llm.text_of(blocks).strip().replace("\n", " | ")
+    return f"blocks={kinds} search_errors={errors} citations={cites} text_start={text[:400]!r}"
+
+
 def research(snap):
-    blocks = llm.call(SYSTEM, _user(snap), tools=[llm.WEB_SEARCH], max_tokens=6000)
+    blocks = llm.call(SYSTEM, _user(snap), tools=[llm.WEB_SEARCH], max_tokens=8000)
+    LAST_BLOCKS[:] = blocks
     ev = evidence_from(blocks, snap["week_start"])
     if len(ev) < 8:
-        raise RuntimeError(f"research returned only {len(ev)} cited statements")
+        raise RuntimeError(f"research returned only {len(ev)} cited statements; {diagnose(blocks)}")
     return ev
 
 

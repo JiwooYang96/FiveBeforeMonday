@@ -49,7 +49,7 @@ jobs:
           echo "status=$(jq -r .status build-status.json)" >> "$GITHUB_OUTPUT"
 
       - name: Publish charts and the audit trail
-        if: steps.status.outputs.status != 'failed'
+        if: always() && steps.status.outputs.issue != ''
         env:
           ISSUE: ${{ steps.status.outputs.issue }}
         run: |
