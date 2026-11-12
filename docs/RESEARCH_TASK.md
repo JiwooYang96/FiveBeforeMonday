@@ -18,7 +18,26 @@ The same research also feeds the @tech_stocks_news reels, so finish with reel id
 
 ## 2. Research
 
-Find out **why** the biggest movers moved, the week's main story, and what's on next week's calendar.
+### Find the real story first
+
+Before anything else, answer: **what was everyone talking about this week, and which stock did it hit?**
+Readers already half-know the big story; an issue that misses it looks uninformed, and one that leads with
+it is the one they open.
+
+1. Read the daily reel notes for this week in `engine/data/daily/` (one JSON per trading day, written by the
+   daily reel task). They show which move led each day and why.
+2. Search the biggest movers by name in plain words, the way a reader would: `why <company> stock fell this week`,
+   `<company> shares news`. Read what outlets say actually moved it. Usually that's earnings or guidance, a deal
+   or big customer, an analyst call, a product launch or failure, regulation or export rules, or rates and data.
+   Occasionally it's people news (a CEO change, an investigation). Don't assume any one kind: go with what the
+   coverage says.
+3. Pick the lead story by coverage: the story with the most outlets and the biggest same-day move wins.
+   Check its timing: the news must have hit the market inside this week (Monday open to Friday close). News
+   from the weekend before belongs to this week; news after Friday's close belongs to next week.
+4. Tag the lead story `STORY` and make it item 0. Causes for the main move must start with it; generic macro
+   causes come after, and only if outlets tie them to the move.
+
+Then find out **why** the other big movers moved, and what's on next week's calendar.
 
 - Use web search, then **open the pages** you rely on (web fetch). Read them; snippets are not enough.
 - Prefer primary sources and major outlets: company releases and filings, Reuters, Bloomberg, CNBC, WSJ, FT,
@@ -73,7 +92,10 @@ Rules that keep the issue accurate (the build checks these automatically):
 - Copy figures exactly as the source writes them. Never estimate, round or compute a number.
 - Facts only. No opinions of your own, no predictions, no buy/sell language.
 - `reels`: 3-5 ideas from this week's research for short videos, each pointing (`item`, 0-based) to the statement
-  it comes from.
+  it comes from. The first idea is the lead story. Hooks name the concrete event ("Nvidia guided $108B. The stock
+  fell anyway."), not an abstraction ("Chip stocks fell on rate fears").
+- Sensitive stories (scandals, investigations, legal cases): report only what outlets report, attribute
+  allegations ("US officials suspect..."), and never add speculation or judgement.
 
 ## 4. Check and publish
 
