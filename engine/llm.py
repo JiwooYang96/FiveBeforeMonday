@@ -10,6 +10,7 @@ import urllib.request
 
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("FBM_MODEL", "claude-sonnet-5-5")
+LAST = {}  # stop_reason of the latest reply, for error messages
 WEB_SEARCH = {"type": "web_search_20250305", "name": "web_search", "max_uses": 12}
 
 
@@ -29,6 +30,7 @@ def call(system, user, tools=None, max_tokens=8000, model=None):
             body["tools"] = tools
         resp = _post(body, key)
         blocks += resp["content"]
+        LAST["stop_reason"] = resp.get("stop_reason")
         if resp.get("stop_reason") != "pause_turn":
             return blocks
         messages = messages + [{"role": "assistant", "content": resp["content"]}]
@@ -57,10 +59,20 @@ def text_of(blocks):
 
 
 def json_of(blocks):
-    """Parse the JSON object in Claude's final text (tolerates a ```json fence)."""
-    t = text_of(blocks).strip()
-    if "```" in t:
-        t = t.split("```")[1]
-        t = t[4:] if t.startswith("json") else t
-    start, end = t.find("{"), t.rfind("}")
-    return json.loads(t[start:end + 1])
+    """Parse the largest JSON object in Claude's final text, wherever it sits (fences or prose around it)."""
+    t = text_of(blocks)
+    dec = json.JSONDecoder()
+    best = None
+    i = t.find("{")
+    while i != -1:
+        try:
+            obj, end = dec.raw_decode(t, i)
+            if isinstance(obj, dict) and (best is None or end - i > best[1]):
+                best = (obj, end - i)
+        except ValueError:
+            pass
+        i = t.find("{", i + 1)
+    if best is None:
+        raise ValueError(f"no JSON object in reply (stop_reason={LAST.get('stop_reason')}, "
+                         f"{len(t)} chars): {t[:300]!r}")
+    return best[0]

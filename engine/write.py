@@ -92,8 +92,21 @@ def _user(snap, evidence, feedback=None, previous=None):
     return msg
 
 
+RAW = []  # raw replies, kept for the audit file
+
+
 def draft(snap, evidence, feedback=None, previous=None):
-    return llm.json_of(llm.call(SYSTEM, _user(snap, evidence, feedback, previous), max_tokens=12000))
+    msg = _user(snap, evidence, feedback, previous)
+    for attempt in range(2):
+        blocks = llm.call(SYSTEM, msg, max_tokens=16000)
+        RAW.append(llm.text_of(blocks))
+        try:
+            return llm.json_of(blocks)
+        except ValueError as err:
+            if attempt:
+                raise
+            msg += ("\n\nYour last reply could not be parsed (" + str(err)[:200] +
+                    "). Reply with only the JSON object, starting with { and ending with }.")
 
 
 def charts(snap, d):

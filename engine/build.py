@@ -76,6 +76,8 @@ def build(as_of=None, snapshot=None):
         status["status"] = "failed"
         status["problems"].append(f"{type(err).__name__}: {err}")
     finally:
+        if write.RAW:
+            audit["writer_raw"] = write.RAW
         if research.LAST_BLOCKS:
             audit["research_raw"] = research.LAST_BLOCKS
         audit_dir = ROOT / "engine/data/audit"
