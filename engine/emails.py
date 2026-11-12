@@ -116,9 +116,9 @@ def shell(issue, kind, date_label, body_rows):
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
 <tr><td bgcolor="{DARK}" style="background:{DARK};border-radius:14px 14px 0 0;padding:20px 24px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-    <td style="font:900 20px/1 {DISPLAY};color:#f4efe6;text-transform:uppercase;letter-spacing:1px;">
-      <span style="background:{GOLD};color:{DARK};padding:2px 8px;border-radius:4px;">5</span>&nbsp; Before Monday</td>
-    <td align="right" style="font:normal 12px/1.3 {MONO};color:#9c9488;">{e(date_label)}</td>
+    <td style="font:900 17px/1.2 {DISPLAY};color:#f4efe6;text-transform:uppercase;letter-spacing:0.5px;white-space:nowrap;">
+      <span style="background:{GOLD};color:{DARK};padding:2px 7px;border-radius:4px;">5</span>&nbsp;Before&nbsp;Monday</td>
+    <td align="right" style="font:normal 11px/1.3 {MONO};color:#9c9488;white-space:nowrap;padding-left:8px;">{e(date_label)}</td>
   </tr></table>
 </td></tr>
 <tr><td bgcolor="{CARD}" style="background:{CARD};border-radius:0 0 14px 14px;">
