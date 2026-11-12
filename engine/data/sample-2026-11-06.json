@@ -9,8 +9,17 @@
       "title": "Apple passed Nvidia",
       "subtitle": "Market value, $ trillions",
       "rows": [
-        {"label": "Apple", "value": 5.10, "display": "$5.10T"},
-        {"label": "Nvidia", "value": 4.83, "display": "$4.83T", "hero": true}
+        {
+          "label": "Apple",
+          "value": 5.1,
+          "display": "$5.10T"
+        },
+        {
+          "label": "Nvidia",
+          "value": 4.83,
+          "display": "$4.83T",
+          "hero": true
+        }
       ],
       "source": "Yahoo Finance, Nov 5, 2026"
     },
@@ -20,8 +29,17 @@
       "title": "Chips bounced on Friday",
       "subtitle": "Change during Friday's session, Nov 6",
       "rows": [
-        {"label": "Nvidia", "value": 6, "display": "+6%", "hero": true},
-        {"label": "Chip index", "value": 4, "display": "+4%"}
+        {
+          "label": "Nvidia",
+          "value": 6,
+          "display": "+6%",
+          "hero": true
+        },
+        {
+          "label": "Chip index",
+          "value": 4,
+          "display": "+4%"
+        }
       ],
       "source": "Yahoo Finance live, Nov 6, 2026",
       "note": "Intraday moves, not closing prices"
@@ -32,8 +50,17 @@
       "title": "Jobs beat by a mile",
       "subtitle": "US jobs added, reported vs expected",
       "rows": [
-        {"label": "Expected", "value": 70, "display": "~70K"},
-        {"label": "Reported", "value": 165, "display": "165K", "hero": true}
+        {
+          "label": "Expected",
+          "value": 70,
+          "display": "~70K"
+        },
+        {
+          "label": "Reported",
+          "value": 165,
+          "display": "165K",
+          "hero": true
+        }
       ],
       "source": "Yahoo Finance & Forbes, Nov 6, 2026"
     },
@@ -43,14 +70,176 @@
       "title": "The date that matters",
       "subtitle": "Week of Nov 16, 2026",
       "days": [
-        {"day": "MON", "date": "Nov 16"},
-        {"day": "TUE", "date": "Nov 17", "event": "Nvidia earnings", "detail": "$108B guide", "hero": true},
-        {"day": "WED", "date": "Nov 18"},
-        {"day": "THU", "date": "Nov 19"},
-        {"day": "FRI", "date": "Nov 20"}
+        {
+          "day": "MON",
+          "date": "Nov 16"
+        },
+        {
+          "day": "TUE",
+          "date": "Nov 17",
+          "event": "Nvidia earnings",
+          "detail": "$108B guide",
+          "hero": true
+        },
+        {
+          "day": "WED",
+          "date": "Nov 18"
+        },
+        {
+          "day": "THU",
+          "date": "Nov 19"
+        },
+        {
+          "day": "FRI",
+          "date": "Nov 20"
+        }
       ],
       "note": "The stock fell after 6 of its last 10 reports",
       "source": "Forbes, Nov 6, 2026"
     }
-  ]
+  ],
+  "site": "https://fivebeforemonday.vercel.app",
+  "email": {
+    "saturday": {
+      "subject": "Apple just passed Nvidia: this week's 5 numbers",
+      "preheader": "−25% in a month, a $1.4T hole and one date that matters.",
+      "date": "Sat, Nov 7, 2026"
+    },
+    "sunday": {
+      "subject": "Why Apple passed Nvidia (and what Nov 17 decides)",
+      "preheader": "Three causes, one bounce and the bull vs. bear case, with charts.",
+      "headline": "Apple passed Nvidia. Here's why.",
+      "lead": "Nvidia lost a quarter of its value in about a month. Coverage this week pointed to three causes, each feeding into the next.",
+      "date": "Sun, Nov 8, 2026"
+    },
+    "five": [
+      {
+        "num": "#2",
+        "tone": "gold",
+        "text": "Nvidia's rank by market value after Apple passed it: Apple $5.10T, Nvidia $4.83T.",
+        "source": "Yahoo Finance · Nov 5"
+      },
+      {
+        "num": "−25%",
+        "tone": "down",
+        "text": "Nvidia's fall from its Oct 6 record in about a month.",
+        "source": "Forbes · Nov 6"
+      },
+      {
+        "num": "$1.4T",
+        "tone": "down",
+        "text": "Market value erased in that drop.",
+        "source": "Forbes · Nov 6"
+      },
+      {
+        "num": "165K",
+        "tone": "up",
+        "text": "US jobs added, against roughly 70K expected. That put a rate hike back on the table.",
+        "source": "Yahoo Finance & Forbes · Nov 6"
+      },
+      {
+        "num": "$108B",
+        "tone": "gold",
+        "text": "The guide Nvidia has to deliver on Nov 17. The stock fell after 6 of its last 10 reports.",
+        "source": "Forbes · Nov 6"
+      }
+    ],
+    "next_week": [
+      {
+        "when": "Tue, Nov 17",
+        "what": "Nvidia reports. The figure to watch is the $108B guide.",
+        "source": "Forbes · Nov 6"
+      }
+    ],
+    "teaser": "Sunday's report: the three reasons Nvidia lost $1.4T, Friday's bounce, and the bull vs. bear case before Nov 17.",
+    "causes": [
+      {
+        "title": "Data-center pushback",
+        "stat": "<$200",
+        "text": "Calls to halt new data centers raised a simple question: will the world need as many chips? Shares slipped under $200 for the first time since August.",
+        "source": "Forbes & Yahoo Finance · Nov 5–6"
+      },
+      {
+        "title": "Pricier money",
+        "stat": "165K",
+        "text": "The US added 165K jobs against roughly 70K expected. A strong labor market put a rate hike back on the table, and higher rates make data-center builds costlier to fund.",
+        "source": "Yahoo Finance & Forbes · Nov 6",
+        "chart": "jobs"
+      },
+      {
+        "title": "Buyers in debt",
+        "stat": "$35B",
+        "text": "CoreWeave, one of Nvidia's big customers, carries $35B of debt. AI builders are burning cash to buy chips, which makes Nvidia's own buyers look shakier.",
+        "source": "Forbes · Nov 6"
+      }
+    ],
+    "after_causes": {
+      "title": "Then Friday",
+      "text": "Chips bounced during Friday's session, with Nvidia up about 6% and the chip index up about 4%. These were intraday moves, not closing prices.",
+      "chart": "friday-bounce"
+    },
+    "next_text": "One date matters most: Nvidia reports on Tuesday, Nov 17. The figure to watch is the $108B guide. History is mixed: the stock fell after 6 of its last 10 reports.",
+    "featured": "Nvidia",
+    "bull": [
+      "Still the world's second most valuable company, at $4.83T.",
+      "Chips bounced on Friday, Nvidia about +6% intraday.",
+      "A $108B guide sits on the table for Nov 17."
+    ],
+    "bear": [
+      "Calls to halt data centers question future chip demand.",
+      "A hot jobs report revived rate-hike talk.",
+      "Big buyers like CoreWeave carry heavy debt ($35B).",
+      "The stock fell after 6 of its last 10 reports."
+    ],
+    "table": [
+      [
+        "Apple market value",
+        "$5.10T",
+        "Nov 5",
+        "Yahoo Finance"
+      ],
+      [
+        "Nvidia market value",
+        "$4.83T",
+        "Nov 5",
+        "Yahoo Finance"
+      ],
+      [
+        "Nvidia vs. Oct 6 record",
+        "−25%",
+        "Nov 6",
+        "Forbes"
+      ],
+      [
+        "Market value lost",
+        "$1.4T",
+        "Nov 6",
+        "Forbes"
+      ],
+      [
+        "Nvidia, Friday (intraday)",
+        "+6%",
+        "Nov 6",
+        "Yahoo Finance live"
+      ],
+      [
+        "Chip index, Friday (intraday)",
+        "+4%",
+        "Nov 6",
+        "Yahoo Finance live"
+      ],
+      [
+        "US jobs added vs. expected",
+        "165K vs ~70K",
+        "Nov 6",
+        "Yahoo Finance & Forbes"
+      ],
+      [
+        "CoreWeave debt",
+        "$35B",
+        "Nov 6",
+        "Forbes"
+      ]
+    ]
+  }
 }
