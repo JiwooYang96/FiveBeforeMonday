@@ -104,7 +104,8 @@ def signed(spec):
         ax.text(x, y, r["display"], va="center", ha="left" if r["value"] >= 0 else "right",
                 fontsize=11, fontweight="bold", color=INK)
     ax.set_yticks(ys, [r["label"] for r in rows], fontsize=10.5)
-    ax.set_xlim(lo - vmax * 0.25 if lo < 0 else 0, vmax * 1.25)
+    hi = max(0, max(r["value"] for r in rows))
+    ax.set_xlim(lo - vmax * 0.55 if lo < 0 else 0, hi + vmax * 0.55 if hi > 0 else vmax * 0.1)
     ax.set_xticks([])
     return fig
 
