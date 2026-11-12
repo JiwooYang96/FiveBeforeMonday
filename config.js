@@ -6,5 +6,5 @@ window.FBM_CONFIG = {
   kitWaitlistFormId: "10180930", // "Founding waitlist" (uid fba039ae68)
   // Contact address shown on the legal pages.
   contactEmail: "hello@fivebeforemonday.com",
-  instagram: "https://www.instagram.com/tech_stocks_news/",
+  instagram: "https://www.instagram.com/fivebeforemonday/",
 };
