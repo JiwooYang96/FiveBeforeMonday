@@ -44,6 +44,26 @@
     if (id) {
       form.action = "https://app.kit.com/forms/" + id + "/subscriptions";
       form.method = "post";
+      var sent = false;
+      form.addEventListener("submit", function (e) {
+        if (sent) return; // fallback path: let the browser post the form to Kit
+        e.preventDefault();
+        var button = form.querySelector("button");
+        if (button) button.disabled = true;
+        if (status) status.textContent = "Signing you up…";
+        fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
+          .then(function (res) {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            if (status) status.textContent = "Almost done: check your inbox and tap the link to confirm.";
+            form.reset();
+          })
+          .catch(function () {
+            // If the background request is blocked, post the form normally (Kit shows its own confirmation page).
+            sent = true;
+            form.submit();
+          })
+          .finally(function () { if (button) button.disabled = false; });
+      });
       return;
     }
     form.addEventListener("submit", function (e) {
