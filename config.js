@@ -5,6 +5,6 @@ window.FBM_CONFIG = {
   kitFreeFormId: "10180929", // "Free brief" (uid 694cc6dbdb)
   kitWaitlistFormId: "10180930", // "Founding waitlist" (uid fba039ae68)
   // Contact address shown on the legal pages.
-  contactEmail: "hello@fivebeforemonday.com",
+  contactEmail: "fivebeforemonday@gmail.com",
   instagram: "https://www.instagram.com/fivebeforemonday/",
 };
