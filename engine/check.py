@@ -81,7 +81,10 @@ def gate_sources(d, evidence):
         src = x.get("source", "")
         if src.lower().startswith("closing prices"):
             continue
-        words = [w for w in re.findall(r"[a-z]{4,}", src.lower()) if w not in ("closing", "prices")]
+        name = src.split("·")[0].lower()
+        months = {"jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"}
+        words = [w for w in re.findall(r"[a-z]{3,}", name)
+                 if w not in months | {"the", "and", "com", "www", "news", "closing", "prices"}]
         if not words or not any(w in outlets for w in words):
             problems.append(f'{where}: source "{src}" does not name an outlet found in EVIDENCE')
     return problems
