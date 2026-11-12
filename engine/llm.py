@@ -11,6 +11,23 @@ import urllib.request
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("FBM_MODEL", "claude-sonnet-5-5")
 LAST = {}  # stop_reason of the latest reply, for error messages
+USAGE = {"input": 0, "output": 0, "cache_read": 0, "cache_write": 0, "searches": 0}
+# Sonnet 5.5 list prices, USD per million tokens; web search per 1,000 searches.
+PRICES = {"input": 2.0, "output": 10.0, "cache_read": 0.20, "cache_write": 2.50, "searches": 10.0}
+
+
+def cost():
+    p = PRICES
+    return round((USAGE["input"] * p["input"] + USAGE["output"] * p["output"] + USAGE["cache_read"] * p["cache_read"]
+                  + USAGE["cache_write"] * p["cache_write"]) / 1e6 + USAGE["searches"] * p["searches"] / 1000, 3)
+
+
+def _count(u):
+    USAGE["input"] += u.get("input_tokens", 0)
+    USAGE["output"] += u.get("output_tokens", 0)
+    USAGE["cache_read"] += u.get("cache_read_input_tokens", 0) or 0
+    USAGE["cache_write"] += u.get("cache_creation_input_tokens", 0) or 0
+    USAGE["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
 # Reputable financial outlets, official statistics and the tracked companies' own sites only.
 TRUSTED = [
     "reuters.com", "bloomberg.com", "cnbc.com", "wsj.com", "ft.com", "barrons.com", "marketwatch.com",
@@ -21,7 +38,7 @@ TRUSTED = [
     "nvidia.com", "apple.com", "microsoft.com", "abc.xyz", "aboutamazon.com", "meta.com", "fb.com",
     "broadcom.com", "tesla.com",
 ]
-WEB_SEARCH = {"type": "web_search_20250305", "name": "web_search", "max_uses": 12, "allowed_domains": TRUSTED}
+WEB_SEARCH = {"type": "web_search_20250305", "name": "web_search", "max_uses": 6, "allowed_domains": TRUSTED}
 
 
 def call(system, user, tools=None, max_tokens=8000, model=None):
@@ -39,6 +56,7 @@ def call(system, user, tools=None, max_tokens=8000, model=None):
         if tools:
             body["tools"] = tools
         resp = _post(body, key)
+        _count(resp.get("usage") or {})
         blocks += resp["content"]
         LAST["stop_reason"] = resp.get("stop_reason")
         if resp.get("stop_reason") != "pause_turn":

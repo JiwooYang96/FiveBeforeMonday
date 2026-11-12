@@ -17,6 +17,7 @@ from datetime import date
 from pathlib import Path
 
 import check
+import llm
 import collect
 import research
 import write
@@ -76,6 +77,9 @@ def build(as_of=None, snapshot=None):
         status["status"] = "failed"
         status["problems"].append(f"{type(err).__name__}: {err}")
     finally:
+        status["usage"] = {**llm.USAGE, "est_cost_usd": llm.cost()}
+        log.append(f"API use: {llm.USAGE['input']:,} in / {llm.USAGE['output']:,} out tokens, "
+                   f"{llm.USAGE['cache_read']:,} cached, {llm.USAGE['searches']} searches, about ${llm.cost():.2f}")
         if write.RAW:
             audit["writer_raw"] = write.RAW
         if research.LAST_BLOCKS:
