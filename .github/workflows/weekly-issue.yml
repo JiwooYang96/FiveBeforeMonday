@@ -1,10 +1,15 @@
 name: Weekly issue
 
-# Every Friday night (New York) after the close: build the issue, check it, publish the
-# chart images, then create the Kit emails. A failed check holds the issue as a draft.
+# Runs when the Claude Code research task pushes this week's research (Friday night), with a
+# Saturday-morning fallback that researches through the API if no research arrived.
+# Builds the issue, checks it, publishes the charts, then creates the Kit emails.
+# A failed check holds the issue as a draft.
 on:
+  push:
+    branches: [main]
+    paths: ["engine/data/research/**"]
   schedule:
-    - cron: "17 1 * * 6" # Sat 01:17 UTC = Fri evening in New York
+    - cron: "17 3 * * 6" # Sat 03:17 UTC = Fri 10pm New York; skipped if the issue is already built
   workflow_dispatch:
     inputs:
       date:
@@ -29,6 +34,8 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -39,8 +46,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FBM_MODEL: ${{ vars.FBM_MODEL || 'claude-sonnet-5-5' }}
           WEEK: ${{ inputs.date }}
+          EVENT: ${{ github.event_name }}
         run: |
-          if [ -n "$WEEK" ]; then python3 engine/build.py --date "$WEEK"; else python3 engine/build.py; fi
+          ARGS=""
+          if [ "$EVENT" = "push" ]; then
+            WEEK=$(git diff --name-only HEAD~1 HEAD -- engine/data/research | head -1 | xargs -r basename | sed 's/\.json$//')
+          fi
+          if [ "$EVENT" = "schedule" ]; then ARGS="--skip-if-built"; fi
+          if [ -n "$WEEK" ]; then ARGS="$ARGS --date $WEEK"; fi
+          python3 engine/build.py $ARGS
 
       - name: Read the result
         id: status
@@ -49,7 +63,7 @@ jobs:
           echo "status=$(jq -r .status build-status.json)" >> "$GITHUB_OUTPUT"
 
       - name: Publish charts and the audit trail
-        if: always() && steps.status.outputs.issue != ''
+        if: always() && steps.status.outputs.issue != '' && steps.status.outputs.status != 'skipped'
         env:
           ISSUE: ${{ steps.status.outputs.issue }}
         run: |
@@ -57,10 +71,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add engine/data img emails/out
           git commit -m "Issue $ISSUE" || echo "nothing to commit"
-          git push
+          git pull --rebase --autostash && git push
 
       - name: Wait for the website to serve the charts
-        if: steps.status.outputs.status != 'failed'
+        if: steps.status.outputs.status == 'ready' || steps.status.outputs.status == 'held'
         env:
           ISSUE: ${{ steps.status.outputs.issue }}
         run: |
@@ -72,7 +86,7 @@ jobs:
           echo "Charts not live yet; emails are still created and will show them once Vercel finishes."
 
       - name: Create the Kit emails
-        if: steps.status.outputs.status != 'failed'
+        if: steps.status.outputs.status == 'ready' || steps.status.outputs.status == 'held'
         env:
           KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
           ISSUE: ${{ steps.status.outputs.issue }}
@@ -87,7 +101,7 @@ jobs:
           echo "SAT_MODE=$MODE" >> "$GITHUB_ENV"
 
       - name: Report
-        if: always()
+        if: always() && steps.status.outputs.status != 'skipped'
         env:
           GH_TOKEN: ${{ github.token }}
           RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

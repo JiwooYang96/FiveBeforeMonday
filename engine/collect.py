@@ -139,9 +139,15 @@ def summarise(closes, monday, friday):
     }
 
 
+def trading_week(as_of=None):
+    """Monday and Friday of the trading week for as_of (Saturday and Sunday belong to the week just ended)."""
+    as_of = as_of or datetime.now(timezone.utc).date()
+    return week_bounds(as_of if as_of.weekday() < 5 else as_of - timedelta(days=as_of.weekday() - 4))
+
+
 def collect(as_of=None):
     as_of = as_of or datetime.now(timezone.utc).date()
-    monday, friday = week_bounds(as_of if as_of.weekday() < 5 else as_of - timedelta(days=as_of.weekday() - 4))
+    monday, friday = trading_week(as_of)
     snap = {"as_of": as_of.isoformat(), "week_start": monday.isoformat(), "week_end": friday.isoformat(),
             "stocks": {}, "indices": {}, "sources": set()}
     for tk, (name, cik) in STOCKS.items():
@@ -170,5 +176,14 @@ def collect(as_of=None):
 
 
 if __name__ == "__main__":
-    day = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else None
-    print(json.dumps(collect(day), indent=2))
+    from pathlib import Path
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    day = date.fromisoformat(args[0]) if args else None
+    snap = collect(day)
+    if "--save" in sys.argv:  # engine/data/raw/<week_end>.json, read by the research task and the build
+        out = Path(__file__).resolve().parent / "data/raw" / f"{snap['week_end']}.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(snap, indent=2))
+        print(out)
+    else:
+        print(json.dumps(snap, indent=2))
