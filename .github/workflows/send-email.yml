@@ -1,0 +1,49 @@
+name: Send issue email
+
+# Manual for now: Actions tab → "Send issue email" → Run workflow.
+# The weekly schedule gets added once the report builder writes new issues.
+on:
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Issue id (file name in engine/data without .json)"
+        required: true
+        default: "sample-2026-11-06"
+      kind:
+        description: "Which email"
+        type: choice
+        options: [saturday, sunday]
+        default: saturday
+      mode:
+        description: "draft = review in Kit first; schedule = send automatically"
+        type: choice
+        options: [draft, schedule]
+        default: draft
+      send_at:
+        description: "Optional UTC time, e.g. 2026-11-14T13:00:00Z (blank = next Saturday 8am New York)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render the emails
+        env:
+          ISSUE: ${{ inputs.issue }}
+        run: python3 engine/emails.py "engine/data/$ISSUE.json" emails/out
+      - name: Create the Kit broadcast
+        env:
+          KIT_API_SECRET: ${{ secrets.KIT_API_SECRET }}
+          ISSUE: ${{ inputs.issue }}
+          KIND: ${{ inputs.kind }}
+          MODE: ${{ inputs.mode }}
+          SEND_AT: ${{ inputs.send_at }}
+        run: python3 engine/send.py "$ISSUE" "$KIND" "$MODE" "$SEND_AT"
