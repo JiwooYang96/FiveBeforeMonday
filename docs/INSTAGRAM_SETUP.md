@@ -2,12 +2,12 @@
 
 Everything after this runs by itself. You need a computer for steps 2-4 (Meta's developer site).
 
-1. **Make @tech_stocks_news a professional account.** In the Instagram app: Settings → Account type and tools →
+1. **Make @fivebeforemonday a professional account.** In the Instagram app: Settings → Account type and tools →
    Switch to professional account → Creator (or Business). Free, and no Facebook Page needed.
 2. **Create a Meta app.** At developers.facebook.com → My Apps → Create app → use case
    "Manage messaging & content on Instagram" → app type Business. Name it e.g. "Five Before Monday poster".
 3. **Connect the account and get a token.** In the app: Instagram → API setup with Instagram business login →
-   "Add account" and log in as @tech_stocks_news → "Generate token". Allow `instagram_business_basic` and
+   "Add account" and log in as @fivebeforemonday → "Generate token". Allow `instagram_business_basic` and
    `instagram_business_content_publish`. Copy the token (it's long-lived, 60 days; GitHub refreshes it weekly).
    The app can stay in development mode: it only posts to your own account, so no App Review is needed.
 4. **Give the token to GitHub.** Repo FiveBeforeMonday → Settings → Secrets and variables → Actions:
