@@ -9,12 +9,13 @@ Usage:
   schedule  schedules the send. send_at is ISO-8601 UTC; if omitted, the
             next Saturday 8:00 am New York time is used.
 
-Reads the Kit v3 API secret from the KIT_API_SECRET environment variable
-(a GitHub Actions secret). The secret is never printed.
+Uses Kit's v4 API with the KIT_API_KEY environment variable (a GitHub
+Actions secret, starting with "kit_"). The key is never printed. v4 keeps
+our designed HTML as one HTML block; the older v3 API drops anything beyond
+simple tags, which left the first test draft empty.
 
-Safety: the v3 API cannot target a group, so every broadcast goes to all
-subscribers. Until paid members exist, the Sunday report may only be
-created as a draft.
+Safety: no targeting yet, so every broadcast goes to all subscribers. Until
+paid members exist, the Sunday report may only be created as a draft.
 """
 import json
 import os
@@ -26,7 +27,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-API = "https://api.convertkit.com/v3/broadcasts"
+API = "https://api.kit.com/v4/broadcasts"
 ROOT = Path(__file__).resolve().parent.parent
 NY = ZoneInfo("America/New_York")
 
@@ -55,6 +56,7 @@ def build_payload(issue, kind, mode, send_at=None):
     html = (ROOT / "emails/out" / f"{issue}-{kind}.html").read_text()
     payload = {
         "subject": meta["subject"],
+        "preview_text": meta.get("preheader", ""),
         "description": f"Five Before Monday · {kind} · {issue}",
         "content": body_of(html),
         "public": False,
@@ -64,7 +66,9 @@ def build_payload(issue, kind, mode, send_at=None):
             sys.exit("Refusing to schedule the Sunday report: it would go to every "
                      "subscriber, including free ones. Create it as a draft instead.")
         payload["send_at"] = send_at or next_saturday_8am_ny()
-    elif mode != "draft":
+    elif mode == "draft":
+        payload["send_at"] = None
+    else:
         sys.exit("mode must be 'draft' or 'schedule'")
     return payload
 
@@ -76,13 +80,14 @@ def main(argv):
     send_at = argv[3] if len(argv) > 3 and argv[3] else None
     payload = build_payload(issue, kind, mode, send_at)
 
-    secret = os.environ.get("KIT_API_SECRET", "").strip()
+    secret = os.environ.get("KIT_API_KEY", "").strip()
     if not secret:
-        sys.exit("KIT_API_SECRET is not set.")
+        sys.exit("KIT_API_KEY is not set. Add a Kit v4 key (starts with kit_) as a repository secret.")
     req = urllib.request.Request(
         API,
-        data=json.dumps({"api_secret": secret, **payload}).encode(),
-        headers={"Content-Type": "application/json", "Accept": "application/json"},
+        data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json", "Accept": "application/json",
+                 "X-Kit-Api-Key": secret},
         method="POST",
     )
     try:

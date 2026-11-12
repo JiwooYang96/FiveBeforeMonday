@@ -14,8 +14,8 @@ Website for the Five Before Monday newsletter.
 ## Sending through Kit
 
 `engine/send.py` turns a rendered email into a Kit broadcast using the
-`KIT_API_SECRET` repository secret. Run it from GitHub: Actions → **Send issue
+`KIT_API_KEY` repository secret (a Kit v4 key). Run it from GitHub: Actions → **Send issue
 email** → Run workflow. `draft` (default) leaves an unsent draft in Kit to
 review; `schedule` sends the Saturday brief at the next Saturday 8:00 am New
-York time unless a UTC time is given. Kit's v3 API sends to every subscriber,
+York time unless a UTC time is given. Broadcasts aren't targeted yet,
 so the Sunday report is draft-only until paid members exist.
