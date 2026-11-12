@@ -1,0 +1,56 @@
+{
+  "issue": "sample-2026-11-06",
+  "week": "Nov 2–6, 2026",
+  "note": "Sample issue built from @tech_stocks_news coverage of Nov 5–6, 2026. Every figure is as reported by the cited outlet at the time.",
+  "charts": [
+    {
+      "id": "market-value",
+      "type": "hbar",
+      "title": "Apple passed Nvidia",
+      "subtitle": "Market value, $ trillions",
+      "rows": [
+        {"label": "Apple", "value": 5.10, "display": "$5.10T"},
+        {"label": "Nvidia", "value": 4.83, "display": "$4.83T", "hero": true}
+      ],
+      "source": "Yahoo Finance, Nov 5, 2026"
+    },
+    {
+      "id": "friday-bounce",
+      "type": "signed",
+      "title": "Chips bounced on Friday",
+      "subtitle": "Change during Friday's session, Nov 6",
+      "rows": [
+        {"label": "Nvidia", "value": 6, "display": "+6%", "hero": true},
+        {"label": "Chip index", "value": 4, "display": "+4%"}
+      ],
+      "source": "Yahoo Finance live, Nov 6, 2026",
+      "note": "Intraday moves, not closing prices"
+    },
+    {
+      "id": "jobs",
+      "type": "compare",
+      "title": "Jobs beat by a mile",
+      "subtitle": "US jobs added, reported vs expected",
+      "rows": [
+        {"label": "Expected", "value": 70, "display": "~70K"},
+        {"label": "Reported", "value": 165, "display": "165K", "hero": true}
+      ],
+      "source": "Yahoo Finance & Forbes, Nov 6, 2026"
+    },
+    {
+      "id": "calendar",
+      "type": "calendar",
+      "title": "The date that matters",
+      "subtitle": "Week of Nov 16, 2026",
+      "days": [
+        {"day": "MON", "date": "Nov 16"},
+        {"day": "TUE", "date": "Nov 17", "event": "Nvidia earnings", "detail": "$108B guide", "hero": true},
+        {"day": "WED", "date": "Nov 18"},
+        {"day": "THU", "date": "Nov 19"},
+        {"day": "FRI", "date": "Nov 20"}
+      ],
+      "note": "The stock fell after 6 of its last 10 reports",
+      "source": "Forbes, Nov 6, 2026"
+    }
+  ]
+}
