@@ -76,6 +76,8 @@ def build(as_of=None, snapshot=None):
         status["status"] = "failed"
         status["problems"].append(f"{type(err).__name__}: {err}")
     finally:
+        if research.LAST_BLOCKS:
+            audit["research_raw"] = research.LAST_BLOCKS
         audit_dir = ROOT / "engine/data/audit"
         audit_dir.mkdir(parents=True, exist_ok=True)
         (audit_dir / f"{issue_id}.json").write_text(json.dumps({**audit, "status": status}, indent=2,
