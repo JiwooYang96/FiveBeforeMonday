@@ -17,27 +17,63 @@ from datetime import date
 from pathlib import Path
 
 import check
+import llm
 import collect
 import research
+import verify_research
 import write
 
 ROOT = Path(__file__).resolve().parent.parent
 MAX_REWRITES = 2
 
 
-def build(as_of=None, snapshot=None):
+def get_evidence(snap, log, audit):
+    """Claude Code's research file if it exists and holds up; otherwise research through the API."""
+    path = ROOT / "engine/data/research" / f"{snap['week_end']}.json"
+    if path.exists():
+        try:
+            evidence, dropped = verify_research.load(path)
+            confirmed = sum(1 for e in evidence for s in e["sources"] if s.get("verified"))
+            log.append(f"research (Claude Code): {len(evidence)} statements kept, {confirmed} quotes confirmed "
+                       f"on the page, {len(dropped)} dropped")
+            audit["research_dropped"] = dropped
+            if len(evidence) >= 8:
+                return evidence
+            log.append("too few statements survived; falling back to API research")
+        except Exception as err:
+            log.append(f"research file unusable ({err}); falling back to API research")
+    else:
+        log.append("no Claude Code research for this week; using API research")
+    evidence = research.research(snap)
+    log.append(f"research (API): {len(evidence)} cited statements")
+    return evidence
+
+
+def build(as_of=None, snapshot=None, skip_if_built=False):
     log = []
-    issue_id = (as_of or date.today()).isoformat()
+    monday, friday = collect.trading_week(as_of)
+    issue_id = friday.isoformat()
     audit = {}
     status = {"issue": issue_id, "status": "held", "problems": [], "steps": log}
+    if skip_if_built and (ROOT / "engine/data" / f"{issue_id}.json").exists():
+        status["status"] = "skipped"
+        (ROOT / "build-status.json").write_text(json.dumps(status, indent=2))
+        return status
     try:
-        snap = json.loads(Path(snapshot).read_text()) if snapshot else collect.collect(as_of)
+        raw = ROOT / "engine/data/raw" / f"{issue_id}.json"
+        if snapshot:
+            snap = json.loads(Path(snapshot).read_text())
+        elif raw.exists():
+            snap = json.loads(raw.read_text())
+        else:
+            snap = collect.collect(as_of)
+            raw.parent.mkdir(parents=True, exist_ok=True)
+            raw.write_text(json.dumps(snap, indent=2))
         issue_id = status["issue"] = snap["week_end"]
         audit["snapshot"] = snap
         log.append(f"market data: {len(snap['stocks'])} stocks, {len(snap['indices'])} indices")
-        evidence = research.research(snap)
+        evidence = get_evidence(snap, log, audit)
         audit["evidence"] = evidence
-        log.append(f"research: {len(evidence)} cited statements")
 
         d = write.draft(snap, evidence)
         problems = check.run(d, snap, evidence)
@@ -76,6 +112,9 @@ def build(as_of=None, snapshot=None):
         status["status"] = "failed"
         status["problems"].append(f"{type(err).__name__}: {err}")
     finally:
+        status["usage"] = {**llm.USAGE, "est_cost_usd": llm.cost()}
+        log.append(f"API use: {llm.USAGE['input']:,} in / {llm.USAGE['output']:,} out tokens, "
+                   f"{llm.USAGE['cache_read']:,} cached, {llm.USAGE['searches']} searches, about ${llm.cost():.2f}")
         if write.RAW:
             audit["writer_raw"] = write.RAW
         if research.LAST_BLOCKS:
@@ -92,6 +131,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--date")
     ap.add_argument("--snapshot")
+    ap.add_argument("--skip-if-built", action="store_true")
     a = ap.parse_args()
-    s = build(date.fromisoformat(a.date) if a.date else None, a.snapshot)
+    s = build(date.fromisoformat(a.date) if a.date else None, a.snapshot, a.skip_if_built)
     print(json.dumps(s, indent=2, ensure_ascii=False))

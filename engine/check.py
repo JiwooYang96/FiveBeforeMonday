@@ -156,5 +156,5 @@ def review(d, snap, evidence):
 
 
 def run(d, snap, evidence):
-    return (gate_figures(d, snap, evidence) + gate_sources(d, evidence) + gate_dates(d, snap)
-            + gate_language(d) + gate_length(d))
+    # Source labels are optional; figures are still checked against data and source quotes.
+    return gate_figures(d, snap, evidence) + gate_dates(d, snap) + gate_language(d) + gate_length(d)

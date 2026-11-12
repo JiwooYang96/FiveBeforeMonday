@@ -81,15 +81,16 @@ def _user(snap, evidence, feedback=None, previous=None):
     ev = [{"id": e["id"], "tag": e["tag"], "date": e.get("date"), "statement": e["text"],
            "sources": [{"outlet": s["outlet"], "title": s["title"], "page_date": s.get("page_age"),
                         "source_text": s["cited_text"]} for s in e["sources"]]} for e in evidence]
-    msg = (f"Week: {short_date(snap['week_start'])}–{short_date(snap['week_end'])}, {snap['week_end'][:4]}.\n\n"
-           f"DATA (closing prices, {', '.join(snap['sources'])}):\n{json.dumps(data_facts(snap), ensure_ascii=False)}\n\n"
-           f"EVIDENCE:\n{json.dumps(ev, ensure_ascii=False)}\n\n"
-           "Pick the week's main story from the biggest moves and the strongest evidence. Write the issue JSON.")
+    facts = (f"Week: {short_date(snap['week_start'])}–{short_date(snap['week_end'])}, {snap['week_end'][:4]}.\n\n"
+             f"DATA (closing prices, {', '.join(snap['sources'])}):\n{json.dumps(data_facts(snap), ensure_ascii=False)}\n\n"
+             f"EVIDENCE:\n{json.dumps(ev, ensure_ascii=False)}")
+    msg = "Pick the week's main story from the biggest moves and the strongest evidence. Write the issue JSON."
     if feedback:
         msg += ("\n\nYour previous draft failed these checks. Fix every one, change nothing else that passed, "
                 "and drop any figure you can't support:\n- " + "\n- ".join(feedback) +
                 f"\n\nPrevious draft:\n{json.dumps(previous, ensure_ascii=False)}")
-    return msg
+    # The data and evidence are identical across drafts, so they are cached: rewrites read them at a tenth of the price.
+    return [{"type": "text", "text": facts, "cache_control": {"type": "ephemeral"}}, {"type": "text", "text": msg}]
 
 
 RAW = []  # raw replies, kept for the audit file
@@ -105,7 +106,7 @@ def draft(snap, evidence, feedback=None, previous=None):
         except ValueError as err:
             if attempt:
                 raise
-            msg += ("\n\nYour last reply could not be parsed (" + str(err)[:200] +
+            msg[-1]["text"] += ("\n\nYour last reply could not be parsed (" + str(err)[:200] +
                     "). Reply with only the JSON object, starting with { and ending with }.")
 
 

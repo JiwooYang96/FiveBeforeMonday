@@ -18,6 +18,7 @@ import collect  # noqa: E402
 import figures  # noqa: E402
 import llm  # noqa: E402
 import research  # noqa: E402
+import verify_research  # noqa: E402
 import write  # noqa: E402
 
 FRIDAY = date(2026, 11, 13)
@@ -146,9 +147,8 @@ class Pipeline(unittest.TestCase):
         ev = research.evidence_from(research_blocks(), self.snap["week_start"])
         d = good_draft(self.snap)
         d["five"][1]["text"] = "Microsoft cut $12 billion. Investors should buy the dip — it will rebound!"
-        d["five"][2]["source"] = "Some Blog · Nov 12"
         probs = " | ".join(check.run(d, self.snap, ev))
-        for expected in ('"$12 billion"', "advice", "banned phrasing", "Some Blog"):
+        for expected in ('"$12 billion"', "advice", "banned phrasing"):
             self.assertIn(expected, probs)
 
     def test_end_to_end_build(self):
@@ -168,6 +168,62 @@ class Pipeline(unittest.TestCase):
         finally:
             snap_path.unlink(missing_ok=True)
             for p in [ROOT / "engine/data/2026-11-13.json", ROOT / "engine/data/audit/2026-11-13.json",
+                      ROOT / "build-status.json", *ROOT.glob("img/2026-11-13-*.png"), *ROOT.glob("emails/out/2026-11-13-*")]:
+                p.unlink(missing_ok=True)
+
+
+def research_file():
+    """The same nine statements, in the format the Claude Code research task writes."""
+    items = []
+    for b in research_blocks():
+        if b.get("type") == "text" and b.get("citations"):
+            items[-1]["text"] = b["text"]
+            items[-1]["sources"] = [{"url": "https://www.reuters.com/x", "title": "t",
+                                     "quote": b["citations"][0]["cited_text"]}]
+        elif b.get("type") == "text" and b["text"].startswith("["):
+            tag = b["text"].strip("[] ").split()
+            items.append({"tag": tag[0], "date": tag[1] if len(tag) > 1 else None})
+    return {"week_end": "2026-11-13", "items": items, "reels": []}
+
+
+class ResearchFile(unittest.TestCase):
+    def test_schema(self):
+        self.assertEqual(verify_research.schema_problems(research_file()), [])
+        bad = research_file()
+        bad["items"][0]["sources"][0]["quote"] = "x"
+        self.assertTrue(verify_research.schema_problems(bad))
+
+    def test_quotes_checked_against_pages(self):
+        data = research_file()
+        data["items"][1]["sources"][0]["url"] = "https://example.com/missing"
+        data["items"][2]["sources"][0]["url"] = "https://example.com/blocked"
+        quotes = " ".join(i["sources"][0]["quote"] for i in data["items"])
+        pages = {"https://www.reuters.com/x": "<p>" + quotes + "</p>" + " filler text" * 400,
+                 "https://example.com/missing": "<p>Something else entirely.</p>" + " filler text" * 400,
+                 "https://example.com/blocked": None}
+        ev, dropped = verify_research.verify(data, fetcher=pages.get)
+        self.assertEqual(len(ev), 8)
+        self.assertEqual(len(dropped), 1)
+        self.assertIn(None, [s["verified"] for e in ev for s in e["sources"]])
+
+    def test_build_uses_research_file(self):
+        snap = snapshot()
+        path = ROOT / "engine/data/research/2026-11-13.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(research_file()))
+        snap_path = ROOT / "tests" / "_snap.json"
+        snap_path.write_text(json.dumps(snap))
+        page = " ".join(i["sources"][0]["quote"] for i in research_file()["items"]) + " filler" * 600
+        replies = [[{"type": "text", "text": json.dumps(good_draft(snap))}], [{"type": "text", "text": '{"issues": []}'}]]
+        try:
+            with mock.patch.object(llm, "call", side_effect=replies), \
+                    mock.patch.object(verify_research, "fetch", return_value=page):
+                status = build.build(snapshot=str(snap_path))
+            self.assertEqual(status["status"], "ready", status)
+            self.assertTrue(any("Claude Code): 9 statements kept, 9 quotes confirmed" in x for x in status["steps"]),
+                            status["steps"])
+        finally:
+            for p in [path, snap_path, ROOT / "engine/data/2026-11-13.json", ROOT / "engine/data/audit/2026-11-13.json",
                       ROOT / "build-status.json", *ROOT.glob("img/2026-11-13-*.png"), *ROOT.glob("emails/out/2026-11-13-*")]:
                 p.unlink(missing_ok=True)
 

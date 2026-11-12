@@ -1,0 +1,38 @@
+name: Market data
+
+# Friday after the New York close: save the week's closing prices for the research task.
+on:
+  schedule:
+    - cron: "37 21 * * 5" # Fri 21:37 UTC, after the 4pm New York close
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Any day in the week (YYYY-MM-DD). Blank = this week"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency: weekly-issue
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect closing prices
+        env:
+          WEEK: ${{ inputs.date }}
+        run: python3 engine/collect.py $WEEK --save
+      - name: Save to the repo
+        run: |
+          git config user.name "five-before-monday-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add engine/data/raw
+          git commit -m "Market data $(ls -t engine/data/raw | head -1 | sed 's/.json//')" || echo "nothing to commit"
+          git pull --rebase --autostash && git push

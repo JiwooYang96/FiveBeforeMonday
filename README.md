@@ -22,7 +22,13 @@ so the Sunday report is draft-only until paid members exist.
 
 ## Weekly issue (automatic)
 
-`.github/workflows/weekly-issue.yml` runs every Friday night (New York) after the close:
+Friday after the close: `market-data.yml` saves closing prices to `engine/data/raw/`. A scheduled Claude Code
+task (instructions in `docs/RESEARCH_TASK.md`, run on the Claude subscription) researches the week and pushes
+`engine/data/research/<week>.json`, including reel ideas. That push starts `weekly-issue.yml`, which checks every
+research quote against its page (`engine/verify_research.py`) and builds the issue; if no research arrives, the
+Saturday fallback researches through the API instead.
+
+`.github/workflows/weekly-issue.yml` then:
 
 1. `engine/collect.py` pulls closing prices (Yahoo Finance, Stooq fallback) and shares outstanding (SEC EDGAR).
 2. `engine/research.py` has Claude search the week's coverage; only statements with citations are kept.
