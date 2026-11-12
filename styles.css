@@ -25,16 +25,10 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  background: var(--paper);
+  /* Real paper texture (Paper Shaders still) that scrolls with the page like a printed sheet. */
+  background: var(--paper) url("img/paper.jpg") top center / 100% auto repeat-y;
   color: var(--ink);
   font: 400 18px/1.6 var(--body);
-  position: relative;
-}
-/* Real paper texture (Paper Shaders still), pinned behind the page so the folds don't repeat. */
-body::before {
-  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background: url("img/paper.jpg") center / cover no-repeat;
-  opacity: 0.55; mix-blend-mode: multiply;
 }
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--blue); text-underline-offset: 3px; text-decoration-thickness: 1px; }
