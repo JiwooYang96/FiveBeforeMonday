@@ -11,7 +11,17 @@ import urllib.request
 API = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("FBM_MODEL", "claude-sonnet-5-5")
 LAST = {}  # stop_reason of the latest reply, for error messages
-WEB_SEARCH = {"type": "web_search_20250305", "name": "web_search", "max_uses": 12}
+# Reputable financial outlets, official statistics and the tracked companies' own sites only.
+TRUSTED = [
+    "reuters.com", "bloomberg.com", "cnbc.com", "wsj.com", "ft.com", "barrons.com", "marketwatch.com",
+    "finance.yahoo.com", "apnews.com", "nasdaq.com", "forbes.com", "fortune.com", "businessinsider.com",
+    "axios.com", "morningstar.com", "investopedia.com", "economist.com", "nytimes.com", "washingtonpost.com",
+    "theverge.com", "techcrunch.com", "fool.com", "foxbusiness.com", "investing.com", "seekingalpha.com",
+    "sec.gov", "bls.gov", "bea.gov", "federalreserve.gov", "treasury.gov", "census.gov",
+    "nvidia.com", "apple.com", "microsoft.com", "abc.xyz", "aboutamazon.com", "meta.com", "fb.com",
+    "broadcom.com", "tesla.com",
+]
+WEB_SEARCH = {"type": "web_search_20250305", "name": "web_search", "max_uses": 12, "allowed_domains": TRUSTED}
 
 
 def call(system, user, tools=None, max_tokens=8000, model=None):
