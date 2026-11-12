@@ -1,0 +1,4 @@
+__pycache__/
+build-status.json
+report.md
+tests/_snap.json

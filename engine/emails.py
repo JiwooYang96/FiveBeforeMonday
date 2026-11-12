@@ -128,7 +128,7 @@ def shell(issue, kind, date_label, body_rows):
 </td></tr>
 <tr><td style="padding:18px 24px 6px;font:normal 12px/1.55 {BODY};color:{SOFT};">
   Five Before Monday explains what moved big tech stocks. It is not investment advice and never a recommendation to buy or sell.
-  Researched and drafted with AI; every figure names its source. <a href="{e(issue.site)}/disclaimer.html" style="color:{SOFT};">Disclaimer</a>
+  Every figure names its source. <a href="{e(issue.site)}/disclaimer.html" style="color:{SOFT};">Disclaimer</a>
 </td></tr>
 </table>
 </td></tr>
@@ -165,6 +165,7 @@ def sunday(issue):
         kicker(f"Sunday report · {issue.d['week']}", pad="24px 24px 8px"),
         f'<tr><td style="padding:0 24px 12px;font:900 30px/1.08 {DISPLAY};color:{INK};text-transform:uppercase;">{e(s["headline"])}</td></tr>',
         p(e(s["lead"]), size=16, color=SOFT),
+        *([p(e(s["what_happened"]), size=16)] if s.get("what_happened") else []),
         issue.chart("market-value"),
         h2("1. The week in five", pad="10px 24px 4px"),
         five_rows(m["five"], big=False),
@@ -209,7 +210,7 @@ def sunday(issue):
         h2("5. The numbers"),
         f'<tr><td style="padding:0 24px 10px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{trs}</table></td></tr>',
         h2("6. How this issue was made"),
-        p("Researched and drafted with AI from the outlets named above. Every figure traces to a page that was opened, and each claim was checked against its source. Intraday figures are labelled as intraday.",
+        p("Researched from the outlets named above. Every figure traces to a page that was opened, and each claim was checked against its source. Intraday figures are labelled as intraday.",
           size=14, color=SOFT, pad="0 24px 24px"),
     ]
     return shell(issue, "sunday", s.get("date", "Sunday"), "".join(rows))

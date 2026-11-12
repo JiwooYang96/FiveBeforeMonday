@@ -1,0 +1,109 @@
+name: Weekly issue
+
+# Every Friday night (New York) after the close: build the issue, check it, publish the
+# chart images, then create the Kit emails. A failed check holds the issue as a draft.
+on:
+  schedule:
+    - cron: "17 1 * * 6" # Sat 01:17 UTC = Fri evening in New York
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Any day in the week to build (YYYY-MM-DD). Blank = this week"
+        required: false
+        default: ""
+      send:
+        description: "draft = review in Kit first; schedule = send Saturday 8am New York if all checks pass"
+        type: choice
+        options: [draft, schedule]
+        default: draft
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: weekly-issue
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install matplotlib
+
+      - name: Build and check the issue
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FBM_MODEL: ${{ vars.FBM_MODEL || 'claude-sonnet-5-5' }}
+          WEEK: ${{ inputs.date }}
+        run: |
+          if [ -n "$WEEK" ]; then python3 engine/build.py --date "$WEEK"; else python3 engine/build.py; fi
+
+      - name: Read the result
+        id: status
+        run: |
+          echo "issue=$(jq -r .issue build-status.json)" >> "$GITHUB_OUTPUT"
+          echo "status=$(jq -r .status build-status.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish charts and the audit trail
+        if: steps.status.outputs.status != 'failed'
+        env:
+          ISSUE: ${{ steps.status.outputs.issue }}
+        run: |
+          git config user.name "five-before-monday-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add engine/data img emails/out
+          git commit -m "Issue $ISSUE" || echo "nothing to commit"
+          git push
+
+      - name: Wait for the website to serve the charts
+        if: steps.status.outputs.status != 'failed'
+        env:
+          ISSUE: ${{ steps.status.outputs.issue }}
+        run: |
+          url="https://fivebeforemonday.vercel.app/img/$ISSUE-market-value.png"
+          for i in $(seq 1 40); do
+            if curl -sfI "$url" >/dev/null; then echo "live: $url"; exit 0; fi
+            sleep 15
+          done
+          echo "Charts not live yet; emails are still created and will show them once Vercel finishes."
+
+      - name: Create the Kit emails
+        if: steps.status.outputs.status != 'failed'
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          ISSUE: ${{ steps.status.outputs.issue }}
+          STATUS: ${{ steps.status.outputs.status }}
+          WANT: ${{ inputs.send || (vars.AUTO_SEND == 'true' && 'schedule' || 'draft') }}
+        run: |
+          MODE=draft
+          if [ "$STATUS" = "ready" ] && [ "$WANT" = "schedule" ]; then MODE=schedule; fi
+          echo "Saturday brief: $MODE"
+          python3 engine/send.py "$ISSUE" saturday "$MODE"
+          python3 engine/send.py "$ISSUE" sunday draft
+          echo "SAT_MODE=$MODE" >> "$GITHUB_ENV"
+
+      - name: Report
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -f build-status.json ] || echo '{"issue":"unknown","status":"failed","problems":["build did not run"],"steps":[]}' > build-status.json
+          ISSUE=$(jq -r .issue build-status.json); STATUS=$(jq -r .status build-status.json)
+          {
+            echo "**Status:** $STATUS · Saturday brief: ${SAT_MODE:-not created}"
+            echo
+            echo "**Saturday subject:** $(jq -r '.saturday_subject // "-"' build-status.json)"
+            echo "**Sunday subject:** $(jq -r '.sunday_subject // "-"' build-status.json)"
+            echo
+            echo "Preview: https://fivebeforemonday.vercel.app/emails/out/$ISSUE-saturday.html · https://fivebeforemonday.vercel.app/emails/out/$ISSUE-sunday.html"
+            echo
+            echo "**Steps**"; jq -r '.steps[] | "- " + .' build-status.json
+            echo; echo "**Problems**"; jq -r 'if (.problems|length)==0 then "- none" else .problems[] | "- " + . end' build-status.json
+            echo; echo "Run log: $RUN"
+          } > report.md
+          gh issue create --title "Issue $ISSUE: $STATUS" --body-file report.md
