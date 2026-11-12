@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-12",
+  "lead": "Nvidia fell 4.34% to $166.19 after CEO Jensen Huang resigned effective immediately; CFO Colette Kress is interim CEO.",
+  "ticker": "NVDA",
+  "move": "-4.34%",
+  "why": [
+    "Nvidia said Huang resigned as president, CEO and director, effective immediately; the board accepted it Nov 11 and named CFO Colette Kress interim CEO.",
+    "The exit followed a board investigation opened Nov 8 and media reports about Huang's personal life; the WSJ reported the board was preparing to remove him.",
+    "Shares fell as much as 14% to $148.80 at the open before recovering to close down 4.3%.",
+    "Bernstein downgraded to Market Perform and cut its target to $200 from $400; Oppenheimer also downgraded.",
+    "Nvidia reports Q3 results Tue, Nov 17."
+  ],
+  "sources": [
+    {
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026",
+      "title": "Stocks Closed Slightly Lower in the Stock Market Today, November 12, 2026, and Nvidia Said CEO Jensen Huang Resigned",
+      "published": "Nov 12, 2026"
+    },
+    {
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262303336-us-stock-nvidia-ceo-jensen-huang-resigns-nasdaq-falls-tradingkey",
+      "title": "Nvidia Drops Over 4% as Jensen Huang Resigns as CEO; Nasdaq Falls 0.39%",
+      "published": "Nov 12, 2026"
+    },
+    {
+      "url": "https://en.bloomingbit.io/feed/news/124324",
+      "title": "Nvidia Falls 4.34% as Jensen Huang Resigns, Stirring Leadership Vacuum Fears",
+      "published": "Nov 12, 2026"
+    },
+    {
+      "url": "https://www.techtimes.com/articles/330561/20261112/jensen-huang-resigns-nvidia-shares-tumble-interim-ceo-kress-keeps-cfo-job-before-earnings.htm",
+      "title": "Jensen Huang Resigns: Nvidia Shares Tumble as Interim CEO Kress Keeps CFO Job Before Earnings",
+      "published": "Nov 12, 2026"
+    },
+    {
+      "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html",
+      "title": "Nvidia live updates: Jensen Huang resigns, CFO Colette Kress to serve as interim CEO",
+      "published": "Nov 12, 2026"
+    }
+  ],
+  "reel": "plans/nvidia-ceo-exit-nov12.json in reels_generator"
+}
