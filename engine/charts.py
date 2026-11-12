@@ -27,8 +27,8 @@ RED = "#e0483d"
 GREEN = "#2fa36b"
 BRAND = "FIVE BEFORE MONDAY"
 
-WIDTH_IN = 6.0  # 6 in x 200 dpi = 1200 px
-DPI = 200
+WIDTH_IN = 4.5  # 4.5 in x 266.67 dpi = 1200 px; a narrow canvas makes text larger relative to the width, for phones
+DPI = 1200 / 4.5
 
 
 def _font():
