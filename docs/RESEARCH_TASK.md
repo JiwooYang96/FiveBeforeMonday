@@ -26,11 +26,11 @@ it is the one they open.
 
 1. Read the daily reel notes for this week in `engine/data/daily/` (one JSON per trading day, written by the
    daily reel task). They show which move led each day and why.
-2. Search the biggest mover by name with plain words, not finance words: `"<company> stock" this week`,
-   `why <company> shares fell`, `<CEO name>`, `<company> investigation`, `<company> lawsuit`.
-   The real driver is often **human or company-specific**: a CEO scandal, an investigation, a lawsuit, a
-   government action, a product failure, a big customer leaving. Macro reasons (rates, jobs data) only lead
-   when no company-specific story exists.
+2. Search the biggest movers by name in plain words, the way a reader would: `why <company> stock fell this week`,
+   `<company> shares news`. Read what outlets say actually moved it. Usually that's earnings or guidance, a deal
+   or big customer, an analyst call, a product launch or failure, regulation or export rules, or rates and data.
+   Occasionally it's people news (a CEO change, an investigation). Don't assume any one kind: go with what the
+   coverage says.
 3. Pick the lead story by coverage: the story with the most outlets and the biggest same-day move wins.
    Check its timing: the news must have hit the market inside this week (Monday open to Friday close). News
    from the weekend before belongs to this week; news after Friday's close belongs to next week.
@@ -92,8 +92,8 @@ Rules that keep the issue accurate (the build checks these automatically):
 - Copy figures exactly as the source writes them. Never estimate, round or compute a number.
 - Facts only. No opinions of your own, no predictions, no buy/sell language.
 - `reels`: 3-5 ideas from this week's research for short videos, each pointing (`item`, 0-based) to the statement
-  it comes from. The first idea is the lead story. Hooks name the person or the event ("Nvidia's CEO admitted
-  an affair. The stock lost $192B."), not an abstraction ("Chip stocks fell on rate fears").
+  it comes from. The first idea is the lead story. Hooks name the concrete event ("Nvidia guided $108B. The stock
+  fell anyway."), not an abstraction ("Chip stocks fell on rate fears").
 - Sensitive stories (scandals, investigations, legal cases): report only what outlets report, attribute
   allegations ("US officials suspect..."), and never add speculation or judgement.
 

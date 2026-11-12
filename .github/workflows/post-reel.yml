@@ -1,0 +1,73 @@
+name: Post reel to Instagram
+
+# The daily reel task pushes reels/<date>.mp4 + reels/<date>.json after the New York close.
+# This posts every queued reel at about 6:31pm New York time (23:31 UTC in winter, 22:31 UTC in summer),
+# and refreshes the Instagram token every Sunday so it never expires.
+on:
+  schedule:
+    - cron: "31 22,23 * * 1-5" # runs twice; only the run at 6:31pm New York posts
+    - cron: "11 4 * * 0" # Sunday: refresh the Instagram token
+  workflow_dispatch:
+    inputs:
+      now:
+        description: "Post queued reels now, whatever the time"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: post-reel
+
+jobs:
+  post:
+    if: github.event.schedule != '11 4 * * 0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Is it 6pm in New York?
+        id: when
+        run: |
+          H=$(TZ=America/New_York date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" = "18" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.when.outputs.go == 'true'
+      - name: Post queued reels
+        if: steps.when.outputs.go == 'true'
+        id: post
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then echo "IG_ACCESS_TOKEN secret is not set yet; nothing posted."; exit 0; fi
+          python3 engine/instagram.py post
+      - name: Record what was posted
+        if: steps.when.outputs.go == 'true' && always()
+        run: |
+          git config user.name "five-before-monday-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A reels
+          git diff --cached --quiet || (git commit -m "Posted reels $(date -u +%F)" && git pull --rebase && git push)
+      - name: Report a failure
+        if: failure() && steps.when.outputs.go == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Reel not posted $(date -u +%F)" \
+            --body "The Instagram post failed. See the run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+  refresh-token:
+    if: github.event.schedule == '11 4 * * 0'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh the Instagram token and save it
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          NEW=$(python3 engine/instagram.py refresh)
+          echo "::add-mask::$NEW"
+          printf '%s' "$NEW" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}"
+          echo "Token refreshed."

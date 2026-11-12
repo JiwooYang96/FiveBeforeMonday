@@ -38,8 +38,15 @@ Saturday fallback researches through the API instead.
    limits, then a separate fact-check review. Failures go back for up to two rewrites.
 5. Charts and emails render, the issue and its audit trail are committed (Vercel then serves the images), and the
    Kit emails are created. The Saturday brief is scheduled for 8am New York only when every check passed and
-   automatic sending is on; otherwise it waits as a draft.
+   automatic sending isn't switched off; otherwise it waits as a draft.
 6. A GitHub issue reports the result.
 
-Needs the `ANTHROPIC_API_KEY` and `KIT_API_KEY` secrets. Set the repository variable `AUTO_SEND` to `true` to
-send without review. Run offline tests with `python3 -m unittest discover -s tests`.
+Needs the `ANTHROPIC_API_KEY` and `KIT_API_KEY` secrets. The Saturday brief sends automatically when every check
+passes; set the repository variable `AUTO_SEND` to `false` to review drafts in Kit instead. Run offline tests with `python3 -m unittest discover -s tests`.
+
+## Daily reels on Instagram
+
+The daily reel task (a scheduled Claude Code run after the New York close) queues `reels/<date>.mp4` and
+`reels/<date>.json`. `.github/workflows/post-reel.yml` posts queued reels at 6:31pm New York time through the
+Instagram API (`engine/instagram.py`), records the post link in the JSON, deletes videos older than a week,
+and refreshes the Instagram token every Sunday. Setup: `docs/INSTAGRAM_SETUP.md`.

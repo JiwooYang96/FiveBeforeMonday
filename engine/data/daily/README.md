@@ -5,7 +5,7 @@ One file per trading day, `YYYY-MM-DD.json`, written by the daily reel task afte
 ```json
 {
   "date": "2026-11-09",
-  "lead": "Nvidia fell 4.3% after CEO Jensen Huang admitted an affair; the board opened an investigation.",
+  "lead": "One sentence: what moved most today and the reason outlets give.",
   "ticker": "NVDA",
   "move": "-4.3%",
   "why": ["One sentence per cause, most important first"],

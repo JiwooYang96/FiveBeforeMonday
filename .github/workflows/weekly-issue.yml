@@ -91,7 +91,7 @@ jobs:
           KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
           ISSUE: ${{ steps.status.outputs.issue }}
           STATUS: ${{ steps.status.outputs.status }}
-          WANT: ${{ inputs.send || (vars.AUTO_SEND == 'true' && 'schedule' || 'draft') }}
+          WANT: ${{ inputs.send || (vars.AUTO_SEND == 'false' && 'draft' || 'schedule') }}
         run: |
           MODE=draft
           if [ "$STATUS" = "ready" ] && [ "$WANT" = "schedule" ]; then MODE=schedule; fi
