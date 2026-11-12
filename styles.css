@@ -140,6 +140,12 @@ section { padding: 64px 0; border-top: 1px solid var(--rule); }
 .price { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; margin-top: 32px; }
 .price .amount { font: 400 clamp(64px, 9vw, 104px)/0.9 var(--display); color: var(--red); font-variant-numeric: tabular-nums; }
 .price .amount small { font-size: 0.36em; color: var(--ink); font-style: italic; }
+.price .amount s.was, .price s { color: var(--soft); text-decoration-thickness: 2px; font-size: 0.6em; }
+.price .fine s { font-size: 1em; }
+.checkout .btn { text-align: center; font-size: 18px; }
+.btn-alt { background: var(--navy); }
+.btn-alt:hover { background: #0e1a2d; }
+[hidden] { display: none !important; }
 .price ul { padding-left: 20px; margin: 16px 0 0; display: grid; gap: 6px; }
 
 /* FAQ */

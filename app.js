@@ -72,6 +72,13 @@
     });
   });
 
+  // Founding checkout: show the Polar buttons once both links are configured.
+  if (cfg.polarYearlyUrl && cfg.polarMonthlyUrl) {
+    document.querySelectorAll("[data-plan]").forEach(function (a) { a.href = cfg[a.getAttribute("data-plan")]; });
+    document.querySelectorAll("[data-checkout]").forEach(function (el) { el.hidden = false; });
+    document.querySelectorAll("[data-waitlist]").forEach(function (el) { el.hidden = true; });
+  }
+
   // Fill in shared settings.
   document.querySelectorAll("[data-contact]").forEach(function (el) {
     el.textContent = cfg.contactEmail || "";

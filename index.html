@@ -125,15 +125,21 @@
       <h2 class="h2">Lock in the founding price</h2>
       <div class="price">
         <div>
-          <p class="amount">$79<small> / year</small></p>
-          <p class="fine">or $9 a month. Founding prices stay locked for as long as you're a member. Standard pricing later: $119 a year or $15 a month.</p>
+          <p class="amount"><s class="was">$119</s> $79<small> / year</small></p>
+          <p class="fine">or <s>$15</s> $9 a month. Founding prices stay locked for as long as you're a member.</p>
           <ul>
             <li>Every Sunday report, plus the archive</li>
             <li>The free Saturday brief, as always</li>
             <li>Cancel anytime</li>
           </ul>
         </div>
-        <div class="signup">
+        <div class="signup checkout" data-checkout hidden>
+          <h2>Become a founding member</h2>
+          <a class="btn" data-plan="polarYearlyUrl" href="#">Join yearly: $79</a>
+          <a class="btn btn-alt" data-plan="polarMonthlyUrl" href="#">Join monthly: $9</a>
+          <p class="fine">Secure checkout by Polar, our payment partner. Card, Apple Pay or Google Pay. Cancel anytime.</p>
+        </div>
+        <div class="signup" data-waitlist>
           <h2>Join the founding list</h2>
           <p class="fine">Paid issues open soon. We'll email you once, when founding spots go live.</p>
           <form data-kit="kitWaitlistFormId">

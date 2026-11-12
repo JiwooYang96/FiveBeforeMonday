@@ -95,9 +95,9 @@ jobs:
         run: |
           MODE=draft
           if [ "$STATUS" = "ready" ] && [ "$WANT" = "schedule" ]; then MODE=schedule; fi
-          echo "Saturday brief: $MODE"
+          echo "Saturday brief and Sunday report (paid members only): $MODE"
           python3 engine/send.py "$ISSUE" saturday "$MODE"
-          python3 engine/send.py "$ISSUE" sunday draft
+          python3 engine/send.py "$ISSUE" sunday "$MODE"
           echo "SAT_MODE=$MODE" >> "$GITHUB_ENV"
 
       - name: Report
