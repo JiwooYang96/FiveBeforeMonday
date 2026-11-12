@@ -3,8 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Five Before Monday</title>
+<title>Five Before Monday · Big tech stocks, explained</title>
 <meta name="description" content="The five numbers that moved big tech stocks this week, sourced and explained before Monday's open. Free every Saturday.">
+<meta property="og:title" content="Five Before Monday">
+<meta property="og:description" content="Big tech stocks, explained. Free every Saturday.">
+<meta property="og:image" content="https://fivebeforemonday.com/img/og.jpg">
+<meta property="og:url" content="https://fivebeforemonday.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
@@ -13,69 +20,85 @@
 <body>
 <header class="bar">
   <div class="wrap">
-    <a class="mark" href="index.html"><b>5</b>Before Monday</a>
+    <a class="mark" href="index.html" aria-label="Five Before Monday, home"><span class="mark-5">5</span><span class="mark-name">Before Monday</span></a>
     <nav>
-      <a href="sample.html">Sample issue</a>
-      <a class="hide-sm" href="#founding">Founding members</a>
+      <a class="hide-sm" href="#week">The week</a>
+      <a class="hide-sm" href="#inside">What you get</a>
+      <a class="hide-sm" href="#membership">Membership</a>
       <a class="hide-sm" href="#faq">FAQ</a>
+      <a class="nav-cta" href="#join">Free brief</a>
     </nav>
   </div>
 </header>
 <div class="strip" aria-label="Week to Nov 6 close"><div class="wrap"><span class="label">Week to Nov 6 close</span><span>Amazon <b class="up">▲ +7.9%</b></span><span>Alphabet <b class="up">▲ +1.8%</b></span><span>Microsoft <b class="up">▲ +1.7%</b></span><span>Apple <b class="down">▼ −0.7%</b></span><span>Meta <b class="down">▼ −0.8%</b></span><span>Nvidia <b class="down">▼ −8.8%</b></span><span>Broadcom <b class="down">▼ −9.9%</b></span><span>Tesla <b class="down">▼ −10.4%</b></span></div></div>
 
 <main>
-  <div class="wrap hero">
-    <div>
-      <h1><span class="five">Five</span>Before Monday</h1>
-      <p class="thesis">The <mark>five numbers</mark> that moved big tech this week, each one sourced and explained, in your inbox before Monday's open.</p>
-      <p class="clock">US market's next regular open in <strong id="clock">--</strong></p>
+  <!-- Front page: the logo as a masthead, one line on what this is, and the free signup -->
+  <div class="wrap front">
+    <div class="lockup" role="img" aria-label="Five Before Monday">
+      <span class="lockup-rule"></span>
+      <span class="lockup-5">5</span>
+      <span class="lockup-rule"></span>
+      <span class="lockup-name">Before Monday</span>
+      <span class="lockup-hl"></span>
     </div>
-    <div class="signup" id="join">
-      <h2>Get the free Saturday brief</h2>
-      <p class="fine">One email a week. About a minute to read. Unsubscribe anytime.</p>
-      <form data-kit="kitFreeFormId">
-        <label for="email-free">Email address</label>
-        <input id="email-free" name="email_address" type="email" required placeholder="you@example.com" autocomplete="email">
-        <button type="submit">Send me Saturday's five</button>
-      </form>
-      <p class="status" role="status"></p>
-      <p class="fine">By signing up you agree to our <a href="terms.html">terms</a> and <a href="privacy.html">privacy policy</a>. Not investment advice.</p>
+    <div class="front-copy">
+      <p class="dateline"><span>Big tech stocks, explained</span><span>Next US open in <strong id="clock">--</strong></span></p>
+      <h1 class="thesis">The <mark>five numbers</mark> that moved big tech this week, sourced and explained before Monday's open.</h1>
+      <div class="signup" id="join">
+        <h2>Get the free Saturday brief</h2>
+        <form data-kit="kitFreeFormId">
+          <label for="email-free">Email address</label>
+          <input id="email-free" name="email_address" type="email" required placeholder="you@example.com" autocomplete="email">
+          <button type="submit">Send me Saturday's five</button>
+        </form>
+        <p class="status" role="status"></p>
+        <p class="fine">One email a week, about a minute to read. Unsubscribe anytime. By signing up you agree to our <a href="terms.html">terms</a> and <a href="privacy.html">privacy policy</a>. Not investment advice.</p>
+      </div>
     </div>
   </div>
 
-  <section>
+  <!-- A · The week -->
+  <section id="week">
     <div class="wrap">
-      <p class="kicker">Week of Nov 2–6, 2026</p>
-      <h2 class="h2">Last week in five</h2>
-      <p class="lede">This is what a Saturday brief looks like. Every number names the outlet and date it came from.</p>
-      <ol class="tape">
-        <li><span class="num gold">#2</span><span class="what">Nvidia's rank by market value after Apple passed it: Apple $5.10T, Nvidia $4.83T.<span class="src">Yahoo Finance · Nov 5</span></span></li>
-        <li><span class="num down">−25%</span><span class="what">Nvidia's fall from its Oct 6 record in about a month.<span class="src">Forbes · Nov 6</span></span></li>
-        <li><span class="num down">$1.4T</span><span class="what">Market value erased in that drop.<span class="src">Forbes · Nov 6</span></span></li>
-        <li><span class="num up">165K</span><span class="what">US jobs added, against roughly 70K expected. That put a rate hike back on the table.<span class="src">Yahoo Finance &amp; Forbes · Nov 6</span></span></li>
-        <li><span class="num gold">$108B</span><span class="what">The guide Nvidia has to deliver on Nov 17. The stock fell after 6 of its last 10 reports.<span class="src">Forbes · Nov 6</span></span></li>
-      </ol>
-      <div class="mini"><h3>How the week ended</h3><p class="fine">Change from the Oct 30 close to the Nov 6 close · Yahoo Finance</p><svg viewBox="0 0 760 340" role="img" aria-label="Weekly change: Amazon +7.9%, Alphabet +1.8%, Microsoft +1.7%, Apple −0.7%, Meta −0.8%, Nvidia −8.8%, Broadcom −9.9%, Tesla −10.4%"><line x1="380" x2="380" y1="0" y2="340" stroke="#16130f" stroke-width="1.5"/><rect x="380.0" y="16" width="227.3" height="26" fill="#1f8a57" opacity="0.85"/><text x="370" y="35.0" text-anchor="end" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Amazon</text><text x="615.3" y="36.0" text-anchor="start" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#1f8a57">+7.9%</text><rect x="380.0" y="56" width="51.1" height="26" fill="#1f8a57" opacity="0.85"/><text x="370" y="75.0" text-anchor="end" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Alphabet</text><text x="439.1" y="76.0" text-anchor="start" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#1f8a57">+1.8%</text><rect x="380.0" y="96" width="48.2" height="26" fill="#1f8a57" opacity="0.85"/><text x="370" y="115.0" text-anchor="end" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Microsoft</text><text x="436.2" y="116.0" text-anchor="start" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#1f8a57">+1.7%</text><rect x="361.0" y="136" width="19.0" height="26" fill="#c8372d" opacity="0.85"/><text x="390" y="155.0" text-anchor="start" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Apple</text><text x="353.0" y="156.0" text-anchor="end" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#c8372d">−0.7%</text><rect x="357.2" y="176" width="22.8" height="26" fill="#c8372d" opacity="0.85"/><text x="390" y="195.0" text-anchor="start" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Meta</text><text x="349.2" y="196.0" text-anchor="end" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#c8372d">−0.8%</text><rect x="126.2" y="216" width="253.8" height="26" fill="#c8372d" opacity="1"/><rect x="122.2" y="212" width="261.8" height="34" fill="none" stroke="#ffd23f" stroke-width="4"/><text x="390" y="235.0" text-anchor="start" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Nvidia</text><text x="118.2" y="236.0" text-anchor="end" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#c8372d">−8.8%</text><rect x="93.6" y="256" width="286.4" height="26" fill="#c8372d" opacity="0.85"/><text x="390" y="275.0" text-anchor="start" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Broadcom</text><text x="85.6" y="276.0" text-anchor="end" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#c8372d">−9.9%</text><rect x="80.0" y="296" width="300.0" height="26" fill="#c8372d" opacity="0.85"/><text x="390" y="315.0" text-anchor="start" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="16" fill="#16130f">Tesla</text><text x="72.0" y="316.0" text-anchor="end" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#c8372d">−10.4%</text></svg></div>
+      <header class="sec-head"><span class="sec-no">A</span><div><p class="kicker">The week · Nov 2–6, 2026</p><h2 class="h2">Last week in five</h2></div></header>
+      <div class="week">
+        <ol class="tape">
+          <li><span class="num gold">#2</span><span class="what">Nvidia's rank by market value after Apple passed it: Apple $5.10T, Nvidia $4.83T.<span class="src">Yahoo Finance · Nov 5</span></span></li>
+          <li><span class="num down">−25%</span><span class="what">Nvidia's fall from its Oct 6 record in about a month.<span class="src">Forbes · Nov 6</span></span></li>
+          <li><span class="num down">$1.4T</span><span class="what">Market value erased in that drop.<span class="src">Forbes · Nov 6</span></span></li>
+          <li><span class="num up">165K</span><span class="what">US jobs added, against roughly 70K expected. That put a rate hike back on the table.<span class="src">Yahoo Finance &amp; Forbes · Nov 6</span></span></li>
+          <li><span class="num gold">$108B</span><span class="what">The guide Nvidia has to deliver on Nov 17. The stock fell after 6 of its last 10 reports.<span class="src">Forbes · Nov 6</span></span></li>
+        </ol>
+        <figure class="week-chart"><img src="img/2026-11-06-week-moves.png" alt="Weekly change: Amazon +7.9%, Alphabet +1.8%, Microsoft +1.7%, Apple −0.7%, Meta −0.8%, Nvidia −8.8%, Broadcom −9.9%, Tesla −10.4%. Source: Yahoo Finance, Nov 6, 2026." width="1200" height="1362" loading="lazy"></figure>
+      </div>
       <div class="more">
-        <a class="btn" href="sample.html">Read the full sample issue</a>
-        <span class="fine">The members' Sunday report: why each move happened, what's next, and the charts.</span>
+        <a class="btn" href="sample.html">Read a full sample report</a>
+        <span class="fine">The five above are what the free Saturday brief looks like. The sample is a full members' Sunday report.</span>
       </div>
     </div>
   </section>
 
-  <section>
+  <!-- B · What you get -->
+  <section id="inside">
     <div class="wrap">
-      <p class="kicker">Two emails a week</p>
-      <h2 class="h2">Saturday is free. Sunday goes deeper.</h2>
-      <div class="pair">
+      <header class="sec-head"><span class="sec-no">B</span><div><p class="kicker">What you get</p><h2 class="h2">Daily on Instagram. Weekly in your inbox.</h2></div></header>
+      <div class="trio">
+        <article class="mail">
+          <span class="when">Every trading day · after the close</span>
+          <h3>The daily reel</h3>
+          <span class="tag tag-blue">Free · Instagram</span>
+          <p>The day's biggest big-tech move in under 20 seconds: the number, the reason, what's next.</p>
+          <a class="link-arrow" href="https://www.instagram.com/fivebeforemonday/">Follow @fivebeforemonday</a>
+        </article>
         <article class="mail">
           <span class="when">Saturday · about 1 minute</span>
           <h3>The free brief</h3>
-          <span class="tag">Free</span>
+          <span class="tag">Free · Email</span>
           <ul>
             <li>The week's five biggest numbers in big tech</li>
             <li>The dates to watch next week</li>
-            <li>One line on what the Sunday report digs into</li>
+            <li>What the Sunday report digs into</li>
           </ul>
         </article>
         <article class="mail paid">
@@ -86,7 +109,7 @@
             <li>Why each move happened, cause by cause</li>
             <li>Charts built for a phone screen</li>
             <li>The next 7 days: earnings, data, events</li>
-            <li>Bull case vs. bear case for one featured company</li>
+            <li>Bull case vs. bear case, side by side</li>
             <li>A numbers table for the tickers we cover</li>
           </ul>
         </article>
@@ -94,24 +117,25 @@
     </div>
   </section>
 
-  <section>
+  <!-- C · Charts -->
+  <section id="charts">
     <div class="wrap">
-      <p class="kicker">Built for a phone</p>
-      <h2 class="h2">Charts you read in a glance</h2>
-      <p class="lede">Every chart names its source and its date. Intraday moves are labelled as intraday.</p>
+      <header class="sec-head"><span class="sec-no">C</span><div><p class="kicker">Built for a phone</p><h2 class="h2">Charts you read in a glance</h2></div></header>
+      <p class="lede">Every chart names its source and date. Intraday moves are labelled as intraday.</p>
       <div class="charts">
-        <figure><img src="img/sample-2026-11-06-market-value.png" alt="Bar chart: Apple market value $5.10 trillion, Nvidia $4.83 trillion. Source: Yahoo Finance, Nov 5, 2026." width="1200" height="637" loading="lazy"></figure>
-        <figure><img src="img/sample-2026-11-06-jobs.png" alt="Bar chart: US jobs added, about 70 thousand expected versus 165 thousand reported. Source: Yahoo Finance and Forbes, Nov 6, 2026." width="1200" height="880" loading="lazy"></figure>
+        <figure><img src="img/sample-2026-11-06-market-value.png" alt="Bar chart: Apple market value $5.10 trillion, Nvidia $4.83 trillion. Source: Yahoo Finance, Nov 5, 2026." loading="lazy"></figure>
+        <figure><img src="img/sample-2026-11-06-jobs.png" alt="Bar chart: US jobs added, about 70 thousand expected versus 165 thousand reported. Source: Yahoo Finance and Forbes, Nov 6, 2026." loading="lazy"></figure>
+        <figure><img src="img/2026-11-06-calendar.png" alt="Calendar: the dates that matter in the week of Nov 9, 2026. Source: bls.gov." loading="lazy"></figure>
       </div>
     </div>
   </section>
 
-  <section>
+  <!-- D · Method -->
+  <section id="method">
     <div class="wrap">
-      <p class="kicker">How each issue is made</p>
-      <h2 class="h2">Every number is checked before it reaches you.</h2>
+      <header class="sec-head"><span class="sec-no">D</span><div><p class="kicker">How each issue is made</p><h2 class="h2">Every number is checked before it reaches you.</h2></div></header>
       <ol class="steps">
-        <li><b>Read the week</b><span>We read the week's coverage of big tech stocks across major outlets, plus closing market data.</span></li>
+        <li><b>Read the week</b><span>Coverage of big tech stocks across major outlets, plus closing market data.</span></li>
         <li><b>Source every number</b><span>A figure goes in only if it traces to a page we opened, with outlet and date.</span></li>
         <li><b>Check it twice</b><span>A second review checks each claim against its source and drops what doesn't match.</span></li>
         <li><b>No tips, no calls</b><span>We explain what moved and why. We never tell you to buy or sell.</span></li>
@@ -119,11 +143,11 @@
     </div>
   </section>
 
-  <section id="founding">
+  <!-- E · Membership -->
+  <section id="membership">
     <div class="wrap">
-      <p class="kicker">Founding members · first 100</p>
-      <h2 class="h2">Lock in the founding price</h2>
-      <div class="price">
+      <header class="sec-head"><span class="sec-no">E</span><div><p class="kicker">Founding members · first 100</p><h2 class="h2">Lock in the founding price</h2></div></header>
+      <div class="price" id="founding">
         <div>
           <p class="amount"><s class="was">$119</s> $79<small> / year</small></p>
           <p class="fine">or <s>$15</s> $9 a month. Founding prices stay locked for as long as you're a member.</p>
@@ -153,15 +177,16 @@
     </div>
   </section>
 
+  <!-- F · FAQ -->
   <section id="faq">
-    <div class="narrow">
-      <p class="kicker">Questions</p>
-      <h2 class="h2">Before you sign up</h2>
-      <div class="faq">
+    <div class="wrap">
+      <header class="sec-head"><span class="sec-no">F</span><div><p class="kicker">Questions</p><h2 class="h2">Before you sign up</h2></div></header>
+      <div class="faq narrow-left">
         <details><summary>Is this investment advice?</summary><p>No. We report what moved and why, with sources. We don't know your situation and never tell anyone to buy or sell. Read the <a href="disclaimer.html">full disclaimer</a>.</p></details>
         <details><summary>How do you check the numbers?</summary><p>Every price and move is checked against closing market data. Every other figure must trace to a source page we opened, and claims are checked against those sources. Anything that reads like a tip is cut.</p></details>
         <details><summary>Which stocks do you cover?</summary><p>Big US tech and the most-watched tickers: Nvidia, Apple, Microsoft, Alphabet, Amazon, Meta, Tesla and the companies moving around them.</p></details>
         <details><summary>When do the emails arrive?</summary><p>The free brief lands on Saturday. The members' report lands on Sunday, before Monday's open in New York and London.</p></details>
+        <details><summary>How do I cancel?</summary><p>Anytime, from the link in your receipt email. You keep access until the end of the period you paid for.</p></details>
         <details><summary>Where do I see the daily updates?</summary><p>On Instagram at <a href="https://www.instagram.com/fivebeforemonday/">@fivebeforemonday</a>, one short video per trading day.</p></details>
       </div>
     </div>
@@ -169,13 +194,15 @@
 </main>
 
 <footer>
-  <div class="wrap">
+  <div class="wrap foot">
+    <a class="mark" href="index.html" aria-label="Five Before Monday, home"><span class="mark-5">5</span><span class="mark-name">Before Monday</span></a>
     <nav>
-      <a href="sample.html">Sample issue</a>
+      <a href="sample.html">Sample report</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
       <a href="disclaimer.html">Disclaimer</a>
       <a href="https://www.instagram.com/fivebeforemonday/">Instagram</a>
+      <a href="mailto:fivebeforemonday@gmail.com">Contact</a>
     </nav>
     <p>Five Before Monday is a general market newsletter. It is not investment advice and not a recommendation to buy or sell any security. Past moves don't predict future ones.</p>
     <p>© 2026 Five Before Monday</p>
