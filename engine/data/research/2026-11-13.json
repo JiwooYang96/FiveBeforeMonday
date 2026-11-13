@@ -1,0 +1,525 @@
+{
+  "week_end": "2026-11-13",
+  "made_by": "claude-code",
+  "items": [
+    {
+      "tag": "STORY",
+      "date": null,
+      "text": "Nvidia said on Thursday, Nov. 12, that co-founder Jensen Huang resigned as president, CEO and board member effective immediately, ending 33 years as CEO; CFO Colette Kress was named interim CEO while the company searches for a permanent successor.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+          "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+          "published": "Nov 12, 2026",
+          "quote": "has resigned as president, CEO, and member of the board, effective immediately"
+        },
+        {
+          "url": "https://www.cfodive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874479/",
+          "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+          "published": "Nov 12, 2026",
+          "quote": "initiated a search to find a permanent successor to Huang"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Nvidia shares fell as much as 14% on the resignation news on Nov. 12.",
+      "sources": [
+        {
+          "url": "https://www.cfodive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874479/",
+          "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+          "published": "Nov 12, 2026",
+          "quote": "Nvidia shares down as much as 14%"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia closed Nov. 12 at $166.19, down 4.34%, on volume of 734.3 million shares, well above its three-month average (Yahoo Finance).",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html",
+          "title": "Stock Market Today, Nov. 12: Nvidia Shares Slide on Reports of CEO Jensen Huang's Resignation",
+          "published": "Nov 12, 2026",
+          "quote": "closed at $166.19, falling 4.34%"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html",
+          "title": "Stock Market Today, Nov. 12: Nvidia Shares Slide on Reports of CEO Jensen Huang's Resignation",
+          "published": "Nov 12, 2026",
+          "quote": "Trading volume reached 734.3 million shares"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "The week's slide began after Nvidia's board said on Sunday, Nov. 8, it was opening an independent investigation following reports that Huang had been the target of a foreign intelligence effort (Reuters).",
+      "sources": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/nvidia-probes-whether-ceo-huang-was-target-foreign-spying-he-admits-affair",
+          "title": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
+          "published": "Nov 9, 2026",
+          "quote": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort."
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "In a Nov. 8 email to employees that Nvidia published, Huang admitted to an affair, writing that there was no excuse for what he did.",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+          "title": "A Message to Our Company",
+          "published": "Nov 8, 2026",
+          "quote": "There is no excuse for what I did. I am deeply sorry."
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "The New York Times reported in October that Huang had a relationship with Alice Huang, a former executive of Singapore-based Megaspeed, according to Reuters.",
+      "sources": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/nvidia-probes-whether-ceo-huang-was-target-foreign-spying-he-admits-affair",
+          "title": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
+          "published": "Nov 9, 2026",
+          "quote": "The New York Times reported last month that Huang had a relationship with Alice Huang, an unrelated former executive of Singapore-based company Megaspeed."
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Attorney General Todd Blanche said on Thursday the Justice Department had not concluded whether the woman is a spy, per Fox Business.",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/nvidia-stock-slide-wipes-out-billions-value-jensen-huang-days",
+          "title": "Jensen Huang's Nvidia stock loses billions in value this week",
+          "published": "Nov 13, 2026",
+          "quote": "had not arrived at a conclusion regarding whether the woman is a spy"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "As of Friday morning, Schwab said Nvidia shares were down 11% for the week and 19% for the month.",
+      "sources": [
+        {
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
+          "published": "Nov 13, 2026",
+          "quote": "down 11% this week and 19% this month"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Huang's own Nvidia holdings lost more than $20 billion in value this week on paper, Fox Business calculated.",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/nvidia-stock-slide-wipes-out-billions-value-jensen-huang-days",
+          "title": "Jensen Huang's Nvidia stock loses billions in value this week",
+          "published": "Nov 13, 2026",
+          "quote": "have plunged more than $20 billion this week"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia was on track on Friday for its longest streak of weekly losses since October 2012 (Reuters via GV Wire).",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "published": "Nov 13, 2026",
+          "quote": "were on track for their longest streak of weekly losses since October 2012"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday.",
+      "sources": [
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "published": "Nov 13, 2026",
+          "quote": "about $5.8 trillion in early October"
+        },
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "published": "Nov 13, 2026",
+          "quote": "roughly $4 trillion as of Thursday"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Bernstein downgraded Nvidia to Market-Perform and halved its price target to $200, and Oppenheimer downgraded the stock and removed its price target.",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "published": "Nov 12, 2026",
+          "quote": "halved its price target to $200"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "published": "Nov 12, 2026",
+          "quote": "removed its price target"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "HSBC downgraded Nvidia to hold from buy with a $170 target, citing uncertainty over the leadership succession.",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/analyst-ratings/hsbc-downgrades-nvidia-stock-rating-to-hold-on-leadership-uncertainty-93CH-5026273",
+          "title": "HSBC downgrades Nvidia stock rating to hold on leadership uncertainty",
+          "published": "Nov 13, 2026",
+          "quote": "citing uncertainty over the company's leadership succession"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Several firms kept Buy ratings while cutting targets: Stifel to $205 from $315, Citi to $225.",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "published": "Nov 12, 2026",
+          "quote": "cut its target to $205 from $315"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "published": "Nov 12, 2026",
+          "quote": "lowered its target to $225"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Bernstein's Stacy Rasgon said he was not worried about near-term impact on the business and that the shares 'screen extremely cheap'.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "published": "Nov 12, 2026",
+          "quote": "We aren't really worried about near-term impacts to the business"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "published": "Nov 12, 2026",
+          "quote": "the shares screen extremely cheap"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "published": "Nov 12, 2026",
+          "quote": "given her tenure as CFO since 2013 and deep institutional knowledge of Nvidia's business and strategy"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "published": "Nov 12, 2026",
+          "quote": "We see considerable uncertainty around further newsflow that is probably going to be coming down the pipe"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Baird's Tristan Gerra listed headwinds including possible further senior management departures and H200 write-down charges, and said the episode hasn't hit bottom.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "published": "Nov 12, 2026",
+          "quote": "Headwinds include potential incremental senior management departures, H200 write-down charges"
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "published": "Nov 12, 2026",
+          "quote": "the episode hasn't hit its bottom yet"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Kress keeps her CFO job while serving as interim CEO; she has been Nvidia's CFO since joining in 2013.",
+      "sources": [
+        {
+          "url": "https://www.cfodive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874479/",
+          "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+          "published": "Nov 12, 2026",
+          "quote": "will also continue serving in the EVP and CFO roles she has held since joining the company in 2013"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "On Thursday, rivals Broadcom and AMD rose more than 5% each as Nvidia fell (Schwab).",
+      "sources": [
+        {
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
+          "published": "Nov 13, 2026",
+          "quote": "rose more than 5% each Thursday"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "On Friday the selloff spread across chips: in afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9% (Reuters).",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/neoclouds-ai-stocks-slide-again-165011000.html",
+          "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+          "published": "Nov 13, 2026",
+          "quote": "The Philadelphia SE Semiconductor index also shed 5.1%, facing a more than $560 billion wipeout"
+        },
+        {
+          "url": "https://www.aol.com/articles/neoclouds-ai-stocks-slide-again-165011000.html",
+          "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+          "published": "Nov 13, 2026",
+          "quote": "Advanced Micro Devices fell 10.7% and Broadcom lost 5.9%"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "The Nasdaq-100 was down 2% on Friday afternoon, on pace to erase about $800 billion in market value (Reuters).",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/neoclouds-ai-stocks-slide-again-165011000.html",
+          "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+          "published": "Nov 13, 2026",
+          "quote": "The tech-heavy Nasdaq-100 declined 2%, on pace to erase about $800 billion in market value"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Among the big tech names, Apple and Meta were the only gainers Friday morning, each up more than 1% (Reuters via GV Wire).",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "published": "Nov 13, 2026",
+          "quote": "Apple and Meta were the only gainers, rising more than 1% each."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Microsoft was down 0.6% on Friday after a more than 12-hour outage of Outlook and Teams.",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "published": "Nov 13, 2026",
+          "quote": "Microsoft was down 0.6% after a more than 12-hour outage of Outlook and Teams."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "October consumer prices rose 0.4% and core prices 0.3%, the BLS reported on Nov. 10.",
+      "sources": [
+        {
+          "url": "https://www.bls.gov/news.release/cpi.htm",
+          "title": "Consumer Price Index News Release - 2026 M10 Results",
+          "published": "Nov 10, 2026",
+          "quote": "The index for all items less food and energy rose 0.3 percent in October, as it did in September and August."
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Stock Titan noted core CPI met the level Fed Governor Christopher Waller had set for considering a half-point hike, quoting him that a 50 basis point hike 'should be considered at the December meeting.'",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/articles/october-2026-cpi-inflation-report",
+          "title": "CPI Report Shows Core Prices Up 0.3% Again, Hitting Waller's Line for Weighing a Half Point Hike",
+          "published": "Nov 10, 2026",
+          "quote": "a 50 basis point hike in the policy rate should be considered at the December meeting."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Traders are fully pricing in a Fed rate hike in December, with odds of a 50-basis-point move around 7% per CME FedWatch (Reuters via GV Wire).",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "published": "Nov 13, 2026",
+          "quote": "Traders are fully pricing in a hike by the central bank next month"
+        },
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "published": "Nov 13, 2026",
+          "quote": "Odds of a 50-bps hike sit around 7%, according to CME"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "October producer prices rose 0.3%, below the 0.4% consensus, Schwab reported on Friday.",
+      "sources": [
+        {
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
+          "published": "Nov 13, 2026",
+          "quote": "rose 0.3% monthly versus a 0.4% consensus"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-17",
+      "text": "Nvidia reports fiscal third-quarter results Tuesday, Nov. 17, with a call at 5 p.m. ET; analysts expect earnings growth of 90% on revenue of $109 billion (Reuters).",
+      "sources": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+          "title": "NVIDIA Sets Conference Call for Third Quarter Financial Results",
+          "published": "Oct 28, 2026",
+          "quote": "NVIDIA will host a conference call on Tuesday, November 17, at 2 p.m. PT (5 p.m. ET)"
+        },
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "published": "Nov 13, 2026",
+          "quote": "Analysts expect earnings growth of 90% on revenue of $109 billion."
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-17",
+      "text": "The October US retail sales report is due Tuesday, Nov. 17.",
+      "sources": [
+        {
+          "url": "https://www.stockrover.com/blog/rovers-weekly-market-brief-11-13-2026/",
+          "title": "Rover's Weekly Market Brief - 11/13/2026",
+          "published": "Nov 13, 2026",
+          "quote": "Tuesday November 17 – Retail Sales (MoM) (October)"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-18",
+      "text": "The Fed releases minutes of its Oct. 27-28 meeting on Wednesday, Nov. 18.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+          "title": "Federal Reserve Board - November 2026 calendar",
+          "published": "Nov 2026",
+          "quote": "Meeting of October 27-28"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-19",
+      "text": "Anthropic is set to price its IPO on Nov. 18 and begin trading on Nasdaq under the ticker ANT on Thursday, Nov. 19, selling 825 million shares at $70 to $78 each.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html",
+          "title": "Everything you need to know ahead of Anthropic's IPO",
+          "published": "Nov 12, 2026",
+          "quote": "It will begin trading under the ticker ANT on Thursday, Nov. 19."
+        },
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "published": "Nov 13, 2026",
+          "quote": "up to $64.4 billion by selling 825 million shares"
+        }
+      ]
+    }
+  ],
+  "reels": [
+    {
+      "topic": "Jensen Huang quits Nvidia",
+      "hook": "Nvidia's CEO of 33 years quit. Shares sank 14%.",
+      "figure": "-14% intraday",
+      "why": "The leadership exit hit the world's AI-chip leader five days before its earnings.",
+      "item": 0
+    },
+    {
+      "topic": "Wall Street halves Nvidia targets",
+      "hook": "Bernstein just cut its Nvidia target from $400 to $200.",
+      "figure": "$200",
+      "why": "Big downgrades show how much the CEO exit changed the risk picture for analysts.",
+      "item": 11
+    },
+    {
+      "topic": "Chip selloff spreads",
+      "hook": "Nvidia's CEO quit. Then AMD fell 10.7%.",
+      "figure": "$560 billion",
+      "why": "The chip index's wipeout shows the Nvidia turmoil spreading across the AI trade.",
+      "item": 20
+    },
+    {
+      "topic": "Nvidia earnings without Jensen",
+      "hook": "Nvidia reports Tuesday. First time without Jensen Huang.",
+      "figure": "$109 billion",
+      "why": "Interim CEO Kress faces a $109 billion revenue expectation in her first report.",
+      "item": 28
+    },
+    {
+      "topic": "Anthropic IPO next week",
+      "hook": "Anthropic lists Thursday at up to $1.4 trillion.",
+      "figure": "825 million shares",
+      "why": "A record AI IPO lands right after Nvidia's report, testing the AI trade twice in one week.",
+      "item": 31
+    }
+  ]
+}
