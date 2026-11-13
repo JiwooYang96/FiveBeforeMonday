@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-13",
+  "lead": "AMD fell 8.75% to $534.06, about four times Nvidia's 2.01% drop, as the chip sector sold off over the fallout from Nvidia CEO Jensen Huang's resignation.",
+  "ticker": "AMD",
+  "move": "-8.75%",
+  "why": [
+    "Investors came to see the Nvidia leadership scandal as a broader risk for the AI-chip industry, and the sector sold off (Motley Fool).",
+    "AMD had first risen on hopes customers would shift AI-chip orders to Nvidia's rivals; it gained 5.9% Thursday after Bank of America raised its target to $700, then reversed.",
+    "Profit-taking after AMD's big run this week; volume was about 48.6M shares, roughly double the 3-month average.",
+    "Nvidia closed down 2.01% at $162.85; Intel fell 2.52%; S&P 500 -0.40%, Nasdaq -0.91%, Dow +0.10%.",
+    "Nvidia reports Q3 results Tue, Nov 17."
+  ],
+  "sources": [
+    {
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/",
+      "title": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
+      "published": "Nov 13, 2026"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today/",
+      "title": "Why Advanced Micro Devices Stock Is Down Today",
+      "published": "Nov 13, 2026"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-010-5026559",
+      "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 0.10%",
+      "published": "Nov 13, 2026"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+      "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens",
+      "published": "Nov 13, 2026"
+    }
+  ],
+  "reel": "plans/amd-chip-selloff-nov13.json in reels_generator"
+}
