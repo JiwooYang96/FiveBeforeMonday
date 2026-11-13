@@ -1,0 +1,1779 @@
+{
+  "snapshot": {
+    "as_of": "2026-11-13",
+    "week_start": "2026-11-09",
+    "week_end": "2026-11-13",
+    "stocks": {
+      "NVDA": {
+        "name": "Nvidia",
+        "close": 162.85,
+        "close_date": "2026-11-13",
+        "prev_week_close": 186.64,
+        "week_pct": -12.75,
+        "day_pct": -2.01,
+        "month_pct": -25.03,
+        "high_52w": 239.24,
+        "high_52w_date": "2026-10-06",
+        "from_high_pct": -31.93,
+        "week_closes": [
+          [
+            "2026-11-09",
+            178.67
+          ],
+          [
+            "2026-11-10",
+            168.89
+          ],
+          [
+            "2026-11-11",
+            173.73
+          ],
+          [
+            "2026-11-12",
+            166.19
+          ],
+          [
+            "2026-11-13",
+            162.85
+          ]
+        ],
+        "shares": 24100000000,
+        "shares_date": "2026-08-21",
+        "market_cap": 3924685000000
+      },
+      "AAPL": {
+        "name": "Apple",
+        "close": 356.27,
+        "close_date": "2026-11-13",
+        "prev_week_close": 342.37,
+        "week_pct": 4.06,
+        "day_pct": 0.39,
+        "month_pct": 4.17,
+        "high_52w": 356.27,
+        "high_52w_date": "2026-11-13",
+        "from_high_pct": 0.0,
+        "week_closes": [
+          [
+            "2026-11-09",
+            350.69
+          ],
+          [
+            "2026-11-10",
+            348.51
+          ],
+          [
+            "2026-11-11",
+            355.63
+          ],
+          [
+            "2026-11-12",
+            354.88
+          ],
+          [
+            "2026-11-13",
+            356.27
+          ]
+        ],
+        "shares": 14532182000,
+        "shares_date": "2026-10-23",
+        "market_cap": 5177380481140
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "close": 523.88,
+        "close_date": "2026-11-13",
+        "prev_week_close": 530.61,
+        "week_pct": -1.27,
+        "day_pct": 0.17,
+        "month_pct": -2.88,
+        "high_52w": 555.8,
+        "high_52w_date": "2026-11-04",
+        "from_high_pct": -5.74,
+        "week_closes": [
+          [
+            "2026-11-09",
+            545.18
+          ],
+          [
+            "2026-11-10",
+            533.16
+          ],
+          [
+            "2026-11-11",
+            521.13
+          ],
+          [
+            "2026-11-12",
+            523.0
+          ],
+          [
+            "2026-11-13",
+            523.88
+          ]
+        ],
+        "shares": 7426194552,
+        "shares_date": "2026-10-22",
+        "market_cap": 3890434801902
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "close": 295.77,
+        "close_date": "2026-11-13",
+        "prev_week_close": 284.78,
+        "week_pct": 3.86,
+        "day_pct": -0.98,
+        "month_pct": -15.31,
+        "high_52w": 402.62,
+        "high_52w_date": "2026-05-13",
+        "from_high_pct": -26.54,
+        "week_closes": [
+          [
+            "2026-11-09",
+            288.15
+          ],
+          [
+            "2026-11-10",
+            287.38
+          ],
+          [
+            "2026-11-11",
+            293.45
+          ],
+          [
+            "2026-11-12",
+            298.7
+          ],
+          [
+            "2026-11-13",
+            295.77
+          ]
+        ]
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "close": 266.66,
+        "close_date": "2026-11-13",
+        "prev_week_close": 259.3,
+        "week_pct": 2.84,
+        "day_pct": -0.29,
+        "month_pct": 4.67,
+        "high_52w": 284.02,
+        "high_52w_date": "2026-08-03",
+        "from_high_pct": -6.11,
+        "week_closes": [
+          [
+            "2026-11-09",
+            266.93
+          ],
+          [
+            "2026-11-10",
+            270.87
+          ],
+          [
+            "2026-11-11",
+            266.17
+          ],
+          [
+            "2026-11-12",
+            267.44
+          ],
+          [
+            "2026-11-13",
+            266.66
+          ]
+        ],
+        "shares": 10813138306,
+        "shares_date": "2026-10-21",
+        "market_cap": 2883431460678
+      },
+      "META": {
+        "name": "Meta",
+        "close": 641.69,
+        "close_date": "2026-11-13",
+        "prev_week_close": 610.15,
+        "week_pct": 5.17,
+        "day_pct": 2.9,
+        "month_pct": -12.9,
+        "high_52w": 777.59,
+        "high_52w_date": "2026-09-24",
+        "from_high_pct": -17.48,
+        "week_closes": [
+          [
+            "2026-11-09",
+            641.37
+          ],
+          [
+            "2026-11-10",
+            641.39
+          ],
+          [
+            "2026-11-11",
+            628.77
+          ],
+          [
+            "2026-11-12",
+            623.61
+          ],
+          [
+            "2026-11-13",
+            641.69
+          ]
+        ]
+      },
+      "AVGO": {
+        "name": "Broadcom",
+        "close": 347.01,
+        "close_date": "2026-11-13",
+        "prev_week_close": 293.69,
+        "week_pct": 18.16,
+        "day_pct": -4.76,
+        "month_pct": 0.78,
+        "high_52w": 481.57,
+        "high_52w_date": "2026-06-02",
+        "from_high_pct": -27.94,
+        "week_closes": [
+          [
+            "2026-11-09",
+            319.48
+          ],
+          [
+            "2026-11-10",
+            331.98
+          ],
+          [
+            "2026-11-11",
+            345.22
+          ],
+          [
+            "2026-11-12",
+            364.36
+          ],
+          [
+            "2026-11-13",
+            347.01
+          ]
+        ],
+        "shares": 4773629865,
+        "shares_date": "2026-08-28",
+        "market_cap": 1656497299454
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "close": 390.22,
+        "close_date": "2026-11-13",
+        "prev_week_close": 358.22,
+        "week_pct": 8.93,
+        "day_pct": -1.82,
+        "month_pct": 7.66,
+        "high_52w": 489.88,
+        "high_52w_date": "2025-12-16",
+        "from_high_pct": -20.34,
+        "week_closes": [
+          [
+            "2026-11-09",
+            378.05
+          ],
+          [
+            "2026-11-10",
+            379.78
+          ],
+          [
+            "2026-11-11",
+            390.84
+          ],
+          [
+            "2026-11-12",
+            397.45
+          ],
+          [
+            "2026-11-13",
+            390.22
+          ]
+        ],
+        "shares": 3952757946,
+        "shares_date": "2026-10-15",
+        "market_cap": 1542445205688
+      }
+    },
+    "indices": {
+      "^NDX": {
+        "name": "Nasdaq-100",
+        "close": 27943.74,
+        "close_date": "2026-11-13",
+        "prev_week_close": 26989.99,
+        "week_pct": 3.53,
+        "day_pct": -1.22,
+        "month_pct": -6.65,
+        "high_52w": 31224.47,
+        "high_52w_date": "2026-10-06",
+        "from_high_pct": -10.51,
+        "week_closes": [
+          [
+            "2026-11-09",
+            27907.63
+          ],
+          [
+            "2026-11-10",
+            27740.79
+          ],
+          [
+            "2026-11-11",
+            28374.25
+          ],
+          [
+            "2026-11-12",
+            28289.19
+          ],
+          [
+            "2026-11-13",
+            27943.74
+          ]
+        ]
+      },
+      "^GSPC": {
+        "name": "S&P 500",
+        "close": 7561.67,
+        "close_date": "2026-11-13",
+        "prev_week_close": 7376.86,
+        "week_pct": 2.51,
+        "day_pct": -0.4,
+        "month_pct": -2.36,
+        "high_52w": 7818.93,
+        "high_52w_date": "2026-10-06",
+        "from_high_pct": -3.29,
+        "week_closes": [
+          [
+            "2026-11-09",
+            7549.94
+          ],
+          [
+            "2026-11-10",
+            7520.93
+          ],
+          [
+            "2026-11-11",
+            7619.38
+          ],
+          [
+            "2026-11-12",
+            7592.4
+          ],
+          [
+            "2026-11-13",
+            7561.67
+          ]
+        ]
+      },
+      "^SOX": {
+        "name": "Chip index (SOX)",
+        "close": 10146.32,
+        "close_date": "2026-11-13",
+        "prev_week_close": 9390.25,
+        "week_pct": 8.05,
+        "day_pct": -3.43,
+        "month_pct": -12.39,
+        "high_52w": 14634.72,
+        "high_52w_date": "2026-06-22",
+        "from_high_pct": -30.67,
+        "week_closes": [
+          [
+            "2026-11-09",
+            10033.93
+          ],
+          [
+            "2026-11-10",
+            9998.33
+          ],
+          [
+            "2026-11-11",
+            10564.11
+          ],
+          [
+            "2026-11-12",
+            10506.67
+          ],
+          [
+            "2026-11-13",
+            10146.32
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "Yahoo Finance",
+      "SEC EDGAR (shares outstanding)"
+    ]
+  },
+  "research_dropped": [],
+  "evidence": [
+    {
+      "id": "E1",
+      "tag": "STORY",
+      "date": null,
+      "text": "Nvidia said on Thursday, Nov. 12, that co-founder Jensen Huang resigned as president, CEO and board member effective immediately, ending 33 years as CEO; CFO Colette Kress was named interim CEO while the company searches for a permanent successor.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+          "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+          "cited_text": "has resigned as president, CEO, and member of the board, effective immediately",
+          "outlet": "techcrunch.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://www.cfodive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874479/",
+          "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+          "cited_text": "initiated a search to find a permanent successor to Huang",
+          "outlet": "cfodive.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Nvidia shares fell as much as 14% on the resignation news on Nov. 12.",
+      "sources": [
+        {
+          "url": "https://www.cfodive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874479/",
+          "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+          "cited_text": "Nvidia shares down as much as 14%",
+          "outlet": "cfodive.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia closed Nov. 12 at $166.19, down 4.34%, on volume of 734.3 million shares, well above its three-month average (Yahoo Finance).",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html",
+          "title": "Stock Market Today, Nov. 12: Nvidia Shares Slide on Reports of CEO Jensen Huang's Resignation",
+          "cited_text": "closed at $166.19, falling 4.34%",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html",
+          "title": "Stock Market Today, Nov. 12: Nvidia Shares Slide on Reports of CEO Jensen Huang's Resignation",
+          "cited_text": "Trading volume reached 734.3 million shares",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "The week's slide began after Nvidia's board said on Sunday, Nov. 8, it was opening an independent investigation following reports that Huang had been the target of a foreign intelligence effort (Reuters).",
+      "sources": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/nvidia-probes-whether-ceo-huang-was-target-foreign-spying-he-admits-affair",
+          "title": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
+          "cited_text": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort.",
+          "outlet": "live.euronext.com",
+          "page_age": "Nov 9, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "In a Nov. 8 email to employees that Nvidia published, Huang admitted to an affair, writing that there was no excuse for what he did.",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+          "title": "A Message to Our Company",
+          "cited_text": "There is no excuse for what I did. I am deeply sorry.",
+          "outlet": "nvidianews.nvidia.com",
+          "page_age": "Nov 8, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E6",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "The New York Times reported in October that Huang had a relationship with Alice Huang, a former executive of Singapore-based Megaspeed, according to Reuters.",
+      "sources": [
+        {
+          "url": "https://live.euronext.com/en/financial-news/nvidia-probes-whether-ceo-huang-was-target-foreign-spying-he-admits-affair",
+          "title": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
+          "cited_text": "The New York Times reported last month that Huang had a relationship with Alice Huang, an unrelated former executive of Singapore-based company Megaspeed.",
+          "outlet": "live.euronext.com",
+          "page_age": "Nov 9, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E7",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Attorney General Todd Blanche said on Thursday the Justice Department had not concluded whether the woman is a spy, per Fox Business.",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/nvidia-stock-slide-wipes-out-billions-value-jensen-huang-days",
+          "title": "Jensen Huang's Nvidia stock loses billions in value this week",
+          "cited_text": "had not arrived at a conclusion regarding whether the woman is a spy",
+          "outlet": "foxbusiness.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E8",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "As of Friday morning, Schwab said Nvidia shares were down 11% for the week and 19% for the month.",
+      "sources": [
+        {
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
+          "cited_text": "down 11% this week and 19% this month",
+          "outlet": "schwab.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E9",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Huang's own Nvidia holdings lost more than $20 billion in value this week on paper, Fox Business calculated.",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/nvidia-stock-slide-wipes-out-billions-value-jensen-huang-days",
+          "title": "Jensen Huang's Nvidia stock loses billions in value this week",
+          "cited_text": "have plunged more than $20 billion this week",
+          "outlet": "foxbusiness.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia was on track on Friday for its longest streak of weekly losses since October 2012 (Reuters via GV Wire).",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "cited_text": "were on track for their longest streak of weekly losses since October 2012",
+          "outlet": "gvwire.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday.",
+      "sources": [
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "cited_text": "about $5.8 trillion in early October",
+          "outlet": "kitco.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "cited_text": "roughly $4 trillion as of Thursday",
+          "outlet": "kitco.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Bernstein downgraded Nvidia to Market-Perform and halved its price target to $200, and Oppenheimer downgraded the stock and removed its price target.",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "cited_text": "halved its price target to $200",
+          "outlet": "investing.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "cited_text": "removed its price target",
+          "outlet": "investing.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "HSBC downgraded Nvidia to hold from buy with a $170 target, citing uncertainty over the leadership succession.",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/analyst-ratings/hsbc-downgrades-nvidia-stock-rating-to-hold-on-leadership-uncertainty-93CH-5026273",
+          "title": "HSBC downgrades Nvidia stock rating to hold on leadership uncertainty",
+          "cited_text": "citing uncertainty over the company's leadership succession",
+          "outlet": "investing.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "tag": "BULL",
+      "date": null,
+      "text": "Several firms kept Buy ratings while cutting targets: Stifel to $205 from $315, Citi to $225.",
+      "sources": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "cited_text": "cut its target to $205 from $315",
+          "outlet": "investing.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-reacts-to-nvidia-saga-bernstein-and-oppenheimer-downgrade-stock-5021136",
+          "title": "Wall Street reacts to Nvidia saga, Bernstein and Oppenheimer downgrade stock",
+          "cited_text": "lowered its target to $225",
+          "outlet": "investing.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "tag": "BULL",
+      "date": null,
+      "text": "Bernstein's Stacy Rasgon said he was not worried about near-term impact on the business and that the shares 'screen extremely cheap'.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "cited_text": "We aren't really worried about near-term impacts to the business",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "cited_text": "the shares screen extremely cheap",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E16",
+      "tag": "BULL",
+      "date": null,
+      "text": "KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "cited_text": "given her tenure as CFO since 2013 and deep institutional knowledge of Nvidia's business and strategy",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E17",
+      "tag": "BEAR",
+      "date": null,
+      "text": "Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "cited_text": "We see considerable uncertainty around further newsflow that is probably going to be coming down the pipe",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E18",
+      "tag": "BEAR",
+      "date": null,
+      "text": "Baird's Tristan Gerra listed headwinds including possible further senior management departures and H200 write-down charges, and said the episode hasn't hit bottom.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "cited_text": "Headwinds include potential incremental senior management departures, H200 write-down charges",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://finance.yahoo.com/technology/article/nvidia-cfo-solid-pick-for-interim-ceo-but-company-outlook-is-clouded-wall-street-says-181415153.html",
+          "title": "Nvidia CFO solid pick for interim CEO, but company outlook is clouded, Wall Street says",
+          "cited_text": "the episode hasn't hit its bottom yet",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E19",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Kress keeps her CFO job while serving as interim CEO; she has been Nvidia's CFO since joining in 2013.",
+      "sources": [
+        {
+          "url": "https://www.cfodive.com/news/nvidia-ceo-resigns-scandal-cfo-named-interim-ceo-ai/874479/",
+          "title": "Nvidia CEO resigns amid scandal; CFO named interim",
+          "cited_text": "will also continue serving in the EVP and CFO roles she has held since joining the company in 2013",
+          "outlet": "cfodive.com",
+          "page_age": "Nov 12, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E20",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "On Thursday, rivals Broadcom and AMD rose more than 5% each as Nvidia fell (Schwab).",
+      "sources": [
+        {
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
+          "cited_text": "rose more than 5% each Thursday",
+          "outlet": "schwab.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E21",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "On Friday the selloff spread across chips: in afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9% (Reuters).",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/neoclouds-ai-stocks-slide-again-165011000.html",
+          "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+          "cited_text": "The Philadelphia SE Semiconductor index also shed 5.1%, facing a more than $560 billion wipeout",
+          "outlet": "aol.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://www.aol.com/articles/neoclouds-ai-stocks-slide-again-165011000.html",
+          "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+          "cited_text": "Advanced Micro Devices fell 10.7% and Broadcom lost 5.9%",
+          "outlet": "aol.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E22",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "The Nasdaq-100 was down 2% on Friday afternoon, on pace to erase about $800 billion in market value (Reuters).",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/neoclouds-ai-stocks-slide-again-165011000.html",
+          "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+          "cited_text": "The tech-heavy Nasdaq-100 declined 2%, on pace to erase about $800 billion in market value",
+          "outlet": "aol.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E23",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Among the big tech names, Apple and Meta were the only gainers Friday morning, each up more than 1% (Reuters via GV Wire).",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "cited_text": "Apple and Meta were the only gainers, rising more than 1% each.",
+          "outlet": "gvwire.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E24",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Microsoft was down 0.6% on Friday after a more than 12-hour outage of Outlook and Teams.",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "cited_text": "Microsoft was down 0.6% after a more than 12-hour outage of Outlook and Teams.",
+          "outlet": "gvwire.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E25",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "October consumer prices rose 0.4% and core prices 0.3%, the BLS reported on Nov. 10.",
+      "sources": [
+        {
+          "url": "https://www.bls.gov/news.release/cpi.htm",
+          "title": "Consumer Price Index News Release - 2026 M10 Results",
+          "cited_text": "The index for all items less food and energy rose 0.3 percent in October, as it did in September and August.",
+          "outlet": "bls.gov",
+          "page_age": "Nov 10, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E26",
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Stock Titan noted core CPI met the level Fed Governor Christopher Waller had set for considering a half-point hike, quoting him that a 50 basis point hike 'should be considered at the December meeting.'",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/articles/october-2026-cpi-inflation-report",
+          "title": "CPI Report Shows Core Prices Up 0.3% Again, Hitting Waller's Line for Weighing a Half Point Hike",
+          "cited_text": "a 50 basis point hike in the policy rate should be considered at the December meeting.",
+          "outlet": "stocktitan.net",
+          "page_age": "Nov 10, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E27",
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Traders are fully pricing in a Fed rate hike in December, with odds of a 50-basis-point move around 7% per CME FedWatch (Reuters via GV Wire).",
+      "sources": [
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "cited_text": "Traders are fully pricing in a hike by the central bank next month",
+          "outlet": "gvwire.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        },
+        {
+          "url": "https://gvwire.com/2026/11/13/wall-street-reverses-early-gains-as-nvidia-fallout-rattles-tech-stocks/",
+          "title": "Wall Street Reverses Early Gains as Nvidia Fallout Rattles Tech Stocks",
+          "cited_text": "Odds of a 50-bps hike sit around 7%, according to CME",
+          "outlet": "gvwire.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E28",
+      "tag": "NUMBER",
+      "date": null,
+      "text": "October producer prices rose 0.3%, below the 0.4% consensus, Schwab reported on Friday.",
+      "sources": [
+        {
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "title": "Nvidia's Huang Resigns, Tech Stocks Drag Market",
+          "cited_text": "rose 0.3% monthly versus a 0.4% consensus",
+          "outlet": "schwab.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E29",
+      "tag": "EVENT",
+      "date": "2026-11-17",
+      "text": "Nvidia reports fiscal third-quarter results Tuesday, Nov. 17, with a call at 5 p.m. ET; analysts expect earnings growth of 90% on revenue of $109 billion (Reuters).",
+      "sources": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+          "title": "NVIDIA Sets Conference Call for Third Quarter Financial Results",
+          "cited_text": "NVIDIA will host a conference call on Tuesday, November 17, at 2 p.m. PT (5 p.m. ET)",
+          "outlet": "investor.nvidia.com",
+          "page_age": "Oct 28, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "cited_text": "Analysts expect earnings growth of 90% on revenue of $109 billion.",
+          "outlet": "kitco.com",
+          "page_age": "Nov 13, 2026",
+          "verified": null
+        }
+      ]
+    },
+    {
+      "id": "E30",
+      "tag": "EVENT",
+      "date": "2026-11-17",
+      "text": "The October US retail sales report is due Tuesday, Nov. 17.",
+      "sources": [
+        {
+          "url": "https://www.stockrover.com/blog/rovers-weekly-market-brief-11-13-2026/",
+          "title": "Rover's Weekly Market Brief - 11/13/2026",
+          "cited_text": "Tuesday November 17 – Retail Sales (MoM) (October)",
+          "outlet": "stockrover.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E31",
+      "tag": "EVENT",
+      "date": "2026-11-18",
+      "text": "The Fed releases minutes of its Oct. 27-28 meeting on Wednesday, Nov. 18.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+          "title": "Federal Reserve Board - November 2026 calendar",
+          "cited_text": "Meeting of October 27-28",
+          "outlet": "federalreserve.gov",
+          "page_age": "Nov 2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "E32",
+      "tag": "EVENT",
+      "date": "2026-11-19",
+      "text": "Anthropic is set to price its IPO on Nov. 18 and begin trading on Nasdaq under the ticker ANT on Thursday, Nov. 19, selling 825 million shares at $70 to $78 each.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html",
+          "title": "Everything you need to know ahead of Anthropic's IPO",
+          "cited_text": "It will begin trading under the ticker ANT on Thursday, Nov. 19.",
+          "outlet": "finance.yahoo.com",
+          "page_age": "Nov 12, 2026",
+          "verified": true
+        },
+        {
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous",
+          "title": "Wall St Week Ahead Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+          "cited_text": "up to $64.4 billion by selling 825 million shares",
+          "outlet": "kitco.com",
+          "page_age": "Nov 13, 2026",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "draft": {
+        "featured": "Nvidia",
+        "saturday": {
+          "subject": "Nvidia fell 12.8% this week. Five numbers.",
+          "preheader": "Plus Tuesday's earnings and an AI IPO on next week's calendar."
+        },
+        "sunday": {
+          "subject": "Why Nvidia fell 12.8% when its CEO left",
+          "preheader": "Three causes, the bull and bear cases, and Tuesday's test.",
+          "headline": "Nvidia's CEO exits and the stock slides",
+          "lead": "Nvidia fell −12.8% this week after Jensen Huang resigned as CEO during a board investigation. It closed Nov 13 at $162.85, which is −31.9% from its Oct 6 high.",
+          "what_happened": "The slide began on Sunday, Nov. 8. Nvidia's board said it was opening an independent investigation after reports that Huang had been the target of a foreign intelligence effort. Huang also emailed employees that day and admitted to an affair. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress became interim CEO while the board searches for a permanent successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Friday added another −2.0%, and the chip index (SOX) fell −3.4% as the selloff spread. For the week, Nvidia ended −12.8%. Over about a month it is −25.0%. Its market value is about $3.92T, still #2 among the tracked stocks behind Apple at $5.18T. Reuters reported the figure was about $5.8 trillion in early October."
+        },
+        "five": [
+          {
+            "num": "−12.8%",
+            "tone": "down",
+            "text": "Nvidia's weekly change, in the week its CEO resigned and its board opened an investigation.",
+            "source": "Closing prices · Nov 13"
+          },
+          {
+            "num": "+18.2%",
+            "tone": "up",
+            "text": "Broadcom's weekly change. A rival to Nvidia, it gained on the week even though it fell −4.8% on Friday.",
+            "source": "Closing prices · Nov 13"
+          },
+          {
+            "num": "14%",
+            "tone": "down",
+            "text": "Nvidia shares fell as much as 14% on Thursday, the day the resignation was announced.",
+            "source": "CFO Dive · Nov 12"
+          },
+          {
+            "num": "$20 billion",
+            "tone": "down",
+            "text": "Huang's own Nvidia holdings lost more than $20 billion on paper this week, Fox Business calculated.",
+            "source": "Fox Business · Nov 13"
+          },
+          {
+            "num": "#2",
+            "tone": "gold",
+            "text": "Nvidia is second by market value among the tracked stocks, behind Apple, which closed at a 52-week high.",
+            "source": "Closing prices · Nov 13"
+          }
+        ],
+        "next_week": [
+          {
+            "date": "2026-11-17",
+            "what": "Nvidia reports fiscal third-quarter results after the close, with a call at 5 p.m. ET.",
+            "event": "Nvidia earnings",
+            "detail": "Revenue of $109 billion expected",
+            "source": "Kitco · Nov 13",
+            "evidence": [
+              "E29"
+            ]
+          },
+          {
+            "date": "2026-11-17",
+            "what": "The October US retail sales report is due.",
+            "event": "Retail sales",
+            "detail": "October report",
+            "source": "Stockrover · Nov 13",
+            "evidence": [
+              "E30"
+            ]
+          },
+          {
+            "date": "2026-11-18",
+            "what": "The Fed releases minutes of its Oct. 27-28 meeting.",
+            "event": "Fed minutes",
+            "detail": "Oct. 27-28 meeting",
+            "source": "Federal Reserve · Nov 13",
+            "evidence": [
+              "E31"
+            ]
+          },
+          {
+            "date": "2026-11-19",
+            "what": "Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday.",
+            "event": "Anthropic IPO",
+            "detail": "825 million shares at $70 to $78",
+            "source": "Yahoo Finance · Nov 12",
+            "evidence": [
+              "E32"
+            ]
+          }
+        ],
+        "teaser": "Sunday's report answers why one CEO's exit cost Nvidia −12.8% in a week, and why the damage reached chips and the Nasdaq-100.",
+        "causes": [
+          {
+            "title": "CEO exit and probe",
+            "stat": "14%",
+            "text": "The week turned on one person. On Sunday, Nov. 8, Nvidia's board said it was opening an independent investigation after reports that Jensen Huang had been the target of a foreign intelligence effort. Huang emailed staff that day and admitted to an affair. 'There is no excuse for what I did,' he wrote. The New York Times had reported in October that he had a relationship with Alice Huang, a former executive of Singapore-based Megaspeed, per Reuters. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately, ending 33 years as CEO. CFO Colette Kress is interim CEO and keeps her CFO job while the board searches for a successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Attorney General Todd Blanche said the Justice Department had not concluded whether the woman is a spy. Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday. The link to the move is direct. A founder who ran the company for 33 years left suddenly, and the facts around him are still unsettled.",
+            "source": "CFO Dive · Nov 12",
+            "evidence": [
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E11",
+              "E19"
+            ]
+          },
+          {
+            "title": "Analyst downgrades",
+            "stat": "$200",
+            "text": "Wall Street reset its views quickly. Bernstein downgraded Nvidia to Market-Perform and halved its price target to $200. Oppenheimer downgraded the stock and removed its price target. HSBC followed, cutting to hold from buy with a $170 target and citing uncertainty over the leadership succession. A removed target means the analyst no longer wants to put a number on the shares. Not every firm turned negative. Stifel kept its Buy rating but cut its target to $205 from $315. Citi kept Buy and lowered its target to $225. Even the optimists lowered their numbers. Baird's Tristan Gerra listed possible further senior management departures and H200 write-down charges as headwinds. He said the episode hasn't hit its bottom yet. Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business. He also warned of 'considerable uncertainty' around further news flow. That is how a leadership story became a valuation story. The analysts who set targets stopped trusting their old numbers, and the stock was repriced while they worked out new ones.",
+            "source": "Investing.com · Nov 12",
+            "evidence": [
+              "E12",
+              "E13",
+              "E14",
+              "E15",
+              "E17",
+              "E18"
+            ]
+          },
+          {
+            "title": "Chip selloff spreads",
+            "stat": "5.1%",
+            "text": "The damage did not stay inside one stock. On Thursday, Broadcom and AMD rose more than 5% each as Nvidia fell, per Schwab. On Friday that reversed. In afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9%, Reuters reported. By the close, the chip index (SOX) was −3.4% on the day and Broadcom was −4.8%. Both still ended the week higher, at +8.1% and +18.2%. The Nasdaq-100 was down 2% in the afternoon, on pace to erase about $800 billion in market value. It closed the day at −1.2%. Reuters said Nvidia was on track for its longest streak of weekly losses since October 2012. The backdrop did not help. October core consumer prices rose 0.3%. Traders are fully pricing in a Fed rate hike in December, with odds of a 50-basis-point move around 7%, per CME FedWatch. Reuters headlined the day as Nvidia turmoil rattling the sector. The link to Nvidia's week is that chips and the index traded off the same news.",
+            "source": "AOL · Nov 13",
+            "evidence": [
+              "E10",
+              "E20",
+              "E21",
+              "E22",
+              "E25",
+              "E27"
+            ]
+          }
+        ],
+        "after_causes": {
+          "title": "A lopsided week",
+          "text": "Nvidia's drop did not drag the group down. Broadcom led at +18.2%, followed by Tesla at +8.9%, Meta at +5.2%, Apple at +4.1%, Alphabet at +3.9% and Amazon at +2.8%. Microsoft slipped −1.3%. Nvidia ended −12.8%. The Nasdaq-100 gained +3.5% and the S&P 500 gained +2.5%. The chip index (SOX) rose +8.1%, helped by Nvidia's rivals. Apple finished Friday at a 52-week high and is #1 by market value among the tracked stocks. The chart below shows every stock's move."
+        },
+        "next_text": "Tuesday, Nov. 17, is the big date. Nvidia reports fiscal third-quarter results with a call at 5 p.m. ET. Analysts expect earnings growth of 90% on revenue of $109 billion, per Reuters. It is the first report since Huang resigned. Results near those figures would keep the focus on the business. Kress's comments on the successor search would draw attention too. Any mention of the H200 write-down charges or further senior departures that Baird flagged would lend weight to the bear case. October retail sales also arrive Tuesday. On Wednesday, Nov. 18, the Fed releases minutes of its Oct. 27-28 meeting. Traders are fully pricing in a December hike. Governor Christopher Waller has said a 50 basis point hike should be considered. Minutes showing broad support for that would feed rate worries. Minutes showing little would ease them. Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday, Nov. 19. It is selling 825 million shares at $70 to $78 each. Reuters frames the IPO, like Nvidia's results, as a test for the AI trade.",
+        "bull": [
+          "Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business and that the shares 'screen extremely cheap'.",
+          "Stifel and Citi kept Buy ratings. Stifel cut its target to $205 from $315 and Citi lowered its target to $225.",
+          "KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013."
+        ],
+        "bear": [
+          "Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.",
+          "Baird's Tristan Gerra pointed to possible further senior departures and H200 write-down charges, and said the episode hasn't hit its bottom yet.",
+          "HSBC downgraded to hold from buy with a $170 target, citing uncertainty over succession. Oppenheimer removed its target."
+        ],
+        "table": [
+          [
+            "Nvidia weekly change",
+            "−12.8%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia closing price",
+            "$162.85",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia distance from 52-week high (Oct 6)",
+            "−31.9%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia market value (approx.)",
+            "$3.92T",
+            "Nov 13",
+            "Yahoo Finance, SEC EDGAR"
+          ],
+          [
+            "Nvidia closing price on resignation day",
+            "$166.19",
+            "Nov 12",
+            "Yahoo Finance"
+          ],
+          [
+            "Bernstein price target after cut",
+            "$200",
+            "Nov 12",
+            "Investing.com"
+          ],
+          [
+            "HSBC price target after downgrade",
+            "$170",
+            "Nov 13",
+            "Investing.com"
+          ],
+          [
+            "Chip index (SOX) weekly change",
+            "+8.1%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nasdaq-100 weekly change",
+            "+3.5%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Analyst revenue expectation, Nvidia quarter",
+            "$109 billion",
+            "Nov 13",
+            "Kitco"
+          ]
+        ],
+        "compare_chart": {
+          "title": "Nvidia market value",
+          "subtitle": "Reuters figures, in trillions of dollars",
+          "rows": [
+            {
+              "label": "Early October",
+              "value": 5.8,
+              "display": "$5.8 trillion",
+              "hero": false
+            },
+            {
+              "label": "As of Thursday",
+              "value": 4,
+              "display": "$4 trillion",
+              "hero": true
+            }
+          ],
+          "source": "Kitco · Nov 13",
+          "cause": 0
+        }
+      },
+      "problems": [
+        "five[4].text: the figure \"52\" is not in DATA or in any EVIDENCE source text",
+        "next_week[3].detail: the figure \"$70\" is not in DATA or in any EVIDENCE source text",
+        "next_week[3].detail: the figure \"$78\" is not in DATA or in any EVIDENCE source text",
+        "causes[0].text: the figure \"33\" is not in DATA or in any EVIDENCE source text",
+        "causes[0].text: the figure \"33\" is not in DATA or in any EVIDENCE source text",
+        "causes[1].text: the figure \"$170\" is not in DATA or in any EVIDENCE source text",
+        "after_causes.text: the figure \"52\" is not in DATA or in any EVIDENCE source text",
+        "next_text: the figure \"$70\" is not in DATA or in any EVIDENCE source text",
+        "next_text: the figure \"$78\" is not in DATA or in any EVIDENCE source text",
+        "bear[2]: the figure \"$170\" is not in DATA or in any EVIDENCE source text",
+        "table[2][0]: the figure \"52\" is not in DATA or in any EVIDENCE source text",
+        "table[6][1]: the figure \"$170\" is not in DATA or in any EVIDENCE source text",
+        "causes[1].text: reads like advice or a prediction (\"price target\")",
+        "table[5][0]: reads like advice or a prediction (\"price target\")",
+        "table[6][0]: reads like advice or a prediction (\"price target\")"
+      ]
+    },
+    {
+      "draft": {
+        "featured": "Nvidia",
+        "saturday": {
+          "subject": "Nvidia fell 12.8% this week. Five numbers.",
+          "preheader": "Plus Tuesday's earnings and an AI IPO on next week's calendar."
+        },
+        "sunday": {
+          "subject": "Why Nvidia fell 12.8% when its CEO left",
+          "preheader": "Three causes, the bull and bear cases, and Tuesday's test.",
+          "headline": "Nvidia's CEO exits and the stock slides",
+          "lead": "Nvidia fell −12.8% this week after Jensen Huang resigned as CEO during a board investigation. It closed Nov 13 at $162.85, which is −31.9% from its Oct 6 high.",
+          "what_happened": "The slide began on Sunday, Nov. 8. Nvidia's board said it was opening an independent investigation after reports that Huang had been the target of a foreign intelligence effort. Huang also emailed employees that day and admitted to an affair. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress became interim CEO while the board searches for a permanent successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Friday added another −2.0%, and the chip index (SOX) fell −3.4% as the selloff spread. For the week, Nvidia ended −12.8%. Over about a month it is −25.0%. Its market value is about $3.92T, still #2 among the tracked stocks behind Apple at $5.18T. Reuters reported the figure was about $5.8 trillion in early October."
+        },
+        "five": [
+          {
+            "num": "−12.8%",
+            "tone": "down",
+            "text": "Nvidia's weekly change, in the week its CEO resigned and its board opened an investigation.",
+            "source": "Closing prices · Nov 13"
+          },
+          {
+            "num": "+18.2%",
+            "tone": "up",
+            "text": "Broadcom's weekly change. A rival to Nvidia, it gained on the week even though it fell −4.8% on Friday.",
+            "source": "Closing prices · Nov 13"
+          },
+          {
+            "num": "14%",
+            "tone": "down",
+            "text": "Nvidia shares fell as much as 14% on Thursday, the day the resignation was announced.",
+            "source": "CFO Dive · Nov 12"
+          },
+          {
+            "num": "$20 billion",
+            "tone": "down",
+            "text": "Huang's own Nvidia holdings lost more than $20 billion on paper this week, Fox Business calculated.",
+            "source": "Fox Business · Nov 13"
+          },
+          {
+            "num": "#2",
+            "tone": "gold",
+            "text": "Nvidia ranks second by market value among the tracked stocks, behind Apple at $5.18T.",
+            "source": "Closing prices · Nov 13"
+          }
+        ],
+        "next_week": [
+          {
+            "date": "2026-11-17",
+            "what": "Nvidia reports fiscal third-quarter results after the close, with a call at 5 p.m. ET.",
+            "event": "Nvidia earnings",
+            "detail": "Revenue of $109 billion expected",
+            "source": "Kitco · Nov 13",
+            "evidence": [
+              "E29"
+            ]
+          },
+          {
+            "date": "2026-11-17",
+            "what": "The October US retail sales report is due.",
+            "event": "Retail sales",
+            "detail": "October report",
+            "source": "Stockrover · Nov 13",
+            "evidence": [
+              "E30"
+            ]
+          },
+          {
+            "date": "2026-11-18",
+            "what": "The Fed releases minutes of its Oct. 27-28 meeting.",
+            "event": "Fed minutes",
+            "detail": "Oct. 27-28 meeting",
+            "source": "Federal Reserve · Nov 13",
+            "evidence": [
+              "E31"
+            ]
+          },
+          {
+            "date": "2026-11-19",
+            "what": "Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday.",
+            "event": "Anthropic IPO",
+            "detail": "825 million shares, up to $64.4 billion",
+            "source": "Kitco · Nov 13",
+            "evidence": [
+              "E32"
+            ]
+          }
+        ],
+        "teaser": "Sunday's report answers why one CEO's exit cost Nvidia −12.8% in a week, and why the damage reached chips and the Nasdaq-100.",
+        "causes": [
+          {
+            "title": "CEO exit and probe",
+            "stat": "14%",
+            "text": "The week turned on one person. On Sunday, Nov. 8, Nvidia's board said it was opening an independent investigation after reports that Jensen Huang had been the target of a foreign intelligence effort. Huang emailed staff that day and admitted to an affair. 'There is no excuse for what I did,' he wrote. The New York Times had reported in October that he had a relationship with Alice Huang, a former executive of Singapore-based Megaspeed, per Reuters. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress is interim CEO and keeps her CFO job while the board searches for a successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Attorney General Todd Blanche said the Justice Department had not concluded whether the woman is a spy. Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday. The link to the move is direct. A co-founder who led the company left suddenly, and the facts around him are still unsettled.",
+            "source": "CFO Dive · Nov 12",
+            "evidence": [
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E11",
+              "E19"
+            ]
+          },
+          {
+            "title": "Analyst downgrades",
+            "stat": "$200",
+            "text": "Wall Street reset its views quickly. Bernstein downgraded Nvidia to Market-Perform and halved its target to $200. Oppenheimer downgraded the stock and removed its target. HSBC followed, cutting to hold from buy and citing uncertainty over the leadership succession. A removed target means the analyst no longer wants to put a number on the shares. Not every firm turned negative. Stifel kept its Buy rating but cut its target to $205 from $315. Citi kept Buy and lowered its target to $225. Even the optimists lowered their numbers. Baird's Tristan Gerra listed possible further senior management departures and H200 write-down charges as headwinds. He said the episode hasn't hit its bottom yet. Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business. He also warned of 'considerable uncertainty' around further news flow. That is how a leadership story became a valuation story. The analysts who publish targets stopped trusting their old numbers, and the stock was repriced while they worked out new ones.",
+            "source": "Investing.com · Nov 12",
+            "evidence": [
+              "E12",
+              "E13",
+              "E14",
+              "E15",
+              "E17",
+              "E18"
+            ]
+          },
+          {
+            "title": "Chip selloff spreads",
+            "stat": "5.1%",
+            "text": "The damage did not stay inside one stock. On Thursday, Broadcom and AMD rose more than 5% each as Nvidia fell, per Schwab. On Friday that reversed. In afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9%, Reuters reported. By the close, the chip index (SOX) was −3.4% on the day and Broadcom was −4.8%. Both still ended the week higher, at +8.1% and +18.2%. The Nasdaq-100 was down 2% in the afternoon, on pace to erase about $800 billion in market value. It closed the day at −1.2%. Reuters said Nvidia was on track for its longest streak of weekly losses since October 2012. The backdrop did not help. October core consumer prices rose 0.3%. Traders are fully pricing in a Fed rate hike in December, with odds of a 50-basis-point move around 7%, per CME FedWatch. Reuters headlined the day as Nvidia turmoil rattling the sector. The link to Nvidia's week is that chips and the index traded off the same news.",
+            "source": "AOL · Nov 13",
+            "evidence": [
+              "E10",
+              "E20",
+              "E21",
+              "E22",
+              "E25",
+              "E27"
+            ]
+          }
+        ],
+        "after_causes": {
+          "title": "A lopsided week",
+          "text": "Nvidia's drop did not drag the group down. Broadcom led at +18.2%, followed by Tesla at +8.9%, Meta at +5.2%, Apple at +4.1%, Alphabet at +3.9% and Amazon at +2.8%. Microsoft slipped −1.3%. Nvidia ended −12.8%. The Nasdaq-100 gained +3.5% and the S&P 500 gained +2.5%. The chip index (SOX) rose +8.1%, helped by Nvidia's rivals. Apple closed Nov 13 at $356.27 and is #1 by market value among the tracked stocks. The chart below shows every stock's move."
+        },
+        "next_text": "Tuesday, Nov. 17, is the big date. Nvidia reports fiscal third-quarter results with a call at 5 p.m. ET. Analysts expect earnings growth of 90% on revenue of $109 billion, per Reuters. It is the first report since Huang resigned. Results near those figures would keep the focus on the business. Kress's comments on the successor search would draw attention too. Any mention of the H200 write-down charges or further senior departures that Baird flagged would lend weight to the bear case. October retail sales also arrive Tuesday. On Wednesday, Nov. 18, the Fed releases minutes of its Oct. 27-28 meeting. Traders are fully pricing in a December hike. Governor Christopher Waller has said a 50 basis point hike should be considered. Minutes showing broad support for that would feed rate worries. Minutes showing little would ease them. Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday, Nov. 19. It is selling 825 million shares to raise up to $64.4 billion. Reuters frames the IPO, like Nvidia's results, as a test for the AI trade.",
+        "bull": [
+          "Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business and that the shares 'screen extremely cheap'.",
+          "Stifel and Citi kept Buy ratings. Stifel cut its target to $205 from $315 and Citi lowered its target to $225.",
+          "KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013."
+        ],
+        "bear": [
+          "Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.",
+          "Baird's Tristan Gerra pointed to possible further senior departures and H200 write-down charges, and said the episode hasn't hit its bottom yet.",
+          "HSBC downgraded to hold from buy, citing uncertainty over succession. Oppenheimer downgraded the stock and removed its target."
+        ],
+        "table": [
+          [
+            "Nvidia weekly change",
+            "−12.8%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia closing price",
+            "$162.85",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia distance from its Oct 6 high",
+            "−31.9%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia market value (approx.)",
+            "$3.92T",
+            "Nov 13",
+            "Yahoo Finance, SEC EDGAR"
+          ],
+          [
+            "Nvidia closing price on resignation day",
+            "$166.19",
+            "Nov 12",
+            "Yahoo Finance"
+          ],
+          [
+            "Nvidia market value in early October",
+            "$5.8 trillion",
+            "Nov 13",
+            "Kitco"
+          ],
+          [
+            "Nvidia largest intraday fall on resignation day",
+            "14%",
+            "Nov 12",
+            "CFO Dive"
+          ],
+          [
+            "Chip index (SOX) weekly change",
+            "+8.1%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Nasdaq-100 weekly change",
+            "+3.5%",
+            "Nov 13",
+            "Yahoo Finance"
+          ],
+          [
+            "Analyst revenue expectation, Nvidia quarter",
+            "$109 billion",
+            "Nov 13",
+            "Kitco"
+          ]
+        ],
+        "compare_chart": {
+          "title": "Nvidia market value",
+          "subtitle": "Reuters figures, in trillions of dollars",
+          "rows": [
+            {
+              "label": "Early October",
+              "value": 5.8,
+              "display": "$5.8 trillion",
+              "hero": false
+            },
+            {
+              "label": "As of Thursday",
+              "value": 4,
+              "display": "$4 trillion",
+              "hero": true
+            }
+          ],
+          "source": "Kitco · Nov 13",
+          "cause": 0
+        }
+      },
+      "problems": [
+        "causes[1].text: \"A removed target means the analyst no longer wants to put a number on the shares\" is an interpretation of Oppenheimer's move. No source says it. (reviewer, high)",
+        "causes[1].text: \"That is how a leadership story became a valuation story. The analysts... stopped trusting their old numbers, and the stock was repriced while they worked out new ones.\" This causal story is not in the evidence. It also conflicts with Rasgon's view that the shares 'screen extremely cheap' and that he was not worried about near-term impacts. (reviewer, high)",
+        "causes[0].text: \"The link to the move is direct\" and \"The week turned on one person\" are unsupported causal claims. The evidence reports the events and the share moves but does not establish this causation. The slide also began Nov. 8, before the resignation. (reviewer, high)",
+        "causes[0].text: The draft says Blanche had not concluded \"whether the woman is a spy\", right after naming Alice Huang. The evidence does not say the woman Blanche meant is Alice Huang, and the juxtaposition implies it. (reviewer, low)",
+        "causes[2].text: \"The backdrop did not help\" ties the CPI and rate-hike pricing to the chip selloff. The evidence does not link them. The closing line that chips and the index \"traded off the same news\" is also an unsupported causal assertion. (reviewer, low)",
+        "after_causes.text: \"The chip index (SOX) rose +8.1%, helped by Nvidia's rivals\" is an unsupported causal attribution. Nvidia is itself in the index and fell 12.8%. (reviewer, low)",
+        "next_text: The draft forecasts how markets would read upcoming events: results near expectations \"would keep the focus on the business\", Baird's flagged items \"would lend weight to the bear case\", and Fed minutes showing broad support \"would feed rate worries\" while minutes showing little \"would ease them\". None of this is in the evidence, and these are predictions about reactions. (reviewer, high)",
+        "next_text: \"Kress's comments on the successor search would draw attention too\" is speculation. The evidence does not say what she will address on the call. (reviewer, low)",
+        "next_text: Waller's quote is shortened to \"a 50 basis point hike should be considered\" and drops \"at the December meeting\". It also relies on a Stock Titan paraphrase of core CPI hitting his threshold. (reviewer, low)",
+        "lead: \"Nvidia fell −12.8% this week after Jensen Huang resigned\" is misleading. Per the evidence, the slide began Nov. 8, before the Nov. 12 resignation. (reviewer, low)",
+        "table: Several rows are attributed to \"Yahoo Finance\" or \"SEC EDGAR\". The DATA gives no source for these figures, and the market value row cites SEC EDGAR with no support. (reviewer, low)",
+        "next_week[0].what: \"After the close\" is not in the evidence. The evidence gives only the 5 p.m. ET call time. (reviewer, low)"
+      ]
+    }
+  ],
+  "final_draft": {
+    "featured": "Nvidia",
+    "saturday": {
+      "subject": "Nvidia fell 12.8% this week. Five numbers.",
+      "preheader": "Plus Tuesday's earnings and an AI IPO on next week's calendar."
+    },
+    "sunday": {
+      "subject": "Why Nvidia fell 12.8% when its CEO left",
+      "preheader": "Three causes, the bull and bear cases, and Tuesday's test.",
+      "headline": "Nvidia's CEO exits and the stock slides",
+      "lead": "Nvidia ended the week at −12.8%, a slide that began with a board investigation on Nov. 8 and continued after Jensen Huang resigned as CEO on Nov. 12. It closed Nov 13 at $162.85, which is −31.9% from its Oct 6 high.",
+      "what_happened": "The slide began on Sunday, Nov. 8. Nvidia's board said it was opening an independent investigation after reports that Huang had been the target of a foreign intelligence effort. Huang also emailed employees that day and admitted to an affair. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress became interim CEO while the board searches for a permanent successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Friday added another −2.0%, and the chip index (SOX) fell −3.4% as the selloff spread. For the week, Nvidia ended −12.8%. Over about a month it is −25.0%. Its market value is about $3.92T, still #2 among the tracked stocks behind Apple at $5.18T. Reuters reported the figure was about $5.8 trillion in early October."
+    },
+    "five": [
+      {
+        "num": "−12.8%",
+        "tone": "down",
+        "text": "Nvidia's weekly change, in the week its CEO resigned and its board opened an investigation.",
+        "source": "Closing prices · Nov 13"
+      },
+      {
+        "num": "+18.2%",
+        "tone": "up",
+        "text": "Broadcom's weekly change. A rival to Nvidia, it gained on the week even though it fell −4.8% on Friday.",
+        "source": "Closing prices · Nov 13"
+      },
+      {
+        "num": "14%",
+        "tone": "down",
+        "text": "Nvidia shares fell as much as 14% on Thursday, the day the resignation was announced.",
+        "source": "CFO Dive · Nov 12"
+      },
+      {
+        "num": "$20 billion",
+        "tone": "down",
+        "text": "Huang's own Nvidia holdings lost more than $20 billion on paper this week, Fox Business calculated.",
+        "source": "Fox Business · Nov 13"
+      },
+      {
+        "num": "#2",
+        "tone": "gold",
+        "text": "Nvidia ranks second by market value among the tracked stocks, behind Apple at $5.18T.",
+        "source": "Closing prices · Nov 13"
+      }
+    ],
+    "next_week": [
+      {
+        "date": "2026-11-17",
+        "what": "Nvidia reports fiscal third-quarter results, with a call at 5 p.m. ET.",
+        "event": "Nvidia earnings",
+        "detail": "Revenue of $109 billion expected",
+        "source": "Kitco · Nov 13",
+        "evidence": [
+          "E29"
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "what": "The October US retail sales report is due.",
+        "event": "Retail sales",
+        "detail": "October report",
+        "source": "Stockrover · Nov 13",
+        "evidence": [
+          "E30"
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "what": "The Fed releases minutes of its Oct. 27-28 meeting.",
+        "event": "Fed minutes",
+        "detail": "Oct. 27-28 meeting",
+        "source": "Federal Reserve · Nov 13",
+        "evidence": [
+          "E31"
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "what": "Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday.",
+        "event": "Anthropic IPO",
+        "detail": "825 million shares, up to $64.4 billion",
+        "source": "Kitco · Nov 13",
+        "evidence": [
+          "E32"
+        ]
+      }
+    ],
+    "teaser": "Sunday's report explains what drove Nvidia's −12.8% week and how far the selloff reached across chips and the Nasdaq-100.",
+    "causes": [
+      {
+        "title": "CEO exit and probe",
+        "stat": "14%",
+        "text": "Nvidia's week started on Sunday, Nov. 8, before the resignation. That day the board said it was opening an independent investigation after reports that founder and CEO Jensen Huang had been the target of a foreign intelligence effort, per Reuters. Huang also emailed employees and admitted to an affair. 'There is no excuse for what I did,' he wrote. Reuters noted the New York Times had reported in October that he had a relationship with Alice Huang, an unrelated former executive of Singapore-based Megaspeed. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately, ending 33 years as CEO. CFO Colette Kress is interim CEO and keeps her CFO job while the board searches for a permanent successor. CFO Dive reported shares fell as much as 14% on the resignation news. They closed that day at $166.19, down 4.34%, on volume of 734.3 million shares, well above the three-month average, per Yahoo Finance. Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday. Reports list the events and the price moves side by side. None divides the week's drop between the investigation and the resignation.",
+        "source": "CFO Dive · Nov 12",
+        "evidence": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E11",
+          "E19"
+        ],
+        "chart": "compare"
+      },
+      {
+        "title": "Analyst downgrades",
+        "stat": "$200",
+        "text": "Several brokers changed their views on Nov. 12 and 13. Bernstein downgraded Nvidia to Market-Perform and halved its price target to $200. Oppenheimer downgraded the stock and removed its price target. HSBC cut it to hold from buy with a $170 target, citing uncertainty over the leadership succession. Not every firm turned negative on the rating. Stifel kept Buy and cut its target to $205 from $315. Citi kept Buy and lowered its target to $225. Opinions split, sometimes inside one firm. Bernstein's Stacy Rasgon said he was not worried about near-term impacts to the business and that the shares 'screen extremely cheap'. He also warned of 'considerable uncertainty' around further news flow. Baird's Tristan Gerra listed possible further senior management departures and H200 write-down charges as headwinds, and said the episode hasn't hit its bottom yet. Those calls came in the same days the stock fell, and the reports do not say how much of the drop they explain. Nvidia closed Nov. 13 at $162.85.",
+        "source": "Investing.com · Nov 12",
+        "evidence": [
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E17",
+          "E18"
+        ]
+      },
+      {
+        "title": "Chip selloff spreads",
+        "stat": "5.1%",
+        "text": "The selloff did not stay inside one stock. On Thursday, Broadcom and AMD rose more than 5% each as Nvidia fell, per Schwab. On Friday that flipped. In afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9%, Reuters reported. By the close, the chip index (SOX) was −3.4% on the day and Broadcom was −4.8%. Both still ended the week higher, at +8.1% and +18.2%. The Nasdaq-100 was down 2% in the afternoon, on pace to erase about $800 billion in market value, Reuters said. It closed the day at −1.2% and ended the week at +3.5%. Reuters also reported Nvidia was on track for its longest streak of weekly losses since October 2012. Its headline for the day read 'Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector.' That is Reuters's framing of the link. The closing figures were smaller than the afternoon snapshots, and the index still finished the week higher.",
+        "source": "AOL · Nov 13",
+        "evidence": [
+          "E10",
+          "E20",
+          "E21",
+          "E22"
+        ]
+      }
+    ],
+    "after_causes": {
+      "title": "A lopsided week",
+      "text": "Most of the group finished the week higher. Broadcom led at +18.2%, followed by Tesla at +8.9%, Meta at +5.2%, Apple at +4.1%, Alphabet at +3.9% and Amazon at +2.8%. Microsoft slipped −1.3%. Nvidia ended −12.8%, the weakest of the group. The Nasdaq-100 gained +3.5% and the S&P 500 gained +2.5%. The chip index (SOX) rose +8.1% on the week. Apple closed Nov 13 at $356.27 and is #1 by market value among the tracked stocks. The chart below shows every stock's move."
+    },
+    "next_text": "Tuesday, Nov. 17, is the big date. Nvidia reports fiscal third-quarter results, with a call at 5 p.m. ET. Analysts expect earnings growth of 90% on revenue of $109 billion, per Reuters. It is the first quarterly report since Huang resigned. Bernstein's Rasgon says he is not worried about near-term business impact. Baird's Gerra lists H200 write-down charges and possible further senior departures as headwinds. The report gives the first quarterly figures to set against both views. October retail sales also arrive Tuesday. On Wednesday, Nov. 18, the Fed releases minutes of its Oct. 27-28 meeting. Traders are fully pricing in a December rate hike, with odds of a 50-basis-point move around 7%, per CME FedWatch. Stock Titan noted October core CPI of 0.3% met the level Fed Governor Christopher Waller had set, and quoted him saying 'a 50 basis point hike in the policy rate should be considered at the December meeting.' Anthropic is set to price its IPO on Nov. 18 and begin trading on Nasdaq as ANT on Thursday, Nov. 19. It is selling 825 million shares at $70 to $78 each, up to $64.4 billion. Reuters calls Nvidia's results and the IPO tests for the AI trade.",
+    "bull": [
+      "Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business and that the shares 'screen extremely cheap'.",
+      "Stifel and Citi kept Buy ratings. Stifel cut its target to $205 from $315 and Citi lowered its target to $225.",
+      "KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013."
+    ],
+    "bear": [
+      "Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.",
+      "Baird's Tristan Gerra pointed to possible further senior departures and H200 write-down charges, and said the episode hasn't hit its bottom yet.",
+      "HSBC downgraded to hold from buy, citing uncertainty over succession. Oppenheimer downgraded the stock and removed its target."
+    ],
+    "table": [
+      [
+        "Nvidia weekly change",
+        "−12.8%",
+        "Nov 13",
+        "Closing prices"
+      ],
+      [
+        "Nvidia closing price",
+        "$162.85",
+        "Nov 13",
+        "Closing prices"
+      ],
+      [
+        "Nvidia distance from its Oct 6 high",
+        "−31.9%",
+        "Nov 13",
+        "Closing prices"
+      ],
+      [
+        "Nvidia market value (approx.)",
+        "$3.92T",
+        "Nov 13",
+        "Closing prices"
+      ],
+      [
+        "Nvidia closing price on resignation day",
+        "$166.19",
+        "Nov 12",
+        "Yahoo Finance"
+      ],
+      [
+        "Nvidia market value in early October",
+        "$5.8 trillion",
+        "Nov 13",
+        "Kitco"
+      ],
+      [
+        "Nvidia largest intraday fall on resignation day",
+        "14%",
+        "Nov 12",
+        "CFO Dive"
+      ],
+      [
+        "Chip index (SOX) weekly change",
+        "+8.1%",
+        "Nov 13",
+        "Closing prices"
+      ],
+      [
+        "Nasdaq-100 weekly change",
+        "+3.5%",
+        "Nov 13",
+        "Closing prices"
+      ],
+      [
+        "Analyst revenue expectation, Nvidia quarter",
+        "$109 billion",
+        "Nov 13",
+        "Kitco"
+      ]
+    ],
+    "compare_chart": {
+      "title": "Nvidia market value",
+      "subtitle": "Reuters figures, in trillions of dollars",
+      "rows": [
+        {
+          "label": "Early October",
+          "value": 5.8,
+          "display": "$5.8 trillion",
+          "hero": false
+        },
+        {
+          "label": "As of Thursday",
+          "value": 4,
+          "display": "$4 trillion",
+          "hero": true
+        }
+      ],
+      "source": "Kitco · Nov 13",
+      "cause": 0
+    }
+  },
+  "writer_raw": [
+    "{\n \"featured\": \"Nvidia\",\n \"saturday\": {\n  \"subject\": \"Nvidia fell 12.8% this week. Five numbers.\",\n  \"preheader\": \"Plus Tuesday's earnings and an AI IPO on next week's calendar.\"\n },\n \"sunday\": {\n  \"subject\": \"Why Nvidia fell 12.8% when its CEO left\",\n  \"preheader\": \"Three causes, the bull and bear cases, and Tuesday's test.\",\n  \"headline\": \"Nvidia's CEO exits and the stock slides\",\n  \"lead\": \"Nvidia fell −12.8% this week after Jensen Huang resigned as CEO during a board investigation. It closed Nov 13 at $162.85, which is −31.9% from its Oct 6 high.\",\n  \"what_happened\": \"The slide began on Sunday, Nov. 8. Nvidia's board said it was opening an independent investigation after reports that Huang had been the target of a foreign intelligence effort. Huang also emailed employees that day and admitted to an affair. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress became interim CEO while the board searches for a permanent successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Friday added another −2.0%, and the chip index (SOX) fell −3.4% as the selloff spread. For the week, Nvidia ended −12.8%. Over about a month it is −25.0%. Its market value is about $3.92T, still #2 among the tracked stocks behind Apple at $5.18T. Reuters reported the figure was about $5.8 trillion in early October.\"\n },\n \"five\": [\n  {\"num\": \"−12.8%\", \"tone\": \"down\", \"text\": \"Nvidia's weekly change, in the week its CEO resigned and its board opened an investigation.\", \"source\": \"Closing prices · Nov 13\"},\n  {\"num\": \"+18.2%\", \"tone\": \"up\", \"text\": \"Broadcom's weekly change. A rival to Nvidia, it gained on the week even though it fell −4.8% on Friday.\", \"source\": \"Closing prices · Nov 13\"},\n  {\"num\": \"14%\", \"tone\": \"down\", \"text\": \"Nvidia shares fell as much as 14% on Thursday, the day the resignation was announced.\", \"source\": \"CFO Dive · Nov 12\"},\n  {\"num\": \"$20 billion\", \"tone\": \"down\", \"text\": \"Huang's own Nvidia holdings lost more than $20 billion on paper this week, Fox Business calculated.\", \"source\": \"Fox Business · Nov 13\"},\n  {\"num\": \"#2\", \"tone\": \"gold\", \"text\": \"Nvidia is second by market value among the tracked stocks, behind Apple, which closed at a 52-week high.\", \"source\": \"Closing prices · Nov 13\"}\n ],\n \"next_week\": [\n  {\"date\": \"2026-11-17\", \"what\": \"Nvidia reports fiscal third-quarter results after the close, with a call at 5 p.m. ET.\", \"event\": \"Nvidia earnings\", \"detail\": \"Revenue of $109 billion expected\", \"source\": \"Kitco · Nov 13\", \"evidence\": [\"E29\"]},\n  {\"date\": \"2026-11-17\", \"what\": \"The October US retail sales report is due.\", \"event\": \"Retail sales\", \"detail\": \"October report\", \"source\": \"Stockrover · Nov 13\", \"evidence\": [\"E30\"]},\n  {\"date\": \"2026-11-18\", \"what\": \"The Fed releases minutes of its Oct. 27-28 meeting.\", \"event\": \"Fed minutes\", \"detail\": \"Oct. 27-28 meeting\", \"source\": \"Federal Reserve · Nov 13\", \"evidence\": [\"E31\"]},\n  {\"date\": \"2026-11-19\", \"what\": \"Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday.\", \"event\": \"Anthropic IPO\", \"detail\": \"825 million shares at $70 to $78\", \"source\": \"Yahoo Finance · Nov 12\", \"evidence\": [\"E32\"]}\n ],\n \"teaser\": \"Sunday's report answers why one CEO's exit cost Nvidia −12.8% in a week, and why the damage reached chips and the Nasdaq-100.\",\n \"causes\": [\n  {\n   \"title\": \"CEO exit and probe\",\n   \"stat\": \"14%\",\n   \"text\": \"The week turned on one person. On Sunday, Nov. 8, Nvidia's board said it was opening an independent investigation after reports that Jensen Huang had been the target of a foreign intelligence effort. Huang emailed staff that day and admitted to an affair. 'There is no excuse for what I did,' he wrote. The New York Times had reported in October that he had a relationship with Alice Huang, a former executive of Singapore-based Megaspeed, per Reuters. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately, ending 33 years as CEO. CFO Colette Kress is interim CEO and keeps her CFO job while the board searches for a successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Attorney General Todd Blanche said the Justice Department had not concluded whether the woman is a spy. Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday. The link to the move is direct. A founder who ran the company for 33 years left suddenly, and the facts around him are still unsettled.\",\n   \"source\": \"CFO Dive · Nov 12\",\n   \"evidence\": [\"E1\", \"E2\", \"E3\", \"E4\", \"E5\", \"E6\", \"E7\", \"E11\", \"E19\"]\n  },\n  {\n   \"title\": \"Analyst downgrades\",\n   \"stat\": \"$200\",\n   \"text\": \"Wall Street reset its views quickly. Bernstein downgraded Nvidia to Market-Perform and halved its price target to $200. Oppenheimer downgraded the stock and removed its price target. HSBC followed, cutting to hold from buy with a $170 target and citing uncertainty over the leadership succession. A removed target means the analyst no longer wants to put a number on the shares. Not every firm turned negative. Stifel kept its Buy rating but cut its target to $205 from $315. Citi kept Buy and lowered its target to $225. Even the optimists lowered their numbers. Baird's Tristan Gerra listed possible further senior management departures and H200 write-down charges as headwinds. He said the episode hasn't hit its bottom yet. Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business. He also warned of 'considerable uncertainty' around further news flow. That is how a leadership story became a valuation story. The analysts who set targets stopped trusting their old numbers, and the stock was repriced while they worked out new ones.\",\n   \"source\": \"Investing.com · Nov 12\",\n   \"evidence\": [\"E12\", \"E13\", \"E14\", \"E15\", \"E17\", \"E18\"]\n  },\n  {\n   \"title\": \"Chip selloff spreads\",\n   \"stat\": \"5.1%\",\n   \"text\": \"The damage did not stay inside one stock. On Thursday, Broadcom and AMD rose more than 5% each as Nvidia fell, per Schwab. On Friday that reversed. In afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9%, Reuters reported. By the close, the chip index (SOX) was −3.4% on the day and Broadcom was −4.8%. Both still ended the week higher, at +8.1% and +18.2%. The Nasdaq-100 was down 2% in the afternoon, on pace to erase about $800 billion in market value. It closed the day at −1.2%. Reuters said Nvidia was on track for its longest streak of weekly losses since October 2012. The backdrop did not help. October core consumer prices rose 0.3%. Traders are fully pricing in a Fed rate hike in December, with odds of a 50-basis-point move around 7%, per CME FedWatch. Reuters headlined the day as Nvidia turmoil rattling the sector. The link to Nvidia's week is that chips and the index traded off the same news.\",\n   \"source\": \"AOL · Nov 13\",\n   \"evidence\": [\"E10\", \"E20\", \"E21\", \"E22\", \"E25\", \"E27\"]\n  }\n ],\n \"after_causes\": {\n  \"title\": \"A lopsided week\",\n  \"text\": \"Nvidia's drop did not drag the group down. Broadcom led at +18.2%, followed by Tesla at +8.9%, Meta at +5.2%, Apple at +4.1%, Alphabet at +3.9% and Amazon at +2.8%. Microsoft slipped −1.3%. Nvidia ended −12.8%. The Nasdaq-100 gained +3.5% and the S&P 500 gained +2.5%. The chip index (SOX) rose +8.1%, helped by Nvidia's rivals. Apple finished Friday at a 52-week high and is #1 by market value among the tracked stocks. The chart below shows every stock's move.\"\n },\n \"next_text\": \"Tuesday, Nov. 17, is the big date. Nvidia reports fiscal third-quarter results with a call at 5 p.m. ET. Analysts expect earnings growth of 90% on revenue of $109 billion, per Reuters. It is the first report since Huang resigned. Results near those figures would keep the focus on the business. Kress's comments on the successor search would draw attention too. Any mention of the H200 write-down charges or further senior departures that Baird flagged would lend weight to the bear case. October retail sales also arrive Tuesday. On Wednesday, Nov. 18, the Fed releases minutes of its Oct. 27-28 meeting. Traders are fully pricing in a December hike. Governor Christopher Waller has said a 50 basis point hike should be considered. Minutes showing broad support for that would feed rate worries. Minutes showing little would ease them. Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday, Nov. 19. It is selling 825 million shares at $70 to $78 each. Reuters frames the IPO, like Nvidia's results, as a test for the AI trade.\",\n \"bull\": [\n  \"Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business and that the shares 'screen extremely cheap'.\",\n  \"Stifel and Citi kept Buy ratings. Stifel cut its target to $205 from $315 and Citi lowered its target to $225.\",\n  \"KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013.\"\n ],\n \"bear\": [\n  \"Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.\",\n  \"Baird's Tristan Gerra pointed to possible further senior departures and H200 write-down charges, and said the episode hasn't hit its bottom yet.\",\n  \"HSBC downgraded to hold from buy with a $170 target, citing uncertainty over succession. Oppenheimer removed its target.\"\n ],\n \"table\": [\n  [\"Nvidia weekly change\", \"−12.8%\", \"Nov 13\", \"Yahoo Finance\"],\n  [\"Nvidia closing price\", \"$162.85\", \"Nov 13\", \"Yahoo Finance\"],\n  [\"Nvidia distance from 52-week high (Oct 6)\", \"−31.9%\", \"Nov 13\", \"Yahoo Finance\"],\n  [\"Nvidia market value (approx.)\", \"$3.92T\", \"Nov 13\", \"Yahoo Finance, SEC EDGAR\"],\n  [\"Nvidia closing price on resignation day\", \"$166.19\", \"Nov 12\", \"Yahoo Finance\"],\n  [\"Bernstein price target after cut\", \"$200\", \"Nov 12\", \"Investing.com\"],\n  [\"HSBC price target after downgrade\", \"$170\", \"Nov 13\", \"Investing.com\"],\n  [\"Chip index (SOX) weekly change\", \"+8.1%\", \"Nov 13\", \"Yahoo Finance\"],\n  [\"Nasdaq-100 weekly change\", \"+3.5%\", \"Nov 13\", \"Yahoo Finance\"],\n  [\"Analyst revenue expectation, Nvidia quarter\", \"$109 billion\", \"Nov 13\", \"Kitco\"]\n ],\n \"compare_chart\": {\n  \"title\": \"Nvidia market value\",\n  \"subtitle\": \"Reuters figures, in trillions of dollars\",\n  \"rows\": [\n   {\"label\": \"Early October\", \"value\": 5.8, \"display\": \"$5.8 trillion\", \"hero\": false},\n   {\"label\": \"As of Thursday\", \"value\": 4, \"display\": \"$4 trillion\", \"hero\": true}\n  ],\n  \"source\": \"Kitco · Nov 13\",\n  \"cause\": 0\n }\n}",
+    "{\"featured\":\"Nvidia\",\"saturday\":{\"subject\":\"Nvidia fell 12.8% this week. Five numbers.\",\"preheader\":\"Plus Tuesday's earnings and an AI IPO on next week's calendar.\"},\"sunday\":{\"subject\":\"Why Nvidia fell 12.8% when its CEO left\",\"preheader\":\"Three causes, the bull and bear cases, and Tuesday's test.\",\"headline\":\"Nvidia's CEO exits and the stock slides\",\"lead\":\"Nvidia fell −12.8% this week after Jensen Huang resigned as CEO during a board investigation. It closed Nov 13 at $162.85, which is −31.9% from its Oct 6 high.\",\"what_happened\":\"The slide began on Sunday, Nov. 8. Nvidia's board said it was opening an independent investigation after reports that Huang had been the target of a foreign intelligence effort. Huang also emailed employees that day and admitted to an affair. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress became interim CEO while the board searches for a permanent successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Friday added another −2.0%, and the chip index (SOX) fell −3.4% as the selloff spread. For the week, Nvidia ended −12.8%. Over about a month it is −25.0%. Its market value is about $3.92T, still #2 among the tracked stocks behind Apple at $5.18T. Reuters reported the figure was about $5.8 trillion in early October.\"},\"five\":[{\"num\":\"−12.8%\",\"tone\":\"down\",\"text\":\"Nvidia's weekly change, in the week its CEO resigned and its board opened an investigation.\",\"source\":\"Closing prices · Nov 13\"},{\"num\":\"+18.2%\",\"tone\":\"up\",\"text\":\"Broadcom's weekly change. A rival to Nvidia, it gained on the week even though it fell −4.8% on Friday.\",\"source\":\"Closing prices · Nov 13\"},{\"num\":\"14%\",\"tone\":\"down\",\"text\":\"Nvidia shares fell as much as 14% on Thursday, the day the resignation was announced.\",\"source\":\"CFO Dive · Nov 12\"},{\"num\":\"$20 billion\",\"tone\":\"down\",\"text\":\"Huang's own Nvidia holdings lost more than $20 billion on paper this week, Fox Business calculated.\",\"source\":\"Fox Business · Nov 13\"},{\"num\":\"#2\",\"tone\":\"gold\",\"text\":\"Nvidia ranks second by market value among the tracked stocks, behind Apple at $5.18T.\",\"source\":\"Closing prices · Nov 13\"}],\"next_week\":[{\"date\":\"2026-11-17\",\"what\":\"Nvidia reports fiscal third-quarter results after the close, with a call at 5 p.m. ET.\",\"event\":\"Nvidia earnings\",\"detail\":\"Revenue of $109 billion expected\",\"source\":\"Kitco · Nov 13\",\"evidence\":[\"E29\"]},{\"date\":\"2026-11-17\",\"what\":\"The October US retail sales report is due.\",\"event\":\"Retail sales\",\"detail\":\"October report\",\"source\":\"Stockrover · Nov 13\",\"evidence\":[\"E30\"]},{\"date\":\"2026-11-18\",\"what\":\"The Fed releases minutes of its Oct. 27-28 meeting.\",\"event\":\"Fed minutes\",\"detail\":\"Oct. 27-28 meeting\",\"source\":\"Federal Reserve · Nov 13\",\"evidence\":[\"E31\"]},{\"date\":\"2026-11-19\",\"what\":\"Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday.\",\"event\":\"Anthropic IPO\",\"detail\":\"825 million shares, up to $64.4 billion\",\"source\":\"Kitco · Nov 13\",\"evidence\":[\"E32\"]}],\"teaser\":\"Sunday's report answers why one CEO's exit cost Nvidia −12.8% in a week, and why the damage reached chips and the Nasdaq-100.\",\"causes\":[{\"title\":\"CEO exit and probe\",\"stat\":\"14%\",\"text\":\"The week turned on one person. On Sunday, Nov. 8, Nvidia's board said it was opening an independent investigation after reports that Jensen Huang had been the target of a foreign intelligence effort. Huang emailed staff that day and admitted to an affair. 'There is no excuse for what I did,' he wrote. The New York Times had reported in October that he had a relationship with Alice Huang, a former executive of Singapore-based Megaspeed, per Reuters. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress is interim CEO and keeps her CFO job while the board searches for a successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Attorney General Todd Blanche said the Justice Department had not concluded whether the woman is a spy. Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday. The link to the move is direct. A co-founder who led the company left suddenly, and the facts around him are still unsettled.\",\"source\":\"CFO Dive · Nov 12\",\"evidence\":[\"E1\",\"E2\",\"E3\",\"E4\",\"E5\",\"E6\",\"E7\",\"E11\",\"E19\"]},{\"title\":\"Analyst downgrades\",\"stat\":\"$200\",\"text\":\"Wall Street reset its views quickly. Bernstein downgraded Nvidia to Market-Perform and halved its target to $200. Oppenheimer downgraded the stock and removed its target. HSBC followed, cutting to hold from buy and citing uncertainty over the leadership succession. A removed target means the analyst no longer wants to put a number on the shares. Not every firm turned negative. Stifel kept its Buy rating but cut its target to $205 from $315. Citi kept Buy and lowered its target to $225. Even the optimists lowered their numbers. Baird's Tristan Gerra listed possible further senior management departures and H200 write-down charges as headwinds. He said the episode hasn't hit its bottom yet. Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business. He also warned of 'considerable uncertainty' around further news flow. That is how a leadership story became a valuation story. The analysts who publish targets stopped trusting their old numbers, and the stock was repriced while they worked out new ones.\",\"source\":\"Investing.com · Nov 12\",\"evidence\":[\"E12\",\"E13\",\"E14\",\"E15\",\"E17\",\"E18\"]},{\"title\":\"Chip selloff spreads\",\"stat\":\"5.1%\",\"text\":\"The damage did not stay inside one stock. On Thursday, Broadcom and AMD rose more than 5% each as Nvidia fell, per Schwab. On Friday that reversed. In afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9%, Reuters reported. By the close, the chip index (SOX) was −3.4% on the day and Broadcom was −4.8%. Both still ended the week higher, at +8.1% and +18.2%. The Nasdaq-100 was down 2% in the afternoon, on pace to erase about $800 billion in market value. It closed the day at −1.2%. Reuters said Nvidia was on track for its longest streak of weekly losses since October 2012. The backdrop did not help. October core consumer prices rose 0.3%. Traders are fully pricing in a Fed rate hike in December, with odds of a 50-basis-point move around 7%, per CME FedWatch. Reuters headlined the day as Nvidia turmoil rattling the sector. The link to Nvidia's week is that chips and the index traded off the same news.\",\"source\":\"AOL · Nov 13\",\"evidence\":[\"E10\",\"E20\",\"E21\",\"E22\",\"E25\",\"E27\"]}],\"after_causes\":{\"title\":\"A lopsided week\",\"text\":\"Nvidia's drop did not drag the group down. Broadcom led at +18.2%, followed by Tesla at +8.9%, Meta at +5.2%, Apple at +4.1%, Alphabet at +3.9% and Amazon at +2.8%. Microsoft slipped −1.3%. Nvidia ended −12.8%. The Nasdaq-100 gained +3.5% and the S&P 500 gained +2.5%. The chip index (SOX) rose +8.1%, helped by Nvidia's rivals. Apple closed Nov 13 at $356.27 and is #1 by market value among the tracked stocks. The chart below shows every stock's move.\"},\"next_text\":\"Tuesday, Nov. 17, is the big date. Nvidia reports fiscal third-quarter results with a call at 5 p.m. ET. Analysts expect earnings growth of 90% on revenue of $109 billion, per Reuters. It is the first report since Huang resigned. Results near those figures would keep the focus on the business. Kress's comments on the successor search would draw attention too. Any mention of the H200 write-down charges or further senior departures that Baird flagged would lend weight to the bear case. October retail sales also arrive Tuesday. On Wednesday, Nov. 18, the Fed releases minutes of its Oct. 27-28 meeting. Traders are fully pricing in a December hike. Governor Christopher Waller has said a 50 basis point hike should be considered. Minutes showing broad support for that would feed rate worries. Minutes showing little would ease them. Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday, Nov. 19. It is selling 825 million shares to raise up to $64.4 billion. Reuters frames the IPO, like Nvidia's results, as a test for the AI trade.\",\"bull\":[\"Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business and that the shares 'screen extremely cheap'.\",\"Stifel and Citi kept Buy ratings. Stifel cut its target to $205 from $315 and Citi lowered its target to $225.\",\"KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013.\"],\"bear\":[\"Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.\",\"Baird's Tristan Gerra pointed to possible further senior departures and H200 write-down charges, and said the episode hasn't hit its bottom yet.\",\"HSBC downgraded to hold from buy, citing uncertainty over succession. Oppenheimer downgraded the stock and removed its target.\"],\"table\":[[\"Nvidia weekly change\",\"−12.8%\",\"Nov 13\",\"Yahoo Finance\"],[\"Nvidia closing price\",\"$162.85\",\"Nov 13\",\"Yahoo Finance\"],[\"Nvidia distance from its Oct 6 high\",\"−31.9%\",\"Nov 13\",\"Yahoo Finance\"],[\"Nvidia market value (approx.)\",\"$3.92T\",\"Nov 13\",\"Yahoo Finance, SEC EDGAR\"],[\"Nvidia closing price on resignation day\",\"$166.19\",\"Nov 12\",\"Yahoo Finance\"],[\"Nvidia market value in early October\",\"$5.8 trillion\",\"Nov 13\",\"Kitco\"],[\"Nvidia largest intraday fall on resignation day\",\"14%\",\"Nov 12\",\"CFO Dive\"],[\"Chip index (SOX) weekly change\",\"+8.1%\",\"Nov 13\",\"Yahoo Finance\"],[\"Nasdaq-100 weekly change\",\"+3.5%\",\"Nov 13\",\"Yahoo Finance\"],[\"Analyst revenue expectation, Nvidia quarter\",\"$109 billion\",\"Nov 13\",\"Kitco\"]],\"compare_chart\":{\"title\":\"Nvidia market value\",\"subtitle\":\"Reuters figures, in trillions of dollars\",\"rows\":[{\"label\":\"Early October\",\"value\":5.8,\"display\":\"$5.8 trillion\",\"hero\":false},{\"label\":\"As of Thursday\",\"value\":4,\"display\":\"$4 trillion\",\"hero\":true}],\"source\":\"Kitco · Nov 13\",\"cause\":0}}",
+    "{\"featured\":\"Nvidia\",\"saturday\":{\"subject\":\"Nvidia fell 12.8% this week. Five numbers.\",\"preheader\":\"Plus Tuesday's earnings and an AI IPO on next week's calendar.\"},\"sunday\":{\"subject\":\"Why Nvidia fell 12.8% when its CEO left\",\"preheader\":\"Three causes, the bull and bear cases, and Tuesday's test.\",\"headline\":\"Nvidia's CEO exits and the stock slides\",\"lead\":\"Nvidia ended the week at −12.8%, a slide that began with a board investigation on Nov. 8 and continued after Jensen Huang resigned as CEO on Nov. 12. It closed Nov 13 at $162.85, which is −31.9% from its Oct 6 high.\",\"what_happened\":\"The slide began on Sunday, Nov. 8. Nvidia's board said it was opening an independent investigation after reports that Huang had been the target of a foreign intelligence effort. Huang also emailed employees that day and admitted to an affair. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately. CFO Colette Kress became interim CEO while the board searches for a permanent successor. Shares fell as much as 14% that day. They closed at $166.19, down 4.34%, on volume of 734.3 million shares. Friday added another −2.0%, and the chip index (SOX) fell −3.4% as the selloff spread. For the week, Nvidia ended −12.8%. Over about a month it is −25.0%. Its market value is about $3.92T, still #2 among the tracked stocks behind Apple at $5.18T. Reuters reported the figure was about $5.8 trillion in early October.\"},\"five\":[{\"num\":\"−12.8%\",\"tone\":\"down\",\"text\":\"Nvidia's weekly change, in the week its CEO resigned and its board opened an investigation.\",\"source\":\"Closing prices · Nov 13\"},{\"num\":\"+18.2%\",\"tone\":\"up\",\"text\":\"Broadcom's weekly change. A rival to Nvidia, it gained on the week even though it fell −4.8% on Friday.\",\"source\":\"Closing prices · Nov 13\"},{\"num\":\"14%\",\"tone\":\"down\",\"text\":\"Nvidia shares fell as much as 14% on Thursday, the day the resignation was announced.\",\"source\":\"CFO Dive · Nov 12\"},{\"num\":\"$20 billion\",\"tone\":\"down\",\"text\":\"Huang's own Nvidia holdings lost more than $20 billion on paper this week, Fox Business calculated.\",\"source\":\"Fox Business · Nov 13\"},{\"num\":\"#2\",\"tone\":\"gold\",\"text\":\"Nvidia ranks second by market value among the tracked stocks, behind Apple at $5.18T.\",\"source\":\"Closing prices · Nov 13\"}],\"next_week\":[{\"date\":\"2026-11-17\",\"what\":\"Nvidia reports fiscal third-quarter results, with a call at 5 p.m. ET.\",\"event\":\"Nvidia earnings\",\"detail\":\"Revenue of $109 billion expected\",\"source\":\"Kitco · Nov 13\",\"evidence\":[\"E29\"]},{\"date\":\"2026-11-17\",\"what\":\"The October US retail sales report is due.\",\"event\":\"Retail sales\",\"detail\":\"October report\",\"source\":\"Stockrover · Nov 13\",\"evidence\":[\"E30\"]},{\"date\":\"2026-11-18\",\"what\":\"The Fed releases minutes of its Oct. 27-28 meeting.\",\"event\":\"Fed minutes\",\"detail\":\"Oct. 27-28 meeting\",\"source\":\"Federal Reserve · Nov 13\",\"evidence\":[\"E31\"]},{\"date\":\"2026-11-19\",\"what\":\"Anthropic is set to price its IPO on Nov. 18 and start trading on Nasdaq as ANT on Thursday.\",\"event\":\"Anthropic IPO\",\"detail\":\"825 million shares, up to $64.4 billion\",\"source\":\"Kitco · Nov 13\",\"evidence\":[\"E32\"]}],\"teaser\":\"Sunday's report explains what drove Nvidia's −12.8% week and how far the selloff reached across chips and the Nasdaq-100.\",\"causes\":[{\"title\":\"CEO exit and probe\",\"stat\":\"14%\",\"text\":\"Nvidia's week started on Sunday, Nov. 8, before the resignation. That day the board said it was opening an independent investigation after reports that founder and CEO Jensen Huang had been the target of a foreign intelligence effort, per Reuters. Huang also emailed employees and admitted to an affair. 'There is no excuse for what I did,' he wrote. Reuters noted the New York Times had reported in October that he had a relationship with Alice Huang, an unrelated former executive of Singapore-based Megaspeed. On Thursday, Nov. 12, Nvidia said Huang had resigned as president, CEO and board member, effective immediately, ending 33 years as CEO. CFO Colette Kress is interim CEO and keeps her CFO job while the board searches for a permanent successor. CFO Dive reported shares fell as much as 14% on the resignation news. They closed that day at $166.19, down 4.34%, on volume of 734.3 million shares, well above the three-month average, per Yahoo Finance. Reuters reported Nvidia's market value fell from about $5.8 trillion in early October to roughly $4 trillion as of Thursday. Reports list the events and the price moves side by side. None divides the week's drop between the investigation and the resignation.\",\"source\":\"CFO Dive · Nov 12\",\"evidence\":[\"E1\",\"E2\",\"E3\",\"E4\",\"E5\",\"E6\",\"E11\",\"E19\"]},{\"title\":\"Analyst downgrades\",\"stat\":\"$200\",\"text\":\"Several brokers changed their views on Nov. 12 and 13. Bernstein downgraded Nvidia to Market-Perform and halved its price target to $200. Oppenheimer downgraded the stock and removed its price target. HSBC cut it to hold from buy with a $170 target, citing uncertainty over the leadership succession. Not every firm turned negative on the rating. Stifel kept Buy and cut its target to $205 from $315. Citi kept Buy and lowered its target to $225. Opinions split, sometimes inside one firm. Bernstein's Stacy Rasgon said he was not worried about near-term impacts to the business and that the shares 'screen extremely cheap'. He also warned of 'considerable uncertainty' around further news flow. Baird's Tristan Gerra listed possible further senior management departures and H200 write-down charges as headwinds, and said the episode hasn't hit its bottom yet. Those calls came in the same days the stock fell, and the reports do not say how much of the drop they explain. Nvidia closed Nov. 13 at $162.85.\",\"source\":\"Investing.com · Nov 12\",\"evidence\":[\"E12\",\"E13\",\"E14\",\"E15\",\"E17\",\"E18\"]},{\"title\":\"Chip selloff spreads\",\"stat\":\"5.1%\",\"text\":\"The selloff did not stay inside one stock. On Thursday, Broadcom and AMD rose more than 5% each as Nvidia fell, per Schwab. On Friday that flipped. In afternoon trading the Philadelphia SE Semiconductor index was down 5.1%, a more than $560 billion wipeout, with AMD down 10.7% and Broadcom down 5.9%, Reuters reported. By the close, the chip index (SOX) was −3.4% on the day and Broadcom was −4.8%. Both still ended the week higher, at +8.1% and +18.2%. The Nasdaq-100 was down 2% in the afternoon, on pace to erase about $800 billion in market value, Reuters said. It closed the day at −1.2% and ended the week at +3.5%. Reuters also reported Nvidia was on track for its longest streak of weekly losses since October 2012. Its headline for the day read 'Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector.' That is Reuters's framing of the link. The closing figures were smaller than the afternoon snapshots, and the index still finished the week higher.\",\"source\":\"AOL · Nov 13\",\"evidence\":[\"E10\",\"E20\",\"E21\",\"E22\"]}],\"after_causes\":{\"title\":\"A lopsided week\",\"text\":\"Most of the group finished the week higher. Broadcom led at +18.2%, followed by Tesla at +8.9%, Meta at +5.2%, Apple at +4.1%, Alphabet at +3.9% and Amazon at +2.8%. Microsoft slipped −1.3%. Nvidia ended −12.8%, the weakest of the group. The Nasdaq-100 gained +3.5% and the S&P 500 gained +2.5%. The chip index (SOX) rose +8.1% on the week. Apple closed Nov 13 at $356.27 and is #1 by market value among the tracked stocks. The chart below shows every stock's move.\"},\"next_text\":\"Tuesday, Nov. 17, is the big date. Nvidia reports fiscal third-quarter results, with a call at 5 p.m. ET. Analysts expect earnings growth of 90% on revenue of $109 billion, per Reuters. It is the first quarterly report since Huang resigned. Bernstein's Rasgon says he is not worried about near-term business impact. Baird's Gerra lists H200 write-down charges and possible further senior departures as headwinds. The report gives the first quarterly figures to set against both views. October retail sales also arrive Tuesday. On Wednesday, Nov. 18, the Fed releases minutes of its Oct. 27-28 meeting. Traders are fully pricing in a December rate hike, with odds of a 50-basis-point move around 7%, per CME FedWatch. Stock Titan noted October core CPI of 0.3% met the level Fed Governor Christopher Waller had set, and quoted him saying 'a 50 basis point hike in the policy rate should be considered at the December meeting.' Anthropic is set to price its IPO on Nov. 18 and begin trading on Nasdaq as ANT on Thursday, Nov. 19. It is selling 825 million shares at $70 to $78 each, up to $64.4 billion. Reuters calls Nvidia's results and the IPO tests for the AI trade.\",\"bull\":[\"Bernstein's Stacy Rasgon said he was not worried about near-term impacts on the business and that the shares 'screen extremely cheap'.\",\"Stifel and Citi kept Buy ratings. Stifel cut its target to $205 from $315 and Citi lowered its target to $225.\",\"KeyBanc's John Vinh called Kress's appointment constructive, citing her tenure as CFO since 2013.\"],\"bear\":[\"Rasgon also warned of 'considerable uncertainty' around further news flow and questioned whether any new CEO could fill Huang's shoes.\",\"Baird's Tristan Gerra pointed to possible further senior departures and H200 write-down charges, and said the episode hasn't hit its bottom yet.\",\"HSBC downgraded to hold from buy, citing uncertainty over succession. Oppenheimer downgraded the stock and removed its target.\"],\"table\":[[\"Nvidia weekly change\",\"−12.8%\",\"Nov 13\",\"Closing prices\"],[\"Nvidia closing price\",\"$162.85\",\"Nov 13\",\"Closing prices\"],[\"Nvidia distance from its Oct 6 high\",\"−31.9%\",\"Nov 13\",\"Closing prices\"],[\"Nvidia market value (approx.)\",\"$3.92T\",\"Nov 13\",\"Closing prices\"],[\"Nvidia closing price on resignation day\",\"$166.19\",\"Nov 12\",\"Yahoo Finance\"],[\"Nvidia market value in early October\",\"$5.8 trillion\",\"Nov 13\",\"Kitco\"],[\"Nvidia largest intraday fall on resignation day\",\"14%\",\"Nov 12\",\"CFO Dive\"],[\"Chip index (SOX) weekly change\",\"+8.1%\",\"Nov 13\",\"Closing prices\"],[\"Nasdaq-100 weekly change\",\"+3.5%\",\"Nov 13\",\"Closing prices\"],[\"Analyst revenue expectation, Nvidia quarter\",\"$109 billion\",\"Nov 13\",\"Kitco\"]],\"compare_chart\":{\"title\":\"Nvidia market value\",\"subtitle\":\"Reuters figures, in trillions of dollars\",\"rows\":[{\"label\":\"Early October\",\"value\":5.8,\"display\":\"$5.8 trillion\",\"hero\":false},{\"label\":\"As of Thursday\",\"value\":4,\"display\":\"$4 trillion\",\"hero\":true}],\"source\":\"Kitco · Nov 13\",\"cause\":0}}"
+  ],
+  "status": {
+    "issue": "2026-11-13",
+    "status": "held",
+    "problems": [
+      "causes[0].text: the figure \"33\" is not in DATA or in any EVIDENCE source text",
+      "causes[1].text: the figure \"13\" is not in DATA or in any EVIDENCE source text",
+      "causes[1].text: the figure \"$170\" is not in DATA or in any EVIDENCE source text",
+      "next_text: the figure \"$70\" is not in DATA or in any EVIDENCE source text",
+      "next_text: the figure \"$78\" is not in DATA or in any EVIDENCE source text",
+      "causes[1].text: reads like advice or a prediction (\"price target\")"
+    ],
+    "steps": [
+      "market data: 8 stocks, 3 indices",
+      "research (Claude Code): 32 statements kept, 25 quotes confirmed on the page, 0 dropped",
+      "draft 1: 15 problems, rewriting",
+      "review: 12 notes",
+      "rendered charts and emails",
+      "API use: 26,211 in / 36,508 out tokens, 20,320 cached, 0 searches, about $0.45"
+    ],
+    "saturday_subject": "Nvidia fell 12.8% this week. Five numbers.",
+    "sunday_subject": "Why Nvidia fell 12.8% when its CEO left",
+    "usage": {
+      "input": 26211,
+      "output": 36508,
+      "cache_read": 20320,
+      "cache_write": 10160,
+      "searches": 0,
+      "est_cost_usd": 0.447
+    }
+  }
+}
