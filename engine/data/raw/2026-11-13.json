@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "week_start": "2026-11-09",
   "week_end": "2026-11-13",
   "stocks": {
@@ -187,15 +187,15 @@
     },
     "META": {
       "name": "Meta",
-      "close": 641.69,
-      "close_date": "2026-11-13",
+      "close": 623.61,
+      "close_date": "2026-11-12",
       "prev_week_close": 610.15,
-      "week_pct": 5.17,
-      "day_pct": 2.9,
-      "month_pct": -12.9,
+      "week_pct": 2.21,
+      "day_pct": -0.82,
+      "month_pct": -15.45,
       "high_52w": 777.59,
       "high_52w_date": "2026-09-24",
-      "from_high_pct": -17.48,
+      "from_high_pct": -19.8,
       "week_closes": [
         [
           "2026-11-09",
@@ -212,10 +212,6 @@
         [
           "2026-11-12",
           623.61
-        ],
-        [
-          "2026-11-13",
-          641.69
         ]
       ]
     },
