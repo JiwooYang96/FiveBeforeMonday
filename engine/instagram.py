@@ -30,7 +30,7 @@ SITE = os.environ.get("SITE", "https://fivebeforemonday.com").rstrip("/")
 
 def _req(method, url, params=None, timeout=60):
     params = dict(params or {})
-    params["access_token"] = os.environ["IG_ACCESS_TOKEN"]
+    params["access_token"] = os.environ["IG_ACCESS_TOKEN"].strip()  # pasted secrets often carry a newline
     data = None
     if method == "GET":
         url = url + "?" + urllib.parse.urlencode(params)
