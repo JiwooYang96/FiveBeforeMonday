@@ -42,8 +42,13 @@ jobs:
           GH_TOKEN: ${{ secrets.SECRETS_PAT }}
         run: |
           case "$IG_ACCESS_TOKEN" in EAA*) ;; *) exit 0;; esac
-          if [ -z "$META_APP_SECRET" ] || [ -z "$GH_TOKEN" ]; then echo "Can't extend the token (META_APP_SECRET or SECRETS_PAT missing)."; exit 0; fi
-          NEW=$(python3 engine/instagram.py refresh) && echo "::add-mask::$NEW" && printf '%s' "$NEW" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" && echo "IG_ACCESS_TOKEN=$NEW" >> "$GITHUB_ENV"
+          if [ -z "$META_APP_SECRET" ]; then echo "Can't extend the token (META_APP_SECRET missing)."; exit 0; fi
+          NEW=$(python3 engine/instagram.py refresh) || { echo "Could not extend the token; posting with the current one."; exit 0; }
+          echo "::add-mask::$NEW"
+          echo "IG_ACCESS_TOKEN=$NEW" >> "$GITHUB_ENV"
+          # Saving the 60-day token needs SECRETS_PAT (fine-grained, Secrets: read and write on this repo).
+          printf '%s' "$NEW" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" \
+            || echo "::warning::Couldn't save the 60-day token: SECRETS_PAT is missing, expired or lacks Secrets read/write. Posting anyway."
       - name: Post queued reels
         if: steps.when.outputs.go == 'true'
         id: post
