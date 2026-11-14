@@ -3,6 +3,7 @@
 Reads ANTHROPIC_API_KEY from the environment. FBM_MODEL picks the model.
 """
 import json
+import re
 import os
 import time
 import urllib.error
@@ -28,12 +29,15 @@ def _count(u):
     USAGE["cache_read"] += u.get("cache_read_input_tokens", 0) or 0
     USAGE["cache_write"] += u.get("cache_creation_input_tokens", 0) or 0
     USAGE["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
-# Reputable financial outlets, official statistics and the tracked companies' own sites only.
+# Reputable financial outlets, official statistics and the tracked companies' own sites only. Sites that block
+# Anthropic's crawler can't be in this list (the API rejects the whole request), so reuters.com, apnews.com,
+# wsj.com, ft.com, barrons.com, marketwatch.com, businessinsider.com, investopedia.com, economist.com,
+# nytimes.com and theverge.com are left out; call() also drops any further ones the API names and retries.
 TRUSTED = [
-    "reuters.com", "bloomberg.com", "cnbc.com", "wsj.com", "ft.com", "barrons.com", "marketwatch.com",
-    "finance.yahoo.com", "apnews.com", "nasdaq.com", "forbes.com", "fortune.com", "businessinsider.com",
-    "axios.com", "morningstar.com", "investopedia.com", "economist.com", "nytimes.com", "washingtonpost.com",
-    "theverge.com", "techcrunch.com", "fool.com", "foxbusiness.com", "investing.com", "seekingalpha.com",
+    "bloomberg.com", "cnbc.com",
+    "finance.yahoo.com", "nasdaq.com", "forbes.com", "fortune.com",
+    "axios.com", "morningstar.com", "washingtonpost.com",
+    "techcrunch.com", "fool.com", "foxbusiness.com", "investing.com", "seekingalpha.com",
     "sec.gov", "bls.gov", "bea.gov", "federalreserve.gov", "treasury.gov", "census.gov",
     "nvidia.com", "apple.com", "microsoft.com", "abc.xyz", "aboutamazon.com", "meta.com", "fb.com",
     "broadcom.com", "tesla.com",
@@ -55,7 +59,18 @@ def call(system, user, tools=None, max_tokens=8000, model=None):
         body = {"model": model or MODEL, "max_tokens": max_tokens, "system": system, "messages": messages}
         if tools:
             body["tools"] = tools
-        resp = _post(body, key)
+        try:
+            resp = _post(body, key)
+        except RuntimeError as err:
+            # "The following domains are not accessible to our user agent: [...]": drop them and retry.
+            blocked = re.findall(r"'([a-z0-9.-]+\.[a-z]+)'", str(err)) if "not accessible" in str(err) else []
+            if not blocked or not tools:
+                raise
+            for t in tools:
+                if t.get("allowed_domains"):
+                    t["allowed_domains"] = [d for d in t["allowed_domains"] if d not in blocked]
+            body["tools"] = tools
+            resp = _post(body, key)
         _count(resp.get("usage") or {})
         blocks += resp["content"]
         LAST["stop_reason"] = resp.get("stop_reason")
