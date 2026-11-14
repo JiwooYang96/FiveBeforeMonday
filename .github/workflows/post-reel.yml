@@ -42,6 +42,7 @@ jobs:
           MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
         run: |
           if [ -z "$IG_ACCESS_TOKEN" ] && [ -z "$MAKE_WEBHOOK_URL" ]; then echo "Neither IG_ACCESS_TOKEN nor MAKE_WEBHOOK_URL is set; nothing posted."; exit 0; fi
+          if [ -n "$IG_ACCESS_TOKEN" ]; then python3 engine/instagram.py check | tee -a "$GITHUB_STEP_SUMMARY"; fi
           python3 engine/instagram.py post
       - name: Record what was posted
         if: steps.when.outputs.go == 'true' && always()
