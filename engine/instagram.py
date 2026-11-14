@@ -9,6 +9,8 @@ Usage:
   python3 engine/instagram.py check           # check the token and print the account
 
 Env: IG_ACCESS_TOKEN, IG_USER_ID (optional; looked up from the token), SITE (default the Vercel site).
+Or, without a Meta developer app: MAKE_WEBHOOK_URL, a Make.com scenario (Custom webhook -> Instagram for
+Business "Create a reel post") that receives {"video_url", "caption", "date"} and publishes it.
 """
 import json
 import os
@@ -84,6 +86,16 @@ def publish(video_url, caption):
     return media, link
 
 
+def via_make(video_url, caption, date):
+    body = json.dumps({"video_url": video_url, "caption": caption, "date": date}).encode()
+    req = urllib.request.Request(os.environ["MAKE_WEBHOOK_URL"], data=body, method="POST",
+                                 headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        if r.status >= 300:
+            raise RuntimeError(f"Make webhook answered {r.status}")
+    return "make", ""
+
+
 def post_queue():
     posted = []
     for meta_path in sorted(QUEUE.glob("*.json")):
@@ -94,7 +106,10 @@ def post_queue():
         if not wait_public(url):
             print(f"skip {meta_path.name}: {url} is not live yet")
             continue
-        media, link = publish(url, meta["caption"])
+        if os.environ.get("MAKE_WEBHOOK_URL"):
+            media, link = via_make(url, meta["caption"], meta_path.stem)
+        else:
+            media, link = publish(url, meta["caption"])
         meta["posted"] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "id": media, "url": link}
         meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n")
         posted.append(f"{meta_path.stem}: {link or media}")
