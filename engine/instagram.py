@@ -90,7 +90,7 @@ def wait_public(url, tries=30):
 def publish(video_url, caption):
     uid = user_id()
     container = _req("POST", f"{API}/{uid}/media", {
-        "media_type": "REELS", "video_url": video_url, "caption": caption, "share_to_feed": "true",
+        "media_type": "REELS", "video_url": video_url, "caption": caption, "share_to_feed": "true", "thumb_offset": "1500",
     })["id"]
     for _ in range(40):  # up to ~10 minutes of processing
         status = _req("GET", f"{API}/{container}", {"fields": "status_code,status"})
