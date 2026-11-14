@@ -1,4 +1,25 @@
-# Instagram auto-posting: one-time setup (about 15 minutes)
+# Instagram auto-posting: setup
+
+Two ways. **Option A (Make.com) needs no Meta developer account**, so use it if developers.facebook.com
+keeps refusing you. Option B is the direct Meta API.
+
+## Option A: Make.com (about 15 minutes, free plan is enough)
+
+1. **Professional account.** Instagram app → Settings → Account type and tools → Switch to professional →
+   Creator or Business.
+2. **Facebook Page, linked.** Create a Facebook Page "Five Before Monday" (facebook.com/pages/create) and link
+   it: Instagram app → Edit profile → Page → Connect. (Make posts through the Page link.)
+3. **Make scenario.** At make.com (free account): Create scenario →
+   - Module 1: **Webhooks → Custom webhook** → Add → name it "reel" → copy the URL it shows.
+   - Module 2: **Instagram for Business (Facebook login) → Create a reel post** → Create a connection (log in
+     with your Facebook) → Page: Five Before Monday → Video URL: `video_url` from module 1 → Caption:
+     `caption` → Share to feed: Yes.
+   - Turn the scenario **ON** (scheduling: Immediately).
+4. **GitHub.** FiveBeforeMonday → Settings → Secrets and variables → Actions → New secret
+   `MAKE_WEBHOOK_URL` = the webhook URL from step 3.
+5. **Test.** Actions → "Post reel to Instagram" → Run workflow. With a reel queued it posts it.
+
+## Option B: Meta developer app
 
 Everything after this runs by itself. You need a computer for steps 2-4 (Meta's developer site).
 

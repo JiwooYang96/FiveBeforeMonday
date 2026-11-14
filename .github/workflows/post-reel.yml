@@ -39,8 +39,9 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ vars.IG_USER_ID }}
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
         run: |
-          if [ -z "$IG_ACCESS_TOKEN" ]; then echo "IG_ACCESS_TOKEN secret is not set yet; nothing posted."; exit 0; fi
+          if [ -z "$IG_ACCESS_TOKEN" ] && [ -z "$MAKE_WEBHOOK_URL" ]; then echo "Neither IG_ACCESS_TOKEN nor MAKE_WEBHOOK_URL is set; nothing posted."; exit 0; fi
           python3 engine/instagram.py post
       - name: Record what was posted
         if: steps.when.outputs.go == 'true' && always()
@@ -58,7 +59,7 @@ jobs:
             --body "The Instagram post failed. See the run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
   refresh-token:
-    if: github.event.schedule == '11 4 * * 0'
+    if: github.event.schedule == '11 4 * * 0' && vars.IG_REFRESH != 'off'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -67,6 +68,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           GH_TOKEN: ${{ secrets.SECRETS_PAT }}
         run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then echo "No Instagram token (posting via Make); nothing to refresh."; exit 0; fi
           NEW=$(python3 engine/instagram.py refresh)
           echo "::add-mask::$NEW"
           printf '%s' "$NEW" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}"
