@@ -33,11 +33,22 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" = "18" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v4
         if: steps.when.outputs.go == 'true'
+      - name: Extend a short-lived token to 60 days and save it
+        if: steps.when.outputs.go == 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          case "$IG_ACCESS_TOKEN" in EAA*) ;; *) exit 0;; esac
+          if [ -z "$META_APP_SECRET" ] || [ -z "$GH_TOKEN" ]; then echo "Can't extend the token (META_APP_SECRET or SECRETS_PAT missing)."; exit 0; fi
+          NEW=$(python3 engine/instagram.py refresh) && echo "::add-mask::$NEW" && printf '%s' "$NEW" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" && echo "IG_ACCESS_TOKEN=$NEW" >> "$GITHUB_ENV"
       - name: Post queued reels
         if: steps.when.outputs.go == 'true'
         id: post
         env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ env.IG_ACCESS_TOKEN || secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ vars.IG_USER_ID }}
           MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
         run: |
@@ -67,6 +78,8 @@ jobs:
       - name: Refresh the Instagram token and save it
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
           GH_TOKEN: ${{ secrets.SECRETS_PAT }}
         run: |
           if [ -z "$IG_ACCESS_TOKEN" ]; then echo "No Instagram token (posting via Make); nothing to refresh."; exit 0; fi

@@ -22,7 +22,12 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-API = "https://graph.instagram.com/v23.0"
+# Two kinds of token work:
+#   IGAA...  Instagram-login token  -> graph.instagram.com
+#   EAA...   Facebook/unified-login token (new apps get these) -> graph.facebook.com, needs IG_USER_ID
+TOKEN = lambda: os.environ.get("IG_ACCESS_TOKEN", "").strip()  # noqa: E731  (pasted secrets often carry a newline)
+API = "https://graph.facebook.com/v23.0" if TOKEN().startswith("EAA") else "https://graph.instagram.com/v23.0"
+DEFAULT_IG_USER_ID = "17841457551550085"  # @fivebeforemonday
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "reels"
 SITE = os.environ.get("SITE", "https://fivebeforemonday.com").rstrip("/")
@@ -30,7 +35,7 @@ SITE = os.environ.get("SITE", "https://fivebeforemonday.com").rstrip("/")
 
 def _req(method, url, params=None, timeout=60):
     params = dict(params or {})
-    params["access_token"] = os.environ["IG_ACCESS_TOKEN"].strip()  # pasted secrets often carry a newline
+    params["access_token"] = TOKEN()
     data = None
     if method == "GET":
         url = url + "?" + urllib.parse.urlencode(params)
@@ -49,7 +54,23 @@ def _req(method, url, params=None, timeout=60):
 def user_id():
     if os.environ.get("IG_USER_ID"):
         return os.environ["IG_USER_ID"]
+    if "graph.facebook.com" in API:
+        return DEFAULT_IG_USER_ID
     return _req("GET", f"{API}/me", {"fields": "user_id,username"})["user_id"]
+
+
+def long_lived():
+    """Swap the current token for a fresh 60-day one. EAA tokens need META_APP_ID and META_APP_SECRET."""
+    if "graph.facebook.com" in API:
+        app_id, secret = os.environ.get("META_APP_ID", "").strip(), os.environ.get("META_APP_SECRET", "").strip()
+        if not (app_id and secret):
+            raise RuntimeError("META_APP_ID and META_APP_SECRET are needed to extend a Facebook-login token")
+        url = "https://graph.facebook.com/v23.0/oauth/access_token?" + urllib.parse.urlencode({
+            "grant_type": "fb_exchange_token", "client_id": app_id, "client_secret": secret,
+            "fb_exchange_token": TOKEN()})
+        with urllib.request.urlopen(url, timeout=60) as r:
+            return json.loads(r.read())["access_token"]
+    return _req("GET", "https://graph.instagram.com/refresh_access_token", {"grant_type": "ig_refresh_token"})["access_token"]
 
 
 def wait_public(url, tries=30):
@@ -142,10 +163,13 @@ if __name__ == "__main__":
             with open(out, "a") as f:
                 f.write(f"posted={len(done)}\n")
     elif cmd == "refresh":
-        r = _req("GET", "https://graph.instagram.com/refresh_access_token", {"grant_type": "ig_refresh_token"})
-        sys.stdout.write(r["access_token"])
+        sys.stdout.write(long_lived())
     elif cmd == "check":
-        me = _req("GET", f"{API}/me", {"fields": "user_id,username,account_type"})
-        print(f"OK: @{me.get('username')} ({me.get('account_type')}), user id {me.get('user_id')}")
+        if "graph.facebook.com" in API:
+            me = _req("GET", f"{API}/{user_id()}", {"fields": "username"})
+            print(f"OK: @{me.get('username')} (Facebook-login token), user id {user_id()}")
+        else:
+            me = _req("GET", f"{API}/me", {"fields": "user_id,username,account_type"})
+            print(f"OK: @{me.get('username')} ({me.get('account_type')}), user id {me.get('user_id')}")
     else:
         sys.exit(__doc__)
