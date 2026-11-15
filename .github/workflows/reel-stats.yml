@@ -41,6 +41,7 @@ jobs:
           IG_USER_ID: ${{ vars.IG_USER_ID }}
         run: |
           if [ -z "$IG_ACCESS_TOKEN" ]; then echo "IG_ACCESS_TOKEN is not set."; exit 1; fi
+          set -o pipefail
           if [ "${{ github.event_name }}" = pull_request ]; then python3 engine/reelstats.py collect --dry
           else python3 engine/reelstats.py collect; fi | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Save
