@@ -1,0 +1,173 @@
+{
+ "reels": {
+  "2026-11-12": {
+   "id": "18651611041044009",
+   "url": "https://www.instagram.com/reel/Dfua8L7gMNU/",
+   "postedAt": "2026-11-14T14:29:04+00:00",
+   "snapshots": [],
+   "gone": "2026-11-15"
+  },
+  "2026-11-13": {
+   "id": "18153070984478173",
+   "url": "https://www.instagram.com/reel/DfubCS6GAuO/",
+   "postedAt": "2026-11-14T14:29:52+00:00",
+   "snapshots": [],
+   "gone": "2026-11-15"
+  },
+  "2026-11-14": {
+   "id": "18121044029276733",
+   "url": "https://www.instagram.com/reel/Dfut4Y9FHOz/",
+   "postedAt": "2026-11-14T17:14:46+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-15T08:19:36+00:00",
+     "ageH": 15.1,
+     "views": 49,
+     "reach": 38,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 0,
+     "total_interactions": 1,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 10362,
+     "ig_reels_video_view_total_time": 466326,
+     "reels_skip_rate": 81.4
+    }
+   ],
+   "latest": {
+    "at": "2026-11-15T08:19:36+00:00",
+    "ageH": 15.1,
+    "views": 49,
+    "reach": 38,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 10362,
+    "ig_reels_video_view_total_time": 466326,
+    "reels_skip_rate": 81.4
+   }
+  },
+  "2026-11-14b": {
+   "id": "18397831285203648",
+   "url": "https://www.instagram.com/reel/DfuyzhSCE0A/",
+   "postedAt": "2026-11-14T17:57:43+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-15T08:19:36+00:00",
+     "ageH": 14.4,
+     "views": 113,
+     "reach": 96,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 0,
+     "total_interactions": 1,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 7051,
+     "ig_reels_video_view_total_time": 754495,
+     "reels_skip_rate": 68.3
+    }
+   ],
+   "latest": {
+    "at": "2026-11-15T08:19:36+00:00",
+    "ageH": 14.4,
+    "views": 113,
+    "reach": 96,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 7051,
+    "ig_reels_video_view_total_time": 754495,
+    "reels_skip_rate": 68.3
+   }
+  },
+  "special-2026-11-15-buffett": {
+   "id": "18242555431317585",
+   "url": "https://www.instagram.com/reel/Dfu-OfNFTHY/",
+   "postedAt": "2026-11-14T19:37:21+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-15T08:19:36+00:00",
+     "ageH": 12.7,
+     "views": 128,
+     "reach": 115,
+     "likes": 2,
+     "comments": 0,
+     "shares": 0,
+     "saved": 0,
+     "total_interactions": 2,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 7708,
+     "ig_reels_video_view_total_time": 901891,
+     "reels_skip_rate": 54.8
+    }
+   ],
+   "latest": {
+    "at": "2026-11-15T08:19:36+00:00",
+    "ageH": 12.7,
+    "views": 128,
+    "reach": 115,
+    "likes": 2,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 7708,
+    "ig_reels_video_view_total_time": 901891,
+    "reels_skip_rate": 54.8
+   }
+  },
+  "special-2026-11-15-wayne": {
+   "id": "18120940889519766",
+   "url": "https://www.instagram.com/reel/DfvC3bpiEao/",
+   "postedAt": "2026-11-14T20:17:51+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-15T08:19:36+00:00",
+     "ageH": 12.0,
+     "views": 63,
+     "reach": 55,
+     "likes": 2,
+     "comments": 0,
+     "shares": 1,
+     "saved": 0,
+     "total_interactions": 3,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 7287,
+     "ig_reels_video_view_total_time": 437224,
+     "reels_skip_rate": 60.7
+    }
+   ],
+   "latest": {
+    "at": "2026-11-15T08:19:36+00:00",
+    "ageH": 12.0,
+    "views": 63,
+    "reach": 55,
+    "likes": 2,
+    "comments": 0,
+    "shares": 1,
+    "saved": 0,
+    "total_interactions": 3,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 7287,
+    "ig_reels_video_view_total_time": 437224,
+    "reels_skip_rate": 60.7
+   }
+  }
+ },
+ "account": [
+  {
+   "at": "2026-11-15T08:19:36+00:00",
+   "followers": 2,
+   "media": 4
+  }
+ ]
+}
