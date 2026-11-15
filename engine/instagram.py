@@ -3,6 +3,8 @@
 The daily reel task queues a reel as reels/<date>.mp4 + reels/<date>.json ({"video", "caption", "posted"}).
 Vercel serves the mp4 publicly at SITE/reels/<date>.mp4; Instagram downloads it from there.
 
+Trial reels: a queued reel with "trial": "SS_PERFORMANCE" (or "MANUAL") is posted as a trial reel.
+
 Usage:
   python3 engine/instagram.py post            # post every queued reel whose "posted" is null
   python3 engine/instagram.py refresh         # print a refreshed long-lived token (valid 60 days)
@@ -87,11 +89,19 @@ def wait_public(url, tries=30):
     return False
 
 
-def publish(video_url, caption):
+def publish(video_url, caption, trial=None):
+    """trial: None, "SS_PERFORMANCE" (shown to non-followers first; Instagram shares it to followers if it does well)
+    or "MANUAL" (graduated by hand in the app). If the account can't post trial reels, it posts a normal reel."""
     uid = user_id()
-    container = _req("POST", f"{API}/{uid}/media", {
-        "media_type": "REELS", "video_url": video_url, "caption": caption, "share_to_feed": "true", "thumb_offset": "1500",
-    })["id"]
+    params = {"media_type": "REELS", "video_url": video_url, "caption": caption, "share_to_feed": "true", "thumb_offset": "1500"}
+    if trial:
+        try:
+            container = _req("POST", f"{API}/{uid}/media", {**params, "trial_params": json.dumps({"graduation_strategy": trial})})["id"]
+        except RuntimeError as err:
+            print(f"Trial reel refused ({str(err)[:200]}); posting as a normal reel.")
+            trial, container = None, _req("POST", f"{API}/{uid}/media", params)["id"]
+    else:
+        container = _req("POST", f"{API}/{uid}/media", params)["id"]
     for _ in range(40):  # up to ~10 minutes of processing
         status = _req("GET", f"{API}/{container}", {"fields": "status_code,status"})
         code = status.get("status_code")
@@ -104,6 +114,7 @@ def publish(video_url, caption):
         raise RuntimeError("Instagram is still processing the video after 10 minutes")
     media = _req("POST", f"{API}/{uid}/media_publish", {"creation_id": container})["id"]
     link = _req("GET", f"{API}/{media}", {"fields": "permalink"}).get("permalink", "")
+    publish.trial = trial
     return media, link
 
 
@@ -130,8 +141,10 @@ def post_queue():
         if os.environ.get("MAKE_WEBHOOK_URL"):
             media, link = via_make(url, meta["caption"], meta_path.stem)
         else:
-            media, link = publish(url, meta["caption"])
+            media, link = publish(url, meta["caption"], meta.get("trial"))
         meta["posted"] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "id": media, "url": link}
+        if meta.get("trial"):
+            meta["posted"]["trial"] = getattr(publish, "trial", None)  # None = the account refused; posted normally
         meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n")
         posted.append(f"{meta_path.stem}: {link or media}")
         print("posted", meta_path.stem, link)

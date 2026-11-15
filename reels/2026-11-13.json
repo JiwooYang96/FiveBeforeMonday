@@ -5,5 +5,76 @@
     "at": "2026-11-14T14:29:52+00:00",
     "id": "18153070984478173",
     "url": "https://www.instagram.com/reel/DfubCS6GAuO/"
+  },
+  "meta": {
+    "plan": "plans/amd-chip-selloff-nov13.json",
+    "id": "amd-chip-selloff-nov13",
+    "kind": "daily",
+    "title": "Nvidia's CEO left. AMD fell 4x harder.",
+    "structure": "versus",
+    "hookFamily": "contrarian / irony",
+    "hookFamilyMain": "contrarian",
+    "music": "tense",
+    "opening": "open.ticker",
+    "hookVoice": "",
+    "hookCaption": "AMD just CRASHED.",
+    "hookScore": null,
+    "scriptScore": null,
+    "scenes": [
+      "open.ticker",
+      "versus",
+      "causeChain",
+      "causeChain",
+      "calendarCta"
+    ],
+    "illustrations": 0,
+    "portrait": false,
+    "endCard": null,
+    "seconds": 15.81,
+    "timing": "planned, scaled to the video length (backfilled)",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.ticker",
+        "from": 0.0,
+        "to": 2.6,
+        "voice": "",
+        "caption": "AMD just CRASHED."
+      },
+      {
+        "i": 1,
+        "type": "versus",
+        "from": 2.6,
+        "to": 5.4,
+        "voice": "",
+        "caption": "Nvidia's mess. AMD PAID."
+      },
+      {
+        "i": 2,
+        "type": "causeChain",
+        "from": 5.4,
+        "to": 9.0,
+        "voice": "",
+        "caption": "First, AMD RALLIED."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 9.0,
+        "to": 12.61,
+        "voice": "",
+        "caption": "But Friday it FLIPPED."
+      },
+      {
+        "i": 4,
+        "type": "calendarCta",
+        "from": 12.61,
+        "to": 15.81,
+        "voice": "",
+        "caption": "Next test: NOV 17."
+      }
+    ],
+    "ab": null,
+    "trial": null
   }
 }

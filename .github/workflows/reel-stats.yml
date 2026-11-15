@@ -1,0 +1,38 @@
+name: Collect reel stats
+
+# Every day, saves Instagram insights for each posted reel to engine/data/reel-stats.json (one snapshot a day for
+# its first 30 days). reels_generator's reel-learnings.yml reads that file an hour later and updates the learnings.
+# Pull requests that touch the collector run it as a dry run (nothing saved).
+on:
+  schedule:
+    - cron: "17 12 * * *"
+  pull_request:
+    paths: ["engine/reelstats.py", ".github/workflows/reel-stats.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: reel-stats
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then echo "IG_ACCESS_TOKEN is not set."; exit 1; fi
+          if [ "${{ github.event_name }}" = pull_request ]; then python3 engine/reelstats.py collect --dry
+          else python3 engine/reelstats.py collect; fi | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Save
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "five-before-monday-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add engine/data/reel-stats.json
+          git diff --cached --quiet || (git commit -m "Reel stats $(date -u +%F)" && git pull --rebase && git push)

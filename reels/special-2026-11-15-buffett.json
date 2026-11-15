@@ -5,5 +5,130 @@
     "at": "2026-11-14T19:37:21+00:00",
     "id": "18242555431317585",
     "url": "https://www.instagram.com/reel/Dfu-OfNFTHY/"
+  },
+  "meta": {
+    "plan": "plans/special-2026-11-15-buffett.json",
+    "id": "special-2026-11-15-buffett",
+    "kind": "special",
+    "title": "Sunday special: Buffett's $200 billion insult",
+    "structure": "story (special edition)",
+    "hookFamily": "identity / empathy",
+    "hookFamilyMain": "identity",
+    "music": "neutral",
+    "opening": "open.illustration",
+    "hookVoice": "A grudge cost Buffett $200 billion. You'd bite too.",
+    "hookCaption": "12.5¢ grudge. $200B mistake.",
+    "hookScore": 100.0,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "illustration",
+      "timeline",
+      "priceSlam",
+      "illustration",
+      "headline",
+      "counter",
+      "causeChain",
+      "counter",
+      "causeChain",
+      "endCard"
+    ],
+    "illustrations": 3,
+    "portrait": true,
+    "endCard": "paid",
+    "seconds": 32.21,
+    "timing": "planned, scaled to the video length (backfilled)",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0.0,
+        "to": 2.76,
+        "voice": "A grudge cost Buffett $200 billion. You'd bite too.",
+        "caption": "12.5¢ grudge. $200B mistake."
+      },
+      {
+        "i": 1,
+        "type": "illustration",
+        "from": 2.76,
+        "to": 5.51,
+        "voice": "But it started with an eighth of a dollar.",
+        "caption": "It started with 1/8 of a dollar."
+      },
+      {
+        "i": 2,
+        "type": "timeline",
+        "from": 5.51,
+        "to": 8.27,
+        "voice": "In 1962, he bought into a failing textile mill.",
+        "caption": "A cheap mill, 1962."
+      },
+      {
+        "i": 3,
+        "type": "priceSlam",
+        "from": 8.27,
+        "to": 10.77,
+        "voice": "The boss agreed eleven fifty, then mailed less.",
+        "caption": "Agreed: $11.50. Offered: $11.375."
+      },
+      {
+        "i": 4,
+        "type": "illustration",
+        "from": 10.77,
+        "to": 13.52,
+        "voice": "So he bought the mill and fired its boss.",
+        "caption": "So he bought the whole mill."
+      },
+      {
+        "i": 5,
+        "type": "headline",
+        "from": 13.52,
+        "to": 16.28,
+        "voice": "Decades later, he called it his dumbest stock ever.",
+        "caption": "His dumbest stock ever."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 16.28,
+        "to": 18.78,
+        "voice": "His own price tag: two hundred billion dollars.",
+        "caption": "His own price tag."
+      },
+      {
+        "i": 7,
+        "type": "causeChain",
+        "from": 18.78,
+        "to": 21.53,
+        "voice": "That money should have gone into insurance, he said.",
+        "caption": "Why so much?"
+      },
+      {
+        "i": 8,
+        "type": "counter",
+        "from": 21.53,
+        "to": 24.29,
+        "voice": "The twist: that mill's name became a trillion-dollar company.",
+        "caption": "The twist: $1T today."
+      },
+      {
+        "i": 9,
+        "type": "causeChain",
+        "from": 24.29,
+        "to": 27.05,
+        "voice": "Pride is expensive. His lesson cost two hundred billion.",
+        "caption": "The $200B lesson."
+      },
+      {
+        "i": 10,
+        "type": "endCard",
+        "from": 27.05,
+        "to": 32.21,
+        "voice": "The full why, with charts, lands Sunday for members. Founding price: seventy-nine dollars a year. Link in bio.",
+        "caption": ""
+      }
+    ],
+    "ab": null,
+    "trial": null
   }
 }
