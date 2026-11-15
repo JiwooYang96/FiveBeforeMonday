@@ -1,0 +1,135 @@
+{
+  "video": "reels/special-2026-11-15-netflix-a.mp4",
+  "caption": "In 2000 Netflix's founders offered to sell to Blockbuster for $50 million. Blockbuster passed, and it wasn't crazy: Netflix lost $57M that year. The fatal move came later: Blockbuster Online reached 2 million subscribers by 2006, then a fight over the CEO's bonus pushed him out and the online push was cut. Bankrupt by 2010.\n\nSunday special. Get this week's five, free every Saturday → link in bio.\n\n#Netflix #Blockbuster #investing #stockmarket #history\n\nSources: Marketplace (Reed Hastings' book excerpt), Fortune, CNBC, The Motley Fool, Newsweek, CompaniesMarketCap (Netflix value at the Nov 13, 2026 close). Not investment advice.",
+  "trial": "SS_PERFORMANCE",
+  "posted": null,
+  "meta": {
+    "plan": "plans/special-2026-11-15-netflix-a.json",
+    "id": "special-2026-11-15-netflix-a",
+    "kind": "special",
+    "title": "Sunday special: Blockbuster could have bought Netflix for $50M",
+    "structure": "escalation -> rehook -> open loop (special edition)",
+    "hookFamily": "number / identity",
+    "hookFamilyMain": "number",
+    "music": "neutral",
+    "opening": "open.illustration",
+    "hookVoice": "Netflix, yours for $50 million. You'd have said no.",
+    "hookCaption": "Netflix for $50M?",
+    "hookScore": 100,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "timeline",
+      "headline",
+      "versus",
+      "causeChain",
+      "causeChain",
+      "illustration",
+      "priceSlam",
+      "counter",
+      "causeChain",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "free",
+    "seconds": 33.033,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 3.1,
+        "voice": "Netflix, yours for $50 million. You'd have said no.",
+        "caption": "Netflix for $50M?"
+      },
+      {
+        "i": 1,
+        "type": "timeline",
+        "from": 3.1,
+        "to": 5.3,
+        "voice": "Turns out, the real mistake came years later.",
+        "caption": "2000 to 2010."
+      },
+      {
+        "i": 2,
+        "type": "headline",
+        "from": 5.3,
+        "to": 7.6,
+        "voice": "Blockbuster laughed at the fifty million price.",
+        "caption": "They laughed at $50M."
+      },
+      {
+        "i": 3,
+        "type": "versus",
+        "from": 7.6,
+        "to": 10.3,
+        "voice": "Blockbuster was a hundred times bigger than Netflix.",
+        "caption": "$5B vs $50M."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 10.3,
+        "to": 13.567,
+        "voice": "But in 2004 Blockbuster went online, and nearly won.",
+        "caption": "2M online subscribers."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 13.567,
+        "to": 15.433,
+        "voice": "Then a bonus fight pushed its CEO out.",
+        "caption": "A $7.6M bonus fight."
+      },
+      {
+        "i": 6,
+        "type": "illustration",
+        "from": 15.433,
+        "to": 18.767,
+        "voice": "Online got cut. By 2010, Blockbuster was bankrupt.",
+        "caption": "Bankrupt by 2010."
+      },
+      {
+        "i": 7,
+        "type": "priceSlam",
+        "from": 18.767,
+        "to": 21.633,
+        "voice": "Nine thousand stores. Today, exactly one is left.",
+        "caption": "9,000 stores to 1."
+      },
+      {
+        "i": 8,
+        "type": "counter",
+        "from": 21.633,
+        "to": 24.7,
+        "voice": "Netflix is worth about two hundred fifty-five billion now.",
+        "caption": "Netflix now: ~$255B."
+      },
+      {
+        "i": 9,
+        "type": "causeChain",
+        "from": 24.7,
+        "to": 27.033,
+        "voice": "The no didn't sink it. Quitting online did.",
+        "caption": "The $50M no wasn't it."
+      },
+      {
+        "i": 10,
+        "type": "endCard",
+        "from": 27.033,
+        "to": 33.033,
+        "voice": "That's one of this week's five numbers. Get all five, free, every Saturday. Link in bio.",
+        "caption": ""
+      }
+    ],
+    "ab": {
+      "group": "2026-11-15-netflix",
+      "variant": "A",
+      "testing": "hook: number vs contrarian"
+    },
+    "trial": "auto"
+  }
+}
