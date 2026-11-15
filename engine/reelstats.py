@@ -69,9 +69,20 @@ def collect(dry=False):
                                            "snapshots": []})
         if age_h > KEEP_DAYS * 24 and rec["snapshots"]:
             continue
+        if rec.get("gone"):
+            continue
         values, missing = insights(posted["id"])
+        if missing and not values:
+            why = missing[0]
+            if "does not exist" in why:
+                rec["gone"] = now.date().isoformat()   # deleted from Instagram: stop asking
+                print(f"{key:32} gone: the post no longer exists on Instagram")
+                continue
+            if "(#10)" in why or "permission" in why.lower():
+                sys.exit("The Instagram token can't read insights (needs the instagram_manage_insights permission). "
+                         "Generate a new token with it and save it as the IG_ACCESS_TOKEN secret.")
         if missing:
-            problems.append(f"{key}: " + "; ".join(missing))
+            problems.append(f"{key}: " + "; ".join(m[:160] for m in missing))
         snap = {"at": now.isoformat(timespec="seconds"), "ageH": round(age_h, 1), **values}
         # One snapshot per day: today's replaces an earlier one from the same day.
         rec["snapshots"] = [s for s in rec["snapshots"] if s["at"][:10] != snap["at"][:10]] + [snap]

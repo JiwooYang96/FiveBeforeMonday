@@ -21,9 +21,23 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Collect
+      - name: Extend a short-lived token to 60 days and save it
+        if: github.event_name != 'pull_request'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          case "$IG_ACCESS_TOKEN" in EAA*) ;; *) exit 0;; esac
+          [ -n "$META_APP_SECRET" ] || exit 0
+          NEW=$(python3 engine/instagram.py refresh) || { echo "Could not extend the token."; exit 0; }
+          echo "::add-mask::$NEW"
+          echo "IG_ACCESS_TOKEN=$NEW" >> "$GITHUB_ENV"
+          printf '%s' "$NEW" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" || echo "::warning::Couldn't save the 60-day token."
+      - name: Collect
+        env:
+          IG_ACCESS_TOKEN: ${{ env.IG_ACCESS_TOKEN || secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ vars.IG_USER_ID }}
         run: |
           if [ -z "$IG_ACCESS_TOKEN" ]; then echo "IG_ACCESS_TOKEN is not set."; exit 1; fi
