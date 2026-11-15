@@ -5,5 +5,139 @@
     "at": "2026-11-14T17:14:46+00:00",
     "id": "18121044029276733",
     "url": "https://www.instagram.com/reel/Dfut4Y9FHOz/"
+  },
+  "meta": {
+    "plan": "plans/daily/2026-11-14.json",
+    "id": "daily-2026-11-14",
+    "kind": "daily",
+    "title": "The $3 trillion day: what broke on Nov 5 and what's next",
+    "structure": "what-happens-next",
+    "hookFamily": "viewer stake / number",
+    "hookFamilyMain": "viewer",
+    "music": "tense",
+    "opening": "open.burst",
+    "hookVoice": "One day. Three trillion lost. Your index fund paid.",
+    "hookCaption": "−$3T in one day.",
+    "hookScore": 100.0,
+    "scriptScore": 100,
+    "scenes": [
+      "open.burst",
+      "headline",
+      "scoreboard",
+      "barRank",
+      "chapters",
+      "causeChain",
+      "causeChain",
+      "causeChain",
+      "scoreboard",
+      "counter",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 0,
+    "portrait": false,
+    "endCard": "free",
+    "seconds": 35.73,
+    "timing": "planned, scaled to the video length (backfilled)",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.burst",
+        "from": 0.0,
+        "to": 3.03,
+        "voice": "One day. Three trillion lost. Your index fund paid.",
+        "caption": "−$3T in one day."
+      },
+      {
+        "i": 1,
+        "type": "headline",
+        "from": 3.03,
+        "to": 5.77,
+        "voice": "But the economy looked fine. AI stocks broke.",
+        "caption": "Not a recession. An AI sell-off."
+      },
+      {
+        "i": 2,
+        "type": "scoreboard",
+        "from": 5.77,
+        "to": 8.51,
+        "voice": "The S&P's worst day since April twenty twenty-five.",
+        "caption": "Worst day since April 2025."
+      },
+      {
+        "i": 3,
+        "type": "barRank",
+        "from": 8.51,
+        "to": 11.53,
+        "voice": "Chips led it: AMD down seventeen, Nvidia down nine.",
+        "caption": "Chips fell hardest."
+      },
+      {
+        "i": 4,
+        "type": "chapters",
+        "from": 11.53,
+        "to": 13.33,
+        "voice": "Three fears hit at once.",
+        "caption": "3 fears at once."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 13.33,
+        "to": 15.79,
+        "voice": "First: costlier borrowing could slow data-center building.",
+        "caption": "1. Money got PRICIER."
+      },
+      {
+        "i": 6,
+        "type": "causeChain",
+        "from": 15.79,
+        "to": 18.53,
+        "voice": "Second: midterm results raised talk of data-center pauses.",
+        "caption": "2. Data centers on PAUSE?"
+      },
+      {
+        "i": 7,
+        "type": "causeChain",
+        "from": 18.53,
+        "to": 21.55,
+        "voice": "Third: Nvidia alone shed about four hundred fifty billion.",
+        "caption": "3. One stock, $450B."
+      },
+      {
+        "i": 8,
+        "type": "scoreboard",
+        "from": 21.55,
+        "to": 24.29,
+        "voice": "A week later, most of it came back.",
+        "caption": "A week later: BOUNCED."
+      },
+      {
+        "i": 9,
+        "type": "counter",
+        "from": 24.29,
+        "to": 27.32,
+        "voice": "It still sits about three percent below its record.",
+        "caption": "Still 3.3% below the record."
+      },
+      {
+        "i": 10,
+        "type": "calendarCta",
+        "from": 27.32,
+        "to": 30.06,
+        "voice": "The three trillion dollar test: Nvidia reports Tuesday.",
+        "caption": "The $3T test: Tuesday."
+      },
+      {
+        "i": 11,
+        "type": "endCard",
+        "from": 30.06,
+        "to": 35.73,
+        "voice": "That's one of this week's five numbers. Get all five, free, every Saturday. Link in bio.",
+        "caption": ""
+      }
+    ],
+    "ab": null,
+    "trial": null
   }
 }

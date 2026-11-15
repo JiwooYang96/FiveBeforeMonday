@@ -5,5 +5,76 @@
     "at": "2026-11-14T14:29:04+00:00",
     "id": "18651611041044009",
     "url": "https://www.instagram.com/reel/Dfua8L7gMNU/"
+  },
+  "meta": {
+    "plan": "plans/nvidia-ceo-exit-nov12.json",
+    "id": "nvidia-ceo-exit-nov12",
+    "kind": "daily",
+    "title": "Nvidia's CEO resigned: -14% at the open, -4.3% at the close",
+    "structure": "timeline",
+    "hookFamily": "stakes / open loop",
+    "hookFamilyMain": "stakes",
+    "music": "tense",
+    "opening": "open.breaking",
+    "hookVoice": "",
+    "hookCaption": "Nvidia's CEO RESIGNED.",
+    "hookScore": null,
+    "scriptScore": null,
+    "scenes": [
+      "open.breaking",
+      "headline",
+      "timeline",
+      "priceSlam",
+      "calendarCta"
+    ],
+    "illustrations": 0,
+    "portrait": false,
+    "endCard": null,
+    "seconds": 14.61,
+    "timing": "planned, scaled to the video length (backfilled)",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.breaking",
+        "from": 0.0,
+        "to": 2.5,
+        "voice": "",
+        "caption": "Nvidia's CEO RESIGNED."
+      },
+      {
+        "i": 1,
+        "type": "headline",
+        "from": 2.5,
+        "to": 5.3,
+        "voice": "",
+        "caption": "Effective IMMEDIATELY."
+      },
+      {
+        "i": 2,
+        "type": "timeline",
+        "from": 5.3,
+        "to": 8.51,
+        "voice": "",
+        "caption": "But by the close: −4.3%."
+      },
+      {
+        "i": 3,
+        "type": "priceSlam",
+        "from": 8.51,
+        "to": 11.31,
+        "voice": "",
+        "caption": "Bernstein HALVED its target."
+      },
+      {
+        "i": 4,
+        "type": "calendarCta",
+        "from": 11.31,
+        "to": 14.61,
+        "voice": "",
+        "caption": "Earnings in 5 DAYS."
+      }
+    ],
+    "ab": null,
+    "trial": null
   }
 }

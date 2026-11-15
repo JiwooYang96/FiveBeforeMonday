@@ -5,5 +5,130 @@
     "at": "2026-11-14T17:57:43+00:00",
     "id": "18397831285203648",
     "url": "https://www.instagram.com/reel/DfuyzhSCE0A/"
+  },
+  "meta": {
+    "plan": "plans/daily/2026-11-14b.json",
+    "id": "daily-2026-11-14b",
+    "kind": "daily",
+    "title": "Nvidia's CEO is out: why an affair ended a 33-year run",
+    "structure": "countdown (3 reasons)",
+    "hookFamily": "stake + open loop",
+    "hookFamilyMain": "stake",
+    "music": "tense",
+    "opening": "open.chair",
+    "hookVoice": "Nvidia's CEO quit after 33 years. Your fund paid.",
+    "hookCaption": "33 years. Out in 4 days.",
+    "hookScore": 100.0,
+    "scriptScore": 100,
+    "scenes": [
+      "open.chair",
+      "headline",
+      "causeChain",
+      "causeChain",
+      "causeChain",
+      "timeline",
+      "priceSlam",
+      "counter",
+      "stampList",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 0,
+    "portrait": false,
+    "endCard": "free-alt",
+    "seconds": 32.77,
+    "timing": "planned, scaled to the video length (backfilled)",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.chair",
+        "from": 0.0,
+        "to": 3.0,
+        "voice": "Nvidia's CEO quit after 33 years. Your fund paid.",
+        "caption": "33 years. Out in 4 days."
+      },
+      {
+        "i": 1,
+        "type": "headline",
+        "from": 3.0,
+        "to": 5.45,
+        "voice": "But the affair wasn't the real problem.",
+        "caption": "Not just an AFFAIR."
+      },
+      {
+        "i": 2,
+        "type": "causeChain",
+        "from": 5.45,
+        "to": 8.45,
+        "voice": "First: US officials reportedly suspect she spied for China.",
+        "caption": "1. A suspected SPY."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 8.45,
+        "to": 11.45,
+        "voice": "Second: a reported affair with an executive under him.",
+        "caption": "2. His own EXECUTIVE."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 11.45,
+        "to": 14.18,
+        "voice": "Third: sixty people reported to him. No successor.",
+        "caption": "3. No SUCCESSOR."
+      },
+      {
+        "i": 5,
+        "type": "timeline",
+        "from": 14.18,
+        "to": 16.24,
+        "voice": "Four days from memo to resignation.",
+        "caption": "Memo to exit: 4 days."
+      },
+      {
+        "i": 6,
+        "type": "priceSlam",
+        "from": 16.24,
+        "to": 18.97,
+        "voice": "CFO Colette Kress now runs it, for now.",
+        "caption": "New boss: interim."
+      },
+      {
+        "i": 7,
+        "type": "counter",
+        "from": 18.97,
+        "to": 21.69,
+        "voice": "The stock sits thirty-two percent below its record.",
+        "caption": "−32% from its record."
+      },
+      {
+        "i": 8,
+        "type": "stampList",
+        "from": 21.69,
+        "to": 24.13,
+        "voice": "Still open: Congress wants answers December first.",
+        "caption": "Still OPEN."
+      },
+      {
+        "i": 9,
+        "type": "calendarCta",
+        "from": 24.13,
+        "to": 27.13,
+        "voice": "Tuesday, Nvidia reports without its CEO of 33 years.",
+        "caption": "First report without him: Tue."
+      },
+      {
+        "i": 10,
+        "type": "endCard",
+        "from": 27.13,
+        "to": 32.77,
+        "voice": "Five numbers, sourced, before Monday's open. Free at five before monday dot com.",
+        "caption": ""
+      }
+    ],
+    "ab": null,
+    "trial": null
   }
 }

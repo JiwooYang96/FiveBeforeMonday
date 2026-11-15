@@ -5,5 +5,121 @@
     "at": "2026-11-14T20:17:51+00:00",
     "id": "18120940889519766",
     "url": "https://www.instagram.com/reel/DfvC3bpiEao/"
+  },
+  "meta": {
+    "plan": "plans/special-2026-11-15-wayne.json",
+    "id": "special-2026-11-15-wayne",
+    "kind": "special",
+    "title": "Sunday special: the Apple co-founder who sold 10% for $800",
+    "structure": "myth vs fact (special edition)",
+    "hookFamily": "identity / belief break",
+    "hookFamilyMain": "identity",
+    "music": "neutral",
+    "opening": "open.illustration",
+    "hookVoice": "He quit Apple for $800. You'd have quit too.",
+    "hookCaption": "10% of Apple. $800.",
+    "hookScore": 100.0,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "illustration",
+      "timeline",
+      "causeChain",
+      "versus",
+      "priceSlam",
+      "counter",
+      "headline",
+      "causeChain",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "free",
+    "seconds": 30.02,
+    "timing": "planned, scaled to the video length (backfilled)",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0.0,
+        "to": 2.83,
+        "voice": "He quit Apple for $800. You'd have quit too.",
+        "caption": "10% of Apple. $800."
+      },
+      {
+        "i": 1,
+        "type": "illustration",
+        "from": 2.83,
+        "to": 5.67,
+        "voice": "Not foolish, though. He had a house to lose.",
+        "caption": "He had a house to lose."
+      },
+      {
+        "i": 2,
+        "type": "timeline",
+        "from": 5.67,
+        "to": 7.97,
+        "voice": "Twelve days after co-founding Apple, he quit.",
+        "caption": "In and out: 12 days."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 7.97,
+        "to": 10.8,
+        "voice": "Apple was a partnership. Its debts were his debts.",
+        "caption": "Its debts were HIS debts."
+      },
+      {
+        "i": 4,
+        "type": "versus",
+        "from": 10.8,
+        "to": 13.64,
+        "voice": "Jobs and Wozniak had nothing to lose. He did.",
+        "caption": "Nothing to lose vs. everything."
+      },
+      {
+        "i": 5,
+        "type": "priceSlam",
+        "from": 13.64,
+        "to": 16.47,
+        "voice": "He sold the contract for $500. It fetched millions.",
+        "caption": "Even the contract slipped away."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 16.47,
+        "to": 19.3,
+        "voice": "Ten percent of Apple today: about five hundred billion.",
+        "caption": "10% of Apple today: ~$510B."
+      },
+      {
+        "i": 7,
+        "type": "headline",
+        "from": 19.3,
+        "to": 22.14,
+        "voice": "Asked about it, he says he has no regrets.",
+        "caption": "His verdict: no regrets."
+      },
+      {
+        "i": 8,
+        "type": "causeChain",
+        "from": 22.14,
+        "to": 24.7,
+        "voice": "Same bet, different risk. That's the $800 lesson.",
+        "caption": "The $800 lesson."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 24.7,
+        "to": 30.02,
+        "voice": "That's one of this week's five numbers. Get all five, free, every Saturday. Link in bio.",
+        "caption": ""
+      }
+    ],
+    "ab": null,
+    "trial": null
   }
 }
