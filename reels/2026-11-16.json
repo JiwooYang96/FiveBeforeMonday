@@ -1,0 +1,151 @@
+{
+  "video": "reels/2026-11-16.mp4",
+  "caption": "Nvidia stock fell 4.1% today to $156.14, one day before earnings. Its board says it is not considering bringing Jensen Huang back, the US moved to close a China chip loophole, and analysts expect $109 billion in revenue on Tuesday.\n\nGet this week's five, free every Saturday → link in bio.\n\n#Nvidia #NVDA #NvidiaEarnings #stockmarket #semiconductors\n\nSources: Yahoo Finance (Nov 16 close), CNBC via The Next Web, Reuters (LSEG data, analyst estimates), StockTitan (Commerce Department rule), Nov 16, 2026. Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-16.json",
+    "id": "daily-2026-11-16",
+    "kind": "daily",
+    "title": "Nvidia falls 4% the day before its $109B earnings test",
+    "structure": "build-up (3 hits: board, China rule, Tuesday's test)",
+    "hookFamily": "number + stake",
+    "hookFamilyMain": "number",
+    "music": "tense",
+    "opening": "open.logo",
+    "hookVoice": "Nvidia lost 4% before tomorrow's earnings. Your fund too.",
+    "hookCaption": "−4.1% before the TEST.",
+    "hookScore": 100,
+    "scriptScore": 100,
+    "scenes": [
+      "open.logo",
+      "counter",
+      "chapters",
+      "causeChain",
+      "illustration",
+      "chapters",
+      "causeChain",
+      "chapters",
+      "counter",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 1,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 33.833,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.logo",
+        "from": 0,
+        "to": 3.4,
+        "voice": "Nvidia lost 4% before tomorrow's earnings. Your fund too.",
+        "caption": "−4.1% before the TEST."
+      },
+      {
+        "i": 1,
+        "type": "counter",
+        "from": 3.4,
+        "to": 6.533,
+        "voice": "It's lost $1.9 trillion in value since October.",
+        "caption": "−$1.9T since October."
+      },
+      {
+        "i": 2,
+        "type": "chapters",
+        "from": 6.533,
+        "to": 8.367,
+        "voice": "But today it took three hits at once.",
+        "caption": "But 3 hits today."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 8.367,
+        "to": 11.7,
+        "voice": "First: 180,000 signed for Huang. Board said no.",
+        "caption": "180,000 signed. Board: no."
+      },
+      {
+        "i": 4,
+        "type": "illustration",
+        "from": 11.7,
+        "to": 14.9,
+        "voice": "CNBC says its focus is the investigation instead.",
+        "caption": "The door stays SHUT."
+      },
+      {
+        "i": 5,
+        "type": "chapters",
+        "from": 14.9,
+        "to": 16.7,
+        "voice": "That's when Washington made it worse.",
+        "caption": "Then hit No. 2."
+      },
+      {
+        "i": 6,
+        "type": "causeChain",
+        "from": 16.7,
+        "to": 19.4,
+        "voice": "A new rule stops China renting Nvidia chips abroad.",
+        "caption": "Nasdaq −2.5%."
+      },
+      {
+        "i": 7,
+        "type": "chapters",
+        "from": 19.4,
+        "to": 21.3,
+        "voice": "But the biggest test hasn't happened yet.",
+        "caption": "The big one: $109B."
+      },
+      {
+        "i": 8,
+        "type": "counter",
+        "from": 21.3,
+        "to": 24.567,
+        "voice": "Therefore analysts want $109 billion in revenue.",
+        "caption": "$109B expected."
+      },
+      {
+        "i": 9,
+        "type": "calendarCta",
+        "from": 24.567,
+        "to": 27.833,
+        "voice": "Tuesday after the bell: Nvidia's first results without Huang.",
+        "caption": "The $109B test: Tuesday."
+      },
+      {
+        "i": 10,
+        "type": "endCard",
+        "from": 27.833,
+        "to": 33.833,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_heart",
+    "drawingStyle": "riso",
+    "openingLayout": null,
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$1.9t",
+        "$3.9t",
+        "$5.8t",
+        "2212"
+      ],
+      "loops": [
+        3,
+        6,
+        8
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
