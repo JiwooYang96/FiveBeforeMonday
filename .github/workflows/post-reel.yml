@@ -5,7 +5,10 @@ name: Post reel to Instagram
 # and refreshes the Instagram token every Sunday so it never expires.
 on:
   schedule:
-    - cron: "31 22,23 * * 1-5" # runs twice; only the run at 6:31pm New York posts
+    # GitHub drops or delays scheduled runs under load (none fired on Nov 16), so try every 30 minutes through the
+    # New York evening; any run from 6pm to midnight New York posts whatever is still queued (posting is idempotent).
+    - cron: "1,31 22,23 * * 1-5"
+    - cron: "1,31 0-3 * * 2-6"
     - cron: "11 4 * * 0" # Sunday: refresh the Instagram token
   workflow_dispatch:
     inputs:
@@ -30,7 +33,7 @@ jobs:
         id: when
         run: |
           H=$(TZ=America/New_York date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" = "18" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" -ge 18 ]; then echo "go=true" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v4
         if: steps.when.outputs.go == 'true'
       - name: Extend a short-lived token to 60 days and save it
