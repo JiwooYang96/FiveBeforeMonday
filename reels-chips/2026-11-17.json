@@ -1,0 +1,144 @@
+{
+  "video": "reels-chips/2026-11-17.mp4",
+  "caption": "Nvidia stock rose after earnings: fiscal Q3 sales hit a record $115.8B, about $7B above the $108.8B Wall Street expected, and the Q4 guide of $130B beat the $125.3B forecast. Shares rose 3.7% after hours, yet closed Tuesday at $155.46, 36% under their 52-week high.\nThe guide assumes zero China data-centre compute revenue, and gross margin is guided to 71-72% from 74.9%.\n\nGet this week's five, free every Saturday → link in bio.\n\n#nvda #nvidia #semiconductors #nvidiaearnings #chipstocks\n\nSources: Nvidia Q3 FY2027 results (Nov 17, 2026), BigGo Finance (estimates, Nov 17), Yahoo Finance (after-hours prices, Nov 17), The Motley Fool (close and 52-week range, Nov 17), Nasdaq (last year's Q4 report date). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-17.json",
+    "id": "chips-2026-11-17",
+    "kind": "daily",
+    "title": "Nvidia beat by $7B. Still 36% under its peak.",
+    "structure": "versus (record quarter vs a stock still down a third)",
+    "hookFamily": "versus flip + stake",
+    "hookFamilyMain": "versus",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "$7 billion beat. Your fund's Nvidia: still 36% down.",
+    "hookCaption": "+$7B beat. Still −36%.",
+    "hookScore": 100,
+    "scriptScore": 85,
+    "scenes": [
+      "open.illustration",
+      "compareBars",
+      "counter",
+      "scoreboard",
+      "priceSlam",
+      "causeChain",
+      "illustration",
+      "causeChain",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 35.333,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 4.533,
+        "voice": "$7 billion beat. Your fund's Nvidia: still 36% down.",
+        "caption": "+$7B beat. Still −36%."
+      },
+      {
+        "i": 1,
+        "type": "compareBars",
+        "from": 4.533,
+        "to": 8,
+        "voice": "Next quarter's guide: a hundred thirty billion, above forecasts.",
+        "caption": "Next quarter: $130B."
+      },
+      {
+        "i": 2,
+        "type": "counter",
+        "from": 8,
+        "to": 10.933,
+        "voice": "Data-centre sales hit a hundred seven point six billion.",
+        "caption": "Data centres: +110%."
+      },
+      {
+        "i": 3,
+        "type": "scoreboard",
+        "from": 10.933,
+        "to": 13.933,
+        "voice": "But shares rose only 3.7 percent after hours.",
+        "caption": "But shares: +3.7%."
+      },
+      {
+        "i": 4,
+        "type": "priceSlam",
+        "from": 13.933,
+        "to": 16.8,
+        "voice": "Because it closed at one fifty-five, from two forty-three.",
+        "caption": "$243 to $155."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 16.8,
+        "to": 20.167,
+        "voice": "One catch: margins guided down to about 72 percent.",
+        "caption": "Margins SLIP."
+      },
+      {
+        "i": 6,
+        "type": "illustration",
+        "from": 20.167,
+        "to": 22.833,
+        "voice": "But the strangest part: the guide counts zero China.",
+        "caption": "China: $0."
+      },
+      {
+        "i": 7,
+        "type": "causeChain",
+        "from": 22.833,
+        "to": 25.467,
+        "voice": "Even without China, the guide still beats forecasts.",
+        "caption": "Zero CHINA."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 25.467,
+        "to": 29.333,
+        "voice": "Nvidia's next test: that hundred-thirty-billion quarter, in February.",
+        "caption": "The $130B test: Feb."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 29.333,
+        "to": 35.333,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_bella",
+    "drawingStyle": "pencil",
+    "account": "@5beforemonday",
+    "palette": "editorial",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$125.3b",
+        "$130b",
+        "$4.7b",
+        "125.3",
+        "130"
+      ],
+      "loops": [
+        4,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
