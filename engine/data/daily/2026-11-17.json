@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "lead": "Salesforce fell about 9.4% with no company news, leading an enterprise-software sell-off (ServiceNow -6.5%, Atlassian -6%, Workday -5.8%, Adobe -4.3%, IGV -3.2%) a day before Anthropic prices its IPO of up to $64.4 billion.",
+  "ticker": "CRM",
+  "move": "-9.4%",
+  "why": [
+    "Anthropic's IPO (pricing Nov 18, Nasdaq debut Nov 19 as ANT, up to $64.4B raised, ~$1.4T fully diluted valuation) pulled money out of software: outlets say funds are raising cash for it and seat-priced software is the easiest thing to sell; Salesforce fell 17% around SpaceX's June listing too (Yahoo Finance/TIKR).",
+    "Renewed fear that AI models and agents automate work across applications, cutting seat counts and pricing power (Seeking Alpha); RBC's Rishi Jaluria said 'the AI companies are going to try to destroy Salesforce entirely'.",
+    "Twist: Salesforce owns an Anthropic stake, about 45% of its $11.3B strategic portfolio as of July 31 (Yahoo Finance/TIKR). Wider market also fell (Dow -1.6%, S&P -1%) on tech outages and caution before Nvidia's results. CRM is -18.9% YTD (TipRanks); earnings Dec 2."
+  ],
+  "sources": [
+    {"url": "https://www.tradingview.com/news/seekingalpha:f3b055c4a094b:0-salesforce-leads-enterprise-software-stocks-lower-ahead-of-anthropic-s-ipo/", "title": "Salesforce leads enterprise software stocks lower ahead of Anthropic's IPO (Seeking Alpha via TradingView)", "published": "Nov 17, 2026"},
+    {"url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-sinks-9-software-slides-154928253.html", "title": "Salesforce Sinks 9% as Software Slides Before Anthropic IPO (Yahoo Finance / TIKR)", "published": "Nov 17, 2026"},
+    {"url": "https://www.tipranks.com/news/why-is-salesforce-stock-crm-down-9-today", "title": "Why Is Salesforce Stock (CRM) Down 9% Today? (TipRanks)", "published": "Nov 17, 2026"},
+    {"url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html", "title": "Anthropic Sets IPO Price Range at $70 to $78 (Decrypt via Yahoo Finance)", "published": "Nov 10, 2026"},
+    {"url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026", "title": "Stock Market Today Live, November 17, 2026 (StockTitan)", "published": "Nov 17, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-17.json in reels_generator"
+}
