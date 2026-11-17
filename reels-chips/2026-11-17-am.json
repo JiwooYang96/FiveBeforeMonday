@@ -1,7 +1,11 @@
 {
   "video": "reels-chips/2026-11-17-am.mp4",
   "caption": "Chip stocks crashed 12.25% on Nov 5, their biggest one-day drop since March 2020, and have lost about $3.7 trillion in value since early October. Memory got hit hardest: SanDisk fell 22%, Micron 17.5%. Tonight at 5pm ET, Nvidia reports its quarter.\n\nGet this week's five, free every Saturday → link in bio.\n\n#semiconductors #chipstocks #NVDA #Micron #AMD\n\nSources: IBTimes (Nov 6, 2026), Heygotrade citing Yahoo Finance and Investing.com (Nov 2026), Nvidia (earnings call, Nov 17, 2026). Not investment advice.",
-  "posted": null,
+  "posted": {
+    "at": "2026-11-17T15:14:48+00:00",
+    "id": "18123330827471747",
+    "url": "https://www.instagram.com/reel/Df2OjaQiP9r/"
+  },
   "meta": {
     "plan": "plans/chips/2026-11-17-am.json",
     "id": "chips-2026-11-17-am",
