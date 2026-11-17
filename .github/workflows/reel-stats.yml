@@ -50,6 +50,7 @@ jobs:
           IG_USERNAME: 5beforemonday
           IG_QUEUE: reels-chips
           IG_STATS: reel-stats-chips.json
+          IG_USER_ID_FALLBACK: ${{ vars.IG_USER_ID_2 }}
         run: |
           if [ -z "$IG_ACCESS_TOKEN" ]; then echo "IG_ACCESS_TOKEN_2 is not set; skipping @5beforemonday."; exit 0; fi
           mkdir -p reels-chips

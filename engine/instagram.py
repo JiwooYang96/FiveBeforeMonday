@@ -67,6 +67,17 @@ def user_id():
             found = {p["instagram_business_account"]["username"].lower(): p["instagram_business_account"]["id"]
                      for p in pages.get("data", []) if p.get("instagram_business_account")}
             if want not in found:
+                # Unified-login tokens (generated per Instagram account in the app dashboard) belong to the
+                # Instagram user itself: /me answers with its id and username.
+                try:
+                    me = _req("GET", f"{API}/me", {"fields": "id,username"})
+                    if me.get("username", "").lower() == want:
+                        found[want] = me["id"]
+                except RuntimeError as err:
+                    print(f"/me lookup failed: {str(err)[:200]}")
+            if want not in found and os.environ.get("IG_USER_ID_FALLBACK"):
+                found[want] = os.environ["IG_USER_ID_FALLBACK"]
+            if want not in found:
                 raise RuntimeError(f"@{want} is not linked to a Facebook Page this token can see (found: {sorted(found) or 'none'})")
             user_id.cache = found[want]
         return user_id.cache
@@ -191,6 +202,11 @@ if __name__ == "__main__":
         sys.stdout.write(long_lived())
     elif cmd == "check":
         if "graph.facebook.com" in API:
+            if os.environ.get("IG_USERNAME"):
+                try:
+                    print("token /me:", _req("GET", f"{API}/me", {"fields": "id,name"}))
+                except RuntimeError as err:
+                    print("token /me failed:", str(err)[:300])
             me = _req("GET", f"{API}/{user_id()}", {"fields": "username"})
             print(f"OK: @{me.get('username')} (Facebook-login token), user id {user_id()}")
         else:
