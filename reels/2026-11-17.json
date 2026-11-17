@@ -1,0 +1,140 @@
+{
+  "video": "reels/2026-11-17.mp4",
+  "caption": "Salesforce stock fell 9.4% today with no company news, leading a software sell-off a day before Anthropic prices its IPO. ServiceNow, Atlassian and Workday fell too. The odd part: about 45% of Salesforce's $11.3B investment portfolio is its Anthropic stake.\n\nGet this week's five, free every Saturday → link in bio.\n\n#Salesforce #CRM #AnthropicIPO #softwarestocks #stockmarket\n\nSources: Seeking Alpha via TradingView (Nov 17 close), Yahoo Finance / TIKR (Nov 17), TipRanks (Nov 17), Decrypt via Yahoo Finance (IPO terms, Nov 10). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-17.json",
+    "id": "daily-2026-11-17",
+    "kind": "daily",
+    "title": "Salesforce sinks 9.4% a day before Anthropic's IPO",
+    "structure": "countdown (3 reasons)",
+    "hookFamily": "contradiction (no news) + stake",
+    "hookFamilyMain": "contradiction",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "Salesforce lost 9.4% on no news. Your index fund owns it.",
+    "hookCaption": "−9.4% before the IPO.",
+    "hookScore": 100,
+    "scriptScore": 85,
+    "scenes": [
+      "open.illustration",
+      "counter",
+      "barRank",
+      "causeChain",
+      "causeChain",
+      "illustration",
+      "causeChain",
+      "counter",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 35.667,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 4.1,
+        "voice": "Salesforce lost 9.4% on no news. Your index fund owns it.",
+        "caption": "−9.4% before the IPO."
+      },
+      {
+        "i": 1,
+        "type": "counter",
+        "from": 4.1,
+        "to": 8.467,
+        "voice": "Anthropic's IPO prices tomorrow: up to $64.4 billion.",
+        "caption": "Up to $64.4B raised."
+      },
+      {
+        "i": 2,
+        "type": "barRank",
+        "from": 8.467,
+        "to": 12.033,
+        "voice": "But it wasn't just Salesforce. ServiceNow fell 6.5%.",
+        "caption": "But not just Salesforce."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 12.033,
+        "to": 14.867,
+        "voice": "Reason one: funds sell software to buy the IPO.",
+        "caption": "Reason 1: cash."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 14.867,
+        "to": 17.9,
+        "voice": "Reason two: AI agents could shrink paid software seats.",
+        "caption": "Reason 2: AI agents."
+      },
+      {
+        "i": 5,
+        "type": "illustration",
+        "from": 17.9,
+        "to": 20.267,
+        "voice": "Therefore fewer seats could mean less pricing power.",
+        "caption": "Fewer seats to sell."
+      },
+      {
+        "i": 6,
+        "type": "causeChain",
+        "from": 20.267,
+        "to": 23.267,
+        "voice": "But the strangest part: Salesforce owns Anthropic stock.",
+        "caption": "It owns a piece."
+      },
+      {
+        "i": 7,
+        "type": "counter",
+        "from": 23.267,
+        "to": 27.267,
+        "voice": "Today's 9.4% leaves it down 18.9% this year.",
+        "caption": "−18.9% this year."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 27.267,
+        "to": 29.667,
+        "voice": "Salesforce answers with earnings on December 2.",
+        "caption": "Its answer: Dec 2."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 29.667,
+        "to": 35.667,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_heart",
+    "drawingStyle": "pencil",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$64.4b"
+      ],
+      "loops": [
+        3,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
