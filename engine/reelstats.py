@@ -23,7 +23,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from instagram import API, QUEUE, _req, user_id  # noqa: E402
 
-OUT = Path(__file__).resolve().parent / "data" / "reel-stats.json"
+import os  # noqa: E402
+OUT = Path(__file__).resolve().parent / "data" / os.environ.get("IG_STATS", "reel-stats.json")
 METRICS = ["views", "reach", "likes", "comments", "shares", "saved", "total_interactions", "reposts",
            "ig_reels_avg_watch_time", "ig_reels_video_view_total_time", "reels_skip_rate"]
 KEEP_DAYS = 30
