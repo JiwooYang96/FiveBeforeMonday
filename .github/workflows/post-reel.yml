@@ -64,6 +64,7 @@ jobs:
           if [ -n "$IG_ACCESS_TOKEN" ]; then python3 engine/instagram.py check | tee -a "$GITHUB_STEP_SUMMARY"; fi
           python3 engine/instagram.py post
       - name: Post queued reels for @5beforemonday (chips)
+        continue-on-error: true  # a problem with the chips account never blocks @fivebeforemonday
         if: steps.when.outputs.go == 'true' && always()
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_2 }}
