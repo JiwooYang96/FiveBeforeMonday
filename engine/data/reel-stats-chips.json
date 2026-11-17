@@ -1,0 +1,48 @@
+{
+ "reels": {
+  "2026-11-17-am": {
+   "id": "18123330827471747",
+   "url": "https://www.instagram.com/reel/Df2OjaQiP9r/",
+   "postedAt": "2026-11-17T15:14:48+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-17T20:54:13+00:00",
+     "ageH": 5.7,
+     "views": 123,
+     "reach": 109,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 1,
+     "total_interactions": 2,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 5168,
+     "ig_reels_video_view_total_time": 578925,
+     "reels_skip_rate": 64
+    }
+   ],
+   "latest": {
+    "at": "2026-11-17T20:54:13+00:00",
+    "ageH": 5.7,
+    "views": 123,
+    "reach": 109,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 2,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 5168,
+    "ig_reels_video_view_total_time": 578925,
+    "reels_skip_rate": 64
+   }
+  }
+ },
+ "account": [
+  {
+   "at": "2026-11-17T20:54:13+00:00",
+   "followers": 0,
+   "media": 1
+  }
+ ]
+}
