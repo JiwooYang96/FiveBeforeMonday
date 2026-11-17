@@ -11,6 +11,8 @@ Usage:
   python3 engine/instagram.py check           # check the token and print the account
 
 Env: IG_ACCESS_TOKEN, IG_USER_ID (optional; looked up from the token), SITE (default the Vercel site).
+Second account (@5beforemonday, chips): IG_QUEUE=reels-chips, IG_USERNAME=5beforemonday, IG_ACCESS_TOKEN from the
+IG_ACCESS_TOKEN_2 secret. With a Facebook-login token the user id is found by IG_USERNAME among the token's pages.
 Or, without a Meta developer app: MAKE_WEBHOOK_URL, a Make.com scenario (Custom webhook -> Instagram for
 Business "Create a reel post") that receives {"video_url", "caption", "date"} and publishes it.
 """
@@ -31,7 +33,7 @@ TOKEN = lambda: os.environ.get("IG_ACCESS_TOKEN", "").strip()  # noqa: E731  (pa
 API = "https://graph.facebook.com/v23.0" if TOKEN().startswith("EAA") else "https://graph.instagram.com/v23.0"
 DEFAULT_IG_USER_ID = "17841457551550085"  # @fivebeforemonday
 ROOT = Path(__file__).resolve().parent.parent
-QUEUE = ROOT / "reels"
+QUEUE = ROOT / os.environ.get("IG_QUEUE", "reels")
 SITE = os.environ.get("SITE", "https://fivebeforemonday.com").rstrip("/")
 
 
@@ -57,7 +59,17 @@ def user_id():
     if os.environ.get("IG_USER_ID"):
         return os.environ["IG_USER_ID"]
     if "graph.facebook.com" in API:
-        return DEFAULT_IG_USER_ID
+        want = os.environ.get("IG_USERNAME", "").strip().lstrip("@").lower()
+        if not want:
+            return DEFAULT_IG_USER_ID
+        if not getattr(user_id, "cache", None):
+            pages = _req("GET", f"{API}/me/accounts", {"fields": "instagram_business_account{id,username}", "limit": "100"})
+            found = {p["instagram_business_account"]["username"].lower(): p["instagram_business_account"]["id"]
+                     for p in pages.get("data", []) if p.get("instagram_business_account")}
+            if want not in found:
+                raise RuntimeError(f"@{want} is not linked to a Facebook Page this token can see (found: {sorted(found) or 'none'})")
+            user_id.cache = found[want]
+        return user_id.cache
     return _req("GET", f"{API}/me", {"fields": "user_id,username"})["user_id"]
 
 
