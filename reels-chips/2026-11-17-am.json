@@ -1,0 +1,141 @@
+{
+  "video": "reels-chips/2026-11-17-am.mp4",
+  "caption": "Chip stocks crashed 12.25% on Nov 5, their biggest one-day drop since March 2020, and have lost about $3.7 trillion in value since early October. Memory got hit hardest: SanDisk fell 22%, Micron 17.5%. Tonight at 5pm ET, Nvidia reports its quarter.\n\nGet this week's five, free every Saturday → link in bio.\n\n#semiconductors #chipstocks #NVDA #Micron #AMD\n\nSources: IBTimes (Nov 6, 2026), Heygotrade citing Yahoo Finance and Investing.com (Nov 2026), Nvidia (earnings call, Nov 17, 2026). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-17-am.json",
+    "id": "chips-2026-11-17-am",
+    "kind": "daily",
+    "title": "Chips' worst day since 2020. Tonight Nvidia reports.",
+    "structure": "escalation -> rehook -> open loop (first chips reel)",
+    "hookFamily": "number + stake",
+    "hookFamilyMain": "number",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "Chips' worst day since 2020. Your fund lost too.",
+    "hookCaption": "−12% in ONE day.",
+    "hookScore": 100,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "counter",
+      "barRank",
+      "causeChain",
+      "priceSlam",
+      "counter",
+      "causeChain",
+      "illustration",
+      "causeChain",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 31.533,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 2.967,
+        "voice": "Chips' worst day since 2020. Your fund lost too.",
+        "caption": "−12% in ONE day."
+      },
+      {
+        "i": 1,
+        "type": "counter",
+        "from": 2.967,
+        "to": 6.233,
+        "voice": "They've lost three point seven trillion dollars since early October.",
+        "caption": "−$3.7T since October."
+      },
+      {
+        "i": 2,
+        "type": "barRank",
+        "from": 6.233,
+        "to": 9.467,
+        "voice": "But memory was hit hardest: SanDisk fell twenty-two percent.",
+        "caption": "Memory hit HARDEST."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 9.467,
+        "to": 12.2,
+        "voice": "Why? Midterm fears that data-centre building slows.",
+        "caption": "Midterm SHOCK."
+      },
+      {
+        "i": 4,
+        "type": "priceSlam",
+        "from": 12.2,
+        "to": 15.167,
+        "voice": "The chip index fell from thirteen thousand to nine thousand.",
+        "caption": "13,218 to 9,011."
+      },
+      {
+        "i": 5,
+        "type": "counter",
+        "from": 15.167,
+        "to": 18,
+        "voice": "The biggest chip fund dropped twelve percent in a single day.",
+        "caption": "Biggest chip fund: −12%."
+      },
+      {
+        "i": 6,
+        "type": "causeChain",
+        "from": 18,
+        "to": 20.433,
+        "voice": "Then weak phone-chip sales at Qualcomm made it worse.",
+        "caption": "Phones MISSED."
+      },
+      {
+        "i": 7,
+        "type": "illustration",
+        "from": 20.433,
+        "to": 22.9,
+        "voice": "But the real test lands tonight, at five Eastern.",
+        "caption": "The test: TONIGHT."
+      },
+      {
+        "i": 8,
+        "type": "causeChain",
+        "from": 22.9,
+        "to": 25.533,
+        "voice": "After that crash, all chips wait on Nvidia tonight.",
+        "caption": "After −12%: 5pm ET."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 25.533,
+        "to": 31.533,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_heart",
+    "drawingStyle": "pencil",
+    "account": "@5beforemonday",
+    "palette": "terminal",
+    "openingLayout": "stack",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$3.7t",
+        "2212"
+      ],
+      "loops": [
+        3,
+        8
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
