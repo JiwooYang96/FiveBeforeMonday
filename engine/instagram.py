@@ -32,6 +32,7 @@ from pathlib import Path
 TOKEN = lambda: os.environ.get("IG_ACCESS_TOKEN", "").strip()  # noqa: E731  (pasted secrets often carry a newline)
 API = "https://graph.facebook.com/v23.0" if TOKEN().startswith("EAA") else "https://graph.instagram.com/v23.0"
 DEFAULT_IG_USER_ID = "17841457551550085"  # @fivebeforemonday
+KNOWN_IG_USER_IDS = {"fivebeforemonday": "17841457551550085", "5beforemonday": "17841415005394410"}  # from the Meta app
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / os.environ.get("IG_QUEUE", "reels")
 SITE = os.environ.get("SITE", "https://fivebeforemonday.com").rstrip("/")
@@ -62,6 +63,8 @@ def user_id():
         want = os.environ.get("IG_USERNAME", "").strip().lstrip("@").lower()
         if not want:
             return DEFAULT_IG_USER_ID
+        if want in KNOWN_IG_USER_IDS:
+            return KNOWN_IG_USER_IDS[want]
         if not getattr(user_id, "cache", None):
             pages = _req("GET", f"{API}/me/accounts", {"fields": "instagram_business_account{id,username}", "limit": "100"})
             found = {p["instagram_business_account"]["username"].lower(): p["instagram_business_account"]["id"]
