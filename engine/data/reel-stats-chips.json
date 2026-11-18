@@ -19,11 +19,26 @@
      "ig_reels_avg_watch_time": 5168,
      "ig_reels_video_view_total_time": 578925,
      "reels_skip_rate": 64
+    },
+    {
+     "at": "2026-11-18T20:29:52+00:00",
+     "ageH": 29.3,
+     "views": 123,
+     "reach": 109,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 1,
+     "total_interactions": 2,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 5074,
+     "ig_reels_video_view_total_time": 588601,
+     "reels_skip_rate": 64
     }
    ],
    "latest": {
-    "at": "2026-11-17T20:54:13+00:00",
-    "ageH": 5.7,
+    "at": "2026-11-18T20:29:52+00:00",
+    "ageH": 29.3,
     "views": 123,
     "reach": 109,
     "likes": 1,
@@ -32,9 +47,46 @@
     "saved": 1,
     "total_interactions": 2,
     "reposts": 0,
-    "ig_reels_avg_watch_time": 5168,
-    "ig_reels_video_view_total_time": 578925,
+    "ig_reels_avg_watch_time": 5074,
+    "ig_reels_video_view_total_time": 588601,
     "reels_skip_rate": 64
+   }
+  },
+  "2026-11-17": {
+   "id": "17888431707625840",
+   "url": "https://www.instagram.com/reel/Df3L6CfjIBJ/",
+   "postedAt": "2026-11-18T00:10:49+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-18T20:29:52+00:00",
+     "ageH": 20.3,
+     "views": 0,
+     "reach": 0,
+     "likes": 0,
+     "comments": 0,
+     "shares": 0,
+     "saved": 0,
+     "total_interactions": 0,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 8006,
+     "ig_reels_video_view_total_time": 32025,
+     "reels_skip_rate": 0
+    }
+   ],
+   "latest": {
+    "at": "2026-11-18T20:29:52+00:00",
+    "ageH": 20.3,
+    "views": 0,
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 8006,
+    "ig_reels_video_view_total_time": 32025,
+    "reels_skip_rate": 0
    }
   }
  },
@@ -43,6 +95,11 @@
    "at": "2026-11-17T20:54:13+00:00",
    "followers": 0,
    "media": 1
+  },
+  {
+   "at": "2026-11-18T20:29:52+00:00",
+   "followers": 0,
+   "media": 2
   }
  ]
 }
