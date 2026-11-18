@@ -1,0 +1,141 @@
+{
+  "video": "reels-chips/2026-11-18.mp4",
+  "caption": "AMD stock jumped 5.3% to $530.14 on Wednesday while Nvidia stock fell 2.9% to $150.96, its lowest close since June 2025, the day after Nvidia's record $115.8B quarter.\nSince Nov 6, Nvidia is down 19.1% and AMD up 18.1%, even though Nvidia trades at 9.7x expected earnings and AMD at 33.1x. AMD also closed its $2.9B Taalas inference-chip deal.\n\nGet this week's five, free every Saturday → link in bio.\n\n#amd #nvda #semiconductors #chipstocks #nvidiaearnings\n\nSources: The Motley Fool (closes, Nov 18), Techi (Nov 18), Yahoo Finance (Nov 18), Stock Titan (Nov 18), Blockonomi (Nov 18), Ad-hoc News (Nov 18), MPA Mag (Fed dates, Nov 10). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-18.json",
+    "id": "chips-2026-11-18",
+    "kind": "daily",
+    "title": "Nvidia beat. AMD got the rally.",
+    "structure": "myth vs fact (the beat should lift the beater; the cheap stock should win)",
+    "hookFamily": "contradiction + stake",
+    "hookFamilyMain": "contradiction",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Your Nvidia beat by nearly $7 billion. AMD won.",
+    "hookCaption": "NVDA −2.9%. AMD +5.3%.",
+    "hookScore": 100,
+    "scriptScore": 85,
+    "scenes": [
+      "open.illustration",
+      "priceSlam",
+      "scoreboard",
+      "versus",
+      "causeChain",
+      "causeChain",
+      "compareBars",
+      "causeChain",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 1,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 38.967,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 3.533,
+        "voice": "Your Nvidia beat by nearly $7 billion. AMD won.",
+        "caption": "NVDA −2.9%. AMD +5.3%."
+      },
+      {
+        "i": 1,
+        "type": "priceSlam",
+        "from": 3.533,
+        "to": 8.567,
+        "voice": "Nvidia closed at $150.96, lowest since June 2025.",
+        "caption": "Nvidia: $150.96."
+      },
+      {
+        "i": 2,
+        "type": "scoreboard",
+        "from": 8.567,
+        "to": 12.233,
+        "voice": "But AMD jumped 5.3 percent, to $530.",
+        "caption": "But AMD: +5.3%."
+      },
+      {
+        "i": 3,
+        "type": "versus",
+        "from": 12.233,
+        "to": 16.567,
+        "voice": "Since November 6, Nvidia fell 19%. AMD rose 18%.",
+        "caption": "−19% vs +18%."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 16.567,
+        "to": 20.133,
+        "voice": "Reason one: Nvidia's beat eased AI-demand fears, Yahoo reports.",
+        "caption": "AI fears EASE."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 20.133,
+        "to": 23.833,
+        "voice": "Reason two: AMD closed its $2.9 billion Taalas deal.",
+        "caption": "A $2.9B deal."
+      },
+      {
+        "i": 6,
+        "type": "compareBars",
+        "from": 23.833,
+        "to": 26.5,
+        "voice": "But the strangest part: Nvidia is the cheaper stock.",
+        "caption": "9.7x vs 33.1x."
+      },
+      {
+        "i": 7,
+        "type": "causeChain",
+        "from": 26.5,
+        "to": 29.8,
+        "voice": "Reason three: Nvidia's CEO exit and China scrutiny weigh.",
+        "caption": "Loss No. 5."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 29.8,
+        "to": 32.967,
+        "voice": "Nvidia and AMD's next test: the Fed, December 9.",
+        "caption": "Next test: Dec 9."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 32.967,
+        "to": 38.967,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "bf_emma",
+    "drawingStyle": "pencil",
+    "account": "@5beforemonday",
+    "palette": "midnight",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$150.96",
+        "$155.46"
+      ],
+      "loops": [
+        3,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
