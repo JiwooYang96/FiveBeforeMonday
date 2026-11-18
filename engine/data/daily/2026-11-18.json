@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-18",
+  "lead": "Anthropic priced its IPO at $83 a share after the close (above its $70-78 range; Nasdaq debut Thursday Nov 19 as ANT), putting Amazon's ~$18B investment at about $289B and Alphabet's at about $147B; Amazon stock was up 2.8% at midday on the stake (closing move not confirmed).",
+  "ticker": "AMZN",
+  "move": "+2.8% (midday, 12:09 pm ET; close unconfirmed)",
+  "why": [
+    "Anthropic IPO: priced at $83 (Reuters/Bloomberg via sources), above the $70-78 range, books reportedly ~6-7x oversubscribed; at least $68B raised, ~$1.5T valuation (Forbes); trades Thursday as ANT.",
+    "Amazon's stake: ~15% (Forbes), ~$18B invested; worth ~$271.8B at $78 incl. 1.56B shares to be issued later under a 12% cap (Reuters calc via 24/7 Wall St.), ~$289B at $83; Alphabet ~$147B at $83. Anthropic has also pledged $110B+ of AWS purchases through April 2036 (Benzinga).",
+    "Caution: every one of the 12 biggest US IPOs since 2008 fell below its first trade within a year; SpaceX, SK hynix and Cerebras trade below their first trades (Yahoo Finance). Market: Dow -1.11%, S&P -0.23%, Nasdaq +0.42%; Nvidia -2.9% to ~$150.96; Palo Alto +9.9% on results and a $4.5B Applied Compute deal."
+  ],
+  "sources": [
+    {"url": "https://www.marketscreener.com/news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-ce785edddc80f624", "title": "Anthropic prices blockbuster IPO at $83 a share, source says (Reuters via MarketScreener)", "published": "Nov 18, 2026"},
+    {"url": "https://finance.yahoo.com/markets/stocks/articles/amazon-google-sitting-411-billion-204745481.html", "title": "Amazon and Google Are Sitting on a $411 Billion Anthropic Windfall (24/7 Wall St. via Yahoo Finance)", "published": "Nov 11, 2026"},
+    {"url": "https://www.fool.com/investing/2026/11/18/amazon-and-alphabet-will-own-28-percent-of-anthropic-after-ipo/", "title": "Amazon and Alphabet Will Own Over 28% of Anthropic After Its IPO (Motley Fool)", "published": "Nov 18, 2026"},
+    {"url": "https://www.forbes.com/sites/fionariley/2026/11/18/anthropic-ipo-live-updates-shares-reportedly-priced-at-83/", "title": "Anthropic IPO (Live Updates): Shares Priced At $83 (Forbes)", "published": "Nov 18, 2026"},
+    {"url": "https://www.tradingview.com/news/benzinga:deda83758094b:0-amazon-stock-moves-higher-what-s-going-on/", "title": "Amazon Stock Moves Higher: What's Going On? (Benzinga via TradingView)", "published": "Nov 18, 2026"},
+    {"url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html", "title": "Anthropic IPO live (Yahoo Finance)", "published": "Nov 18, 2026"},
+    {"url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026", "title": "Stock Market Today Live, November 18, 2026 (StockTitan)", "published": "Nov 18, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-18.json in reels_generator"
+}
