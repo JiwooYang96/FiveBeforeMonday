@@ -1,0 +1,142 @@
+{
+  "video": "reels/2026-11-18.mp4",
+  "caption": "Amazon stock and the Anthropic IPO: Anthropic priced at $83 a share tonight, above its $70-78 range, and starts trading Thursday as ANT. At $83, Amazon's roughly $18B investment is worth about $289B, counting shares due to it later (24/7 Wall St. math on Reuters figures). Alphabet's stake: about $147B.\n\nThe full why, with charts, lands Sunday for members → link in bio.\n\n#Amazon #AMZN #AnthropicIPO #IPO #stockmarket\n\nSources: Reuters via MarketScreener (IPO price, Nov 18), 24/7 Wall St. via Yahoo Finance (stake values), Motley Fool (AMZN midday move, Nov 18), Forbes (stakes, Nov 18), Benzinga via TradingView (AWS pledge), Yahoo Finance (IPO history, Nov 18). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-18.json",
+    "id": "daily-2026-11-18",
+    "kind": "daily",
+    "title": "Amazon's $18B Anthropic bet, now $289B at the IPO price",
+    "structure": "what-happens-next",
+    "hookFamily": "number-shock / bet payoff + stake",
+    "hookFamilyMain": "number-shock",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Amazon's $18 billion became $289 billion. Your fund's still in.",
+    "hookCaption": "$18B in, $289B now.",
+    "hookScore": 93.75999999999999,
+    "scriptScore": 85,
+    "scenes": [
+      "open.illustration",
+      "priceSlam",
+      "versus",
+      "counter",
+      "causeChain",
+      "causeChain",
+      "counter",
+      "illustration",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 39.3,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 5.233,
+        "voice": "Amazon's $18 billion became $289 billion. Your fund's still in.",
+        "caption": "$18B in, $289B now."
+      },
+      {
+        "i": 1,
+        "type": "priceSlam",
+        "from": 5.233,
+        "to": 9.5,
+        "voice": "Anthropic's IPO priced at $83, above the $78 top.",
+        "caption": "Priced at $83."
+      },
+      {
+        "i": 2,
+        "type": "versus",
+        "from": 9.5,
+        "to": 13.233,
+        "voice": "But Google's stake is worth $147 billion too.",
+        "caption": "But Google holds $147B."
+      },
+      {
+        "i": 3,
+        "type": "counter",
+        "from": 13.233,
+        "to": 16.467,
+        "voice": "Therefore Amazon stock was up 2.8% by midday.",
+        "caption": "Amazon +2.8% by noon."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 16.467,
+        "to": 19.933,
+        "voice": "Reason one: Amazon owns about 15% of Anthropic.",
+        "caption": "Reason 1: 15% owner."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 19.933,
+        "to": 23.7,
+        "voice": "Two: Anthropic pledged at least $110 billion to AWS.",
+        "caption": "Reason 2: cloud bills."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 23.7,
+        "to": 26.733,
+        "voice": "But the twelve biggest IPOs since 2008 all slipped.",
+        "caption": "12 of 12 slipped."
+      },
+      {
+        "i": 7,
+        "type": "illustration",
+        "from": 26.733,
+        "to": 28.8,
+        "voice": "Each fell below its first trade within a year.",
+        "caption": "Below day one."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 28.8,
+        "to": 33.3,
+        "voice": "Thursday ANT trades. Amazon's $289 billion rides on it.",
+        "caption": "Thursday: ANT trades."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 33.3,
+        "to": 39.3,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_bella",
+    "drawingStyle": "hatch",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "stack",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$78",
+        "$83",
+        "2192"
+      ],
+      "loops": [
+        3,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
