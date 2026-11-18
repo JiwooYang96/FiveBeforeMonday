@@ -1,7 +1,11 @@
 {
   "video": "reels/2026-11-17.mp4",
   "caption": "Salesforce stock fell 9.4% today with no company news, leading a software sell-off a day before Anthropic prices its IPO. ServiceNow, Atlassian and Workday fell too. The odd part: about 45% of Salesforce's $11.3B investment portfolio is its Anthropic stake.\n\nGet this week's five, free every Saturday → link in bio.\n\n#Salesforce #CRM #AnthropicIPO #softwarestocks #stockmarket\n\nSources: Seeking Alpha via TradingView (Nov 17 close), Yahoo Finance / TIKR (Nov 17), TipRanks (Nov 17), Decrypt via Yahoo Finance (IPO terms, Nov 10). Not investment advice.",
-  "posted": null,
+  "posted": {
+    "at": "2026-11-18T00:10:03+00:00",
+    "id": "18008496824795103",
+    "url": "https://www.instagram.com/reel/Df3L0vXj7bY/"
+  },
   "meta": {
     "plan": "plans/daily/2026-11-17.json",
     "id": "daily-2026-11-17",
