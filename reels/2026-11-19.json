@@ -1,0 +1,138 @@
+{
+  "video": "reels/2026-11-19.mp4",
+  "caption": "Anthropic stock's first day: the biggest IPO ever closed at $97.17, up 17% from its $83 price, after opening up 34%. Its two biggest outside owners fell: Amazon −3.9%, Alphabet −3.5%, as the S&P 500 lost 2% for a sixth straight drop.\n\nGet this week's five, free every Saturday → link in bio.\n\n#Anthropic #AnthropicIPO #Amazon #Alphabet #stockmarket\n\nSources: Yahoo Finance live blog (closes, open, first-minute buying, Nov 19), Motley Fool (index closes, Alphabet close, Nov 19), Forbes (stake sizes, record IPO, Nov 19), CNBC via Stock Titan (proxy selling, Nov 19), Reuters via Korea Times (December hike odds, Nov 19). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-19.json",
+    "id": "daily-2026-11-19",
+    "kind": "daily",
+    "title": "Anthropic +17% on day one, its owners Amazon and Alphabet fell",
+    "structure": "timeline (IPO price -> open -> close -> owners' close)",
+    "hookFamily": "versus flip + stake",
+    "hookFamilyMain": "versus",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "Anthropic's IPO rose 17%. But your index fund didn't.",
+    "hookCaption": "+17% debut. Owners fell.",
+    "hookScore": 100,
+    "scriptScore": 85,
+    "scenes": [
+      "open.illustration",
+      "scoreboard",
+      "timeline",
+      "counter",
+      "causeChain",
+      "illustration",
+      "causeChain",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 33.567,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 3.833,
+        "voice": "Anthropic's IPO rose 17%. But your index fund didn't.",
+        "caption": "+17% debut. Owners fell."
+      },
+      {
+        "i": 1,
+        "type": "scoreboard",
+        "from": 3.833,
+        "to": 8.9,
+        "voice": "Amazon fell 3.9%, Alphabet 3.5%. They're its biggest owners.",
+        "caption": "Amazon −3.9%, Google −3.5%."
+      },
+      {
+        "i": 2,
+        "type": "timeline",
+        "from": 8.9,
+        "to": 13.033,
+        "voice": "Priced at $83, it opened at $111.50.",
+        "caption": "Opened at $111.50."
+      },
+      {
+        "i": 3,
+        "type": "counter",
+        "from": 13.033,
+        "to": 15.067,
+        "voice": "But by the close, half the pop was gone.",
+        "caption": "But half the pop faded."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 15.067,
+        "to": 18.933,
+        "voice": "CNBC reports investors took profits in the Anthropic proxies.",
+        "caption": "Reason 1: proxies sold."
+      },
+      {
+        "i": 5,
+        "type": "illustration",
+        "from": 18.933,
+        "to": 21.7,
+        "voice": "No big IPO since 2008 dropped this fast.",
+        "caption": "Worst start since 2008."
+      },
+      {
+        "i": 6,
+        "type": "causeChain",
+        "from": 21.7,
+        "to": 24.5,
+        "voice": "That's when rates hit: a December hike looks near-certain.",
+        "caption": "Then rates hit."
+      },
+      {
+        "i": 7,
+        "type": "calendarCta",
+        "from": 24.5,
+        "to": 27.567,
+        "voice": "Anthropic's 17% meets the Fed on December ninth.",
+        "caption": "17% meets the Fed."
+      },
+      {
+        "i": 8,
+        "type": "endCard",
+        "from": 27.567,
+        "to": 33.567,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_heart",
+    "drawingStyle": "pencil",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$83",
+        "17.1%",
+        "22122.02%",
+        "22123.46%",
+        "22123.87%",
+        "3.5%",
+        "3.9%",
+        "500"
+      ],
+      "loops": [
+        4,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
