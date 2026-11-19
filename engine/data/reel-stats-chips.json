@@ -34,11 +34,26 @@
      "ig_reels_avg_watch_time": 5074,
      "ig_reels_video_view_total_time": 588601,
      "reels_skip_rate": 64
+    },
+    {
+     "at": "2026-11-19T20:34:20+00:00",
+     "ageH": 53.3,
+     "views": 123,
+     "reach": 109,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 1,
+     "total_interactions": 2,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 5074,
+     "ig_reels_video_view_total_time": 588601,
+     "reels_skip_rate": 64
     }
    ],
    "latest": {
-    "at": "2026-11-18T20:29:52+00:00",
-    "ageH": 29.3,
+    "at": "2026-11-19T20:34:20+00:00",
+    "ageH": 53.3,
     "views": 123,
     "reach": 109,
     "likes": 1,
@@ -71,21 +86,73 @@
      "ig_reels_avg_watch_time": 8006,
      "ig_reels_video_view_total_time": 32025,
      "reels_skip_rate": 0
+    },
+    {
+     "at": "2026-11-19T20:34:20+00:00",
+     "ageH": 44.4,
+     "views": 0,
+     "reach": 0,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 0,
+     "total_interactions": 1,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 9089,
+     "ig_reels_video_view_total_time": 63623,
+     "reels_skip_rate": 0
     }
    ],
    "latest": {
-    "at": "2026-11-18T20:29:52+00:00",
-    "ageH": 20.3,
+    "at": "2026-11-19T20:34:20+00:00",
+    "ageH": 44.4,
     "views": 0,
     "reach": 0,
-    "likes": 0,
+    "likes": 1,
     "comments": 0,
     "shares": 0,
     "saved": 0,
-    "total_interactions": 0,
+    "total_interactions": 1,
     "reposts": 0,
-    "ig_reels_avg_watch_time": 8006,
-    "ig_reels_video_view_total_time": 32025,
+    "ig_reels_avg_watch_time": 9089,
+    "ig_reels_video_view_total_time": 63623,
+    "reels_skip_rate": 0
+   }
+  },
+  "2026-11-18": {
+   "id": "18108982472201227",
+   "url": "https://www.instagram.com/reel/Df5wxSpnHSf/",
+   "postedAt": "2026-11-19T00:11:27+00:00",
+   "snapshots": [
+    {
+     "at": "2026-11-19T20:34:20+00:00",
+     "ageH": 20.4,
+     "views": 0,
+     "reach": 0,
+     "likes": 1,
+     "comments": 0,
+     "shares": 0,
+     "saved": 0,
+     "total_interactions": 1,
+     "reposts": 0,
+     "ig_reels_avg_watch_time": 16253,
+     "ig_reels_video_view_total_time": 48761,
+     "reels_skip_rate": 0
+    }
+   ],
+   "latest": {
+    "at": "2026-11-19T20:34:20+00:00",
+    "ageH": 20.4,
+    "views": 0,
+    "reach": 0,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1,
+    "reposts": 0,
+    "ig_reels_avg_watch_time": 16253,
+    "ig_reels_video_view_total_time": 48761,
     "reels_skip_rate": 0
    }
   }
@@ -100,6 +167,11 @@
    "at": "2026-11-18T20:29:52+00:00",
    "followers": 0,
    "media": 2
+  },
+  {
+   "at": "2026-11-19T20:34:20+00:00",
+   "followers": 0,
+   "media": 3
   }
  ]
 }
