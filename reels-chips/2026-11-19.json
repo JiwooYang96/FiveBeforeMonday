@@ -1,0 +1,153 @@
+{
+  "video": "reels-chips/2026-11-19.mp4",
+  "caption": "AMD stock fell about 7.7% on Thursday, from $530.14 to around $489 late in the day, after short seller Hunterbrook alleged that blacklisted Chinese server maker IEIT Systems kept using newer AMD firmware. Hunterbrook is short AMD; AMD says the report misrepresents its business and that it complies with US export law.\nThe report puts AMD's 2025 China and Hong Kong billings at $7.75B (22% of sales), and a US license rule covering Singapore took effect the same day.\n\nGet this week's five, free every Saturday → link in bio.\n\n#amd #semiconductors #chipstocks #exportcontrols\n\nSources: Reuters via MarketScreener (Nov 19), Decrypt (Nov 19), The Motley Fool (Nov 19), 24/7 Wall St. (Nov 19), OfficeChai (Nov 19). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-19.json",
+    "id": "chips-2026-11-19",
+    "kind": "daily",
+    "title": "AMD fell on a short seller's China report",
+    "structure": "build-up (3 questions: the firmware claim, the China sales, today's rule)",
+    "hookFamily": "belief break + stake",
+    "hookFamilyMain": "belief",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "No earnings. Your AMD still lost nearly 8%.",
+    "hookCaption": "−7.7% on one report.",
+    "hookScore": 100,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "priceSlam",
+      "chapters",
+      "causeChain",
+      "chapters",
+      "causeChain",
+      "chapters",
+      "causeChain",
+      "versus",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 1,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 33.633,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 3,
+        "voice": "No earnings. Your AMD still lost nearly 8%.",
+        "caption": "−7.7% on one report."
+      },
+      {
+        "i": 1,
+        "type": "priceSlam",
+        "from": 3,
+        "to": 5.633,
+        "voice": "Down to about $489 late today.",
+        "caption": "$530 to $489."
+      },
+      {
+        "i": 2,
+        "type": "chapters",
+        "from": 5.633,
+        "to": 8.833,
+        "voice": "But the report's author, Hunterbrook, is betting against AMD.",
+        "caption": "But it's SHORT."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 8.833,
+        "to": 11.933,
+        "voice": "It says blacklisted IEIT used AMD firmware.",
+        "caption": "6+ firmware versions."
+      },
+      {
+        "i": 4,
+        "type": "chapters",
+        "from": 11.933,
+        "to": 13.967,
+        "voice": "Then it turned to AMD's China sales.",
+        "caption": "Then No. 2."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 13.967,
+        "to": 16.767,
+        "voice": "22% of AMD's sales are billed to China.",
+        "caption": "$7.75B from China."
+      },
+      {
+        "i": 6,
+        "type": "chapters",
+        "from": 16.767,
+        "to": 18.567,
+        "voice": "But the third hit started today.",
+        "caption": "But No. 3: TODAY."
+      },
+      {
+        "i": 7,
+        "type": "causeChain",
+        "from": 18.567,
+        "to": 21.067,
+        "voice": "Singapore AI chips now need US licenses.",
+        "caption": "$4.28B in Singapore."
+      },
+      {
+        "i": 8,
+        "type": "versus",
+        "from": 21.067,
+        "to": 24.4,
+        "voice": "AMD denies it. Yesterday's 5% rally is gone.",
+        "caption": "+5.3% gone."
+      },
+      {
+        "i": 9,
+        "type": "calendarCta",
+        "from": 24.4,
+        "to": 27.633,
+        "voice": "AMD watch: January 10, when a blacklist pause ends.",
+        "caption": "Next: Jan 10."
+      },
+      {
+        "i": 10,
+        "type": "endCard",
+        "from": 27.633,
+        "to": 33.633,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_heart",
+    "drawingStyle": "pencil",
+    "account": "@5beforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "stack",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$489",
+        "$489.19",
+        "$530",
+        "$530.14"
+      ],
+      "loops": [
+        3,
+        5,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
