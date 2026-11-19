@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-19",
+  "lead": "Anthropic (ANT), the biggest IPO ever ($81.3B raised at $83), opened at $111.50 (+34.3%) and closed at $97.17 (+17.1%), but its biggest outside owners fell: Amazon -3.87% to $257.37 and Alphabet -3.46% (GOOGL $272.66) as the S&P 500 dropped 2.02% for a sixth straight loss.",
+  "ticker": "AMZN",
+  "move": "-3.87%",
+  "why": [
+    "Profit-taking in the 'Anthropic proxies': CNBC (via Stock Titan) said Amazon, Alphabet and Broadcom are broadly seen as proxies for Anthropic and investors appeared to take profits once it began trading; the debut 'failed to revive enthusiasm' for AI stocks.",
+    "Rates: traders priced a near-certain 25 bp Fed hike in December (Reuters, LSEG data); 10-year ~5.05%, VIX ~28; Philly Fed fell to 6.3 from 20.9. Dow -1,101 (-2.19%), Nasdaq -2.25%.",
+    "Anthropic itself: $15B bought in the first minute; 30 minutes in, no big US IPO since 2008 was further below its first trade (Yahoo). Stakes at $83: Amazon ~$159B, Alphabet ~$149B (Forbes); Fool puts Alphabet's at ~$175B at the close. Also: AMD -7.7% on a China blacklist report, Intuit -14.6% after hours on Q1 and a Mailchimp sale, Palo Alto +6.4%."
+  ],
+  "sources": [
+    {"url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html", "title": "Stock market today: Dow sinks 1,100 points, S&P 500 and Nasdaq tank 2% as Anthropic IPO grabs spotlight (Yahoo Finance)", "published": "Nov 19, 2026"},
+    {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/", "title": "Stock Market Today, Nov. 19: Dow Plunges 1,100 Points (Motley Fool)", "published": "Nov 19, 2026"},
+    {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-googles-stake/", "title": "Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake (Motley Fool)", "published": "Nov 19, 2026"},
+    {"url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026", "title": "Stock Market Today Live, November 19, 2026 (Stock Titan)", "published": "Nov 19, 2026"},
+    {"url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-shares-up-15-ahead-of-close-as-earlier-34-gain-loses-steam/", "title": "Anthropic IPO Live: Shares Up 15% Ahead Of Close As Earlier 34% Gain Loses Steam (Forbes)", "published": "Nov 19, 2026"},
+    {"url": "https://www.koreatimes.co.kr/world/20261120/wall-st-falls-sharply-as-anthropic-debut-fails-to-reignite-ai-trade", "title": "Wall St falls sharply as Anthropic debut fails to reignite AI trade (Reuters via Korea Times)", "published": "Nov 19, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-19.json in reels_generator"
+}
