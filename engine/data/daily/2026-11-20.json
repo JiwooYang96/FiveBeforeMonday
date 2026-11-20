@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "lead": "Intuit fell about 10.8% (Reuters, Friday afternoon; close unconfirmed) after agreeing to sell Mailchimp to Bending Spoons for about $3.68B, under a third of the roughly $12B it paid in 2021, and cutting its fiscal 2027 revenue growth forecast to 8-9% from 9-10%, on a day the S&P 500 lost 3.59% and the S&P 500 and Dow confirmed corrections.",
+  "ticker": "INTU",
+  "move": "-10.8%",
+  "why": [
+    "Guidance cut: FY27 revenue forecast lowered to $23.08B-$23.37B (8-9% growth) from $23.28B-$23.51B (9-10%); Credit Karma growth outlook cut to 3-7% from 11-13%; Q2 adjusted EPS guide $3.17-$3.22 vs $3.73 expected. Morgan Stanley called it a 'Credit Karma-led FY27 revenue cut and weak Q2 guide' ($315 -> $310 target); Jefferies, Barclays, UBS and BofA also cut targets.",
+    "Mailchimp sale: ~$3.31B cash plus $368M of Bending Spoons stock, closing early 2027; Intuit says it will focus on AI tools for small businesses and use the cash for buybacks. Mailchimp Q1 revenue fell 1% to $313M.",
+    "Market backdrop: S&P 500 -3.59% to 6,918.45, Nasdaq -5.13% to 22,654.15, Dow -1.85% (Reuters preliminary close); Anthropic fell about 10% on day two; December hike odds ~95.5% (CME FedWatch). Intuit was already down roughly 54% this year (Yahoo Finance) even as Q1 adjusted EPS rose 56% to $2.91."
+  ],
+  "sources": [
+    {"url": "https://gvwire.com/2026/11/20/wall-street-slides-on-mounting-ai-selloff-sp-500-dow-set-to-confirm-corrections/", "title": "Wall Street Slides on Mounting AI Selloff, S&P 500, Dow Set to Confirm Corrections (Reuters via GV Wire)", "published": "Nov 20, 2026"},
+    {"url": "https://www.marketscreener.com/news/wall-st-ends-sharply-lower-on-ai-selloff-s-p-500-dow-in-correction-ce785ed3dd80f527", "title": "Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction (Reuters via MarketScreener)", "published": "Nov 20, 2026"},
+    {"url": "https://finance.yahoo.com/markets/stocks/articles/intuit-shares-fall-11-company-103434995.html", "title": "Intuit Shares Fall 11% as Company Agrees $3.68 Billion Mailchimp Sale and Cuts Revenue Outlook (InvestorsHub via Yahoo Finance)", "published": "Nov 20, 2026"},
+    {"url": "https://www.tipranks.com/news/intuit-stock-intu-plunges-on-3-68b-mailchimp-sale-to-bending-spoons-and-weak-guidance", "title": "Intuit Stock (INTU) Plunges on $3.68B Mailchimp Sale to Bending Spoons and Weak Guidance (TipRanks)", "published": "Nov 20, 2026"},
+    {"url": "https://www.tradingview.com/news/invezz:6d543feea094b:0-intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/", "title": "Intuit stock falls 9% on FY27 revenue forecast cut, Mailchimp sale; analysts cut PTs (Invezz via TradingView)", "published": "Nov 20, 2026"},
+    {"url": "https://www.aol.com/articles/intuit-stock-falls-weaker-outlook-160641000.html", "title": "Intuit stock falls on weaker outlook, Mailchimp sale to Bending Spoons (Yahoo Finance via AOL)", "published": "Nov 20, 2026"},
+    {"url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/", "title": "Bending Spoons buys Mailchimp for $3.68B (TechCrunch)", "published": "Nov 20, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-20.json in reels_generator"
+}
