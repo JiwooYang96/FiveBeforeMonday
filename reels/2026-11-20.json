@@ -1,0 +1,142 @@
+{
+  "video": "reels/2026-11-20.mp4",
+  "caption": "Intuit stock fell about 10.8% on Friday (Reuters, afternoon) after it agreed to sell Mailchimp to Bending Spoons for about $3.68 billion, under a third of the roughly $12 billion it paid in 2021, and cut its fiscal 2027 revenue growth forecast to 8-9% from 9-10%.\nCredit Karma's growth outlook fell to 3-7% from 11-13%, on a day the S&P 500 lost 3.6% and closed in a correction.\n\nThe full why, with charts, lands Sunday for members → link in bio.\n\n#Intuit #INTU #Mailchimp #stockmarket #softwarestocks\n\nSources: Reuters via GV Wire and MarketScreener (Nov 20), TipRanks (Nov 20), InvestorsHub via Yahoo Finance (Nov 20), Invezz via TradingView (Nov 20), Yahoo Finance via AOL (Nov 20), TechCrunch (Nov 20). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-20.json",
+    "id": "daily-2026-11-20",
+    "kind": "daily",
+    "title": "Intuit −10.8% after selling Mailchimp for a third of its price",
+    "structure": "escalation -> rehook -> open loop",
+    "hookFamily": "number + stake",
+    "hookFamilyMain": "number",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "Intuit just lost 10.8%.",
+    "hookCaption": "−10.8% on a 1/3-price sale.",
+    "hookScore": 59.6,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "counter",
+      "priceSlam",
+      "causeChain",
+      "causeChain",
+      "causeChain",
+      "counter",
+      "illustration",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 27.833,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.567,
+        "voice": "Intuit just lost 10.8%.",
+        "caption": "−10.8% on a 1/3-price sale."
+      },
+      {
+        "i": 1,
+        "type": "counter",
+        "from": 1.567,
+        "to": 2.733,
+        "voice": "Your fund didn't escape.",
+        "caption": "S&P −3.6%."
+      },
+      {
+        "i": 2,
+        "type": "priceSlam",
+        "from": 2.733,
+        "to": 6.2,
+        "voice": "It paid $12 billion for Mailchimp. Sold for $3.68 billion.",
+        "caption": "$12B in. $3.68B out."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 6.2,
+        "to": 8.4,
+        "voice": "But the bigger hit: Intuit cut its growth forecast.",
+        "caption": "But growth got cut."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 8.4,
+        "to": 10.6,
+        "voice": "Credit Karma's growth forecast was cut by over half.",
+        "caption": "Credit Karma slowed."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 10.6,
+        "to": 14.067,
+        "voice": "Next quarter's profit guide fell short of $3.73 expected.",
+        "caption": "Next quarter missed."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 14.067,
+        "to": 16.633,
+        "voice": "But the twist: Intuit was already down 54%.",
+        "caption": "Already −54% this year."
+      },
+      {
+        "i": 7,
+        "type": "illustration",
+        "from": 16.633,
+        "to": 19.133,
+        "voice": "Yet its quarterly profit per share jumped 56%.",
+        "caption": "Profit still +56%."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 19.133,
+        "to": 21.833,
+        "voice": "Intuit's 10.8% drop meets the Fed on December ninth.",
+        "caption": "−10.8% meets the Fed."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 21.833,
+        "to": 27.833,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_heart",
+    "drawingStyle": "pencil",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$12b",
+        "$3.68b"
+      ],
+      "loops": [
+        4,
+        7,
+        8
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
