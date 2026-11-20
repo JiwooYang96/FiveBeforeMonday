@@ -1,0 +1,566 @@
+{
+  "week_end": "2026-11-20",
+  "made_by": "claude-code",
+  "items": [
+    {
+      "tag": "STORY",
+      "date": null,
+      "text": "Nvidia shares fell 23% this week, their worst week since the 2008 financial crisis, closing Friday at $125.53, down 14% on the day after Reuters reported an SEC accounting probe (Investing.com).",
+      "sources": [
+        {
+          "url": "https://uk.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4996570",
+          "title": "Nvidia suffers worst week since 2008, as SEC probe report fuels post-Huang turmoil (Investing.com)",
+          "published": "Nov 20, 2026",
+          "quote": "plunged 23% this week, marking their worst weekly performance since the 2008 financial crisis"
+        },
+        {
+          "url": "https://uk.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4996570",
+          "title": "Nvidia suffers worst week since 2008, as SEC probe report fuels post-Huang turmoil (Investing.com)",
+          "published": "Nov 20, 2026",
+          "quote": "The stock closed Friday at $125.53, down $20.45, or 14%, in its seventh consecutive weekly decline."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "On Friday Reuters, citing two people briefed on the matter, reported that SEC enforcement staff are examining potential accounting issues at Nvidia; the SEC declined to comment and Nvidia did not immediately respond.",
+      "sources": [
+        {
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+          "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting (Decrypt)",
+          "published": "Nov 20, 2026",
+          "quote": "Reuters, citing two people briefed on the matter, said the inquiry centers on potential accounting issues"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349180/Nvidias-accounting-is-a-focus-of-US-SEC-investigation-sources-say",
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters via The Standard)",
+          "published": "Nov 20, 2026",
+          "quote": "SEC enforcement staff are scrutinizing potential accounting issues at the company"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia shares were already down more than 6% on Friday before the Reuters report and were down about 13% afterward, according to LSEG data cited by Reuters.",
+      "sources": [
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349180/Nvidias-accounting-is-a-focus-of-US-SEC-investigation-sources-say",
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters via The Standard)",
+          "published": "Nov 20, 2026",
+          "quote": "They had been down more than 6% before Reuters published its report."
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349180/Nvidias-accounting-is-a-focus-of-US-SEC-investigation-sources-say",
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters via The Standard)",
+          "published": "Nov 20, 2026",
+          "quote": "Prices of Nvidia shares extended losses and were down about 13% on Friday, according to LSEG data"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Strong results did not stop the slide: Nvidia reported fiscal Q3 revenue of $115.8 billion on Tuesday, up 103% and above Wall Street's $109.2 billion estimate.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "representing 103% growth year over year and exceeding Wall Street's estimate of $109.2 billion"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/",
+          "title": "Stock Market Today, Nov. 17: Nvidia Slides Ahead of Earnings but Soars in After Hours Trading (Motley Fool)",
+          "published": "Nov 17, 2026",
+          "quote": "The semiconductor giant reported a 103% year-over-year increase in sales to $115.8 billion"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia guided fourth-quarter revenue to $130 billion, plus or minus 3%, above analysts' expectations of about $125 billion.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "Nvidia forecasting $130 billion in revenue for the fourth quarter, plus or minus 3%"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "Moreover, it also exceeds analysts' expectations of approximately $125 billion."
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia's data center revenue rose 110% year over year and 21% from the previous quarter to $107.6 billion.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/",
+          "title": "Stock Market Today, Nov. 17: Nvidia Slides Ahead of Earnings but Soars in After Hours Trading (Motley Fool)",
+          "published": "Nov 17, 2026",
+          "quote": "Its data center revenue rose 110% year over year and 21% from the previous quarter to $107.6 billion"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Adjusted earnings per share rose 111% to $2.68, above the $2.47 estimate.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "Meanwhile, adjusted earnings per share (EPS) surged 111% to $2.68, comfortably exceeding Wall Street's estimate of $2.47."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "The post-earnings bounce faded: shares rose as much as 3% in extended trading Tuesday, then Nvidia sank about 3% on Wednesday as the S&P 500 fell for a fifth straight day (Reuters, Bloomberg).",
+      "sources": [
+        {
+          "url": "https://www.newstribune.com/news/2026/nov/18/wall-street-ends-lower-ahead-of-nvidia-results/",
+          "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut (Reuters via News Tribune)",
+          "published": "Nov 18, 2026",
+          "quote": "The company beat analyst estimates, and its shares rose by as much as 3 percent in extended trading."
+        },
+        {
+          "url": "https://www.swissinfo.ch/eng/stocks-waver-as-nvidias-earnings-rally-sputters%3a-markets-wrap/92397458",
+          "title": "Stocks Fall on Nvidia Rout With Anthropic in Focus: Markets Wrap (Bloomberg via Swissinfo)",
+          "published": "Nov 18, 2026",
+          "quote": "The chipmaker sank about 3%."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Leadership uncertainty continued: board chairman Harvey Jones said the board does not intend to reinstate Jensen Huang as CEO, CFO Colette Kress is interim CEO, and Nvidia hired Heidrick & Struggles to find a permanent successor.",
+      "sources": [
+        {
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+          "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting (Decrypt)",
+          "published": "Nov 20, 2026",
+          "quote": "The Nvidia board does not intend to reinstate Jensen as CEO"
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "Nvidia has retained executive search firm Heidrick & Struggles to identify a permanent successor"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/",
+          "title": "Stock Market Today, Nov. 17: Nvidia Slides Ahead of Earnings but Soars in After Hours Trading (Motley Fool)",
+          "published": "Nov 17, 2026",
+          "quote": "Nvidia's CFO and interim CEO Colette Kress"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "With its results Nvidia disclosed about $118 billion in financial guarantees, and said its Form 10-Q would be filed in the coming weeks rather than with earnings (Motley Fool).",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "management disclosed approximately $118 billion in financial guarantees."
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "would be filed in the coming weeks rather than published alongside earnings"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Reuters reported that Nvidia has provided guarantees connected to data-center projects that use its equipment, arrangements critics say make chipmakers' revenue quality harder to assess.",
+      "sources": [
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349180/Nvidias-accounting-is-a-focus-of-US-SEC-investigation-sources-say",
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters via The Standard)",
+          "published": "Nov 20, 2026",
+          "quote": "provided guarantees connected to data-center projects that use its equipment"
+        },
+        {
+          "url": "https://www.thestandard.com.hk/finance/article/349180/Nvidias-accounting-is-a-focus-of-US-SEC-investigation-sources-say",
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say (Reuters via The Standard)",
+          "published": "Nov 20, 2026",
+          "quote": "Critics say such arrangements can make it harder for investors to assess the quality of chipmakers"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Separately, U.S. authorities have been investigating Megaspeed, a Singapore-based former large Nvidia customer, since 2024 over possible export-control violations, according to Reuters as reported by Decrypt.",
+      "sources": [
+        {
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+          "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting (Decrypt)",
+          "published": "Nov 20, 2026",
+          "quote": "U.S. authorities have been investigating Megaspeed since 2024 over possible export control violations"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia now trades nearly 48% below its October 6 record high.",
+      "sources": [
+        {
+          "url": "https://uk.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4996570",
+          "title": "Nvidia suffers worst week since 2008, as SEC probe report fuels post-Huang turmoil (Investing.com)",
+          "published": "Nov 20, 2026",
+          "quote": "with shares now nearly 48% below their October 6 record high"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Friday's Nvidia volume surged to 607.8 million shares, about 262% above its three-month daily average of 167.9 million.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "Trading volume surged to 607.8 million shares, approximately 262% above its three-month daily average of 167.9 million"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "The selloff hit the whole market on Friday: the Nasdaq Composite fell 5.13% to 22,654 and the S&P 500 fell 3.82% to 6,902, below the 7,000 level.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "tumbled 5.13% to 22,654 as investors continued to retreat from high-growth technology stocks"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "plunged 3.82% to 6,902, breaking below the psychologically important 7,000 level"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Other chipmakers fell with Nvidia on Friday: Broadcom dropped 12.12% to $304.65 and AMD 13.26% to $424.32.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "fell 12.12% to $304.65"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+          "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "plunged 13.26% to $424.32"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "AMD was down 11.03% at midday Friday on concerns about firmware security and alleged ties to blacklisted Chinese companies, while Micron fell 12.03%.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/",
+          "title": "Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "tumbling 11.03% as concerns surrounding firmware security and alleged ties to blacklisted Chinese companies"
+        },
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/",
+          "title": "Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "plunged 12.03% amid the intensifying semiconductor sell-off"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Rates added pressure: markets priced a near-certain 95.4% chance of a 25-basis-point Fed rate increase in December, according to CME's FedWatch tool (Reuters, Nov 17).",
+      "sources": [
+        {
+          "url": "https://www.newstribune.com/news/2026/nov/18/wall-street-ends-lower-ahead-of-nvidia-results/",
+          "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut (Reuters via News Tribune)",
+          "published": "Nov 18, 2026",
+          "quote": "Markets are pricing in a near-certain 95.4 percent likelihood of a 25-basis-point increase in December"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Minutes of the Fed's October meeting showed nearly all officials agreed they would likely have to raise rates in the months ahead (Bloomberg).",
+      "sources": [
+        {
+          "url": "https://www.swissinfo.ch/eng/stocks-waver-as-nvidias-earnings-rally-sputters%3a-markets-wrap/92397458",
+          "title": "Stocks Fall on Nvidia Rout With Anthropic in Focus: Markets Wrap (Bloomberg via Swissinfo)",
+          "published": "Nov 18, 2026",
+          "quote": "Nearly all officials agreed they would likely have to raise rates"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "The 10-year Treasury yield stood at 5.04% at midday Friday, down three basis points.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/",
+          "title": "Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off (Motley Fool)",
+          "published": "Nov 20, 2026",
+          "quote": "the 10-year Treasury yield eased three basis points to 5.04%"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Anthropic priced its IPO at $83 per share, above its marketed $70-$78 range, and is also raising $26 billion in a private placement at the IPO price (Bloomberg).",
+      "sources": [
+        {
+          "url": "https://www.swissinfo.ch/eng/stocks-waver-as-nvidias-earnings-rally-sputters%3a-markets-wrap/92397458",
+          "title": "Stocks Fall on Nvidia Rout With Anthropic in Focus: Markets Wrap (Bloomberg via Swissinfo)",
+          "published": "Nov 18, 2026",
+          "quote": "Anthropic PBC was said to have priced its IPO at $83 per share, above the marketed range."
+        },
+        {
+          "url": "https://www.swissinfo.ch/eng/stocks-waver-as-nvidias-earnings-rally-sputters%3a-markets-wrap/92397458",
+          "title": "Stocks Fall on Nvidia Rout With Anthropic in Focus: Markets Wrap (Bloomberg via Swissinfo)",
+          "published": "Nov 18, 2026",
+          "quote": "Anthropic is also raising $26 billion in a private placement at the IPO price."
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Microsoft fell 2.3% on Tuesday, a day when every S&P 500 sector was down and the Dow lost 1.64% (Reuters).",
+      "sources": [
+        {
+          "url": "https://www.newstribune.com/news/2026/nov/18/wall-street-ends-lower-ahead-of-nvidia-results/",
+          "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut (Reuters via News Tribune)",
+          "published": "Nov 18, 2026",
+          "quote": "Microsoft eased 2.3 percent, while AppLovin dropped 3.9 percent."
+        },
+        {
+          "url": "https://www.newstribune.com/news/2026/nov/18/wall-street-ends-lower-ahead-of-nvidia-results/",
+          "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut (Reuters via News Tribune)",
+          "published": "Nov 18, 2026",
+          "quote": "The Dow Jones Industrial Average fell 848.75 points, or 1.64 percent, to 50,759.42"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Nvidia raised its fiscal 2028 revenue growth outlook to 75% from 70%, which Motley Fool contributor Adam Spatacco cited in arguing Nvidia demolished earnings.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "Management raised its fiscal 2028 revenue growth outlook to 75% -- up from 70%"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Interim CEO Colette Kress stressed the company's momentum on the earnings call after a quarter with $65.3 billion of net income (Motley Fool).",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "Interim CEO Colette Kress reinforced the company's momentum during the earnings conference call."
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
+          "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. (Motley Fool)",
+          "published": "Nov 18, 2026",
+          "quote": "The company generated $65.3 billion in net income during a single quarter"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Luke Lango, editor of the Innovation Investor newsletter, said the results did not answer \"the fundamental, existential question facing the business right now\" (Bloomberg).",
+      "sources": [
+        {
+          "url": "https://www.swissinfo.ch/eng/stocks-waver-as-nvidias-earnings-rally-sputters%3a-markets-wrap/92397458",
+          "title": "Stocks Fall on Nvidia Rout With Anthropic in Focus: Markets Wrap (Bloomberg via Swissinfo)",
+          "published": "Nov 18, 2026",
+          "quote": "None of those things answer the fundamental, existential question facing the business right now"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Bernstein's Stacy Rasgon downgraded Nvidia to Market Perform from Outperform and halved his price target to $200 from $400 (Kiplinger).",
+      "sources": [
+        {
+          "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026",
+          "title": "Nvidia Earnings: Updates and Commentary November 2026 (Kiplinger)",
+          "published": "Nov 18, 2026",
+          "quote": "downgraded Nvidia stock to Market Perform from Outperform"
+        },
+        {
+          "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026",
+          "title": "Nvidia Earnings: Updates and Commentary November 2026 (Kiplinger)",
+          "published": "Nov 18, 2026",
+          "quote": "The analyst also halved his price target on the AI stock to $200 from $400."
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-23",
+      "text": "Monday Nov 23: preliminary S&P manufacturing PMI for November at 9:45 ET; Zoom reports after the close.",
+      "sources": [
+        {
+          "url": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/",
+          "title": "Week Ahead: Economic Indicators 23rd – 27th November (US) (FinancialJuice)",
+          "published": "Nov 20, 2026",
+          "quote": "US S&P Manufacturing PMI November Prelim"
+        },
+        {
+          "url": "https://news.ifyouspent.com/en/news/thanksgiving-week-earnings-dell-workday-zoom-hp-deere-november-2026",
+          "title": "Thanksgiving-week earnings: Dell, Workday, Zoom, HP, Deere",
+          "published": "Nov 11, 2026",
+          "quote": "Zoom is scheduled for Monday, November 23, after the close."
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-24",
+      "text": "Tuesday Nov 24: Dell, Workday and HP report after the close; Dell guided fiscal Q3 revenue of $49.0 billion, up 81%.",
+      "sources": [
+        {
+          "url": "https://news.ifyouspent.com/en/news/thanksgiving-week-earnings-dell-workday-zoom-hp-deere-november-2026",
+          "title": "Thanksgiving-week earnings: Dell, Workday, Zoom, HP, Deere",
+          "published": "Nov 11, 2026",
+          "quote": "Dell’s investor relations page lists its fiscal Q3 2027 results call for November 24 at 3:30 p.m. CST"
+        },
+        {
+          "url": "https://news.ifyouspent.com/en/news/thanksgiving-week-earnings-dell-workday-zoom-hp-deere-november-2026",
+          "title": "Thanksgiving-week earnings: Dell, Workday, Zoom, HP, Deere",
+          "published": "Nov 11, 2026",
+          "quote": "For fiscal Q3 it guided revenue of $49.0 billion, up 81%, GAAP EPS of $6.10 and non-GAAP EPS of $6.50."
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-24",
+      "text": "Tuesday Nov 24: Conference Board consumer confidence for November at 10:00 ET.",
+      "sources": [
+        {
+          "url": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/",
+          "title": "Week Ahead: Economic Indicators 23rd – 27th November (US) (FinancialJuice)",
+          "published": "Nov 20, 2026",
+          "quote": "US CB Consumer Confidence for November"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-25",
+      "text": "Wednesday Nov 25: October PCE price index and consumer spending, plus the second estimate of Q3 GDP, at 8:30 ET.",
+      "sources": [
+        {
+          "url": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/",
+          "title": "Week Ahead: Economic Indicators 23rd – 27th November (US) (FinancialJuice)",
+          "published": "Nov 20, 2026",
+          "quote": "US PCE Price Index & Consumer Spending for October"
+        },
+        {
+          "url": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/",
+          "title": "Week Ahead: Economic Indicators 23rd – 27th November (US) (FinancialJuice)",
+          "published": "Nov 20, 2026",
+          "quote": "US GDP QoQ Q3 2nd Estimate"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-11-26",
+      "text": "Thursday Nov 26: US markets closed for Thanksgiving.",
+      "sources": [
+        {
+          "url": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/",
+          "title": "Week Ahead: Economic Indicators 23rd – 27th November (US) (FinancialJuice)",
+          "published": "Nov 20, 2026",
+          "quote": "US markets closed in observance of the Thanksgiving Holiday"
+        }
+      ]
+    }
+  ],
+  "reels": [
+    {
+      "topic": "Nvidia's worst week since 2008",
+      "hook": "Nvidia just had its worst week since 2008.",
+      "figure": "-23%",
+      "why": "An SEC accounting probe report on Friday piled onto a week of CEO turmoil and wiped out the post-earnings bounce.",
+      "item": 0
+    },
+    {
+      "topic": "Nvidia guided $130B and fell anyway",
+      "hook": "Nvidia guided $130 billion. The stock fell anyway.",
+      "figure": "$115.8 billion",
+      "why": "Record revenue and a $130B guide couldn't outweigh governance and accounting worries.",
+      "item": 3
+    },
+    {
+      "topic": "Nvidia's $118B in guarantees",
+      "hook": "Nvidia disclosed $118 billion in financial guarantees.",
+      "figure": "$118 billion",
+      "why": "Guarantees tied to data-center projects are now in focus as the SEC reportedly examines Nvidia's accounting.",
+      "item": 9
+    },
+    {
+      "topic": "Chip crash spreads to Broadcom and AMD",
+      "hook": "Broadcom and AMD both lost over 12% Friday.",
+      "figure": "-13.26%",
+      "why": "Nvidia's rout dragged the whole chip sector and pushed the Nasdaq down 5.13% in a day.",
+      "item": 15
+    },
+    {
+      "topic": "Fed hike nearly certain",
+      "hook": "Markets now see a 95% chance the Fed hikes in December.",
+      "figure": "95.4%",
+      "why": "Higher rates hit expensive tech stocks hardest, adding to the AI selloff.",
+      "item": 17
+    }
+  ]
+}
