@@ -1,0 +1,358 @@
+{
+  "issue": "2026-11-20",
+  "week": "Nov 16–20, 2026",
+  "charts": [
+    {
+      "id": "market-value",
+      "type": "hbar",
+      "title": "Who's biggest now",
+      "subtitle": "Market value at the Nov 20 close, $ trillions",
+      "rows": [
+        {
+          "label": "Apple",
+          "value": 4.98,
+          "display": "$4.98T"
+        },
+        {
+          "label": "Microsoft",
+          "value": 3.6,
+          "display": "$3.60T"
+        },
+        {
+          "label": "Nvidia",
+          "value": 3.03,
+          "display": "$3.03T",
+          "hero": true
+        },
+        {
+          "label": "Amazon",
+          "value": 2.67,
+          "display": "$2.67T"
+        },
+        {
+          "label": "Broadcom",
+          "value": 1.45,
+          "display": "$1.45T"
+        },
+        {
+          "label": "Tesla",
+          "value": 1.37,
+          "display": "$1.37T"
+        }
+      ],
+      "source": "Yahoo Finance, SEC filings · Nov 20",
+      "note": "Approximate: closing price x shares outstanding"
+    },
+    {
+      "id": "week-moves",
+      "type": "signed",
+      "title": "How the week ended",
+      "subtitle": "Change from last Friday's close to Nov 20",
+      "rows": [
+        {
+          "label": "Apple",
+          "value": -3.85,
+          "display": "−3.9%"
+        },
+        {
+          "label": "Amazon",
+          "value": -7.44,
+          "display": "−7.4%"
+        },
+        {
+          "label": "Microsoft",
+          "value": -7.51,
+          "display": "−7.5%"
+        },
+        {
+          "label": "Alphabet",
+          "value": -10.31,
+          "display": "−10.3%"
+        },
+        {
+          "label": "Tesla",
+          "value": -11.38,
+          "display": "−11.4%"
+        },
+        {
+          "label": "Broadcom",
+          "value": -12.28,
+          "display": "−12.3%"
+        },
+        {
+          "label": "Meta",
+          "value": -12.6,
+          "display": "−12.6%"
+        },
+        {
+          "label": "Nvidia",
+          "value": -22.92,
+          "display": "−22.9%",
+          "hero": true
+        }
+      ],
+      "source": "Yahoo Finance · Nov 20, 2026"
+    },
+    {
+      "id": "calendar",
+      "type": "calendar",
+      "title": "The dates that matter",
+      "subtitle": "Week of Nov 23, 2026",
+      "days": [
+        {
+          "day": "MON",
+          "date": "Nov 23",
+          "event": "PMI and Zoom",
+          "detail": "9:45 ET",
+          "hero": true
+        },
+        {
+          "day": "TUE",
+          "date": "Nov 24",
+          "event": "Dell, Workday, HP",
+          "detail": "$49.0 billion, up ",
+          "hero": true
+        },
+        {
+          "day": "WED",
+          "date": "Nov 25",
+          "event": "PCE and GDP",
+          "detail": "8:30 ET",
+          "hero": true
+        },
+        {
+          "day": "THU",
+          "date": "Nov 26",
+          "event": "Market holiday",
+          "detail": "Closed all day",
+          "hero": true
+        },
+        {
+          "day": "FRI",
+          "date": "Nov 27"
+        }
+      ],
+      "source": "FinancialJuice · Nov 20"
+    },
+    {
+      "id": "compare",
+      "type": "compare",
+      "title": "Revenue versus estimate",
+      "subtitle": "Nvidia fiscal Q3 revenue against Wall Street's estimate, in billions of dollars",
+      "rows": [
+        {
+          "label": "Nvidia reported",
+          "value": 115.8,
+          "display": "$115.8 billion",
+          "hero": true
+        },
+        {
+          "label": "Wall Street estimate",
+          "value": 109.2,
+          "display": "$109.2 billion",
+          "hero": false
+        }
+      ],
+      "source": "Motley Fool · Nov 18"
+    }
+  ],
+  "site": "https://fivebeforemonday.com",
+  "email": {
+    "saturday": {
+      "subject": "Five numbers behind Nvidia's −22.9% week",
+      "preheader": "One of them is a trading day of 607.8 million shares.",
+      "date": "Sat, Nov 21, 2026"
+    },
+    "sunday": {
+      "subject": "Why Nvidia fell 23% right after a big beat",
+      "preheader": "Three causes, from an SEC report to a rate scare, and the dates that matter next.",
+      "headline": "Nvidia beat estimates. Then the SEC story landed.",
+      "lead": "Nvidia's weekly change was −22.9%, and it closed Friday at $125.53, even after fiscal Q3 revenue of $115.8 billion beat Wall Street's $109.2 billion estimate. The sharpest blow came Friday, when a Reuters report of an SEC accounting probe helped drive a day change of −14.0%.",
+      "what_happened": "Nvidia began the week after a month change of −40.9%, and Tuesday's results did not change the mood. It reported fiscal Q3 revenue of $115.8 billion, up 103% and above Wall Street's $109.2 billion estimate. It guided fourth-quarter revenue to $130 billion, plus or minus 3%, against expectations of about $125 billion. Shares rose as much as 3% in extended trading. The bounce faded. Nvidia sank about 3% on Wednesday as the S&P 500 fell for a fifth straight day. Friday finished the job. The stock was already down more than 6% when Reuters published. Citing two people briefed on the matter, Reuters said SEC enforcement staff are examining potential accounting issues at the company. Shares were down about 13% afterward, according to LSEG data cited by Reuters. Nvidia closed at $125.53, a day change of −14.0%, on volume of 607.8 million shares. That capped its seventh consecutive weekly decline, with a weekly change of −22.9%. Investing.com called it the worst week since the 2008 financial crisis. The stock sits −47.5% from its Oct 6 high. The SEC declined to comment, and Nvidia did not immediately respond.",
+      "date": "Sun, Nov 22, 2026"
+    },
+    "five": [
+      {
+        "num": "−22.9%",
+        "tone": "down",
+        "text": "Nvidia's weekly change, with the stock closing Friday at $125.53.",
+        "source": "Closing prices · Nov 20"
+      },
+      {
+        "num": "−14.0%",
+        "tone": "down",
+        "text": "Nvidia's change on Friday alone, the day Reuters reported an SEC accounting probe.",
+        "source": "Closing prices · Nov 20"
+      },
+      {
+        "num": "$115.8 billion",
+        "tone": "up",
+        "text": "Nvidia's fiscal Q3 revenue, up 103% and above Wall Street's $109.2 billion estimate, which did not stop the slide.",
+        "source": "Motley Fool · Nov 18"
+      },
+      {
+        "num": "607.8 million",
+        "tone": "gold",
+        "text": "Nvidia shares traded on Friday, about 262% above the three-month daily average of 167.9 million.",
+        "source": "Motley Fool · Nov 20"
+      },
+      {
+        "num": "−17.1%",
+        "tone": "down",
+        "text": "The chip index (SOX) weekly change, so the selling reached well beyond one company.",
+        "source": "Closing prices · Nov 20"
+      }
+    ],
+    "next_week": [
+      {
+        "when": "Mon, Nov 23",
+        "what": "The preliminary S&P manufacturing PMI for November lands at 9:45 ET, and Zoom reports after the close.",
+        "source": "FinancialJuice · Nov 20"
+      },
+      {
+        "when": "Tue, Nov 24",
+        "what": "Dell, Workday and HP report after the close, with Dell having guided fiscal Q3 revenue of $49.0 billion, up 81%.",
+        "source": "IfYouSpent · Nov 11"
+      },
+      {
+        "when": "Wed, Nov 25",
+        "what": "October PCE prices, consumer spending and the second estimate of Q3 GDP arrive together at 8:30 ET.",
+        "source": "FinancialJuice · Nov 20"
+      },
+      {
+        "when": "Thu, Nov 26",
+        "what": "US markets are closed for Thanksgiving.",
+        "source": "FinancialJuice · Nov 20"
+      }
+    ],
+    "teaser": "Why did Nvidia post a weekly change of −22.9% in a week when its results beat Wall Street's estimates?",
+    "causes": [
+      {
+        "title": "The SEC accounting report",
+        "stat": "−14.0%",
+        "text": "The sharpest blow came Friday. Reuters, citing two people briefed on the matter, reported that SEC enforcement staff are examining potential accounting issues at Nvidia. The SEC declined to comment. Nvidia did not immediately respond. The timing matters. According to LSEG data cited by Reuters, the shares were already down more than 6% before the report and were down about 13% afterward. They closed with a day change of −14.0%. Motley Fool reported that volume surged to 607.8 million shares, about 262% above the three-month daily average of 167.9 million. The story landed on a known sore spot. With its results, Nvidia disclosed about $118 billion in financial guarantees. It also said its Form 10-Q would be filed in the coming weeks rather than with earnings. Reuters said Nvidia has provided guarantees connected to data-center projects that use its equipment. Critics say such arrangements can make it harder for investors to assess the quality of chipmakers' revenue. None of that is a finding. The report describes scrutiny, not a conclusion. Separately, Decrypt, citing Reuters, noted that U.S. authorities have been investigating Megaspeed, a former large Nvidia customer, since 2024 over possible export-control violations. That is a different matter.",
+        "source": "The Standard · Nov 20",
+        "evidence": [
+          "E1",
+          "E2",
+          "E3",
+          "E10",
+          "E11",
+          "E12",
+          "E14"
+        ]
+      },
+      {
+        "title": "A beat that faded",
+        "stat": "$115.8 billion",
+        "text": "Strong numbers did not stop the slide. On Tuesday Nvidia reported fiscal Q3 revenue of $115.8 billion, up 103% and above Wall Street's $109.2 billion estimate. Data center revenue rose 110% year over year to $107.6 billion. Adjusted earnings per share rose 111% to $2.68, above the $2.47 estimate. The fourth-quarter revenue guide of $130 billion, plus or minus 3%, topped expectations of about $125 billion. Shares rose as much as 3% in extended trading. Then Nvidia sank about 3% on Wednesday, according to Reuters and Bloomberg. Two things sat beside the numbers. The first was leadership. Board chairman Harvey Jones said the board does not intend to reinstate Jensen Huang as CEO. CFO Colette Kress is interim CEO, and Nvidia hired Heidrick & Struggles to find a permanent successor. The second was doubt about what the beat proves. Luke Lango, editor of the Innovation Investor newsletter, said the results did not answer 'the fundamental, existential question facing the business right now.' Bernstein's Stacy Rasgon downgraded Nvidia to Market Perform from Outperform and halved his price target to $200 from $400, Kiplinger reported. The beat was real. The questions around it were louder.",
+        "source": "Motley Fool · Nov 18",
+        "evidence": [
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E25",
+          "E26"
+        ],
+        "chart": "compare"
+      },
+      {
+        "title": "Chip and market rout",
+        "stat": "−17.1%",
+        "text": "Nvidia did not fall alone. The chip index (SOX) had a weekly change of −17.1% and a Friday change of −10.7%. Broadcom's Friday change was −12.2%. Motley Fool reported that AMD plunged 13.26% to $424.32. At midday AMD was down 11.03% on concerns about firmware security and alleged ties to blacklisted Chinese companies, while Micron fell 12.03%. Weakness began before the Nvidia report. On Tuesday every S&P 500 sector fell and the Dow lost 1.64%, Reuters said. By Friday the Nasdaq Composite had fallen 5.13% to 22,654. The S&P 500 fell 3.82% to 6,902, below the 7,000 level. Motley Fool tied the drop to investors continuing to retreat from high-growth technology stocks. Rates added pressure. Reuters reported on Nov 17 that markets priced a near-certain 95.4% chance of a 25-basis-point Fed rate increase in December, per CME's FedWatch tool. Bloomberg reported that minutes of the Fed's October meeting showed nearly all officials agreed they would likely have to raise rates in the months ahead. The 10-year Treasury yield stood at 5.04% at midday Friday, down three basis points.",
+        "source": "Motley Fool · Nov 20",
+        "evidence": [
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20",
+          "E22"
+        ]
+      }
+    ],
+    "after_causes": {
+      "title": "Every stock fell",
+      "text": "Every tracked stock ended the week lower. Nvidia's weekly change of −22.9% was the steepest. Meta followed at −12.6%, then Broadcom at −12.3%, Tesla at −11.4% and Alphabet at −10.3%. Microsoft was −7.5% and Amazon −7.4%. Apple held up best at −3.9% and stayed #1 by market value at $4.98T. Nvidia now ranks #3 at $3.03T, behind Apple and Microsoft. The Nasdaq-100 had a weekly change of −10.4% and the S&P 500 −8.6%. Friday was rough for the rest of the group too, with Tesla at −7.6% and Meta at −5.9%.",
+      "chart": "week-moves"
+    },
+    "next_text": "Next week is short and dense. US markets are closed Thursday for Thanksgiving, so the data lands in three sessions. Monday brings the preliminary S&P manufacturing PMI for November at 9:45 ET, and Zoom reports after the close. Tuesday brings Conference Board consumer confidence at 10:00 ET, then Dell, Workday and HP after the close. Dell guided fiscal Q3 revenue of $49.0 billion, up 81%. Its results against that guide are one more data point on whether spending on hardware is holding up. Wednesday matters most for rates. October PCE prices, consumer spending and the second estimate of Q3 GDP all arrive at 8:30 ET. Markets already priced a 95.4% chance of a 25-basis-point Fed increase in December, as of Nov 17. A hotter inflation reading would leave that pricing intact. A cooler one would give the rate argument less to work with. For Nvidia itself, the calendar has no date. The company said its Form 10-Q would be filed in the coming weeks. When it appears, it will show how the roughly $118 billion in guarantees are described. The SEC declined to comment on the Reuters report, so the next word on the probe, if any, is unscheduled.",
+    "featured": "Nvidia",
+    "bull": [
+      "Motley Fool contributor Adam Spatacco argues Nvidia demolished earnings, citing a fiscal 2028 revenue growth outlook raised to 75% from 70%.",
+      "Interim CEO Colette Kress stressed the company's momentum on the earnings call, after a quarter with $65.3 billion of net income.",
+      "The fourth-quarter revenue guide of $130 billion sits above analysts' expectations of about $125 billion."
+    ],
+    "bear": [
+      "Luke Lango, editor of the Innovation Investor newsletter, said the results did not answer 'the fundamental, existential question facing the business right now.'",
+      "Bernstein's Stacy Rasgon downgraded Nvidia to Market Perform from Outperform and halved his price target to $200 from $400.",
+      "Critics cited by Reuters say guarantees tied to data-center projects make chipmakers' revenue quality harder to assess. Nvidia disclosed about $118 billion in guarantees."
+    ],
+    "table": [
+      [
+        "Nvidia weekly change",
+        "−22.9%",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Nvidia change on the last day",
+        "−14.0%",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Nvidia closing price",
+        "$125.53",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Nvidia distance from 52-week high (Oct 6)",
+        "−47.5%",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Nvidia market value (approx.)",
+        "$3.03T",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Chip index (SOX) weekly change",
+        "−17.1%",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Nasdaq-100 weekly change",
+        "−10.4%",
+        "Nov 20",
+        "Closing prices"
+      ],
+      [
+        "Nvidia fiscal Q3 revenue",
+        "$115.8 billion",
+        "Nov 18",
+        "Motley Fool"
+      ],
+      [
+        "Nvidia Friday share volume",
+        "607.8 million",
+        "Nov 20",
+        "Motley Fool"
+      ],
+      [
+        "Market odds of a December Fed increase",
+        "95.4%",
+        "Nov 17",
+        "News Tribune"
+      ]
+    ]
+  }
+}
