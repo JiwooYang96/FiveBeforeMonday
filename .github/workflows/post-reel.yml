@@ -34,8 +34,12 @@ jobs:
         run: |
           H=$(TZ=America/New_York date +%H)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" -ge 18 ]; then echo "go=true" >> "$GITHUB_OUTPUT"; fi
+      # ref: main, not the commit that triggered the run: a run queued behind another one (concurrency) must see
+      # what that run just posted, or it posts the same reels again (Nov 20: both reels went out twice).
       - uses: actions/checkout@v4
         if: steps.when.outputs.go == 'true'
+        with:
+          ref: main
       - name: Extend a short-lived token to 60 days and save it
         if: steps.when.outputs.go == 'true'
         env:

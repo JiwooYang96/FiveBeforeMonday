@@ -154,6 +154,34 @@ def via_make(video_url, caption, date):
     return "make", ""
 
 
+def _same_caption(a, b):
+    norm = lambda t: " ".join((t or "").split())  # noqa: E731  (Instagram may trim or re-wrap whitespace)
+    return bool(a) and norm(a) == norm(b)
+
+
+def already_on_instagram(caption, hours=72):
+    """The account's own recent post with this caption, if any: {"id", "url"}.
+
+    The queue file can be stale (on Nov 20 two post runs overlapped and both reels went out twice), so before
+    publishing we ask Instagram itself. If the lookup fails we say so and post anyway."""
+    if not hasattr(already_on_instagram, "recent"):
+        try:
+            data = _req("GET", f"{API}/{user_id()}/media", {"fields": "id,caption,permalink,timestamp", "limit": "25"})
+            already_on_instagram.recent = data.get("data", [])
+        except RuntimeError as err:
+            print(f"warning: couldn't list recent posts to check for duplicates ({str(err)[:200]})")
+            already_on_instagram.recent = []
+    now = datetime.now(timezone.utc)
+    for m in already_on_instagram.recent:
+        try:
+            age = (now - datetime.strptime(m.get("timestamp", ""), "%Y-%m-%dT%H:%M:%S%z")).total_seconds() / 3600
+        except ValueError:
+            age = 0
+        if age <= hours and _same_caption(m.get("caption"), caption):
+            return {"id": m.get("id"), "url": m.get("permalink", "")}
+    return None
+
+
 def post_queue():
     posted = []
     for meta_path in sorted(QUEUE.glob("*.json")):
@@ -164,6 +192,13 @@ def post_queue():
         if not wait_public(url):
             print(f"skip {meta_path.name}: {url} is not live yet")
             continue
+        if not os.environ.get("MAKE_WEBHOOK_URL"):
+            dup = already_on_instagram(meta["caption"])
+            if dup:
+                meta["posted"] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), **dup, "found": True}
+                meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n")
+                print("already posted", meta_path.stem, dup["url"], "(not posting again)")
+                continue
         if os.environ.get("MAKE_WEBHOOK_URL"):
             media, link = via_make(url, meta["caption"], meta_path.stem)
         else:
