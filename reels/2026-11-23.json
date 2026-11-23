@@ -1,0 +1,143 @@
+{
+  "video": "reels/2026-11-23.mp4",
+  "caption": "Oracle stock jumped 12.3% on Monday to $113.68 as Nvidia's board brought back Jensen Huang as CEO and AI stocks rebounded, and after Oracle said Friday its OpenAI financing is secured (Motley Fool).\nThe Nasdaq rose 6.51%, its best day since April 2025, yet Oracle still sits about 55% under its 52-week high of $250.25.\n\nGet this week's five, free every Saturday → link in bio.\n\n#Oracle #ORCL #stockmarket #AIstocks #Nasdaq\n\nSources: Motley Fool (Nov 23), FinanceFeeds after-close report citing AP and CNBC (Nov 23), Yahoo Finance live blog (Nov 23). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-23.json",
+    "id": "daily-2026-11-23",
+    "kind": "daily",
+    "title": "Oracle +12.3% on Nvidia's CEO return, still 55% under its high",
+    "structure": "versus (then vs now)",
+    "hookFamily": "then-vs-now contrarian + stake (but)",
+    "hookFamilyMain": "then-vs-now",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Oracle jumped 12.3%.",
+    "hookCaption": "+12.3% in one day.",
+    "hookScore": 45.199999999999996,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "counter",
+      "priceSlam",
+      "causeChain",
+      "counter",
+      "causeChain",
+      "counter",
+      "illustration",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 29.233,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.567,
+        "voice": "Oracle jumped 12.3%.",
+        "caption": "+12.3% in one day."
+      },
+      {
+        "i": 1,
+        "type": "counter",
+        "from": 1.567,
+        "to": 2.833,
+        "voice": "But your fund's still down.",
+        "caption": "S&P +4.73%, still below peak."
+      },
+      {
+        "i": 2,
+        "type": "priceSlam",
+        "from": 2.833,
+        "to": 6.3,
+        "voice": "Everyone wanted it at $250. Monday it closed at $113.",
+        "caption": "$250 then. $113.68 now."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 6.3,
+        "to": 8.533,
+        "voice": "But the spark came from Nvidia's boardroom, not Oracle's.",
+        "caption": "But the spark was Nvidia."
+      },
+      {
+        "i": 4,
+        "type": "counter",
+        "from": 8.533,
+        "to": 12,
+        "voice": "The Nasdaq rose 6.5%, its best day since April 2025.",
+        "caption": "Nasdaq +6.51%."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 12,
+        "to": 15.367,
+        "voice": "Therefore Friday's news mattered: OpenAI financing is secured, Oracle says.",
+        "caption": "OpenAI money secured."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 15.367,
+        "to": 18.067,
+        "voice": "But the strangest part: it's still 55% under its peak.",
+        "caption": "Still −55% from peak."
+      },
+      {
+        "i": 7,
+        "type": "illustration",
+        "from": 18.067,
+        "to": 20.5,
+        "voice": "Nomura called the surge mechanical buying that guarantees nothing.",
+        "caption": "\"Mechanical\" buying."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 20.5,
+        "to": 23.233,
+        "voice": "Oracle's 12.3% bounce meets inflation data Wednesday.",
+        "caption": "+12.3% meets PCE."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 23.233,
+        "to": 29.233,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "bf_emma",
+    "drawingStyle": "hatch",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$113",
+        "$113.68",
+        "$250",
+        "$250.25"
+      ],
+      "loops": [
+        4,
+        7
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
