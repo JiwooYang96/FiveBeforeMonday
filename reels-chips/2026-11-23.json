@@ -1,0 +1,142 @@
+{
+  "video": "reels-chips/2026-11-23.mp4",
+  "caption": "Nvidia stock jumped 31.48% on Monday to $165.05 after its board unanimously reinstated Jensen Huang as CEO, adding about $950 billion of market value, the biggest one-day dollar gain on record per 24/7 Wall St.\nIt is still about 5% below its November 11 close, and the board's investigation and the delayed quarterly report are still open.\n\nGet this week's five, free every Saturday → link in bio.\n\n#nvidia #nvda #semiconductors #chipstocks #jensenhuang\n\nSources: The Motley Fool (Nov 23), 24/7 Wall St. via Yahoo Finance (Nov 23), Nvidia 8-K press release (Nov 23), 24/7 Wall St. (Nov 20). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-23.json",
+    "id": "chips-2026-11-23",
+    "kind": "daily",
+    "title": "Nvidia +31% and a record $950B as Huang returns as CEO",
+    "structure": "timeline (exit, fall, return)",
+    "hookFamily": "number + stake (record dollar day, your fund)",
+    "hookFamilyMain": "number",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Nvidia jumped 31%.",
+    "hookCaption": "+31% in one day.",
+    "hookScore": 42.8,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "compareBars",
+      "priceSlam",
+      "timeline",
+      "causeChain",
+      "counter",
+      "causeChain",
+      "illustration",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 26.233,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.5,
+        "voice": "Nvidia jumped 31%.",
+        "caption": "+31% in one day."
+      },
+      {
+        "i": 1,
+        "type": "compareBars",
+        "from": 1.5,
+        "to": 2.667,
+        "voice": "Your fund still got paid.",
+        "caption": "+$950B. A record."
+      },
+      {
+        "i": 2,
+        "type": "priceSlam",
+        "from": 2.667,
+        "to": 4.6,
+        "voice": "Shares closed at a hundred sixty-five dollars.",
+        "caption": "Closed $165.05."
+      },
+      {
+        "i": 3,
+        "type": "timeline",
+        "from": 4.6,
+        "to": 7.367,
+        "voice": "But twelve days ago, its CEO quit. Down 28%.",
+        "caption": "But its CEO quit."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 7.367,
+        "to": 9.3,
+        "voice": "So the board voted unanimously to rehire him.",
+        "caption": "Rehired in 11 days."
+      },
+      {
+        "i": 5,
+        "type": "counter",
+        "from": 9.3,
+        "to": 11.6,
+        "voice": "But the strangest part: it's still 5% under.",
+        "caption": "Still −5% under."
+      },
+      {
+        "i": 6,
+        "type": "causeChain",
+        "from": 11.6,
+        "to": 14.9,
+        "voice": "Therefore analysts upgraded. Oppenheimer now sees $250.",
+        "caption": "Target $250."
+      },
+      {
+        "i": 7,
+        "type": "illustration",
+        "from": 14.9,
+        "to": 17.267,
+        "voice": "Still open: the board's probe and a delayed report.",
+        "caption": "Probe: still open."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 17.267,
+        "to": 20.233,
+        "voice": "The 31% test: its late filing, due December fourth.",
+        "caption": "+31% meets Dec 4."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 20.233,
+        "to": 26.233,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_bella",
+    "drawingStyle": "riso",
+    "account": "@5beforemonday",
+    "palette": "midnight",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$125.53",
+        "$165.05",
+        "31.48%"
+      ],
+      "loops": [
+        4,
+        6
+      ],
+      "loop1": true,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
