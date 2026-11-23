@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-23",
+  "lead": "The market's best day since April 2025 (Nasdaq +6.51%, S&P 500 +4.73%, out of correction) after Nvidia's board reinstated Jensen Huang as CEO 11 days after he resigned; among non-chip big tech Oracle led, +12.3% to $113.68, yet still about 55% under its $250.25 52-week high.",
+  "ticker": "ORCL",
+  "move": "+12.3%",
+  "why": [
+    "Nvidia reinstated Jensen Huang as CEO, president and director at 8:55 a.m. ET, lifting AI stocks including Oracle (Motley Fool); Nvidia closed +31.48% to $165.05, its best day since May 2003, a roughly $954B one-day gain (CNBC, Kiplinger via FinanceFeeds). Huang resigned Nov 12; SEC and House inquiries continue (House interview Dec 1).",
+    "Oracle said on Friday it had secured the financing for its OpenAI contract and that its Abilene campus is nearly complete (Motley Fool; single source), easing funding fears after it spent about $5B more on capital investment than operations brought in last quarter.",
+    "Market backdrop: Nasdaq 24,089.56 (+6.51%), S&P 500 7,237.17 (+4.73%), Dow 49,595.31 (+3.01%), VIX -25.8%; Tesla +11.5%, Meta +6.6%, Alphabet ~+6%, Amazon +3.5%, Apple +1.9%, Microsoft +1.6%; Anthropic -1.4%. Nomura's Charlie McElligott called it 'mechanical' buying (short covering, dealer hedges) that 'guarantees us nothing.' Next: October PCE Wed Nov 25 8:30 a.m. ET; markets closed Thursday, early close Friday."
+  ],
+  "sources": [
+    {"url": "https://www.fool.com/investing/2026/11/23/why-oracle-stock-is-rising/", "title": "Why Oracle Stock Is Rising Today (Motley Fool)", "published": "Nov 23, 2026"},
+    {"url": "https://financefeeds.com/stock-market-today-nasdaq-jumps-6-5-percent-as-huang-returns/", "title": "Stock Market Today: Nasdaq Jumps 6.5% as Huang Returns (FinanceFeeds)", "published": "Nov 23, 2026"},
+    {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/", "title": "Stock Market Today, Nov. 23: Markets Rebound From Correction on AI Relief Rally (Motley Fool)", "published": "Nov 23, 2026"},
+    {"url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html", "title": "Stock market today: Dow, S&P 500, Nasdaq surge after Nvidia reinstates Jensen Huang (Yahoo Finance live)", "published": "Nov 23, 2026"},
+    {"url": "https://financefeeds.com/nvda-stock-23-week-huang-return-sec-inquiry/", "title": "NVDA stock: Huang return, SEC inquiry (FinanceFeeds)", "published": "Nov 23, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-23.json in reels_generator"
+}
