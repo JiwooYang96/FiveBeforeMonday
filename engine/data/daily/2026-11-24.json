@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-24",
+  "lead": "Hewlett Packard Enterprise fell 16.33% to $40.18 the day after record quarterly sales of $14.5B (+50%), because a bigger share of low-margin AI servers and part costs outrunning prices cut its gross margin; the biggest non-chip big-tech move on a day the Nasdaq fell 1.48% as chips gave back Monday's rally.",
+  "ticker": "HPE",
+  "move": "-16.33%",
+  "why": [
+    "Margins, not sales: Q4 revenue $14.55B (+50.3%) beat the $14.45B consensus and EPS $1.43 beat $1.29, but non-GAAP gross margin fell 2.2 points from the prior quarter to 38.2% on a higher mix of AI servers and costs rising faster than pricing, per CFO Marie Myers (StockStory via TradingView); she expects gross margin to moderate as fiscal 2027 progresses and AI server volumes (incl. Helios) ramp (Finwire/Invezz).",
+    "Supply: CEO Antonio Neri said HPE operates in a 'significantly supply-constrained environment' and expects memory, NAND and other critical components to stay constrained to at least the second half of calendar 2028 (Finwire/Invezz). Orders +88%, AI backlog a record $10.5B.",
+    "Context: still about +66% year to date and ~45% under its $73.46 October high (StockStory). Market: S&P 500 -0.50% (7,201.09), Nasdaq -1.48%, Dow +0.85% to 50,018.70; Nvidia -5.86%, Micron -11%, Analog Devices -17.4%; Apple +1.4%, Microsoft +0.7%, Meta -1.3%, Amazon -1.2%, Alphabet -1.1%; Kohl's +19.5%, Dollar Tree +11.2% on earnings (Motley Fool, StockTitan). Next: October PCE Wed Nov 25; markets closed Thursday."
+  ],
+  "sources": [
+    {"url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026", "title": "Stock Market Today Live, November 24, 2026: Chip Stocks Slide After Monday's Big Rally (StockTitan)", "published": "Nov 24, 2026"},
+    {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/", "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation (Motley Fool)", "published": "Nov 24, 2026"},
+    {"url": "https://www.tradingview.com/news/stockstory:9b45dae6e094b:0-why-hewlett-packard-enterprise-shares-are-falling-today/", "title": "Why Hewlett Packard Enterprise shares are falling today (StockStory via TradingView)", "published": "Nov 24, 2026"},
+    {"url": "https://finwire.io/news/stock-markets-news/hpe-stock-falls-16-as-ai-server-demand-raises-concerns-over-profit-margins", "title": "HPE stock falls 16% as AI server demand raises concerns over profit margins (Finwire / Invezz)", "published": "Nov 24, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-24.json in reels_generator"
+}
