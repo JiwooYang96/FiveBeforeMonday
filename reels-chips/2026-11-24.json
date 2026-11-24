@@ -1,0 +1,142 @@
+{
+  "video": "reels-chips/2026-11-24.mp4",
+  "caption": "Analog Devices stock fell 17.37% to $312.95 on Tuesday after record quarterly sales of $4.37B (+42%) came with a flat forecast of about $4.4B for next quarter.\nThe Motley Fool says its factories already run at full capacity, and new capacity won't make chips until the second half of 2028. Margins also dip on pricier parts and holiday shutdowns.\n\nGet this week's five, free every Saturday → link in bio.\n\n#analogdevices #adi #semiconductors #chipstocks #earnings\n\nSources: The Motley Fool (Nov 24), Analog Devices Q4 FY2026 results (8-K, Nov 24), StockTitan market close (Nov 24). Market value loss is an estimate (price drop × shares outstanding). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-24.json",
+    "id": "chips-2026-11-24",
+    "kind": "daily",
+    "title": "Analog Devices −17%: full factories, flat forecast",
+    "structure": "what-happens-next (record, wall, next test)",
+    "hookFamily": "number + cause (full factories)",
+    "hookFamilyMain": "number",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "Analog Devices lost 17%.",
+    "hookCaption": "−17% in one day.",
+    "hookScore": 60.199999999999996,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "versus",
+      "counter",
+      "counter",
+      "causeChain",
+      "causeChain",
+      "priceSlam",
+      "counter",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 1,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 31.5,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.567,
+        "voice": "Analog Devices lost 17%.",
+        "caption": "−17% in one day."
+      },
+      {
+        "i": 1,
+        "type": "versus",
+        "from": 1.567,
+        "to": 2.867,
+        "voice": "Its factories are already full.",
+        "caption": "Full factories, flat sales."
+      },
+      {
+        "i": 2,
+        "type": "counter",
+        "from": 2.867,
+        "to": 5.5,
+        "voice": "About thirty-two billion dollars of value vanished in one day.",
+        "caption": "−$32B in one day."
+      },
+      {
+        "i": 3,
+        "type": "counter",
+        "from": 5.5,
+        "to": 8.667,
+        "voice": "That came right after record sales, up 42% from last year.",
+        "caption": "Sales +42%, a record."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 8.667,
+        "to": 11.367,
+        "voice": "Because its plants run at full capacity, extra orders can't ship.",
+        "caption": "Plants maxed out."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 11.367,
+        "to": 13.833,
+        "voice": "Its new plants won't make chips until late 2028.",
+        "caption": "New chips: late 2028."
+      },
+      {
+        "i": 6,
+        "type": "priceSlam",
+        "from": 13.833,
+        "to": 18,
+        "voice": "Pricier parts cut its margin forecast to 50.5%, from 52.3%.",
+        "caption": "Margin squeezed."
+      },
+      {
+        "i": 7,
+        "type": "counter",
+        "from": 18,
+        "to": 21.367,
+        "voice": "Yet the forecast met estimates. Shares still cost 37 times earnings.",
+        "caption": "In line. Still 37x."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 21.367,
+        "to": 25.5,
+        "voice": "Analog Devices' next test: $4.4 billion of sales by January 30.",
+        "caption": "$4.4B by Jan 30."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 25.5,
+        "to": 31.5,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_bella",
+    "drawingStyle": "hatch",
+    "account": "@5beforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$32b",
+        "$65.80",
+        "2212",
+        "483m"
+      ],
+      "loops": [
+        8
+      ],
+      "loop1": false,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
