@@ -1,0 +1,132 @@
+{
+  "video": "reels/2026-11-24.mp4",
+  "caption": "HPE stock fell 16% on Tuesday even though quarterly sales jumped 50% to $14.5 billion.\nThe reason: more of its sales are AI servers built with pricier parts, so its gross margin slipped to 38.2%, and its CFO expects it to keep moderating.\nCEO Antonio Neri expects memory and other parts to stay scarce until at least the second half of 2028.\n\nGet this week's five, free every Saturday → link in bio.\n\n#hpe #hewlettpackardenterprise #aiservers #techstocks #earnings\n\nSources: StockTitan (Nov 24), The Motley Fool (Nov 24), StockStory via TradingView (Nov 24), Finwire / Invezz (Nov 24). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-24.json",
+    "id": "2026-11-24",
+    "kind": "daily",
+    "title": "HPE sales +50%, stock −16% as AI servers thin its margins",
+    "structure": "myth vs fact (record sales vs falling profit per dollar)",
+    "hookFamily": "contradiction (sales up, stock down)",
+    "hookFamilyMain": "contradiction",
+    "music": "tense",
+    "opening": "open.illustration",
+    "hookVoice": "HPE's sales jumped 50%.",
+    "hookCaption": "Sales +50%. Stock −16%.",
+    "hookScore": 45.199999999999996,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "counter",
+      "priceSlam",
+      "causeChain",
+      "causeChain",
+      "illustration",
+      "counter",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 28.967,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.567,
+        "voice": "HPE's sales jumped 50%.",
+        "caption": "Sales +50%. Stock −16%."
+      },
+      {
+        "i": 1,
+        "type": "counter",
+        "from": 1.567,
+        "to": 3.133,
+        "voice": "Its stock still lost 16%.",
+        "caption": "Stock −16%."
+      },
+      {
+        "i": 2,
+        "type": "priceSlam",
+        "from": 3.133,
+        "to": 6.4,
+        "voice": "Sales hit $14.5 billion, half again more than a year ago.",
+        "caption": "Record $14.5B quarter."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 6.4,
+        "to": 9.5,
+        "voice": "Because AI servers earn less, it kept 38 cents per sales dollar.",
+        "caption": "AI servers earn less."
+      },
+      {
+        "i": 4,
+        "type": "causeChain",
+        "from": 9.5,
+        "to": 12.7,
+        "voice": "Its CFO said part costs outran prices, cutting margin two points.",
+        "caption": "Parts cost more."
+      },
+      {
+        "i": 5,
+        "type": "illustration",
+        "from": 12.7,
+        "to": 15.433,
+        "voice": "She warned that margin will slip further as AI server sales grow.",
+        "caption": "Thinner slices ahead."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 15.433,
+        "to": 18.9,
+        "voice": "Still, even after today's fall, shares are up about 66% this year.",
+        "caption": "Still +66% this year."
+      },
+      {
+        "i": 7,
+        "type": "calendarCta",
+        "from": 18.9,
+        "to": 22.967,
+        "voice": "HPE's CEO expects memory to stay scarce until at least late 2028.",
+        "caption": "Tight until 2028."
+      },
+      {
+        "i": 8,
+        "type": "endCard",
+        "from": 22.967,
+        "to": 28.967,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_bella",
+    "drawingStyle": "pencil",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "stack",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$14.45b",
+        "$14.5b",
+        "$9.7b"
+      ],
+      "loops": [
+        7
+      ],
+      "loop1": false,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
