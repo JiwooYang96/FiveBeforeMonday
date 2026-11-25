@@ -1,0 +1,142 @@
+{
+  "video": "reels/2026-11-25.mp4",
+  "caption": "Meta stock rose 3.4% on Wednesday while the Nasdaq sank as much as 4.6% in the morning.\nThe reason: Fortune reported that Amazon and Meta are in talks to let Muse, Meta's AI shopping agent, back onto Amazon, two months after Amazon blocked it. The sticking point is ads: Muse shops without seeing them, and ads earn Amazon $68.6 billion a year.\nAny deal needs both CEOs to sign off, and no date is set. Meta still sits about 22% below its September record.\n\nThe full why, with charts, lands Sunday for members → link in bio.\n\n#meta #metastock #amazon #aishopping #techstocks\n\nSources: Fortune via The Next Web (Nov 25), The Company Chronicle (Nov 25), Parameter (Nov 25), JournalArta (Nov 25), Stocktwits via Yahoo Finance (Nov 25). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-25.json",
+    "id": "2026-11-25",
+    "kind": "daily",
+    "title": "Meta +3.4% in a tech rout as Amazon weighs letting Muse back in",
+    "structure": "escalation -> rehook -> open loop (blocked, talks, sign-off)",
+    "hookFamily": "versus flip (tech sank, meta rose)",
+    "hookFamilyMain": "versus",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Meta still rose 3.4%.",
+    "hookCaption": "Meta +3.4% as tech sank.",
+    "hookScore": 59.6,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "headline",
+      "versus",
+      "causeChain",
+      "illustration",
+      "counter",
+      "counter",
+      "priceSlam",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 30.733,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.567,
+        "voice": "Meta still rose 3.4%.",
+        "caption": "Meta +3.4% as tech sank."
+      },
+      {
+        "i": 1,
+        "type": "headline",
+        "from": 1.567,
+        "to": 2.967,
+        "voice": "Amazon may stop blocking it.",
+        "caption": "Amazon may unblock it."
+      },
+      {
+        "i": 2,
+        "type": "versus",
+        "from": 2.967,
+        "to": 6.133,
+        "voice": "It climbed while the Nasdaq sank 4.6% from Tuesday's close this morning.",
+        "caption": "Up while tech sank."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 6.133,
+        "to": 9.2,
+        "voice": "Because Fortune reports Amazon may let Muse, Meta's AI shopper, back in.",
+        "caption": "Talks to let Muse back."
+      },
+      {
+        "i": 4,
+        "type": "illustration",
+        "from": 9.2,
+        "to": 12,
+        "voice": "Amazon blocked it in September, saying AI agents break its rules.",
+        "caption": "Blocked in September."
+      },
+      {
+        "i": 5,
+        "type": "counter",
+        "from": 12,
+        "to": 15.467,
+        "voice": "Muse already places 51% of all AI-agent orders, Forter data shows.",
+        "caption": "Half of AI orders."
+      },
+      {
+        "i": 6,
+        "type": "counter",
+        "from": 15.467,
+        "to": 19.167,
+        "voice": "The snag: Muse skips ads, which bring Amazon $68.6 billion of sales.",
+        "caption": "Muse skips the ads."
+      },
+      {
+        "i": 7,
+        "type": "priceSlam",
+        "from": 19.167,
+        "to": 21.9,
+        "voice": "Still, Meta remains about 22% below its September record.",
+        "caption": "Still 22% below record."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 21.9,
+        "to": 24.733,
+        "voice": "Next, any deal needs sign-off from both Meta's and Amazon's CEOs.",
+        "caption": "Two CEOs decide."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 24.733,
+        "to": 30.733,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "bf_emma",
+    "drawingStyle": "riso",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$609.89",
+        "22120.6%",
+        "22124.6%",
+        "4.6%"
+      ],
+      "loops": [
+        8
+      ],
+      "loop1": false,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
