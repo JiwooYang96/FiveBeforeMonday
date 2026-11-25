@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-25",
+  "lead": "Meta rose about 3.4% to $609.89 on a day the Nasdaq sank as much as 4.6% intraday (hot October PCE, a new tariff plan, AI selling) before closing down 0.62%, after Fortune reported Amazon and Meta are in talks to let Meta's Muse AI shopping agent back onto Amazon two months after Amazon blocked it.",
+  "ticker": "META",
+  "move": "+3.4%",
+  "why": [
+    "Amazon talks: Fortune reported Amazon and Meta have met several times about a deal that would let Muse, Meta's AI shopping agent, shop on Amazon again; Amazon blocked it in September, saying unauthorized AI agents break its Conditions of Use. Sticking points are search results and ads (Muse shops without seeing Amazon's ads, a $68.6B-a-year business, nearly 10% of revenue). Any deal would likely need both CEOs' sign-off; talks are fluid, no date (Fortune via The Next Web; Stocktwits via Yahoo).",
+    "Muse momentum: Muse handled 51% of AI-agent orders in the week to Nov 22 (Forter via CNBC, cited by The Next Web); 10M+ US/Canada users had set it up by Oct 21. Context: Meta still ~22% under its Sept 24 record $777.59 (JournalArta). Close figure single-sourced (The Company Chronicle +3.4%; TradingKey says +3.04%).",
+    "Market: S&P 500 -0.25% (7,182.78), Nasdaq -0.62% (23,585.80, intraday low -4.6%), Dow +0.33% (50,182.95) after October PCE 3.8% (core 3.3%, 0.1 pt above forecast), a December Fed hike almost fully priced, and proposed Section 301 tariffs up to 20%. Apple +0.4%, Microsoft -1.25%, Alphabet -2.1%, Amazon -3.1% (The Company Chronicle; Vista). Tesla/SpaceX special committees on a possible ~$3.5T all-stock merger (FT, Nov 24). Markets closed Thursday for Thanksgiving."
+  ],
+  "sources": [
+    {"url": "https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune", "title": "Amazon and Meta in talks to end the Muse blockade, Fortune reports (The Next Web)", "published": "Nov 25, 2026"},
+    {"url": "https://thecompanychronicle.com/story/stocks-close-dow-erases-1100-point-loss-nasdaq-sp500-slip-november-25-2026", "title": "Stocks close: Dow erases a 1,105-point hole, Nasdaq claws back from a 4.6% drop (The Company Chronicle)", "published": "Nov 25, 2026"},
+    {"url": "https://parameter.io/meta-stock-rises-as-amazon-weighs-letting-muse-back-in/", "title": "Meta Stock Rises as Amazon Weighs Letting Muse Back In (Parameter)", "published": "Nov 25, 2026"},
+    {"url": "https://finance.yahoo.com/media-advertising/articles/amazon-meta-reportedly-discuss-restoring-115619335.html", "title": "Amazon, Meta Reportedly Discuss Restoring Muse Shopping Bot Access (Stocktwits via Yahoo Finance)", "published": "Nov 25, 2026"},
+    {"url": "https://journalarta.com/en/2026/11/26/meta-platforms-shares-rise-2-5-as-ai-loan-and-amazon-talks-draw-focus/", "title": "Meta stock price rises to $604.54 amid AI loan and Amazon talks (JournalArta)", "published": "Nov 25, 2026"},
+    {"url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/", "title": "Stocks Close Mixed on Wednesday, November 25, 2026 (Vista)", "published": "Nov 25, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-25.json in reels_generator"
+}
