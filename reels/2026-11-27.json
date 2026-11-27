@@ -1,0 +1,133 @@
+{
+  "video": "reels/2026-11-27.mp4",
+  "caption": "Amazon stock rose 3.96% on Black Friday after early holiday shopping data came in strong.\nAdobe said Americans spent $7.1 billion online on Thanksgiving Day, up 10.4% from last year and above its own $6.9 billion forecast. Adobe counts every US online store, not Amazon alone, but 87% of Cyber Weekend shoppers told Numerator they plan to buy on Amazon.\nThe next test is Cyber Monday, which Adobe forecasts at $15.1 billion.\n\nThe full why, with charts, lands Sunday for members → link in bio.\n\n#amazon #amazonstock #blackfriday #cybermonday #techstocks\n\nSources: Motley Fool (Nov 27), Adobe Analytics via GuruFocus/TradingView (Nov 27), Finexus (Nov 27). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/daily/2026-11-27.json",
+    "id": "2026-11-27",
+    "kind": "daily",
+    "title": "Amazon +3.96% as Thanksgiving online spending beats Adobe's forecast",
+    "structure": "single number ($7.1B online on Thanksgiving)",
+    "hookFamily": "number + cause (shoppers beat the forecast)",
+    "hookFamilyMain": "number",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Amazon jumped nearly 4%.",
+    "hookCaption": "Amazon +4% on Black Friday.",
+    "hookScore": 45.199999999999996,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "headline",
+      "compareBars",
+      "causeChain",
+      "counter",
+      "counter",
+      "illustration",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 2,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 29.933,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.567,
+        "voice": "Amazon jumped nearly 4%.",
+        "caption": "Amazon +4% on Black Friday."
+      },
+      {
+        "i": 1,
+        "type": "headline",
+        "from": 1.567,
+        "to": 3.2,
+        "voice": "First day, shoppers beat forecasts.",
+        "caption": "Shoppers beat the forecast."
+      },
+      {
+        "i": 2,
+        "type": "compareBars",
+        "from": 3.2,
+        "to": 7.167,
+        "voice": "Adobe says Americans spent 7.1 billion dollars online on Thanksgiving, above forecast.",
+        "caption": "$7.1B online on Thanksgiving."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 7.167,
+        "to": 10.333,
+        "voice": "Shares rose after that data: spending up 10.4% from last year.",
+        "caption": "Spending up 10.4%."
+      },
+      {
+        "i": 4,
+        "type": "counter",
+        "from": 10.333,
+        "to": 13.8,
+        "voice": "And 87% of weekend shoppers plan to buy on Amazon, Numerator found.",
+        "caption": "Most shop Amazon."
+      },
+      {
+        "i": 5,
+        "type": "counter",
+        "from": 13.8,
+        "to": 17.333,
+        "voice": "November so far is up 9.1%, faster than Adobe's season forecast.",
+        "caption": "Season ahead of plan."
+      },
+      {
+        "i": 6,
+        "type": "illustration",
+        "from": 17.333,
+        "to": 20,
+        "voice": "Still, Adobe counts every online store, not Amazon's own sales.",
+        "caption": "Not Amazon alone."
+      },
+      {
+        "i": 7,
+        "type": "calendarCta",
+        "from": 20,
+        "to": 23.933,
+        "voice": "Amazon's next test: Cyber Monday, 15.1 billion forecast, more than Black Friday.",
+        "caption": "Next: Cyber Monday."
+      },
+      {
+        "i": 8,
+        "type": "endCard",
+        "from": 23.933,
+        "to": 29.933,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "bf_emma",
+    "drawingStyle": "hatch",
+    "account": "@fivebeforemonday",
+    "palette": "broadsheet",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$0.2b",
+        "$6.9b",
+        "$7.1b",
+        "7.1b"
+      ],
+      "loops": [
+        7
+      ],
+      "loop1": false,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
