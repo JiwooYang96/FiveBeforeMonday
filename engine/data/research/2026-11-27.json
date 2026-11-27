@@ -1,0 +1,537 @@
+{
+  "week_end": "2026-11-27",
+  "made_by": "claude-code",
+  "items": [
+    {
+      "tag": "STORY",
+      "date": null,
+      "text": "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director on Monday, Nov 23, and the shares surged 31.48% that day, adding about $950 billion in market value.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (Nvidia 8-K exhibit)",
+          "published": "Nov 23, 2026",
+          "quote": "Jensen Huang has been reinstated as President and Chief Executive Officer, and as a member of the Board."
+        },
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "Nvidia shares surged 31.48% Monday, adding approximately $950 billion in market value"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "The board said it voted after discussions with Huang and input from senior levels of the US government, and that it is confident his reinstatement poses no national security risk.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (Nvidia 8-K exhibit)",
+          "published": "Nov 23, 2026",
+          "quote": "the Board received input from senior levels of the United States government"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (Nvidia 8-K exhibit)",
+          "published": "Nov 23, 2026",
+          "quote": "the Board is confident that Mr. Huang’s reinstatement poses no national security risk."
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "Huang had resigned just 11 days before his reinstatement, following allegations of affairs (Motley Fool).",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/25/will-nvidia-stock-continue-to-soar-now-that-jensen-huang-is-back-here-are-the-bull-and-bear-cases/",
+          "title": "Will Nvidia Stock Continue to Soar Now That Jensen Huang Is Back? Here Are the Bull and Bear Cases. (Motley Fool)",
+          "published": "Nov 25, 2026",
+          "quote": "resigned just 11 days earlier following allegations of affairs"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Nvidia closed only about 0.8% higher on Friday but still finished the week up nearly 19.9%.",
+      "sources": [
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "NVIDIA closed only slightly higher by about 0.8% on Friday"
+        },
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "still accumulated a weekly rise of nearly 19.9%."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Analysts reversed bearish calls: StoneX's Cody Acree upgraded Nvidia to Buy from Hold on Nov 23 with a $270 target, $65 below his prior $335 estimate.",
+      "sources": [
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "StoneX analyst Cody Acree upgraded Nvidia to Buy from Hold on Monday, Nov. 23, setting a $270 price target"
+        },
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "But StoneX's new goal is $65 less than its prior estimate of $335, which the company halted after Huang resigned."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Oppenheimer's Rick Schafer upgraded Nvidia to Outperform with a $250 target, and Melius Research's Ben Reitzes upgraded it to Buy, raising his target to $220 from $185.",
+      "sources": [
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "Oppenheimer: Rick Schafer upgraded Nvidia to Outperform from Perform, assigning a $250 target."
+        },
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "Melius Research: Ben Reitzes upgraded Nvidia to Buy from Hold and raised his target to $220 from $185."
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "48 of 65 analysts covering Nvidia rated its shares Buy or Strong Buy, according to LSEG data cited by CNBC.",
+      "sources": [
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "The report cited LSEG data showing that 48 of 65 analysts covering the chipmaker rated its shares Buy or Strong Buy."
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Citi's Atif Malik raised his Nvidia target to $240 from $225, saying the reinstatement removes the key overhang created by the CEO transition.",
+      "sources": [
+        {
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch",
+          "title": "Nvidia's $270 Wall Street upgrade has a surprising catch (TheStreet)",
+          "published": "Nov 25, 2026",
+          "quote": "Citi: Atif Malik raised his target to $240 from $225 while maintaining a Buy rating."
+        },
+        {
+          "url": "https://www.aol.com/articles/wall-street-analysts-cheer-jensen-164614000.html",
+          "title": "Wall Street analysts cheer Jensen Huang's return to Nvidia — but they still have concerns (Yahoo Finance via AOL)",
+          "published": "Nov 23, 2026",
+          "quote": "In our view, the reinstatement removes the key overhang created by the CEO transition,"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Bernstein's Stacy Rasgon upgraded Nvidia back to Outperform after Huang's return.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/wall-street-analysts-cheer-jensen-164614000.html",
+          "title": "Wall Street analysts cheer Jensen Huang's return to Nvidia — but they still have concerns (Yahoo Finance via AOL)",
+          "published": "Nov 23, 2026",
+          "quote": "with Jensen back in the seat, we upgrade today back to [Outperform]"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Yorkville's Dan Ives said Nvidia stock should be valued at $300 with Huang back.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/wall-street-analysts-cheer-jensen-164614000.html",
+          "title": "Wall Street analysts cheer Jensen Huang's return to Nvidia — but they still have concerns (Yahoo Finance via AOL)",
+          "published": "Nov 23, 2026",
+          "quote": "the firm believes Nvidia stock should be valued at $300 with Jensen Huang back"
+        }
+      ]
+    },
+    {
+      "tag": "BULL",
+      "date": null,
+      "text": "Motley Fool contributor Adria Cimino's bull case says Nvidia, at 17 times forward earnings estimates, is a bargain after a quarter with revenue of $115 billion and profit of $65 billion.",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/2026/11/25/will-nvidia-stock-continue-to-soar-now-that-jensen-huang-is-back-here-are-the-bull-and-bear-cases/",
+          "title": "Will Nvidia Stock Continue to Soar Now That Jensen Huang Is Back? Here Are the Bull and Bear Cases. (Motley Fool)",
+          "published": "Nov 25, 2026",
+          "quote": "Nvidia's stock, trading at 17x forward earnings estimates, is a bargain."
+        },
+        {
+          "url": "https://www.fool.com/investing/2026/11/25/will-nvidia-stock-continue-to-soar-now-that-jensen-huang-is-back-here-are-the-bull-and-bear-cases/",
+          "title": "Will Nvidia Stock Continue to Soar Now That Jensen Huang Is Back? Here Are the Bull and Bear Cases. (Motley Fool)",
+          "published": "Nov 25, 2026",
+          "quote": "revenue and profit surged in the triple digits to $115 billion and $65 billion, respectively."
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Bernstein's Stacy Rasgon called the board's on-again-off-again response 'clown-like'.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/wall-street-analysts-cheer-jensen-164614000.html",
+          "title": "Wall Street analysts cheer Jensen Huang's return to Nvidia — but they still have concerns (Yahoo Finance via AOL)",
+          "published": "Nov 23, 2026",
+          "quote": "the on-again-off-again response from the board is, frankly, clown-like,"
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "The board's committee investigation will proceed to its conclusion, and Nvidia said it will keep cooperating with ongoing government investigations and inquiries.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (Nvidia 8-K exhibit)",
+          "published": "Nov 23, 2026",
+          "quote": "The Board reiterated that the committee’s investigation will proceed to conclusion."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (Nvidia 8-K exhibit)",
+          "published": "Nov 23, 2026",
+          "quote": "NVIDIA will continue to cooperate with ongoing government investigations and inquiries."
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "Yahoo Finance's Brian Sozzi reported that Nvidia still faces Justice Department and SEC investigations into alleged chip smuggling and called the stock 'damaged goods'.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/nvidia-stock-still-paying-price-124902000.html",
+          "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama (Yahoo Finance via AOL)",
+          "published": "Nov 27, 2026",
+          "quote": "Nvidia still faces Justice Department and SEC investigations into alleged chip smuggling"
+        },
+        {
+          "url": "https://www.aol.com/articles/nvidia-stock-still-paying-price-124902000.html",
+          "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama (Yahoo Finance via AOL)",
+          "published": "Nov 27, 2026",
+          "quote": "stock remains damaged goods despite CEO Jensen Huang being back at headquarters in trademark loafers."
+        }
+      ]
+    },
+    {
+      "tag": "BEAR",
+      "date": null,
+      "text": "SiliconANGLE columnist Robert Hof wrote that Huang's return sets an awful precedent in business.",
+      "sources": [
+        {
+          "url": "https://siliconangle.com/2026/11/27/jensen-huang-returns-but-controversies-keep-growing-around-nvidia/",
+          "title": "Jensen Huang returns, but controversies keep growing around Nvidia (SiliconANGLE)",
+          "published": "Nov 27, 2026",
+          "quote": "sets an awful precedent in business"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Huang's return lifted the whole market on Monday: the Nasdaq closed up 6.51%, the S&P 500 4.73% and the Dow 3.01%.",
+      "sources": [
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "The Nasdaq closed up 6.51%, the S&P 500 rose 4.73%, and the Dow Jones Industrial Average gained 3.01%."
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "For the week the S&P 500 rose 5.6% and the Nasdaq 6.68%.",
+      "sources": [
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "The S&P 500 closed up 1.6% on Friday, rising 5.6% for the week;"
+        },
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "the Nasdaq closed up 2.31%, rising 6.68% for the week"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "The Philadelphia Semiconductor Index rose about 9.3% for the week.",
+      "sources": [
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "The Philadelphia Semiconductor Index (SOX) rose about 9.3% for the week"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "The rebound followed a week in which the S&P 500 fell 8.61%, its largest weekly drop since April 4, 2025.",
+      "sources": [
+        {
+          "url": "https://longbridge.com/en/news/307062519",
+          "title": "S&P 500's Best Week in 19 Months! Behind the Turmoil in US AI Trading: Jensen Huang's Return, Trump's Bets, and Regulatory Risks Intertwine (Wallstreetcn via Longbridge)",
+          "published": "Nov 27, 2026",
+          "quote": "Last week, the S&P 500 fell 8.61%, marking its largest weekly drop since April 4, 2025;"
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "October PCE prices rose 3.8% from a year earlier, matching forecasts and up from 3.6% in September, in data released Wednesday.",
+      "sources": [
+        {
+          "url": "https://unusualwhales.com/news/october-pce-prices-match-forecast-core-tops-2026-11-25",
+          "title": "October PCE prices rose 3.8% as forecast; core 3.3% topped the 3.2% forecast (Unusual Whales)",
+          "published": "Nov 25, 2026",
+          "quote": "PCE prices rose 3.8% from a year earlier in October, matching the 3.8% forecast and up from 3.6% in September."
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Core PCE rose 3.3% in October, above expectations of 3.2% and up from 3.1% in September.",
+      "sources": [
+        {
+          "url": "https://wisevoter.com/world/us/2026/11/25/pce-inflation-3-8-percent-october",
+          "title": "Inflation Holds at 3.8% as Energy Prices Rise (Wisevoter)",
+          "published": "Nov 25, 2026",
+          "quote": "increased 3.3%, up from 3.1% in September and above expectations of 3.2%."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "After the PCE report the Nasdaq-100 fund QQQ was down 4.17% at 9:40 a.m. ET on Wednesday.",
+      "sources": [
+        {
+          "url": "https://unusualwhales.com/news/october-pce-prices-match-forecast-core-tops-2026-11-25",
+          "title": "October PCE prices rose 3.8% as forecast; core 3.3% topped the 3.2% forecast (Unusual Whales)",
+          "published": "Nov 25, 2026",
+          "quote": "As of 9:40 a.m. ET, SPY traded down 2.80% from Tuesday's close, and QQQ was down 4.17%."
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Polymarket priced a quarter-point Fed hike at the December meeting at 93% after the PCE report.",
+      "sources": [
+        {
+          "url": "https://unusualwhales.com/news/october-pce-prices-match-forecast-core-tops-2026-11-25",
+          "title": "October PCE prices rose 3.8% as forecast; core 3.3% topped the 3.2% forecast (Unusual Whales)",
+          "published": "Nov 25, 2026",
+          "quote": "Polymarket priced a quarter-point Fed hike after the December meeting at 93%, unchanged from the day before."
+        }
+      ]
+    },
+    {
+      "tag": "CAUSE",
+      "date": null,
+      "text": "Amazon shares climbed 2.96% to $251.66 by mid-morning Friday after Adobe said Thanksgiving Day online spending hit $7.1 billion, up 10.4%, ahead of its $6.9 billion forecast.",
+      "sources": [
+        {
+          "url": "https://www.tradingview.com/news/gurufocus:5f1750f56094b:0-amazon-stocks-climb-2-96-as-thanksgiving-online-spending-hits-7-1-billion/",
+          "title": "Amazon Stocks Climb 2.96% as Thanksgiving Online Spending Hits $7.1 Billion (GuruFocus via TradingView)",
+          "published": "Nov 27, 2026",
+          "quote": "shares climbed 2.96% to $251.66 at 10:35 a.m. ET on Friday, November 27"
+        },
+        {
+          "url": "https://www.tradingview.com/news/gurufocus:5f1750f56094b:0-amazon-stocks-climb-2-96-as-thanksgiving-online-spending-hits-7-1-billion/",
+          "title": "Amazon Stocks Climb 2.96% as Thanksgiving Online Spending Hits $7.1 Billion (GuruFocus via TradingView)",
+          "published": "Nov 27, 2026",
+          "quote": "Shoppers spent $7.1 billion online on Thanksgiving Day, up 10.4% from a year earlier"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "Adobe forecasts record online spending of $12.9 billion on Black Friday and $15.1 billion on Cyber Monday, toward a record $47.5 billion Cyber Week.",
+      "sources": [
+        {
+          "url": "https://seekingalpha.com/news/4677049-black-friday-came-early-for-retailers-as-thanksgiving-delivered-record-71b-in-sales?feed_item_type=news",
+          "title": "Black Friday came early for retailers as Thanksgiving delivered record $7.1B in sales (Seeking Alpha)",
+          "published": "Nov 27, 2026",
+          "quote": "Adobe forecasts record online spending of $12.9 billion on Black Friday and $15.1 billion on Cyber Monday"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4677049-black-friday-came-early-for-retailers-as-thanksgiving-delivered-record-71b-in-sales?feed_item_type=news",
+          "title": "Black Friday came early for retailers as Thanksgiving delivered record $7.1B in sales (Seeking Alpha)",
+          "published": "Nov 27, 2026",
+          "quote": "contributing to a record $47.5 billion Cyber Week"
+        }
+      ]
+    },
+    {
+      "tag": "CONTEXT",
+      "date": null,
+      "text": "In Friday's shortened session the Nasdaq climbed 2.31% to 24,129.50 and Marvell jumped 7.34% to $140.54 as chipmakers led.",
+      "sources": [
+        {
+          "url": "https://journalarta.com/en/2026/11/28/nasdaq-jumps-2-31-and-sp-500-gains-1-61-as-chipmakers-lead-black-friday-rally/",
+          "title": "Nasdaq Jumps 2.31% and S&P 500 Gains 1.61% as Chipmakers Lead Black Friday Rally (JournalArta)",
+          "published": "Nov 27, 2026",
+          "quote": "The Nasdaq climbed 2.31% to 24,129.50, while the S&P 500 rose 1.61% to 7,298.18."
+        },
+        {
+          "url": "https://journalarta.com/en/2026/11/28/nasdaq-jumps-2-31-and-sp-500-gains-1-61-as-chipmakers-lead-black-friday-rally/",
+          "title": "Nasdaq Jumps 2.31% and S&P 500 Gains 1.61% as Chipmakers Lead Black Friday Rally (JournalArta)",
+          "published": "Nov 27, 2026",
+          "quote": "Marvell Technology jumped 7.34% to $140.54, Arm Holdings rose 6.22% to $171.55"
+        }
+      ]
+    },
+    {
+      "tag": "NUMBER",
+      "date": null,
+      "text": "The 10-year Treasury yield climbed to 4.94% on Friday.",
+      "sources": [
+        {
+          "url": "https://journalarta.com/en/2026/11/28/nasdaq-jumps-2-31-and-sp-500-gains-1-61-as-chipmakers-lead-black-friday-rally/",
+          "title": "Nasdaq Jumps 2.31% and S&P 500 Gains 1.61% as Chipmakers Lead Black Friday Rally (JournalArta)",
+          "published": "Nov 27, 2026",
+          "quote": "The U.S. 10-year Treasury yield climbed to 4.94% and the Dollar Index rose 0.34% to 104.02"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-12-01",
+      "text": "Tuesday Dec 1: three House committees hold a closed-door interview with Jensen Huang over possible chip diversion to China.",
+      "sources": [
+        {
+          "url": "https://financefeeds.com/nvda-stock-23-week-huang-return-sec-inquiry/",
+          "title": "NVDA Stock After a 23% Week: Huang's Return, a Reported SEC Inquiry and a 1 December House Interview (FinanceFeeds)",
+          "published": "Nov 23, 2026",
+          "quote": "Three House committees hold a closed-door interview with Huang on 1 December over possible chip diversion to China"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-12-01",
+      "text": "Tuesday Dec 1: ISM manufacturing PMI and JOLTS job openings data.",
+      "sources": [
+        {
+          "url": "https://journalarta.com/en/2026/11/28/nasdaq-jumps-2-31-and-sp-500-gains-1-61-as-chipmakers-lead-black-friday-rally/",
+          "title": "Nasdaq Jumps 2.31% and S&P 500 Gains 1.61% as Chipmakers Lead Black Friday Rally (JournalArta)",
+          "published": "Nov 27, 2026",
+          "quote": "U.S. ISM Manufacturing PMI and JOLTS job openings data"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-12-01",
+      "text": "Tuesday Dec 1: Marvell reports after the close, with its call at 4:30 p.m. ET.",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026",
+          "title": "Earnings Calendar for the Week of November 30, 2026 (StockTitan)",
+          "published": "Nov 27, 2026",
+          "quote": "Salesforce reports Wednesday evening and Marvell holds its call Tuesday at 4:30 p.m. ET."
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-12-02",
+      "text": "Wednesday Dec 2: Salesforce reports after the close, with a call at 5:00 p.m. ET.",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026",
+          "title": "Earnings Calendar for the Week of November 30, 2026 (StockTitan)",
+          "published": "Nov 27, 2026",
+          "quote": "releases its results Wednesday after the market closes, with a call at 5:00 p.m. ET"
+        }
+      ]
+    },
+    {
+      "tag": "EVENT",
+      "date": "2026-12-04",
+      "text": "Friday Dec 4: the November jobs report at 8:30 a.m. ET.",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-30-2026",
+          "title": "Earnings Calendar for the Week of November 30, 2026 (StockTitan)",
+          "published": "Nov 27, 2026",
+          "quote": "The November jobs report comes out Friday at 8:30 a.m. ET, a day with no big company on the calendar."
+        }
+      ]
+    }
+  ],
+  "reels": [
+    {
+      "topic": "Huang reinstated, Nvidia's best day since 2003",
+      "hook": "Nvidia brought Jensen Huang back. The stock jumped 31%.",
+      "figure": "+31.48%",
+      "why": "Reinstating Huang 11 days after he resigned added about $950 billion to Nvidia in one day and pulled the whole market out of its slump.",
+      "item": 0
+    },
+    {
+      "topic": "Analysts rush back into Nvidia",
+      "hook": "StoneX upgraded Nvidia, and cut its target by $65.",
+      "figure": "$270",
+      "why": "A wave of upgrades followed Huang's return, but several targets sit below where they were before he left.",
+      "item": 4
+    },
+    {
+      "topic": "Investigations still hanging over Nvidia",
+      "hook": "Huang is back. The DOJ and SEC probes aren't gone.",
+      "figure": "Dec 1",
+      "why": "Huang faces a closed-door House interview next week while chip-smuggling investigations continue.",
+      "item": 13
+    },
+    {
+      "topic": "Hot core PCE and a near-certain Fed hike",
+      "hook": "Core inflation hit 3.3%. A December hike is 93% priced.",
+      "figure": "3.3%",
+      "why": "Hotter-than-forecast core PCE kept a December rate hike nearly locked in, a headwind for tech valuations.",
+      "item": 20
+    },
+    {
+      "topic": "Record Thanksgiving online spending lifts Amazon",
+      "hook": "Americans spent $7.1 billion online on Thanksgiving.",
+      "figure": "$7.1 billion",
+      "why": "Adobe's record holiday numbers sent Amazon higher on Black Friday.",
+      "item": 23
+    }
+  ]
+}
