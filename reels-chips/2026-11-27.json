@@ -1,0 +1,140 @@
+{
+  "video": "reels-chips/2026-11-27.mp4",
+  "caption": "Sandisk stock jumped 16% to $85.36 on Black Friday, its best day since July 30, after Kioxia and Nvidia put 144 Kioxia SSDs into an Nvidia GB200 NVL72 rack as about 1.1 petabytes of extended GPU memory.\nSandisk makes its flash with Kioxia in shared factories. No orders followed the test, and the stock is still about 71% below its June 25 peak of $291.88.\n\nGet this week's five, free every Saturday → link in bio.\n\n#sandisk #sndk #semiconductors #nandflash #memorystocks\n\nSources: Current Logic Dispersion Brief (Nov 27), JournalArta (Nov 27), TradingNEWS (Nov 27), StockAnalysis (Nov 27). Not investment advice.",
+  "posted": null,
+  "meta": {
+    "plan": "plans/chips/2026-11-27.json",
+    "id": "chips-2026-11-27",
+    "kind": "daily",
+    "title": "Sandisk +16%: one rack test",
+    "structure": "versus (the test vs the orders)",
+    "hookFamily": "number + stake (one test)",
+    "hookFamilyMain": "number",
+    "music": "lift",
+    "opening": "open.illustration",
+    "hookVoice": "Sandisk jumped 16%.",
+    "hookCaption": "+16% in one day.",
+    "hookScore": 42.8,
+    "scriptScore": 100,
+    "scenes": [
+      "open.illustration",
+      "headline",
+      "priceSlam",
+      "causeChain",
+      "counter",
+      "causeChain",
+      "headline",
+      "counter",
+      "calendarCta",
+      "endCard"
+    ],
+    "illustrations": 1,
+    "portrait": false,
+    "endCard": "save",
+    "seconds": 30.1,
+    "timing": "narrated",
+    "timeline": [
+      {
+        "i": 0,
+        "type": "open.illustration",
+        "from": 0,
+        "to": 1.433,
+        "voice": "Sandisk jumped 16%.",
+        "caption": "+16% in one day."
+      },
+      {
+        "i": 1,
+        "type": "headline",
+        "from": 1.433,
+        "to": 2.7,
+        "voice": "No orders, only one test.",
+        "caption": "No orders, one test."
+      },
+      {
+        "i": 2,
+        "type": "priceSlam",
+        "from": 2.7,
+        "to": 5.767,
+        "voice": "Shares closed at eighty-five thirty-six, the best day since July thirtieth.",
+        "caption": "Best day since July 30."
+      },
+      {
+        "i": 3,
+        "type": "causeChain",
+        "from": 5.767,
+        "to": 9.3,
+        "voice": "After Kioxia put 144 of its drives in Nvidia's AI rack.",
+        "caption": "144 drives, one rack."
+      },
+      {
+        "i": 4,
+        "type": "counter",
+        "from": 9.3,
+        "to": 12.5,
+        "voice": "That added about 1.1 petabytes, over a thousand terabytes, of memory.",
+        "caption": "A petabyte more memory."
+      },
+      {
+        "i": 5,
+        "type": "causeChain",
+        "from": 12.5,
+        "to": 15.5,
+        "voice": "Sandisk makes flash with Kioxia, so AI racks could lift its demand.",
+        "caption": "Shared factories."
+      },
+      {
+        "i": 6,
+        "type": "headline",
+        "from": 15.5,
+        "to": 17.867,
+        "voice": "But no orders followed the test, JournalArta reports.",
+        "caption": "But no orders yet."
+      },
+      {
+        "i": 7,
+        "type": "counter",
+        "from": 17.867,
+        "to": 20.633,
+        "voice": "And shares sit seventy-one percent under their June twenty-fifth peak.",
+        "caption": "−71% from June's peak."
+      },
+      {
+        "i": 8,
+        "type": "calendarCta",
+        "from": 20.633,
+        "to": 24.1,
+        "voice": "Sandisk's sixteen percent jump meets its next test: late-January earnings.",
+        "caption": "Next test: late January."
+      },
+      {
+        "i": 9,
+        "type": "endCard",
+        "from": 24.1,
+        "to": 30.1,
+        "voice": "Save this one. All five numbers, free every Saturday.",
+        "caption": ""
+      }
+    ],
+    "narrator": "af_bella",
+    "drawingStyle": "pencil",
+    "account": "@5beforemonday",
+    "palette": "editorial",
+    "openingLayout": "flip",
+    "firstFrameFix": true,
+    "blocks": {
+      "lead": true,
+      "leadNumbers": [
+        "$73.61",
+        "$85.36"
+      ],
+      "loops": [
+        7
+      ],
+      "loop1": false,
+      "loop2": true,
+      "saveCard": true
+    },
+    "ab": null,
+    "trial": null
+  }
+}
