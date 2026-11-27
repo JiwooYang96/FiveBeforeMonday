@@ -1,0 +1,368 @@
+{
+  "issue": "2026-11-27",
+  "week": "Nov 23–27, 2026",
+  "charts": [
+    {
+      "id": "market-value",
+      "type": "hbar",
+      "title": "Who's biggest now",
+      "subtitle": "Market value at the Nov 27 close, $ trillions",
+      "rows": [
+        {
+          "label": "Apple",
+          "value": 5.21,
+          "display": "$5.21T"
+        },
+        {
+          "label": "Microsoft",
+          "value": 3.66,
+          "display": "$3.66T"
+        },
+        {
+          "label": "Nvidia",
+          "value": 3.63,
+          "display": "$3.63T",
+          "hero": true
+        },
+        {
+          "label": "Amazon",
+          "value": 2.75,
+          "display": "$2.75T"
+        },
+        {
+          "label": "Tesla",
+          "value": 1.58,
+          "display": "$1.58T"
+        },
+        {
+          "label": "Broadcom",
+          "value": 1.49,
+          "display": "$1.49T"
+        }
+      ],
+      "source": "Yahoo Finance, SEC filings · Nov 27",
+      "note": "Approximate: closing price x shares outstanding"
+    },
+    {
+      "id": "week-moves",
+      "type": "signed",
+      "title": "How the week ended",
+      "subtitle": "Change from last Friday's close to Nov 27",
+      "rows": [
+        {
+          "label": "Nvidia",
+          "value": 19.88,
+          "display": "+19.9%",
+          "hero": true
+        },
+        {
+          "label": "Tesla",
+          "value": 15.67,
+          "display": "+15.7%"
+        },
+        {
+          "label": "Meta",
+          "value": 12.15,
+          "display": "+12.2%"
+        },
+        {
+          "label": "Apple",
+          "value": 4.66,
+          "display": "+4.7%"
+        },
+        {
+          "label": "Alphabet",
+          "value": 3.65,
+          "display": "+3.6%"
+        },
+        {
+          "label": "Amazon",
+          "value": 2.96,
+          "display": "+3.0%"
+        },
+        {
+          "label": "Broadcom",
+          "value": 2.61,
+          "display": "+2.6%"
+        },
+        {
+          "label": "Microsoft",
+          "value": 1.72,
+          "display": "+1.7%"
+        }
+      ],
+      "source": "Yahoo Finance · Nov 27, 2026"
+    },
+    {
+      "id": "calendar",
+      "type": "calendar",
+      "title": "The dates that matter",
+      "subtitle": "Week of Nov 30, 2026",
+      "days": [
+        {
+          "day": "MON",
+          "date": "Nov 30"
+        },
+        {
+          "day": "TUE",
+          "date": "Dec 1",
+          "event": "Marvell earnings",
+          "detail": "Call 4:30 p.m. ET",
+          "hero": true
+        },
+        {
+          "day": "WED",
+          "date": "Dec 2",
+          "event": "Salesforce earnings",
+          "detail": "Call 5:00 p.m. ET",
+          "hero": true
+        },
+        {
+          "day": "THU",
+          "date": "Dec 3"
+        },
+        {
+          "day": "FRI",
+          "date": "Dec 4",
+          "event": "November jobs report",
+          "detail": "8:30 a.m. ET",
+          "hero": true
+        }
+      ],
+      "source": "FinanceFeeds · Nov 23"
+    },
+    {
+      "id": "compare",
+      "type": "compare",
+      "title": "Analyst targets on Nvidia",
+      "subtitle": "Price targets reported by TheStreet; Yorkville's $300 valuation is the high end",
+      "rows": [
+        {
+          "label": "Melius Research",
+          "value": 220,
+          "display": "$220",
+          "hero": false
+        },
+        {
+          "label": "Citi",
+          "value": 240,
+          "display": "$240",
+          "hero": false
+        },
+        {
+          "label": "StoneX",
+          "value": 270,
+          "display": "$270",
+          "hero": false
+        },
+        {
+          "label": "Yorkville (valuation)",
+          "value": 300,
+          "display": "$300",
+          "hero": false
+        }
+      ],
+      "source": "TheStreet · Nov 25"
+    }
+  ],
+  "site": "https://fivebeforemonday.com",
+  "email": {
+    "saturday": {
+      "subject": "Five numbers behind Nvidia's 19.9% week",
+      "preheader": "Plus four dated events that could keep the story moving.",
+      "date": "Sat, Nov 28, 2026"
+    },
+    "sunday": {
+      "subject": "Why Nvidia jumped 19.9% in one week",
+      "preheader": "Three causes, both sides of the argument, and the figures.",
+      "headline": "Huang's return and a rebound lifted Nvidia",
+      "lead": "Nvidia rose 19.9% this week, helped by its board reinstating Jensen Huang as CEO and by a market-wide rebound. The shares jumped 31.48% on Monday alone, more than the week's total.",
+      "what_happened": "Nvidia closed Friday at $150.49, up 19.9% on the week. Monday, Nov 23, was the big day. The board unanimously reinstated Jensen Huang as president, CEO and director, and the shares surged 31.48%, adding about $950 billion in market value. That one-day gain was larger than the week's total, so the rest of the week netted lower. Huang had resigned 11 days earlier following allegations of affairs. The board said it acted after input from senior levels of the US government. Analysts upgraded the stock the same day, and the wider market rallied. The Nasdaq closed up 6.51% on Monday and the S&P 500 rose 4.73%. Wednesday brought a sharp drop in tech after October inflation data, with QQQ down 4.17% by 9:40 a.m. ET. On Friday, Nvidia added 0.8% and the chip index (SOX) was up 9.2% on the week. The rebound still leaves Nvidia 37.1% below its Oct 6 high, and down 30.1% over about a month. Its market value is about $3.63T, third among the stocks tracked here.",
+      "date": "Sun, Nov 29, 2026"
+    },
+    "five": [
+      {
+        "num": "+31.48%",
+        "tone": "up",
+        "text": "Nvidia's Monday jump after the board reinstated Jensen Huang, adding about $950 billion in market value.",
+        "source": "TheStreet · Nov 25"
+      },
+      {
+        "num": "+19.9%",
+        "tone": "up",
+        "text": "Nvidia's gain for the week. Monday's jump alone was bigger, so the rest of the week netted lower.",
+        "source": "Closing prices · Nov 27"
+      },
+      {
+        "num": "−4.17%",
+        "tone": "down",
+        "text": "QQQ, the Nasdaq-100 fund, was down at 9:40 a.m. ET Wednesday after October PCE inflation came in at 3.8%.",
+        "source": "Unusual Whales · Nov 25"
+      },
+      {
+        "num": "−37.1%",
+        "tone": "down",
+        "text": "Nvidia's distance from its Oct 6 high, even after the rebound.",
+        "source": "Closing prices · Nov 27"
+      },
+      {
+        "num": "#1",
+        "tone": "gold",
+        "text": "Apple ranks first by market value at $5.21T, and closed Friday at its yearly high.",
+        "source": "Closing prices · Nov 27"
+      }
+    ],
+    "next_week": [
+      {
+        "when": "Tue, Dec 1",
+        "what": "Three House committees hold a closed-door interview with Jensen Huang over possible chip diversion to China.",
+        "source": "FinanceFeeds · Nov 23"
+      },
+      {
+        "when": "Tue, Dec 1",
+        "what": "Marvell reports after the close, with its call at 4:30 p.m. ET.",
+        "source": "StockTitan · Nov 27"
+      },
+      {
+        "when": "Wed, Dec 2",
+        "what": "Salesforce reports after the close, with a call at 5:00 p.m. ET.",
+        "source": "StockTitan · Nov 27"
+      },
+      {
+        "when": "Fri, Dec 4",
+        "what": "The November jobs report is released at 8:30 a.m. ET.",
+        "source": "StockTitan · Nov 27"
+      }
+    ],
+    "teaser": "How much of Nvidia's 19.9% week came from Huang's return, how much from a market-wide rebound, and what is still unresolved?",
+    "causes": [
+      {
+        "title": "Huang's reinstatement",
+        "stat": "+31.48%",
+        "text": "The main company-specific driver was one board decision. On Monday, Nov 23, Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director. Huang had resigned just 11 days earlier, following allegations of affairs, according to the Motley Fool. The shares surged 31.48% that day, adding about $950 billion in market value, TheStreet reported. The board said it voted after discussions with Huang and input from senior levels of the US government. It added that it is confident his reinstatement poses no national security risk. The statement also said the committee's investigation will proceed to conclusion, and that Nvidia will keep cooperating with government investigations and inquiries. So the CEO question closed while others stayed open. Citi's Atif Malik framed it this way: the reinstatement removes the key overhang created by the CEO transition. The weekly numbers need care. Monday's jump was larger than the full-week gain of 19.9%, so the other days combined netted lower, even though Friday added about 0.8%.",
+        "source": "SEC.gov · Nov 23",
+        "evidence": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E8",
+          "E13"
+        ]
+      },
+      {
+        "title": "Analysts reverse course",
+        "stat": "48 of 65",
+        "text": "Analysts changed their calls after Huang's return. StoneX's Cody Acree upgraded Nvidia to Buy from Hold on Nov 23 with a $270 target. That is $65 below his prior $335 estimate, which StoneX halted after Huang resigned. TheStreet's headline called that a surprising catch. Oppenheimer's Rick Schafer upgraded to Outperform with a $250 target. Melius Research's Ben Reitzes upgraded to Buy and raised his target to $220 from $185. Citi's Atif Malik raised his target to $240 from $225. Bernstein's Stacy Rasgon upgraded the stock back to Outperform, though he also called the board's on-again-off-again response clown-like. Yorkville's Dan Ives said the stock should be valued at $300 with Huang back. According to LSEG data cited by CNBC, 48 of 65 analysts covering Nvidia rated its shares Buy or Strong Buy. The sources do not settle whether the notes pushed the price or followed it.",
+        "source": "TheStreet · Nov 25",
+        "evidence": [
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E12"
+        ],
+        "chart": "compare"
+      },
+      {
+        "title": "Market-wide rebound",
+        "stat": "+5.6%",
+        "text": "Nvidia did not rise alone. The week before, the S&P 500 fell 8.61%, its largest weekly drop since April 4, 2025. Monday's rebound was broad. The Nasdaq closed up 6.51%, the S&P 500 rose 4.73% and the Dow gained 3.01%, according to Wallstreetcn via Longbridge, which tied the move to Huang's return. Wednesday gave some back. October PCE inflation was 3.8%, matching forecasts, but core PCE of 3.3% topped the 3.2% forecast. By 9:40 a.m. ET, QQQ was down 4.17%. Polymarket priced a quarter-point Fed hike for December at 93%. Friday's shortened session helped. The Nasdaq climbed 2.31% to 24,129.50 as chipmakers led, and Marvell jumped 7.34% to $140.54. For the week, the S&P 500 rose 5.6% and the Nasdaq rose 6.68%. Nvidia's 19.9% gain was well above both, so the stock moved with the market and then went further.",
+        "source": "Longbridge · Nov 27",
+        "evidence": [
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E21",
+          "E22",
+          "E23",
+          "E26"
+        ]
+      }
+    ],
+    "after_causes": {
+      "title": "Every stock rose",
+      "text": "All eight tracked stocks finished the week higher. Nvidia led at +19.9%, followed by Tesla at +15.7% and Meta at +12.2%. Those three beat the Nasdaq-100's +6.8%. Apple rose +4.7% and closed at its yearly high. Alphabet gained +3.6%, Amazon +3.0%, Broadcom +2.6% and Microsoft +1.7%. Amazon closed up +4.0% on Friday. By mid-morning its shares were up 2.96%, as Adobe reported $7.1 billion in Thanksgiving Day online spending. The month still looks rough for several names. Nvidia is −30.1% over about a month and Microsoft is −7.2%.",
+      "chart": "week-moves"
+    },
+    "next_text": "Four dated events sit on the calendar. Tuesday, Dec 1, brings a closed-door interview between three House committees and Jensen Huang over possible chip diversion to China. The board said its own committee investigation will proceed to conclusion. Yahoo Finance's Brian Sozzi notes that Justice Department and SEC investigations into alleged chip smuggling remain, and calls the stock damaged goods. Citi's Atif Malik, on the other side, argues the reinstatement removed the key overhang from the CEO transition. The same day brings ISM manufacturing PMI and JOLTS job openings data. Marvell reports after the close, with its call at 4:30 p.m. ET. Salesforce reports Wednesday, Dec 2, after the close, with a call at 5:00 p.m. ET. Friday, Dec 4, brings the November jobs report at 8:30 a.m. ET, a day with no big company on the calendar. For context, Polymarket priced a quarter-point Fed hike after the December meeting at 93% following the PCE report, and the 10-year Treasury yield climbed to 4.94% on Friday. None of these events has a result yet.",
+    "featured": "Nvidia",
+    "bull": [
+      "Citi's Atif Malik says the reinstatement removes the key overhang created by the CEO transition.",
+      "Yorkville's Dan Ives says Nvidia stock should be valued at $300 with Huang back.",
+      "Motley Fool's Adria Cimino calls the stock a bargain at 17 times forward earnings estimates, after quarterly revenue of $115 billion.",
+      "LSEG data cited by CNBC shows 48 of 65 covering analysts rate it Buy or Strong Buy."
+    ],
+    "bear": [
+      "Yahoo Finance's Brian Sozzi says Nvidia still faces Justice Department and SEC investigations into alleged chip smuggling.",
+      "Sozzi calls the stock damaged goods despite Huang being back at headquarters.",
+      "Bernstein's Stacy Rasgon called the board's on-again-off-again response clown-like.",
+      "SiliconANGLE's Robert Hof wrote that Huang's return sets an awful precedent in business."
+    ],
+    "table": [
+      [
+        "Nvidia weekly change",
+        "+19.9%",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "Nvidia one-day jump, Monday",
+        "+31.48%",
+        "Nov 23",
+        "TheStreet"
+      ],
+      [
+        "Nvidia closing price",
+        "$150.49",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "Nvidia market value (approx.)",
+        "$3.63T",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "Nvidia vs its Oct 6 high",
+        "−37.1%",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "Nasdaq-100 weekly change",
+        "+6.8%",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "S&P 500 weekly change",
+        "+5.6%",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "Chip index (SOX) weekly change",
+        "+9.2%",
+        "Nov 27",
+        "Closing prices"
+      ],
+      [
+        "October PCE inflation, year on year",
+        "3.8%",
+        "Nov 25",
+        "Unusual Whales"
+      ],
+      [
+        "10-year Treasury yield",
+        "4.94%",
+        "Nov 27",
+        "JournalArta"
+      ]
+    ]
+  }
+}
