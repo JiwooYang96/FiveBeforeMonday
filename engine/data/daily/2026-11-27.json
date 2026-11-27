@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-27",
+  "lead": "Amazon rose 3.96% on Black Friday's half-day session after early holiday data came in strong: Adobe said US Thanksgiving Day online spending hit $7.1 billion, up 10.4% from last year and above its $6.9 billion forecast.",
+  "ticker": "AMZN",
+  "move": "+3.96%",
+  "why": [
+    "Holiday spending: the Motley Fool tied the rise to 'encouraging early Black Friday shopping data'. Adobe Analytics: Thanksgiving online $7.1B (+10.4% y/y, vs $6.9B forecast); Nov 1-22 online $82.5B (+9.1%) vs a 6.7% full-season forecast of $275.1B; forecasts Black Friday $12.9B (+9.2%), Cyber Monday $15.1B, Cyber Week $47.5B (GuruFocus via TradingView). Adobe counts all US online stores, not Amazon alone.",
+    "Amazon share of wallet and AI: Numerator survey says 87% of Cyber Weekend shoppers plan to buy on Amazon (Walmart 65%, Target 42%); Goldman kept AMZN on its Conviction List, $370 target (Finexus). SemiAnalysis posted (Nov 26) that Trainium3 UltraServer showed 2.28x better perf per dollar than Nvidia GB300 NVL72 in its agentic inference benchmark (KuCoin/Benzinga Pro). Next: Cyber Monday and AWS re:Invent both start Nov 30.",
+    "Market: S&P 500 +1.60% (7,297.49), Nasdaq +2.31% (24,129.50), Dow +1.18% (50,774.94); best week in 19 months as AI stocks rebounded (Motley Fool). Tesla about +5% after a German antitrust filing showed plans to buy automation maker EMAG (JournalArta, intraday). Micron +7.6%, Sandisk ~+16% (chips, @5beforemonday). Revised Q3 GDP +4.3%."
+  ],
+  "sources": [
+    {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-s-and-p-500-posts-best-week-in-19-months-as-ai-stocks-rebound/", "title": "Stock Market Today, Nov. 27: S&P 500 Posts Best Week in 19 Months as AI Stocks Rebound (Motley Fool)", "published": "Nov 27, 2026"},
+    {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/", "title": "Stock Market Midday, Nov. 27: Tech Stocks Recover and Amazon Posts Black Friday Gains (Motley Fool)", "published": "Nov 27, 2026"},
+    {"url": "https://www.tradingview.com/news/gurufocus:5f1750f56094b:0-amazon-stocks-climb-2-96-as-thanksgiving-online-spending-hits-7-1-billion/", "title": "Amazon Stocks Climb 2.96% as Thanksgiving Online Spending Hits $7.1 Billion (GuruFocus via TradingView)", "published": "Nov 27, 2026"},
+    {"url": "https://api.finexus.net/api/news/earnings/130118/html", "title": "Amazon Black Friday momentum and Goldman conviction (Finexus)", "published": "Nov 27, 2026"},
+    {"url": "https://www.kucoin.com/news/flash/amazon-stock-surges-on-ai-hardware-benchmark-and-retail-demand", "title": "Amazon Stock Surges on AI Hardware Benchmark and Retail Demand (KuCoin/Benzinga Pro)", "published": "Nov 27, 2026"},
+    {"url": "https://journalarta.com/en/2026/11/27/tesla-shares-jump-4-86-to-398-60-after-german-robotics-filing/", "title": "Tesla shares jump 4.86% to $398.60 after German robotics filing (JournalArta)", "published": "Nov 27, 2026"}
+  ],
+  "reel": "plans/daily/2026-11-27.json in reels_generator"
+}
